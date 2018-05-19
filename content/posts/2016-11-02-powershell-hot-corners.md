@@ -1,0 +1,72 @@
+---
+title: “Hot Corners” for Windows (PowerShell)
+author: Beej
+type: post
+date: 2016-11-02T07:42:04+00:00
+url: /2016/11/powershell-hot-corners.html
+dsq_thread_id:
+  - 5508631464
+categories:
+  - Uncategorized
+tags:
+  - PowerShell
+  - Productivity
+
+---
+# [GitHub files][1]
+
+# PoShHotCorners
+
+["Hot Corners"][2] for Windows 
+
+![][3]
+
+## install
+
+  * none really, simply download the ico and ps1 files to a folder and launch the ps1 
+  * please note MakeShortcut.cmd batch file provided for convenience ... 
+      * throw resulting .lnk file in your "run on startup" folder if you like: `"%appdata%\Microsoft\Windows\Start Menu\Programs\Startup"`
+      * as you can see, the batch file simply runs shortcut tool [xxmklink.exe][4] with appropriate arguments
+
+## notes
+
+  * currently coded to power down monitors triggered by mouse in lower right corner ... but it's just powershell folks, so think grand!
+  * the lion's share of the code is actually just for the task tray icon...
+  * look for **"beef"** as the key line where mouse location triggers action
+  * DOES work with multiple monitors.
+      * also includes tray menu options for blanking multiple displays independently
+  * the timer loop inherently keeps watching the mouse so if your screens stubbornly randomly wake up like mine, this will bonk them right back to nappy time for the win, yes!
+
+## supporting multiple extended displays
+
+  * if your scenario isn't working, drop me an issue on github or if you're inclined, check your [System.Windows.Forms.Screen]::AllScreens
+
+  * here's mine:
+    
+        BitsPerPixel : 32
+        Bounds       : {X=2560,Y=0,Width=1920,Height=1200}
+        DeviceName   : \\.\DISPLAY2
+        Primary      : False
+        WorkingArea  : {X=2560,Y=0,Width=1920,Height=1160}
+        
+        BitsPerPixel : 32
+        Bounds       : {X=0,Y=0,Width=2560,Height=1600}
+        DeviceName   : \\.\DISPLAY3
+        Primary      : True
+        WorkingArea  : {X=0,Y=0,Width=2560,Height=1560}
+
+  * i have 2 screens side-by-side, so note the Bounds of the first where X has a value...
+
+  * so that's where the $mouse.X-$bounds.X in the "beef" check works for me...
+
+  * hopefully that approach will carry through other monitor arragements with a little testing
+
+## tips
+
+  * if you find that your windows get all jumbled after sleeping the monitors, [this post][5] actually seemed to help... but all i did was simply delete the whole registry folder `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Configuration` (i probably had at least 50 entries in there) and let Windows recreate.
+
+ [1]: https://github.com/Beej126/PoShHotCorners
+ [2]: https://en.wikipedia.org/wiki/Screen_hotspot
+ [3]: https://cloud.githubusercontent.com/assets/6301228/20070283/ab4e62e2-a4d4-11e6-84ab-70abd4ff34b9.png
+ [4]: http://www.xxcopy.com/xxcopy38.htm
+ [5]: http://superuser.com/questions/453446/how-can-i-stop-windows-re-positioning-after-waking-from-sleep

@@ -67,23 +67,24 @@ tags:
 
 machine.config entries i wound up editing in as of current version
 
-    <configuration>
-      <configSections>
-        <section name="oracle.manageddataaccess.client"
-          type="OracleInternal.Common.ODPMSectionHandler, Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
+  ```xml
+  <configuration>
+    <configSections>
+      <section name="oracle.manageddataaccess.client"
+        type="OracleInternal.Common.ODPMSectionHandler, Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
     
-      ...
+    ...
     
-      <system.data>
-        <DbProviderFactories>
-          <remove invariant="Oracle.ManagedDataAccess.Client"/>
-          <add name="ODP.NET, Managed Driver" invariant="Oracle.ManagedDataAccess.Client" description="Oracle Data Provider for .NET, Managed Driver"
-              type="Oracle.ManagedDataAccess.Client.OracleClientFactory, Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
-        </DbProviderFactories>
-      </system.data>
+    <system.data>
+      <DbProviderFactories>
+        <remove invariant="Oracle.ManagedDataAccess.Client"/>
+        <add name="ODP.NET, Managed Driver" invariant="Oracle.ManagedDataAccess.Client" description="Oracle Data Provider for .NET, Managed Driver"
+            type="Oracle.ManagedDataAccess.Client.OracleClientFactory, Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
+      </DbProviderFactories>
+    </system.data>
     
-    </configuration>
-    
+  </configuration>
+  ``` 
 
 ### snapshot of the nuget install
 

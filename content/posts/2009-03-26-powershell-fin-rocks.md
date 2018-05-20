@@ -58,7 +58,7 @@ tags:
   * <a href="http://www.idera.com/Products/PowerShell/" target="_blank">PowerShellPlus</a> – very nice IDE with gonzo Intellisense & context Help for E-VER-Y-THING in _da Shell_… love it… running 2.1.0.45 Beta, hasn’t crashed once. [Update: 21 Sep 2010] Looks like they’re already up to v3.5 
   * [Update: 21 Sep 2010] Windows 7 includes a very decent IDE for free: Start > Program > Accessories > Windows PowerShell > Windows PowerShell ISE 
 
-My First PowerShell Script (awww aint she a cutie 😉
+My First PowerShell Script (awww aint she a cutie ;)
 
   1. Hits SQL Server to pull a list of data via the ol’ ADO.Net APIs 
   2. Pings all those machines to determine if they’re online (currently commented out but it runs quite fast), 

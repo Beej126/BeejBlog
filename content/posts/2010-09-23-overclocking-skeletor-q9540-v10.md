@@ -50,7 +50,7 @@ tags:
 
   * 333MHz FSB x quad pump means the minimum RAM spec is 1333MHz (= 4 x 333) to keep up with the FSB & CPU 
   * DDR &#8211; this 1333 MHz is a <a href="http://en.wikipedia.org/wiki/Double_data_rate" target="_blank">DDR</a> number meaning the RAM clock is actually half that (reference how the timings are typically rated under RAM Specs below) 
-  * FSB/RAM Ratio &#8211; that 1333 MHz is bare minimum in order to stay with a 1:1 FSB/RAM clock ratio… one can lower typically jimmy with this ratio in your OC bios settings to avoid choking your RAM while still goosing your CPU… i don’t have a feel for how practical that compromise winds up being but OC’ing is all about bragging rights and 1:1 just sounds cooler doesn’t it? 😉 
+  * FSB/RAM Ratio &#8211; that 1333 MHz is bare minimum in order to stay with a 1:1 FSB/RAM clock ratio… one can lower typically jimmy with this ratio in your OC bios settings to avoid choking your RAM while still goosing your CPU… i don’t have a feel for how practical that compromise winds up being but OC’ing is all about bragging rights and 1:1 just sounds cooler doesn’t it? ;) 
   * Anyway, I decided to go with bare minimum DDR3-1333&#8217;s starting out given Q2 2008 build date prices &#8230; Hoping that I’d be able to juice them a little over spec without paying for it of course 🙂 
 
 <div>
@@ -148,7 +148,7 @@ I&#8217;m idling just under 50c right now with silent medium fan level so I&#821
   1. Obviously I didn’t get anywhere with OC&#8217;ing yet so far 
   2. I’ve now reapplied the thermal paste… i’m pretty clueless here… looked pretty thin smooth clean, but i really don’t know 
   3. First obvious move is DDR3-1600 to keep up with 400MHz FSB = 3.2GHz CPU …&#160; 
-      * <strike>Rats, Everest pulled meta data which indicates mobo only supports up to DDR3-1333… hmmm… sounds like I should just get an i7 or something 😉 </strike>
+      * <strike>Rats, Everest pulled meta data which indicates mobo only supports up to DDR3-1333… hmmm… sounds like I should just get an i7 or something ;) </strike>
       * <strike>mobo FSB is rated up to 1600 so ok there</strike> 
       * [Update: 12 Nov 2010] Stumbled into the mobo manual <duh> for another reason, RAM modules up to DDR3-1800 are listed with immediate compatibility, and even up to DDR3-2000 is listed with O.C. disclaimers (e.g. air cooling on the RAM modules is recommended) … but the guys I read on 13 Dec 2010 below have a good point… all those RAM specs at 1600+ are only 1GB populated… so they weren’t filling up all the slots during those tests 
       * i like to think the stability i saw running 10+ minutes under high utilization @ 400 MHz is promising 

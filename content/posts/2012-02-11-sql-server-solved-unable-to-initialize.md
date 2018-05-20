@@ -55,7 +55,7 @@ One fairly straight shot at generating self-signed certs is with &#8220;SelfSSL.
     
 
   * If you&#8217;re not already familiar with certs, the name following &#8220;/N:CN=&#8221; above <span class="hl">must EXACTLY match the &#8220;network&#8221; name of the machine you&#8217;re installing it to</span>&#8230; otherwise it gets hidden or rejected at various levels&#8230; for example, it won’t show up in SQL Server Configuration Manager’s certificate drop down list… this name should be the “FQDN” (Fully Qualified Domain Name) aka Canonical Name&#8230; typically the “Full Computer Name” as listed under `Control Panel > System`.
-  * The /V option is the #days the cert is valid for&#8230; it appears 1999999 is the max allowed… that currently pushes expiration out to the year 7487, which will hopefully last ya 😉
+  * The /V option is the #days the cert is valid for&#8230; it appears 1999999 is the max allowed… that currently pushes expiration out to the year 7487, which will hopefully last ya ;)
   * Note: SelfSSL often spews “Error opening metabase: 0x80040154” … This would probably be bad news if you wanted to use this certificate for IIS SSL but apparently it’s not a factor for SQL Server SSL.
   * Examine the certificates that have been generated this way by launching CertMgr.msc from <kbd>Win+R</kbd> and looking into the “Personal” certificate store&#8230; or if that doesn&#8217;t exist, launch MMC.exe, <kbd>CTRL+M</kbd> to add the &#8220;Certificates&#8221; snap in and select “Computer account”.
 

@@ -52,7 +52,7 @@ tags:
   * [There’s a handy bundle with City Navigator North America NT and either the 20x for $150 or 10x for $100 which is a good bargain][3].
   * MobilePC is the more fancy faux 3d map interface that looks like most of the car GPS units UI’s everybody has these days 
   * nRoute is the flat 2d birds eye view map interface… it’s not as slick but it shows more map detail because less space is wasted on looking fancy 
-  * I can show you where to get the software & maps for “very cheap” 😉 
+  * I can show you where to get the software & maps for “very cheap” ;) 
   * [Gamin software update downloads][4]
 
 #### 

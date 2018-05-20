@@ -39,7 +39,7 @@ i was having a heck of a time trying to get “net use * [http://myhost.com][1]�
   
 [<img alt="image" border="0" src="http://lh6.ggpht.com/_XlySlDLkdOc/SdqRvnBRMqI/AAAAAAAACs0/Og8icqoaIUc/image%5B22%5D.png?imgmax=800" height="116" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="173" />][3]
   
-UPDATE: plain vanilla “net use…” command worked straight away from an XP machine at work… so the security bits somehow weren’t lined up to let me be a WebDAV client on the Windows 7 instance i was testing with as my WebDAV IIS host… moving along…nothing to see here 😉
+UPDATE: plain vanilla “net use…” command worked straight away from an XP machine at work… so the security bits somehow weren’t lined up to let me be a WebDAV client on the Windows 7 instance i was testing with as my WebDAV IIS host… moving along…nothing to see here ;)
   
 UPDATE 2: still gotta hand it to WebDrive… plain vanilla “net use” mounted WebDAV drives are running through Microsoft’s “WebDAV redirector” layer (aka the “WebClient” NT Service)… and it does work for small files, but large files (e.g. 250MB) tend to go off in lala land while doing the transfer (i.e. progress bar was useless) and failed consistently… WebDrive has a much more robust caching/chunky upload facility with a slick UI that shows actual progress bar… it did still fail after multiple attempts of my big test file so i had to split up into smaller chunks (e.g. 30MB) but the progress visibility WebDrive provides along with automatic retries is definitely worth something.
 

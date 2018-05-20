@@ -69,7 +69,7 @@ There&#8217;s some rough edges getting these old bits to install and run that i 
       * the prompts are pretty straightforward&#8230; 
           * and one big important choice is to choose &#8220;Install Software &#8211; Do Not Configure&#8221;&#8230; we&#8217;ll do the configure step next
           * we stuck with the default &#8220;Oracle_FRHome1&#8221; path
-          * skip security updates (that ship has long since sailed 😉
+          * skip security updates (that ship has long since sailed ;)
       * once the install finishes then fire up c:\oracle\middleware\Oracle_FRHome1\bin\config.bat ELEVATED 
           * select &#8220;configure for development&#8221; vs deployment
           * provide the previous weblogic and oracle home paths&#8230;

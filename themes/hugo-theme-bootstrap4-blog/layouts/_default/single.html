@@ -2,23 +2,23 @@
 
 {{ define "schema-dot-org" }}
 <script type="application/ld+json">
-{
+  {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   {{- /* Google recommends the headline be no more than 110 characters */}}
   "headline": "{{ substr .Title 0 110 }}",
   {{- with .Params.images -}}{{ range first 1 . }}
   "image": {
-    "@type": "ImageObject",
-    "url": "{{ . | absURL }}"
-    {{- /* Don't try to get imageConfig if image param is not local */ -}}
-    {{- if not (or (hasPrefix . "http://") (hasPrefix . "https://")) -}}
-    {{- with (imageConfig (printf "/static/%s" .)) -}}
-    ,
-    "height": "{{ .Height }}",
-    "width": "{{ .Width }}"
-    {{- end -}}
-    {{ end }}
+  "@type": "ImageObject",
+  "url": "{{ . | absURL }}"
+  {{- /* Don't try to get imageConfig if image param is not local */ -}}
+  {{- if not (or (hasPrefix . "http://") (hasPrefix . "https://")) -}}
+  {{- with (imageConfig (printf "/static/%s" .)) -}}
+  ,
+  "height": "{{ .Height }}",
+  "width": "{{ .Width }}"
+  {{- end -}}
+  {{ end }}
   },
   {{- end -}}{{ end }}
   "url": "{{ printf "%s" .Permalink }}",
@@ -36,8 +36,8 @@
   "publisher": "{{ printf "%s" . }}",
   {{- end }}
   "author": {
-    "@type": "Person",
-    "name": "{{ .Params.author | default .Site.Params.author }}"
+  "@type": "Person",
+  "name": "{{ .Params.author | default .Site.Params.author }}"
   }
   {{- if or (.Params.keywords) (.Params.tags) -}}
   ,
@@ -48,7 +48,7 @@
   ,
   "description": "{{ . }}"
   {{- end }}
-}
+  }
 </script>
 
 {{ end }}
@@ -74,25 +74,33 @@
   </ul>
   {{ end }}
 
-  {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
+  {{ if (ne ($.Param "sharingicons") false) }}
   <hr>
   <footer>
 
-  {{ if (ne ($.Param "sharingicons") false) }}
-  {{ partial "sharing-icons.html" . }}
-  {{ end }}
+    {{ if (ne ($.Param "sharingicons") false) }}
+    {{ partial "sharing-icons.html" . }}
+    {{ end }}
 
-  {{ if and (.Site.DisqusShortname) (ne .Params.comments false) }}
-  {{ template "_internal/disqus.html" . }}
-  {{ end }}
+    {{ if (ne .Params.comments false) }}
+    <div id="disqus_thread"></div>
+    <script>
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://beejblog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>  {{ end }}
+    {{ end }}
   </footer>
-  {{ end }}
 
 </article> <!-- /.blog-post -->
 
-    <aside>
-        {{ .TableOfContents }}
-    </aside>
+<aside>
+  {{ .TableOfContents }}
+</aside>
 
 {{ end }}
 

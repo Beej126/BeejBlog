@@ -113,7 +113,7 @@ tags:
       </ul>
       
       <p>
-        Before: Raw Parts on a Shelf 😉&nbsp; (circa April 2008)
+        Before: Raw Parts on a Shelf ;)&nbsp; (circa April 2008)
       </p>
       
       <p>

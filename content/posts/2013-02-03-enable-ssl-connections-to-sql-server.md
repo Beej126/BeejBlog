@@ -81,7 +81,7 @@ tags:
           
           <ul>
             <li>
-              The /V: part is the validity duration of your cert, in days. I believe 1999999 is the max, which corresponds to around 5475 years in the future (that ought&#8217;a last ya 😉
+              The /V: part is the validity duration of your cert, in days. I believe 1999999 is the max, which corresponds to around 5475 years in the future (that ought&#8217;a last ya ;)
             </li>
             <li>
               The /N:CN= part is the “Common Name” this cert will be tied to… in this case that needs to be the true machine name of your database server.

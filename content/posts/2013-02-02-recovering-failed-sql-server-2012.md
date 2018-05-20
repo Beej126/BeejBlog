@@ -25,7 +25,7 @@ tags:
   * **This is primarily an exercise in mule headedness… I wouldn’t look to this as a real resolution to a production problem…** I wound up with a running SQL Server and SQL Agent after an hour or so of banging but God only knows what other problems and missing chunks could still be lurking when I try to fire up other peripheral services like Service Broker, Database Mail, etc. 
   * During my SS2012 install on what I thought was a fairly fresh Win8 machine, SQL Browser was the original failure… ProcessMonitor showed me that the setup script was cranky about a missing a key around here: 
       * HKEY\_LOCAL\_MACHINESOFTWARE**<u>Wow6432Node</u>**MicrosoftMicrosoft SQL Server90SQL Browser … note the interesting WoW subtree 
-  * I read a fair bit about various reg keys confusing the SQL Server installer and soon found myself unable to resist the sledgehammer urge … blowing away all reg keys and c:program files under “Microsoft SQL Server” just feels right 😉 
+  * I read a fair bit about various reg keys confusing the SQL Server installer and soon found myself unable to resist the sledgehammer urge … blowing away all reg keys and c:program files under “Microsoft SQL Server” just feels right ;) 
   * of course the next install didn’t go so hot either… next error was something about “MOF” and “WMI”… Googling yielded no silver bullets… 
   * eventually realized that the main SQL Server service was actually “installed” to some degree but in a non happy state… hmmm… I’ve been here before… let’s keep throwing some wrenches at it… 
   * first up, the SQL Server service wouldn’t start … 

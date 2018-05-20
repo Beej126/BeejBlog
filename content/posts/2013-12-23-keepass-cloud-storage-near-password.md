@@ -61,7 +61,7 @@ Update 2015-09-27: Neato! In June of 2015 [the author has applied a mod][2] whic
   * Handy yet still secure Quick Unlock feature
   * Consider a good android lock screen as additional layer of protection
 
-I’m glad I finally took the time.&nbsp; I (forced 😉 my wife to run the Windows version on her desktop and we share the same database file with our financial, healthcare, etc logins. So either of us can get into whatever we need wherever we are. It gives me peace of mind that she would have ready access to those important things in case I was somehow unavailable (knock wood). If you&#8217;re putting up with some other convoluted hodge podge as I was, please give this general idea a shot by wading in slowly and see if it makes your life easier as it has for me.
+I’m glad I finally took the time.&nbsp; I (forced ;) my wife to run the Windows version on her desktop and we share the same database file with our financial, healthcare, etc logins. So either of us can get into whatever we need wherever we are. It gives me peace of mind that she would have ready access to those important things in case I was somehow unavailable (knock wood). If you&#8217;re putting up with some other convoluted hodge podge as I was, please give this general idea a shot by wading in slowly and see if it makes your life easier as it has for me.
 
 &nbsp;2013-01-01: My main password file was corrupted
 

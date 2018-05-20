@@ -60,7 +60,7 @@ I live in the Seattle area, apparently we get a nice windy storm around every Th
   * **AVR** &#8211; Automatic Voltage Regulation &#8211; like all marketing, it sounds good… smooth out your voltages in brownouts, but I couldn’t find enough concrete evidence to say whether it was significant 
   * **Replaceable battery** &#8211; the APS and CyberPowers both appear to be readily servicable
   * **Info Display** &#8211; I’m kind of a sucker for the LCD
-  * **Software** &#8211; it’s tough to find specifics on the APC & CyberPower software beyond turning off the beep and setting up automatic shutdown… i was somewhat interested in something that would actually log power consumption over time to give me some “Kill A Watt” style info… since the software does show Watts it seems feasible to think i could reverse gen the USB info and record it (_like i’ll actually get around to that_ 😉 
+  * **Software** &#8211; it’s tough to find specifics on the APC & CyberPower software beyond turning off the beep and setting up automatic shutdown… i was somewhat interested in something that would actually log power consumption over time to give me some “Kill A Watt” style info… since the software does show Watts it seems feasible to think i could reverse gen the USB info and record it (_like i’ll actually get around to that_ ;) 
       * Apparently CyberPower is Mac & Linux compatible whereas APC is Windows only
   * Leaning towards [CyberPower CP600LCD][10] = $65 @ 2015-11-23
 

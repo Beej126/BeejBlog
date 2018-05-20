@@ -40,7 +40,7 @@ Feedback Update #1 [2009-11-15]:
 Highlights/Assumptions/Considerations [2009-11-05]:
 
   * **SQL Server &#8211;** there’s probably some SQL Server (2005) dependencies in here … As far as developer oriented databases go, I friggin LUUUV the way one can make SQL Server dance, especially as of version 2005… XML datatype, VARCHAR(max), .Net stored procs, funcs and aggregates… man this is the life!! 🙂 
-  * **Stored Procedures** – i can’t think of any reason why this approach would be stored proc dependent but if it is, i’m glad…&#160; i love procs… i’m one of those guys that would really love to sit down with you (and a couple pints 😉 and discuss the merits of coding business logic in stored procs… yep i said it… i’d even go so far to say that stored procs can be your true one and only business layer <gasp!! ;> 
+  * **Stored Procedures** – i can’t think of any reason why this approach would be stored proc dependent but if it is, i’m glad…&#160; i love procs… i’m one of those guys that would really love to sit down with you (and a couple pints ;) and discuss the merits of coding business logic in stored procs… yep i said it… i’d even go so far to say that stored procs can be your true one and only business layer <gasp!! ;> 
   * **ADO.Net** – this writeup also sorta assumes that you’re implementing in ADO.Net (because of the connection string specifics) 
   * **Custom Datalayer** – I’ve implemented this technique as a graft onto my existing custom datalayer (it’s got one class, can you guess what it’s called? ;)&#160; That code is included below… it’s very bare bones… which I think is a good thing, so that you can take and repurpose how you like. 
   * **SqlDataSource Compatibility** – after i got it all working i realized that i’d dabbled a little with using SqlDataSources in this project as well as my own custom datalayer… i’m happy to report it was a very quick mod to bring them into the program. 
@@ -60,7 +60,7 @@ Teaser screen shots: [<img style="border-right-width: 0px; display: inline; bord
   * First off, i’m rolling with “Google Docs” here until i find something better, they don’t support certain filetypes like .cs, so save-as accordingly 
   * Secondly, if Google Docs prompts you for a login and you don’t feel like creating an account, just change the URL to HTTPS and refresh… after that it will create the appropriate cookie and HTTP links will work… yep it’s a known bug 
 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfM2M1NXAyd2Rk&hl=en" target="_blank">DataLayer.cs</a> – the greatest Proc class ever writen 😉 
+  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfM2M1NXAyd2Rk&hl=en" target="_blank">DataLayer.cs</a> – the greatest Proc class ever writen ;) 
   * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfN2Y4dDk5emc5&hl=en" target="_blank">ReflectionHelpers.cs</a> (referenced in DataLayer.cs so you’ll want it) 
   * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNWNnYmdqY2Rt&hl=en" target="_blank">Audit_Trigger_Checker.sql</a> – the HashBytes() stuff 
   * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNHI4Z2RzcW43&hl=en" target="_blank">Audit_Trigger_CodeGen.sql</a> – here’s the beef 

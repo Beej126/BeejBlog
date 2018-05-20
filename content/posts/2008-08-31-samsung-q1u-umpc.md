@@ -36,269 +36,43 @@ tags:
   - Mapping
 
 ---
-[Update: 5 April 2012] Just popped for a <a href="/2012/04/samsung-galaxy-tab-77-p6800.html" target="_blank">Samsung Galaxy Tab 7.7</a>. Loving it. Took a while to find a worthy successor to the Q1U. Way to go Samsung. UPDATE [19 Aug 2009]: Windows 7 totally rocks on this thing!!! At least as peppy as XP, probably better.   
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://ak.buy.com/db_assets/large_images/604/204996604.jpg"><img style="border-right-width: 0px; width: 400px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; cursor: pointer" border="0" alt="" src="http://ak.buy.com/db_assets/large_images/604/204996604.jpg" /></a>&#160;&#160; [<img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="Snap1" src="http://lh3.ggpht.com/_XlySlDLkdOc/SXYXrlVOS_I/AAAAAAAACrs/qSZDftGMJzk/Snap1_thumb%5B4%5D.jpg?imgmax=800" width="526" height="404" />][1] 
+* [Update:  5 Apr 2012] Just popped for a [Samsung Galaxy Tab 7.7](/2012/04/samsung-galaxy-tab-77-p6800.html).
+* [Update: 19 Aug 2009] Windows 7 totally rocks on this thing!!! At least as peppy as XP, probably better.   
+![](http://ak.buy.com/db_assets/large_images/604/204996604.jpg)
+![](http://lh3.ggpht.com/_XlySlDLkdOc/SXYXrlVOS_I/AAAAAAAACrs/qSZDftGMJzk/Snap1_thumb%5B4%5D.jpg)
 
-<ul style="margin-left: 20px">
-  <li>
-    Buy.com has some more good <a href="http://www.buy.com/prod/samsung-np-q1u-600-q1-ultra-umpc-elxp-a100-600mhz-1gb-40gb-7-wsvga-wl/q/loc/101/204996604.html">photos</a> **AT THE BOTTOM**
-  </li>
-  <li>
-    <a title="http://picasaweb.google.com/Beej2020/SamsungQ1UV#" href="http://picasaweb.google.com/Beej2020/SamsungQ1UV#">some of my own photos</a>
-  </li>
-  <li>
-    <a href="http://www.samsung.com/us/consumer/subtype/subtype.do?group=computersperipherals&type=mobilecomputing&subtype=ultramobilepcs">Samsung&#8217;s Q1U landing page</a>
-  </li>
-  <li>
-    (Interesting, they _just_ (Sept. 19th, 2008) withdrew their links for the Vista model that I got &#8211;for obvious reasons&#8211; looks like the new "Premium" model with a beefier CPU is the currently promoted Vista solution)
-  </li>
-</ul>
+* Buy.com has some more good [photos](http://www.buy.com/prod/samsung-np-q1u-600-q1-ultra-umpc-elxp-a100-600mhz-1gb-40gb-7-wsvga-wl/q/loc/101/204996604.html), **AT THE BOTTOM*** [some of my own photos](https://get.google.com/albumarchive/108669953529091704409/album/AF1QipPFAZbdBPj96dw954gd17_-P9iBBRoeu5XM-2XB)* [Samsung's Q1U landing page](http://www.samsung.com/us/consumer/subtype/subtype.do?group=computersperipherals&type=mobilecomputing&subtype=ultramobilepcs)  * (Interesting, they _just_ (Sept. 19th, 2008) withdrew their links for the Vista model that I got –for obvious reasons– looks like the new "Premium" model with a beefier CPU is the currently promoted Vista solution)
 
 <a href="http://www.samsung.com/us/consumer/detail/support.do?group=computersperipherals&type=mobilecomputing&subtype=ultramobilepcs&model_nm=NP-Q1U&language=&cate_type=all&dType=D&mType=DR&vType=&prd_ia_cd=05010100&disp_nm=Q1U-XP&model_cd=NP-Q1U/000/SEA&menu=download" target="_blank">Samsung Software & Drivers Page</a> 
 
 Specs on the model I got: 
 
-<table style="border-collapse: collapse; margin-left: 10px" border="0" cellspacing="0" cellpadding="1">
-  <tr>
-    <td>
-      Model
-    </td>
-    
-    <td>
-      Samsung Q1U-V (NP-Q1UA000) (<a href="http://www.samsung.com/us/system/consumer/product/2008/04/29/np_q1ua000sea/Q1Ultra_DataSheet_080907.pdf">official spec PDF</a>)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Weight
-    </td>
-    
-    <td>
-      1.52 lbs
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Display
-    </td>
-    
-    <td>
-      7" 1024 x 600 touch screen LCD (nicely bright)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Standard Battery
-    </td>
-    
-    <td>
-      4-cell Li-Ion Battery, 29.6wh Capacity (rated ~4.5 hours) (6 cells available)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      OS
-    </td>
-    
-    <td>
-      Windows 7 absolutely rocks on this thing!!!
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Dimensions
-    </td>
-    
-    <td>
-      8.96" x 4.88" x 0.93" (think of a letter size sheet of paper, portrait orientation, folded in half, top to bottom)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      HD
-    </td>
-    
-    <td>
-      60GB 1.8” 4200rpm PATA ZIF (<a href="http://sdd.toshiba.com/main.aspx?Path=StorageSolutions/1.8-inchHardDiskDrives/MK6008GAH" target="_blank">Toshiba MK6008GAH</a>)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      WiFi
-    </td>
-    
-    <td>
-      802.11 b/g (<a href="http://www.atheros.com/pt/AR5006XS.htm" target="_blank">Atheros AR5006X specs</a>, <a href="http://www.x-drivers.com/catalog/drivers/wireless_networks/companies/atheros/models/ar5001x/12162.html" target="_blank">drivers</a>)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Wired Ethernet
-    </td>
-    
-    <td>
-      10/100 Base TX
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Bluetooth
-    </td>
-    
-    <td>
-      Bluetooth® 2.0 + EDR
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      USB
-    </td>
-    
-    <td>
-      2 x USB 2.0
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      CPU
-    </td>
-    
-    <td>
-      Intel® Ultra Mobile A110 800MHz clock 512Kb L2 cache/400 MHz FSB
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Video Chipset
-    </td>
-    
-    <td>
-      Intel GMA950, 128MB shared memory (<a href="http://www.intel.com/products/chipsets/gma950/index.htm" target="_blank">specs</a>)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      System Memory
-    </td>
-    
-    <td>
-      1GB DDR2 400MHz stock (upgraded to 2GB)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Memory slot
-    </td>
-    
-    <td>
-      SD/MMC
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Audio
-    </td>
-    
-    <td>
-      HD Audio, SRS TruSurround Sound
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Cameras
-    </td>
-    
-    <td>
-      Front facing low res web cam & rear facing video & still (1.3MP)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Speakers
-    </td>
-    
-    <td>
-      2 x 1.5 Watts
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      VGA 15 pin out
-    </td>
-    
-    <td>
-      Max resolution 2048 x 1536 (nice)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Headphone out
-    </td>
-    
-    <td>
-      Yes
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Microphone
-    </td>
-    
-    <td>
-      Dual Array
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      RJ45 (LAN)
-    </td>
-    
-    <td>
-      YES
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Warranty
-    </td>
-    
-    <td>
-      1 Year Parts and Labor
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Fingerprint Reader
-    </td>
-    
-    <td>
-      NO
-    </td>
-  </tr>
-</table>
+Spec | Notes
+ --- | ---
+| Model | Samsung Q1U-V (NP-Q1UA000) ([official spec PDF](http://www.samsung.com/us/system/consumer/product/2008/04/29/np_q1ua000sea/Q1Ultra_DataSheet_080907.pdf)) |
+| Weight | 1.52 lbs |
+| Display | 7" 1024 x 600 touch screen LCD (nicely bright) |
+| Standard Battery | 4-cell Li-Ion Battery, 29.6wh Capacity (rated ~4.5 hours) (6 cells available) |
+| OS | Windows 7 absolutely rocks on this thing!!! |
+| Dimensions | 8.96" x 4.88" x 0.93" (think of a letter size sheet of paper, portrait orientation, folded in half, top to bottom) |
+| HD | 60GB 1.8 4200rpm PATA ZIF ([Toshiba MK6008GAH](http://sdd.toshiba.com/main.aspx?Path=StorageSolutions/1.8-inchHardDiskDrives/MK6008GAH)) |
+| WiFi | 802.11 b/g ([Atheros AR5006X specs](http://www.atheros.com/pt/AR5006XS.htm), [drivers](http://www.x-drivers.com/catalog/drivers/wireless_networks/companies/atheros/models/ar5001x/12162.html)) |
+| Wired Ethernet | 10/100 Base TX |
+| Bluetooth | Bluetooth 2.0 + EDR |
+| USB | 2 x USB 2.0 |
+| CPU | Intel Ultra Mobile A110 800MHz clock 512Kb L2 cache/400 MHz FSB |
+| Video Chipset | Intel GMA950, 128MB shared memory ([specs](http://www.intel.com/products/chipsets/gma950/index.htm)) |
+| System Memory | 1GB DDR2 400MHz stock (upgraded to 2GB) |
+| Memory slot | SD/MMC |
+| Audio | HD Audio, SRS TruSurround Sound |
+| Cameras | Front facing low res web cam & rear facing video & still (1.3MP) |
+| Speakers | 2 x 1.5 Watts |
+| VGA 15 pin out | Max resolution 2048 x 1536 (nice) |
+| Headphone out | Yes |
+| Microphone | Dual Array |
+| RJ45 (LAN) | YES |
+| Warranty | 1 Year Parts and Labor |
+| Fingerprint Reader | NO |
 
 Update [29 Oct 2008]: Unfortunately my touch screen went all whacky, _exactly_ like I&#8217;ve read about:
 
@@ -324,7 +98,7 @@ Highlights:
   * You definitely wind up waiting on Vista for everything&#8230; as an IT guy it amazes me it ran as well as it did in 1GB of RAM on such a small CPU&#8230; I can&#8217;t imagine an average consumer actually putting up with this configuration though 
   * Power slider switch doubles as full system input lock so you can&#8217;t accidentally bump anything while it&#8217;s on &#8230; very cool usability feature that goes to show Samsung engineers put some real usage design thought into this bugger 
   * Watching a typical AVI movie over WiFi via VLC works like a champ under XP&#8230; Vista could barely pull it off. 
-  * The screen is great &#8230; super bright&#8230; you can see all normal Windows widgets at the native 1024 x 600 resolution &#8230; you definitely need the stylus to hit normal sized Windows widgets (min/max/close, scroll bar, etc.)&#8230; fingers work for bigger stuff or widgets not next to another &#8230; the Microsoft "Touch Pack" has a "Touch Improvements" tweak that makes the scroll bars double wide so you have a chance at hitting them with a finger&#8230; that&#8217;s a nice "touch" 😉 
+  * The screen is great &#8230; super bright&#8230; you can see all normal Windows widgets at the native 1024 x 600 resolution &#8230; you definitely need the stylus to hit normal sized Windows widgets (min/max/close, scroll bar, etc.)&#8230; fingers work for bigger stuff or widgets not next to another &#8230; the Microsoft "Touch Pack" has a "Touch Improvements" tweak that makes the scroll bars double wide so you have a chance at hitting them with a finger&#8230; that&#8217;s a nice "touch" ;) 
   * It does have a little heat to exhaust&#8230; nothing like a laptop of course&#8230; there&#8217;s actually a little fan in there&#8230; but it&#8217;s absolutely silent 
   * Last but not least, it fits very well as an eReader: 
       * 1.5lbs is very doable… holding it up to read from the lying down position definitely works 

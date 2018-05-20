@@ -35,7 +35,7 @@ It’s been long enough that the little things tripped me when I fired up a new 
       * <a href="http://derek-morrison.com/post/ASPNET-Web-ldquo%3BSitesrdquo%3B-Versus-Web-ldquo%3BApplicationsrdquo%3B.aspx" target="_blank">This guy really goes deep</a> into the differences between Web Sites and Apps <geez, who knew?!?> 
   * “Invalid FORMATETC structure”… just reload all the controls in the Ajax toolbox… how annoying 
   * “Ajax client-side framework failed to load” error … this is when the shine on all that spiffy new Ajax stuff gets dull in a hurry 
-      * Absolutely TUUUUNS!! of reasons out there for this… for me it wound up working when I disabled debugging in the web.config on the production server: <compilation debug="False" strict="false"> … ok, yeah, i know that’s not really an answer but i don’t debug on that server anyway so for me it’s a <a href="http://en.wikipedia.org/wiki/IBM_Program_temporary_fix" target="_blank"><em>permanent temporary fix</em></a>_&#160;_😉 
+      * Absolutely TUUUUNS!! of reasons out there for this… for me it wound up working when I disabled debugging in the web.config on the production server: <compilation debug="False" strict="false"> … ok, yeah, i know that’s not really an answer but i don’t debug on that server anyway so for me it’s a <a href="http://en.wikipedia.org/wiki/IBM_Program_temporary_fix" target="_blank"><em>permanent temporary fix</em></a>_&#160;_;) 
       * Other folks said fire the Add/Remove Programs >&#160; Repair option on .Net Framework 3.5 SP1 (didn’t help for me) 
       * or make sure .AXD Extension is setup (was already) 
           * IIS6 > {application folder} > (right mouse) Properties > Configuration button > Application extensions 

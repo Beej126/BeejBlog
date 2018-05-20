@@ -23,7 +23,7 @@ tags:
   - Security
 
 ---
-If you need this, you&#8217;ll know why 😉
+If you need this, you&#8217;ll know why ;)
 
 Save <a href="https://raw.githubusercontent.com/Beej126/PowerShell/master/ChromeBlacklistBlocker/ChromeBlacklistBlocker.ps1" target="_blank">ChromeBlacklistBlocker.ps1</a> somewhere local.
 

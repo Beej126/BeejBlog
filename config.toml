@@ -1,2 +1,2 @@
-theme = "bootstrap4-blog" 
+theme = "hugo-theme-bootstrap4-blog" 
 baseURL = "https://beejblog.netlify.com/"

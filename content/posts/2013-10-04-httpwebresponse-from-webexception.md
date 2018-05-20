@@ -22,11 +22,11 @@ tags:
   - .Net
 
 ---
-<pre class="prettyprint">using (var response = (HttpWebResponse)((Func&lt;WebResponse&gt;)(() =&gt;
+<pre class="prettyprint">using (var response = (HttpWebResponse)((Func<WebResponse>)(() =>
 {
 &nbsp; try { return(request.GetResponse());}
 &nbsp; catch (WebException ex) { return(ex.Response); }
-}))()) //&lt;-- too funny
+}))()) //<-- too funny
 using (var responseStream = response.GetResponseStream())
 // ReSharper disable once AssignNullToNotNullAttribute
 using (var readStream = new StreamReader(responseStream, Encoding.UTF8))

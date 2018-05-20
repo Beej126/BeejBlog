@@ -41,19 +41,19 @@ BEGIN {
 
 END {
   #close off last file
-  print "grant "grant" on "arr[1]" to publicngon" &gt;&gt;outfile
+  print "grant "grant" on "arr[1]" to publicngon" >>outfile
   close(outfile)
 }
 
 //***** Object:/ {
   #upon matcing the "object" comment, close off the previous output file
-  print "grant "grant" on "arr[1]" to publicngon" &gt;&gt;outfile
+  print "grant "grant" on "arr[1]" to publicngon" >>outfile
   close(outfile)
 
   #start up the new one
   match($0, /[(.*)]/, arr) #change to something like /[dbo].[(.*)]/ if you want “Schema qualify object names” enabled
   outfile = arr[1]".sql"
-  print "--$Author:$n--$Date:$n--$Modtime:$n--$History:$n" &gt; outfile
+  print "--$Author:$n--$Date:$n--$Modtime:$n--$History:$n" > outfile
 }
 
 /^(create) +(proc|function|view)/ {
@@ -61,13 +61,13 @@ END {
   grant = "execute"
   if ($2 == "view") grant = "select"
 
-  printf "if not exists(select 1 from sysobjects where name = '"arr[1]"')ntexec('create "$2" "arr[1] &gt;&gt;outfile
+  printf "if not exists(select 1 from sysobjects where name = '"arr[1]"')ntexec('create "$2" "arr[1] >>outfile
 
   # function is a little trickier because it could be a table or scalar return type requiring slightly different create function signature
   if ($2 == "function") {
  
     lines = ""
-    while((getline line) &gt;0) {
+    while((getline line) >0) {
       lines = lines line"n"
       match(line, /returns/, a)
       if (a[0] != "returns") { continue }
@@ -77,8 +77,8 @@ END {
       match(line, /table/, a)
       if (a[0] == "table") {
         grant = "select"
-        print "() returns table as return select 1 as one')" &gt;&gt;outfile }
-      else print "() returns int begin return 0 end')" &gt;&gt;outfile
+        print "() returns table as return select 1 as one')" >>outfile }
+      else print "() returns int begin return 0 end')" >>outfile
       break
 
     }
@@ -86,10 +86,10 @@ END {
 
   #proc/view
   else {
-    print " as select 1 as one')" &gt;&gt;outfile
+    print " as select 1 as one')" >>outfile
   }
 
-  print "GO" &gt;&gt;outfile
+  print "GO" >>outfile
 
   sub(/create/, "alter") #change the create to alter
   sub(/$/, lines) #tack back on the lines "eaten" to figure out whether function was tabular or scalar
@@ -97,5 +97,5 @@ END {
 
 
 { 
-  print  &gt;&gt;outfile
+  print  >>outfile
 }</pre>

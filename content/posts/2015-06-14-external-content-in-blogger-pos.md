@@ -48,17 +48,17 @@ drop this helper function in a global JS/HTML widget via the Blogger Layout edit
     })
     .fail(function() {
       ctrl.html('failed to retrieve external content.'+
-        'try going there directly: &lt;a href="'+url+'"&gt;'+url+'&lt;/a&gt;')
+        'try going there directly: <a href="'+url+'">'+url+'</a>')
     });
 }
 </pre>
 
 Then use it like this in an individual blogpost:
 
-<pre class="prettyprint linenums">&lt;pre class="prettyprint linenums lang-powershell" id="prePoshDualExplorers"&gt;&lt;/pre&gt;
+<pre class="prettyprint linenums"><pre class="prettyprint linenums lang-powershell" id="prePoshDualExplorers"></pre>
 
-&lt;script&gt;
+<script>
   //pull code content from codeplex
   pluginContent("https://beejpowershell.svn.codeplex.com/svn/PoshDualExplorers/PoshDualExplorers.ps1", "#prePoshDualExplorers", true);
-&lt;/script&gt;
+</script>
 </pre>

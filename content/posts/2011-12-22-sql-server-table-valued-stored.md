@@ -51,7 +51,7 @@ GO</pre>
   2. <a href="http://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql" target="_blank">Files_UploadCompare.sql</a> <pre class="prettyprint lang-sql">CREATE PROCEDURE [dbo].[Files_UploadCompare]
 @BackupProfileID INT,
 @NextDiscNumber INT = NULL OUT,
-@AllFiles File_UDT READONLY -- &lt;= *****
+@AllFiles File_UDT READONLY -- <= *****
 AS BEGIN
         
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
@@ -98,7 +98,7 @@ END
   4. <a href="http://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs" target="_blank">MainWindow.xaml.cs</a> <pre class="prettyprint">using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))
 {
   Files_UploadCompare["@BackupProfileID"] = (int)cbxBackupProfiles.SelectedValue;
-  Files_UploadCompare["@AllFiles"] = IncludedFilesTable; // &lt;= ******
+  Files_UploadCompare["@AllFiles"] = IncludedFilesTable; // <= ******
   WorkingFilesTable = Files_UploadCompare.ExecuteDataTable();
   lblCurrentDisc.Content = Files_UploadCompare["@NextDiscNumber"].ToString();
 }</pre>

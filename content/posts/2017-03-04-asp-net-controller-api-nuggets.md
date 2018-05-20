@@ -34,9 +34,9 @@ public class GenericProcArgs
   //from: http://stackoverflow.com/questions/5022958/passing-dynamic-json-object-to-c-sharp-mvc-controller
   //super convenient way to receive JS object with arbitrary properties to be fed straight to proc parms
   public dynamic parms { get; set; }
-  /// &lt;summary&gt;
+  /// <summary>
   /// whether to titleCase the JSON property names (handy for feeding auto built datagrids)
-  /// &lt;/summary&gt;
+  /// </summary>
   public bool titleCase { get; set; } = false;
   public string returnParmName { get; set; }
 }
@@ -49,7 +49,7 @@ public ActionResult GetProc(GenericProcArgs args)
   using (var proc = new Proc(args.procName))
   {
     proc
-      .AssignParms(args.parms as IDictionary&lt;string, object&gt;)
+      .AssignParms(args.parms as IDictionary<string, object>)
       .ExecuteJson(Response.OutputStream, args.titleCase);
   }
   return new EmptyResult();

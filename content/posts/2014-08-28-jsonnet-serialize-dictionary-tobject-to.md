@@ -35,7 +35,7 @@ using System.Linq;
 
 namespace YouNameIt {
 
-  using CartItemDict = Dictionary&lt;long, CartItemDto&gt;;
+  using CartItemDict = Dictionary<long, CartItemDto>;
 
   //reverse of this: http://stackoverflow.com/questions/24759181/deserializing-a-json-dictionaryint-customtype-to-listcustomtype
   //adapted from here: http://james.newtonking.com/json/help/index.html?topic=html/CustomJsonConverter.htm
@@ -43,7 +43,7 @@ namespace YouNameIt {
   {
     public override bool CanConvert(Type objectType)
     {
-      return objectType == typeof (Dictionary&lt;object, object&gt;);
+      return objectType == typeof (Dictionary<object, object>);
     }
 
     public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)

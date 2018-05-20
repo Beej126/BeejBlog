@@ -90,7 +90,7 @@ function unquote(str) { return str.charAt(0) == '"' && str.charAt(str.length - 1
 var sourcePath, destPath, configXMLFilePath, convertFileExtension, exporterType, exportFileExtension;
  
 // Get script arguments
-if (WScript.Arguments.Length &gt;= 4)
+if (WScript.Arguments.Length >= 4)
 {
     sourcePath = unquote(WScript.Arguments(0));
     destPath = unquote(WScript.Arguments(1));

@@ -65,8 +65,8 @@ For example:
     if ($id) $id = ' id="'.$id.'"';
     if ($class) $id .= ' class="'.$class.'"';
     if (isImagePhoto() || $thumbStandin) {
-                      /* $html = '&lt;img src="' . pathurlencode(getCustomImageURL($size, $width, $height, $cropw, $croph, $cropx, $cropy, $thumbStandin, $effects)) . '"' . */
-        $html = '&lt;img src="' . VideoOverlayIcon(pathurlencode(getCustomImageURL($size, $width, $height, $cropw, $croph, $cropx, $cropy, $thumbStandin, $effects))) . '"' .
+                      /* $html = '<img src="' . pathurlencode(getCustomImageURL($size, $width, $height, $cropw, $croph, $cropx, $cropy, $thumbStandin, $effects)) . '"' . */
+        $html = '<img src="' . VideoOverlayIcon(pathurlencode(getCustomImageURL($size, $width, $height, $cropw, $croph, $cropx, $cropy, $thumbStandin, $effects))) . '"' .
             ' alt="' . html_encode($alt) . '"' .
             $id .
             $sizing .

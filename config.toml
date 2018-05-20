@@ -1,4 +1,4 @@
 theme = "hugo-theme-bootstrap4-blog" 
 baseURL = "https://beejblog.netlify.com/"
-pygmentsCodeFences = "true"
+pygmentsCodeFences = true
 title = "/* BeejBlog */"

@@ -28,9 +28,9 @@ tags:
 # -r = disable backslash escaping
 # -d '' = read the whole here-doc as one big input vs stopping stopping at the first new line as the default delimiter
 # -a = put the results into an array
-#the minus in "&lt;&lt;-" provides for indenting the here-doc lines, but with TABS ONLY
-#bash4 is way easier but wanted to be portable: readarray -t arr &lt;&lt;-"EOT"
-IFS=$'n' read -r -d '' -a arr &lt;&lt;-'EOF'
+#the minus in "<<-" provides for indenting the here-doc lines, but with TABS ONLY
+#bash4 is way easier but wanted to be portable: readarray -t arr <<-"EOT"
+IFS=$'n' read -r -d '' -a arr <<-'EOF'
     /file/path/1
     /file/path/2
     /file/path/3

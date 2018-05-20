@@ -2,3 +2,7 @@ theme = "hugo-theme-bootstrap4-blog"
 baseURL = "https://www.beejblog.com/"
 pygmentsCodeFences = true
 title = "/* BeejBlog */"
+disqusShortname = "beejblog"
+
+[params]
+	favicon = "favicon.ico"

@@ -22,7 +22,7 @@ tags:
   - Software
 
 ---
-#### [Scott Hanselman&#8217;s 2009 Ultimate Developer and Power Users Tool List for Windows][1]
+#### [Scott Hanselman's 2009 Ultimate Developer and Power Users Tool List for Windows][1]
 
 Just too dang good to relegate to a simple Delicious bookmark !
 

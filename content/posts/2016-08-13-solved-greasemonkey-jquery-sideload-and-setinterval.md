@@ -17,29 +17,29 @@ tags:
   - WebDev
 
 ---
-i was having a heck of a time keeping a reliable handle on jQuery in the Pandora page&#8230; it would be there upon initial Greasemonkey script execution but then upon subsequent setInterval executions, the jQuery global variable was undefined&#8230; fascinating&#8230;
+i was having a heck of a time keeping a reliable handle on jQuery in the Pandora page... it would be there upon initial Greasemonkey script execution but then upon subsequent setInterval executions, the jQuery global variable was undefined... fascinating...
   
 &nbsp;
 
-notable: as i was debugging, i started to see that Chrome was cycling through four ( 4 ! ) different VMxxxx &#8220;copies&#8221; of the greasemonkey script upon each setInterval execution&#8230; questions like why? and why 4? abound if anyone cares to enlighten me
+notable: as i was debugging, i started to see that Chrome was cycling through four ( 4 ! ) different VMxxxx "copies" of the greasemonkey script upon each setInterval execution... questions like why? and why 4? abound if anyone cares to enlighten me
   
 &nbsp;
 
-so it struck me that i just need to make sure jQuery is available in each one of those &#8220;sessions&#8221;&#8230;
+so it struck me that i just need to make sure jQuery is available in each one of those "sessions"...
   
 &nbsp;
 
-noteable: the &#8220;sideload&#8221; is accomplished via jQuery&#8217;s native &#8220;noConflict&#8221; facility&#8230; [this post][1] explains how it works&#8230; the gist is that each load of jQuery does indeed replace &#8220;$&#8221; BUT it also saves the previous into &#95;$, such that $.noConflict can restore &#8220;$&#8221; to the previous version&#8230; this is what allows Pandora&#8217;s copy of jQuery to remain as-is&#8230; crucial in this case because Pandora depends on additional add-ons that it loads as expando properties on its instance of jQuery.
+noteable: the "sideload" is accomplished via jQuery's native "noConflict" facility... [this post][1] explains how it works... the gist is that each load of jQuery does indeed replace "$" BUT it also saves the previous into &#95;$, such that $.noConflict can restore "$" to the previous version... this is what allows Pandora's copy of jQuery to remain as-is... crucial in this case because Pandora depends on additional add-ons that it loads as expando properties on its instance of jQuery.
   
 &nbsp;
 
-after that was in the bag, i couldn&#8217;t help dwelling on what else might be possible and had another aha moment&#8230; from tracing the pandora js execution i learned that there were pretty obvious variables getting set for allowed features (e.g. &#8220;allowSkipTrackWithoutLimit&#8221;)&#8230; i banged around quite a bit trying to replace the main pandora.js script with one where those values were tweaked&#8230; blocking the original script via [AdBlockPlus][2] was easy as well as loading the tweaked pandora.js inline <script> but that approach ran aground on not being able to load other dependency scripts in proper sequence with the replacement&#8230; [Chrome doesn&#8217;t implement the crucial window.beforescriptexecute event][3] which would probably make this feasible&#8230; the main pandora.js is wrappered in a self contained function call so we can&#8217;t monkey patch its innards&#8230;
+after that was in the bag, i couldn't help dwelling on what else might be possible and had another aha moment... from tracing the pandora js execution i learned that there were pretty obvious variables getting set for allowed features (e.g. "allowSkipTrackWithoutLimit")... i banged around quite a bit trying to replace the main pandora.js script with one where those values were tweaked... blocking the original script via [AdBlockPlus][2] was easy as well as loading the tweaked pandora.js inline <script> but that approach ran aground on not being able to load other dependency scripts in proper sequence with the replacement... [Chrome doesn't implement the crucial window.beforescriptexecute event][3] which would probably make this feasible... the main pandora.js is wrappered in a self contained function call so we can't monkey patch its innards...
 
-but then it struck me, jQuery is global&#8230; and what if they&#8217;re getting these values via jQuery.ajax&#8230; such that i could override and tweak&#8230; sure enough, that approach panned all the way out!
+but then it struck me, jQuery is global... and what if they're getting these values via jQuery.ajax... such that i could override and tweak... sure enough, that approach panned all the way out!
   
 &nbsp;
 
-update &#8211; after that last round, i realized the whole thing about sideloading jQuery was unnecessary, i just needed to use the inline script approach to make sure my code executed on the page context vs whatever weird context TamperMonkey normally does&#8230; so the following script now reflects the cleaner evolved approach
+update &#8211; after that last round, i realized the whole thing about sideloading jQuery was unnecessary, i just needed to use the inline script approach to make sure my code executed on the page context vs whatever weird context TamperMonkey normally does... so the following script now reflects the cleaner evolved approach
 
     // ==UserScript==
     // @name          Pandora - "still listening" click
@@ -174,7 +174,7 @@ update &#8211; after that last round, i realized the whole thing about sideloadi
     */
     
 
-starting the same hijinx for Spotify&#8230; they load MooTools into $ and for some reason the selector wasn&#8217;t finding obvious classes&#8230; i&#8217;ve never picked up MooTools so maybe the syntax is different than jQuery&#8230; so i just went back to the jQuery sideload approach on this one&#8230; after that, worked it down into pure DOM, no jQuery needed
+starting the same hijinx for Spotify... they load MooTools into $ and for some reason the selector wasn't finding obvious classes... i've never picked up MooTools so maybe the syntax is different than jQuery... so i just went back to the jQuery sideload approach on this one... after that, worked it down into pure DOM, no jQuery needed
 
     // ==UserScript==
     // @name          Spotify tweaks

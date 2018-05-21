@@ -51,7 +51,7 @@ For all you folks working on any kind of collaboration solution, this seems like
     </div>
 
   * <div class="MsoNormal">
-      Like at the very end of the demo… they show a chat with instant language translation!! … one person chats in english which translates to the other guy in french (and vice versa) and they can both type and see what they’re saying in real time&#8230; the other web mashups where they enhance existing online services (e.g. bug tracker site) with Wave’s realtime collaboration abilities are very drool worthy
+      Like at the very end of the demo… they show a chat with instant language translation!! … one person chats in english which translates to the other guy in french (and vice versa) and they can both type and see what they’re saying in real time... the other web mashups where they enhance existing online services (e.g. bug tracker site) with Wave’s realtime collaboration abilities are very drool worthy
     </div>
 
 &#160;

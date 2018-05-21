@@ -48,7 +48,7 @@ import.cmd: @cscript /b import.js %*
           Â Â //WScript.stdout.WriteLine("i: " + i);
         </li>
         <li class="even">
-          Â Â return(WScript.Arguments(i+1).replace("&#92;"", ""));
+          Â Â return(WScript.Arguments(i+1).replace("\"", ""));
         </li>
         <li>
           }
@@ -72,13 +72,13 @@ import.cmd: @cscript /b import.js %*
           Â Â WScript.stderr.WriteLine("Usage:");
         </li>
         <li class="even">
-          Â Â WScript.stderr.WriteLine("Â Â -i &#92;"input file&#92;"");
+          Â Â WScript.stderr.WriteLine("Â Â -i \"input file\"");
         </li>
         <li>
-          Â Â WScript.stderr.WriteLine("Â Â -o &#92;"output file&#92;" (blank = screen output)");
+          Â Â WScript.stderr.WriteLine("Â Â -o \"output file\" (blank = screen output)");
         </li>
         <li class="even">
-          Â Â WScript.stderr.WriteLine("Â Â -r &#92;"record separator&#92;"");
+          Â Â WScript.stderr.WriteLine("Â Â -r \"record separator\"");
         </li>
         <li>
           Â Â WScript.Quit();

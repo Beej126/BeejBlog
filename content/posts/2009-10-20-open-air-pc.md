@@ -48,24 +48,24 @@ tags:
         </li>
         <ul>
           <li>
-            Got one<a href="http://www.frozencpu.com/products/6144/fan-313/SilverStone_FM83_92mm_Case_Fan_in_80mm_Mounting_Frame_w_Fan_Controller.html" target="_blank"> Jan 2015 for $16 + $9 shipping from FrozenCPU</a>&#8230; there honestly doesn&#8217;t seem to be much availability left out there in general
+            Got one<a href="http://www.frozencpu.com/products/6144/fan-313/SilverStone_FM83_92mm_Case_Fan_in_80mm_Mounting_Frame_w_Fan_Controller.html" target="_blank"> Jan 2015 for $16 + $9 shipping from FrozenCPU</a>... there honestly doesn't seem to be much availability left out there in general
           </li>
         </ul>
         
         <ul>
           <li>
-            Looks to be manufac&#8217;d circa 2007 by the packaging&#8230; nothing stays around forever = get it now if you ever think you&#8217;re going to want it
+            Looks to be manufac'd circa 2007 by the packaging... nothing stays around forever = get it now if you ever think you're going to want it
           </li>
           <li>
-            i&#8217;ve got a bunch of spare straight&nbsp;&#8220;square&#8221;&nbsp;80mm fans&#8230; i&#8217;ll probably just burn one of those &#8220;next time&#8221; even though the air flow won&#8217;t be elegant.
+            i've got a bunch of spare straight&nbsp;"square"&nbsp;80mm fans... i'll probably just burn one of those "next time" even though the air flow won't be elegant.
           </li>
         </ul>
         
         <li>
-          &nbsp;it fits like a glove in the Skeleton&#8217;s fan shroud&#8230; really tight fit but it does cram
+          &nbsp;it fits like a glove in the Skeleton's fan shroud... really tight fit but it does cram
         </li>
         <li>
-          i used the included grommets to secure the skeleton&#8217;s fan grill to it&#8217;s outer shroud via the stock screws since this new fan&#8217;s casing is thinner and doesn&#8217;t provide a point of contact for the screws&#8230; works great, very snug&#8230; totally silent all around
+          i used the included grommets to secure the skeleton's fan grill to it's outer shroud via the stock screws since this new fan's casing is thinner and doesn't provide a point of contact for the screws... works great, very snug... totally silent all around
         </li>
         <li>
           the speed control is a little overkill but kinda cool

@@ -30,7 +30,7 @@ interactive C# offers typical [REPL][1] benefits ala powershell without the ment
 
 this example is based on a low fidelity web page as the raw data source
   
-&#8230; it&#8217;s really nice to have all the convenient one liner RESTy methods of System.Net.WebClient available now vs the lower level WebRequest/WebResponse pattern that came with .Net 1.0. E.g. client.DownloadString, DownloadFile, etc.
+... it's really nice to have all the convenient one liner RESTy methods of System.Net.WebClient available now vs the lower level WebRequest/WebResponse pattern that came with .Net 1.0. E.g. client.DownloadString, DownloadFile, etc.
 
 ## Transform
 
@@ -38,7 +38,7 @@ trivially demonstrative in this case, simply a string.Split call 🙂
 
 ## Load
 
-demonstrates leveraging [SQL Server&#8217;s Table-Valued-Parameter][3] functionality to <u>bulk upload rows</u> which are then conveniently manifested inside the receiving stored procedure as a standard sql rowset, ready for tpyical DML like joining to other tables, etc.
+demonstrates leveraging [SQL Server's Table-Valued-Parameter][3] functionality to <u>bulk upload rows</u> which are then conveniently manifested inside the receiving stored procedure as a standard sql rowset, ready for tpyical DML like joining to other tables, etc.
   
 &nbsp;
 

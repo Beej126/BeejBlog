@@ -24,7 +24,7 @@ tags:
 ---
 ### Write Directly to Response Stream
 
-[Stack-o basically covers this already][1] but kinda danced around how minimal the code can really be for the basic scenario&#8230;
+[Stack-o basically covers this already][1] but kinda danced around how minimal the code can really be for the basic scenario...
 
 ```csharp
 //e.g. $.ajax(url, { procName: "", parms: {deliveryDate:"3/2/2016"}, returnParmName: "" }, ...)
@@ -56,8 +56,8 @@ public ActionResult GetProc(GenericProcArgs args)
 }
 ```
 
-  * in my experience, the ContentType wasn&#8217;t even necessary but it feels like good practice
-  * here i&#8217;m using a database layer represented by my own [custom Proc class][2]&#8230; which is a bundle of convenient methods wrapped around SqlCommand &#8230; in this case, it&#8217;s firing SqlCommand.ExecuteReader() and writing the results directly to the response via Newtonsoft.Json StreamWriters&#8230; i honestly haven&#8217;t done a real profile on this call stack but it feels like a nice straight shot from sql streaming through web tier transform to client
+  * in my experience, the ContentType wasn't even necessary but it feels like good practice
+  * here i'm using a database layer represented by my own [custom Proc class][2]... which is a bundle of convenient methods wrapped around SqlCommand ... in this case, it's firing SqlCommand.ExecuteReader() and writing the results directly to the response via Newtonsoft.Json StreamWriters... i honestly haven't done a real profile on this call stack but it feels like a nice straight shot from sql streaming through web tier transform to client
   * another nifty nugget in play here is the usage of C# Dynamic to catch arbitrary JS objects posted from the ajax client, and that **Dynamic is then inherently castable to a Dictionary**
 
  [1]: http://stackoverflow.com/questions/943122/writing-to-output-stream-from-action

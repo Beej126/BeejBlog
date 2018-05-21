@@ -34,7 +34,7 @@ tags:
   - SysAdmin
 
 ---
-Nice, someone&#8217;s gone and created the perfect pill for even the most serious case of Mac OS X Terminal envy&#8230;
+Nice, someone's gone and created the perfect pill for even the most serious case of Mac OS X Terminal envy...
 
 <div>
 </div>
@@ -55,11 +55,11 @@ Nice, someone&#8217;s gone and created the perfect pill for even the most seriou
 </div>
 
 <div>
-  It&#8217;s got dang near everything I could ever want to configure&#8230; somebody really loves their command shells mmm hmmm 😛
+  It's got dang near everything I could ever want to configure... somebody really loves their command shells mmm hmmm 😛
 </div>
 
 <div>
-  Only <em>little</em> nit pick I can come up with is that I think the Mac actually allows you to <strong>set the transparency of the just the background</strong>&#8230; so that the text and the outer frame still look crisp and solid.
+  Only <em>little</em> nit pick I can come up with is that I think the Mac actually allows you to <strong>set the transparency of the just the background</strong>... so that the text and the outer frame still look crisp and solid.
 </div>
 
  [1]: http://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg

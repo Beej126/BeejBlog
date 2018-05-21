@@ -61,7 +61,7 @@ Pertinent specs:
 
 
 <div>
-  These are the only options I&#8217;m currently aware of:
+  These are the only options I'm currently aware of:
 </div>
 
   * <a href="http://www.drobo.com/" target="_blank">Drobo</a> 

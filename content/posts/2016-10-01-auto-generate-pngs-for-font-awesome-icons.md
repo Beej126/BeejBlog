@@ -12,8 +12,8 @@ tags:
   - Xamarin
 
 ---
-# &#8230; via PowerShell, using ImageMagick v7
+# ... via PowerShell, using ImageMagick v7
 
 # motivation
 
-comes in handy for Xamarin (Forms) iOS project&#8230; season image filenames & sizes to your taste in the CreateFAImages function
+comes in handy for Xamarin (Forms) iOS project... season image filenames & sizes to your taste in the CreateFAImages function

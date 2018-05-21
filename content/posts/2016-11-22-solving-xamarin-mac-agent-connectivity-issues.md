@@ -20,12 +20,12 @@ this seems to be a recurring theme for me so i expect to be throwing more bones 
 
 [Xamarin Forums Post][1]
 
-i had VS2017 doing iOS builds just yesterday but for some reason was getting persist Mac Agent &#8220;can&#8217;t connect&#8221; errors today&#8230; and zilch in the xam logs to go on, yikes&#8230; thankfully struck me to look at Mac &#8220;Console&#8221; system.log and noticed
+i had VS2017 doing iOS builds just yesterday but for some reason was getting persist Mac Agent "can't connect" errors today... and zilch in the xam logs to go on, yikes... thankfully struck me to look at Mac "Console" system.log and noticed
 
     Nov 21 20:28:50 McBeejBerg com.apple.xpc.launchd[1] (com.openssh.sshd.D3C4B936-497A-46B7-8592-E6AC9E714711[21887]): Service exited with abnormal code: 255
     
 
-&#8230; firing every time just _opening_ the VS Mac Agent connection dialog&#8230; googled that error and tried [this][2]
+... firing every time just _opening_ the VS Mac Agent connection dialog... googled that error and tried [this][2]
 
     sudo vi /private/etc/sshd_config # Beej: i'm on Mac Sierra, maybe why i didn't have existing sshd_config file... the sands are always shifting beneath us... but did have /etc/ssh_config (note, no "d") with this pass auth setting commented out
     # PasswordAuthentication yes
@@ -33,7 +33,7 @@ i had VS2017 doing iOS builds just yesterday but for some reason was getting per
     sudo launchctl start com.openssh.sshd
     
 
-thankfully it&#8217;s actually connecting after that (phew) &#8230; for the record, same errors are still firing in mac system.log, so maybe just recycling sshd service is the [huckleberry][3] here
+thankfully it's actually connecting after that (phew) ... for the record, same errors are still firing in mac system.log, so maybe just recycling sshd service is the [huckleberry][3] here
 
  [1]: https://forums.xamarin.com/discussion/comment/235162/#Comment_235162
  [2]: http://stackoverflow.com/questions/29751813/failure-opening-ssh-to-mac-os-x-10-10-using-net/31777166#31777166

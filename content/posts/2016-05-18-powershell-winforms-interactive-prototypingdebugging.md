@@ -14,14 +14,14 @@ tags:
 ---
 # Credits:
 
-  * [this post is great][1]. i&#8217;m just adding a little packaging on top.
+  * [this post is great][1]. i'm just adding a little packaging on top.
 
 # Motivation
 
-  * PowerShell&#8217;s interactive nature lends it to be a handy way to experiment with .Net objects&#8230; including UI elements like WinForms/WPF&#8230;
-  * Yet firing up UI&#8217;s classically take over the active thread to service the user interaction (e.g. mouse events etc)&#8230;
+  * PowerShell's interactive nature lends it to be a handy way to experiment with .Net objects... including UI elements like WinForms/WPF...
+  * Yet firing up UI's classically take over the active thread to service the user interaction (e.g. mouse events etc)...
   * Without the extra gravy below, our otherwise handy interactive powershell locks up tight until we close down the Windows Forms application thus releasing the main thread back to the command line
-  * The following gravy throws a Windows Form onto a background thread such that we can continue to manipulate the UI objects WHILE THEY&#8217;RE RUNNING, yay!
+  * The following gravy throws a Windows Form onto a background thread such that we can continue to manipulate the UI objects WHILE THEY'RE RUNNING, yay!
 
 # The Gravy
 
@@ -66,7 +66,7 @@ create RunSpaceWinForm.ps1 as such
     }
     
 
-and here is simple usage&#8230; spin up a running WinForm and <span class="hl">give control back to the powershell prompt</span>
+and here is simple usage... spin up a running WinForm and <span class="hl">give control back to the powershell prompt</span>
 
     Add-Type -AssemblyName System.Windows.Forms
     $frmMain = New-Object System.Windows.Forms.Form
@@ -77,8 +77,8 @@ and here is simple usage&#8230; spin up a running WinForm and <span class="hl">g
 
 # Breakpoints
 
-  * by default, breakpoints will now message as: &#8220;WARNING: Breakpoint Line breakpoint on &#8216;xyz&#8217; will not be hit&#8221;
-  * the above run will kick out something like the following&#8230; 
+  * by default, breakpoints will now message as: "WARNING: Breakpoint Line breakpoint on 'xyz' will not be hit"
+  * the above run will kick out something like the following... 
 
     Use "Debug-Runspace -id 4" to go into breakpoint mode
     

@@ -67,10 +67,10 @@ tags:
         <li style="margin-top: 5px;">
           <u><strong>ISO</strong></u> <ul>
             <li>
-              Undoubtedly the toughest one to grasp at the pure physics level. I appreciate how Bryan uses the simple metaphor of &#8220;worker bees&#8221; here.
+              Undoubtedly the toughest one to grasp at the pure physics level. I appreciate how Bryan uses the simple metaphor of "worker bees" here.
             </li>
             <li>
-              The higher the ISO, the more worker bees you have on your electronic photo sensor gathering the light particles. There is of course a trade-off and I think we&#8217;ve all observed the grainy result of too much ISO.
+              The higher the ISO, the more worker bees you have on your electronic photo sensor gathering the light particles. There is of course a trade-off and I think we've all observed the grainy result of too much ISO.
             </li>
             <li>
               It’s great to read the specific values & tips Bryan recommends throughout the book… e.g. setting your ISO higher than 200 starts to lose contrast and color saturation.
@@ -115,7 +115,7 @@ tags:
       </p>
       
       <p>
-        For one example, starting with the desire to have full focus on a long view (e.g. big field of flowers), we select a high f/stop. If it&#8217;s a bright easy light day, we can leave our ISO low … lastly we move the shutter speed up or down <u>until our camera’s light meter falls on ZERO</u>.
+        For one example, starting with the desire to have full focus on a long view (e.g. big field of flowers), we select a high f/stop. If it's a bright easy light day, we can leave our ISO low … lastly we move the shutter speed up or down <u>until our camera’s light meter falls on ZERO</u>.
       </p>
       
       <p>
@@ -127,7 +127,7 @@ tags:
       </div>
       
       <p>
-        This was a pretty big revelation for me. &nbsp;Maybe I&#8217;m particularly clueless 🙂&nbsp;and it&#8217;s considered so obvious that it&#8217;s not worth mentioning; but I also wonder how many people carry around multiple hundred dollar cameras without knowing this.
+        This was a pretty big revelation for me. &nbsp;Maybe I'm particularly clueless 🙂&nbsp;and it's considered so obvious that it's not worth mentioning; but I also wonder how many people carry around multiple hundred dollar cameras without knowing this.
       </p>
       
       <p>

@@ -16,15 +16,15 @@ tags:
 ---
 [corresponding syncfusion forums post][1]
 
-Binding to Collection<Dictionary<,>> can be accomplished but doesn&#8217;t appear to be well documented&#8230; this [WPF SfDataGrid doc][2] gave the clue.
+Binding to Collection<Dictionary<,>> can be accomplished but doesn't appear to be well documented... this [WPF SfDataGrid doc][2] gave the clue.
 
-The basic trick is to set the SfDataGrid&#8217;s column.MappingName = &#8220;Fields[FieldName]&#8221;;
+The basic trick is to set the SfDataGrid's column.MappingName = "Fields[FieldName]";
        
 where Fields is a Dictionary property on your _DictionaryWrapper_ class.
 
-I couldn&#8217;t get List<Dictionary<string, object>> working directly without the wrapper class &#8220;hiding&#8221; the dictionary from what I think is an SfDataGrid bug. The app crash exception call stack ultimately winds up on an invalid Linq related get_Item() call.
+I couldn't get List<Dictionary<string, object>> working directly without the wrapper class "hiding" the dictionary from what I think is an SfDataGrid bug. The app crash exception call stack ultimately winds up on an invalid Linq related get_Item() call.
 
-Below is sample working code including &#8220;SimpleTable&#8221; wrapper for List and <span class="hl">Newtonsoft type converter for deserializing Json &#8220;table&#8221; directly into this datastructure</span>&#8230; this facilitates delivery of tabular resultsets from web api&#8217;s&#8230; see my [SqlClientHelpers][3].ToJson method as one implementation that works succinctly within Azure Functions for example.
+Below is sample working code including "SimpleTable" wrapper for List and <span class="hl">Newtonsoft type converter for deserializing Json "table" directly into this datastructure</span>... this facilitates delivery of tabular resultsets from web api's... see my [SqlClientHelpers][3].ToJson method as one implementation that works succinctly within Azure Functions for example.
 
 FYI, I believe there is also a bug with SfDataGrid column sorting logic when bound to this kind of Dictionary, a non-fatal exception fires. I worked around by implementing grid.SortColumnsChanging.
 

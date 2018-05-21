@@ -14,33 +14,33 @@ tags:
 ---
 # motivation
 
-i wanted to see if i could get category bundling working in gmail ala outlook&#8230; it&#8217;s always been a nice mental flow for me to carve out pending events from littering the &#8220;[inbox zero][1]&#8221; but still see them right there in front so i don&#8217;t forget to check up on them vs hidden a click away under a &#8220;folder&#8221;
+i wanted to see if i could get category bundling working in gmail ala outlook... it's always been a nice mental flow for me to carve out pending events from littering the "[inbox zero][1]" but still see them right there in front so i don't forget to check up on them vs hidden a click away under a "folder"
   
 &nbsp;
 
-<span style="font-size: x-large">update</span> &#8211; don&#8217;t miss [the &#8220;labs&#8221; functionality][2] for doing exactly this kind of category bundling
+<span style="font-size: x-large">update</span> &#8211; don't miss [the "labs" functionality][2] for doing exactly this kind of category bundling
   
 &nbsp;
 
 # success!
 
-the integration with gmail&#8217;s normal behavior isn&#8217;t perfect so this is still very experimental stages but it&#8217;s a pretty satisfying quick hack&#8230;
+the integration with gmail's normal behavior isn't perfect so this is still very experimental stages but it's a pretty satisfying quick hack...
   
 &nbsp;
 
 # notes
 
-  * i followed a [this tutorial][3] for getting the gmail API cooking including OAUTH2&#8230;
-  * the greasemonkey end of the code has some helper functions to get all the usual libraries loaded up like bootstrap, font-awesome and knockout&#8230; currently i&#8217;m only leveraging jQuery and [Lobibox][4] (love those sexy growls!)
-  * tweak the code to call gapi.client.gmail.users.labels.list vs messages to see your label Id&#8217;s&#8230; they&#8217;re not the names we see in the gmail UI
+  * i followed a [this tutorial][3] for getting the gmail API cooking including OAUTH2...
+  * the greasemonkey end of the code has some helper functions to get all the usual libraries loaded up like bootstrap, font-awesome and knockout... currently i'm only leveraging jQuery and [Lobibox][4] (love those sexy growls!)
+  * tweak the code to call gapi.client.gmail.users.labels.list vs messages to see your label Id's... they're not the names we see in the gmail UI
 
 # roadmap
 
 obvious next nice to haves rush to mind:
 
   * bundle by multiple specified categories (aka labels) 
-  * clicking on message in new section actually does navigate to message since that was an easy gimme but it&#8217;s not as slick in the vertical split mode&#8230; i tried tracing the code that dynamically populates the side panel with the message body and it&#8217;s just to abstract, so it&#8217;ll have to be a matter of popping that in myself, but shouldn&#8217;t be too tough since we&#8217;re already loading the whole message body behind the scenes.
-  * flip to real ECMAScript 2016 module loader or whatever&#8217;s clever right now&#8230; without a build engine to make things happen for script.js it seems like we&#8217;re still waiting for a fully native solution&#8230; i could do require.js approach but that seems to be on the outs already???
+  * clicking on message in new section actually does navigate to message since that was an easy gimme but it's not as slick in the vertical split mode... i tried tracing the code that dynamically populates the side panel with the message body and it's just to abstract, so it'll have to be a matter of popping that in myself, but shouldn't be too tough since we're already loading the whole message body behind the scenes.
+  * flip to real ECMAScript 2016 module loader or whatever's clever right now... without a build engine to make things happen for script.js it seems like we're still waiting for a fully native solution... i could do require.js approach but that seems to be on the outs already???
 
 # example screenshot
 

@@ -24,7 +24,7 @@ tags:
 ---
 Motivation: Wanted convenience of a Dictionary on the server side MVC controller (for some key look-up based logic), yet send the same list of objects down to Knockout Ajax client, which most readily consumes lists as Javascript object arrays.
 
-Could&#8217;ve just exposed the List<Object> as another property but wanted to see if I could roll it all into one property just to learn a little more about the Json.Net API.Nice that Json.Net&#8217;s tokenization framework has already abstracted away from specific types within the overridden method scope on custom JsonConverter class, so this approach generically handles \*any\* Dictionary<object, object> without any additional effort.
+Could've just exposed the List<Object> as another property but wanted to see if I could roll it all into one property just to learn a little more about the Json.Net API.Nice that Json.Net's tokenization framework has already abstracted away from specific types within the overridden method scope on custom JsonConverter class, so this approach generically handles \*any\* Dictionary<object, object> without any additional effort.
 
 <pre class="prettyprint linenums lang-cs">using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

@@ -64,7 +64,7 @@ It’s been long enough that the little things tripped me when I fired up a new 
       * So I ditched the CommandField and just tossed in my own LinkButtons to do the same thing and voila, the Grid maintains its state… again, who knew!? 
   * DataBinding nested controls declaratively – <a href="http://www.devx.com/dotnet/Article/31405/1954" target="_blank">this was a good tip</a>… but only for READ ONLY stuff 
       * rather than messing with code behind, just declare your nested List control’s DataSource like this: 
-      * DataSource='<%#((DataRowView)Container.DataItem).CreateChildView("ProviderOfficeContact")%>&#8217; 
+      * DataSource='<%#((DataRowView)Container.DataItem).CreateChildView("ProviderOfficeContact")%>' 
       * unfortunately the limited way that _RowEditing just tosses all existing data contexts conflicts with this elegant approach, so you can’t go into edit mode with this kind of approach and have to stick with doing the nested DataSource assignment in the parent’s RowDataBound handler. 
   * GridView.RowEditing event – you must set a DataSource and re-GridView.DataBind() in order for the the state of the controls to change to edit mode… what an amazingly inefficient architecture they’ve provided with this databinding stuff… you have to keep running back to the database to get data that hasn’t necessarily changed at all 
     {   

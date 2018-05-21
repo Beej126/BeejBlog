@@ -22,11 +22,11 @@ tags:
 ---
 once and for all 🙂
 
-### Shortcuts for &#8220;Pin To Start&#8221;
+### Shortcuts for "Pin To Start"
 
 %appdata%\Microsoft\Windows\Start Menu
 
-### Start Menu right mouse (aka &#8220;Win+X&#8221; menu)
+### Start Menu right mouse (aka "Win+X" menu)
 
 install [Win+X Menu Editor][1]
 

@@ -46,8 +46,8 @@ Update 2015-07-18: cropping 3D movies down to single image
 
 <pre class="prettyprint">ffmpeg -i "in_movie_file.ext" -vf "crop=960:800:0:0,setdar=4:2" -vcodec h264 -acodec aac -strict -2 "out_movie_file.mp4"</pre>
 
-  * obviously check the real resolution before setting the crop&#8230; just divide it by 2
-  * &#8220;setdar&#8221; is the aspect ratio&#8230; i found it was necessary&#8230; one way to find it is with VLC CTRL-J on the original video
+  * obviously check the real resolution before setting the crop... just divide it by 2
+  * "setdar" is the aspect ratio... i found it was necessary... one way to find it is with VLC CTRL-J on the original video
 
 VLC will do this via a command line like so:
 

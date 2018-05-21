@@ -24,11 +24,11 @@ tags:
 ---
 Challenge: There’s lots of chatter out there about working around various issues related to pulling an SSIS package out of an initial definition server and then reinstalling it on other servers.&nbsp; For example:
 
-> INSERT statement conflicted with the FOREIGN KEY constraint &#8220;FK\_sysmaintplan\_log\_subplan\_id&#8221;. The conflict occurred in database &#8220;msdb&#8221;, table &#8220;dbo.sysmaintplan\_subplans&#8221;, column &#8216;subplan\_id&#8217;.
+> INSERT statement conflicted with the FOREIGN KEY constraint "FK\_sysmaintplan\_log\_subplan\_id". The conflict occurred in database "msdb", table "dbo.sysmaintplan\_subplans", column 'subplan\_id'.
 
 The following scripts are my effort to bundle all the steps into something that allows me to forget about the messy details.
   
-For me this comes in handy for managing a standardized maintenance plan on many identical database instances&#8230; e.g. a bunch of replication subscribers.
+For me this comes in handy for managing a standardized maintenance plan on many identical database instances... e.g. a bunch of replication subscribers.
   
 Notes:
 

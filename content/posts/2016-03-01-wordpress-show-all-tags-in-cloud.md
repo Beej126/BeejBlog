@@ -14,7 +14,7 @@ wordpress defaults to only showing the [first 45 tags][1]
   
 tweak this file => \wp-includes\widgets\class-wp-widget-tag-cloud.php
   
-add the &#8220;number=0&#8221; parameter to this code:
+add the "number=0" parameter to this code:
 
         /**
              * Filter the taxonomy used in the Tag Cloud widget.

@@ -22,7 +22,7 @@ From here: [http://www.theexceladdict.com/_t/t031008.htm][1] Reflecting Microsof
 
   * Select a column possessing representative blanks, from top to bottom.
   * F5.
-  * “Special…” button &#8211; here&#8217;s where the magic happens&#8230; 
+  * “Special…” button &#8211; here's where the magic happens... 
   * “Blanks” radio button.
   * “Delete” ribbon button/menu (under Home tab) – “delete sheet rows” menu item.
 

@@ -15,9 +15,9 @@ tags:
 ---
 # Motivation
 
-there are a number of free icon generating web sites available which begs the question whether a script like this provides any value&#8230; but leveraging a robust image manipulation utility like imageMagick to apply unique aesthetics makes a DIY approach like this more compelling&#8230; along those lines, in the current script, i&#8217;m applying:
+there are a number of free icon generating web sites available which begs the question whether a script like this provides any value... but leveraging a robust image manipulation utility like imageMagick to apply unique aesthetics makes a DIY approach like this more compelling... along those lines, in the current script, i'm applying:
 
-  * custom &#8220;centering&#8221; &#8211; for the splash images where the icon sits inside of a larger background, i&#8217;ve found positioning the icon 2/7ths of the way down from top to be the most pleasing
+  * custom "centering" &#8211; for the splash images where the icon sits inside of a larger background, i've found positioning the icon 2/7ths of the way down from top to be the most pleasing
   * outer glow
   
     &nbsp;

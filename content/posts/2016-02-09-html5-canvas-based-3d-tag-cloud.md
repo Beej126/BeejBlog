@@ -10,7 +10,7 @@ tags:
   - Blogging
 
 ---
-This [Goat1000.com][1] guy has provided an amazingly comprehensive 3d library&#8230; the configuration options are endless.
+This [Goat1000.com][1] guy has provided an amazingly comprehensive 3d library... the configuration options are endless.
 
     <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
     <script src='//www.goat1000.com/jquery.tagcanvas.min.js' type='text/javascript'/>
@@ -29,9 +29,9 @@ This [Goat1000.com][1] guy has provided an amazingly comprehensive 3d library&#8
     </script>
     
 
-Below needs to be edited for your particular blog engine&#8217;s syntax for looping over tags (Google Blogger sample).
+Below needs to be edited for your particular blog engine's syntax for looping over tags (Google Blogger sample).
   
-Due to internal use of getElementById, it appears our canvas element must be targeted via an #Id selector in above jquery (i.e. can&#8217;t use a class selector)
+Due to internal use of getElementById, it appears our canvas element must be targeted via an #Id selector in above jquery (i.e. can't use a class selector)
 
     <canvas height='272' id='canvas3dTagCloud' width='272'>
       <p>Anything in here will be replaced on browsers that support the canvas element</p>
@@ -41,7 +41,7 @@ Due to internal use of getElementById, it appears our canvas element must be tar
     </canvas>
     
 
-If you don&#8217;t have server side control, just apply necessary elements via jQuery prior to calling .tagcanvas() shown above &#8211; WordPress TagCloud sample
+If you don't have server side control, just apply necessary elements via jQuery prior to calling .tagcanvas() shown above &#8211; WordPress TagCloud sample
 
       jQuery(".tagcloud").wrap('<canvas id="canvas3dTagCloud" width="256" height="256"></canvas>');
 

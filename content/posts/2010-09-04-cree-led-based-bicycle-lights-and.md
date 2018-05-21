@@ -126,7 +126,7 @@ References:
       I picked up a couple of these 360 degree Handlebar mounts for $5.25 ea w/shipping… found some more for $2.43 w/ship… they’re worth every penny </p> 
       
       <p>
-        Mini review: The ones like this with 360 rotating feature are harder to find, very necessary for aiming the light from my “long horn” beach cruiser style handlebars.&nbsp; This item feels real good in actual usage, definitely recommended… made of a very flexible rubbery plastic, soft enough that I added a washer to both ends of the tightening bolt so that the bolt heads didn&#8217;t just cut right through… the good thing is, after several trips in ~5C German weather, I can tell that this material will never shatter like so many others. </td> </tr> </tbody> </table> 
+        Mini review: The ones like this with 360 rotating feature are harder to find, very necessary for aiming the light from my “long horn” beach cruiser style handlebars.&nbsp; This item feels real good in actual usage, definitely recommended… made of a very flexible rubbery plastic, soft enough that I added a washer to both ends of the tightening bolt so that the bolt heads didn't just cut right through… the good thing is, after several trips in ~5C German weather, I can tell that this material will never shatter like so many others. </td> </tr> </tbody> </table> 
         
         <p>
           Notes:

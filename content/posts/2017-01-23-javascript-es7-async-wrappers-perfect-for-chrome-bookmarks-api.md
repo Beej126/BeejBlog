@@ -28,7 +28,7 @@ I tasked myself with a little project to sync my Chrome Bookmarks Bar with my [D
 
 ![image][2]
 
-Chrome&#8217;s Bookmarks API is very straightforward but it is a traditional async callback style call&#8230; so it became a good opportunity for me to cozy up to [EcmaScript v7&#8217;s (ES7) async/await support][3]&#8230; since this is done in a Chrome Extension, it lends itself to this hard dependency on ES7 syntax&#8230;
+Chrome's Bookmarks API is very straightforward but it is a traditional async callback style call... so it became a good opportunity for me to cozy up to [EcmaScript v7's (ES7) async/await support][3]... since this is done in a Chrome Extension, it lends itself to this hard dependency on ES7 syntax...
 
 async/await is supported as of [Chrome v55 in Dec.2016][4]
 
@@ -57,7 +57,7 @@ admittedly, maybe not super dramatic when you boil it down like that but it real
 
 ### Code Nugget:
 
-_I want to elaborate further on the very happily working Diigo solution, but for now just the basic async bits&#8230;_
+_I want to elaborate further on the very happily working Diigo solution, but for now just the basic async bits..._
 
     //
     //here's the wrapper
@@ -77,7 +77,7 @@ _I want to elaborate further on the very happily working Diigo solution, but for
 
 ### Also handy for Fetch() API:
 
-_it was also great to use the very nicely straightforward new&#8217;ish [Fetch API (Chrome v43+)][7] and await on that response vs something like jquery.ajax_
+_it was also great to use the very nicely straightforward new'ish [Fetch API (Chrome v43+)][7] and await on that response vs something like jquery.ajax_
 
     //
     let response = await fetch(json_api_url, { credentials: 'include' }); //the credentials bit passes existing cookies (e.g. leveraging existing login)

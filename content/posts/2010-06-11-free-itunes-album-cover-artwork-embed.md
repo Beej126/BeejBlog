@@ -42,7 +42,7 @@ Misc Notes:
   * Then run my script which will automate iTunes to extract the cover from iTunes’ special stash and save it as a real local image file 
   * -AND- then embed that image back into the MP3 file so that it stays with the MP3 file no matter where it gets transferred. 
   * The iTunes API is clean, the .CHM based API document that comes with the SDK is easy to navigate and is readily understandable… this really opens a lot of possibility with some quick javascript. 
-      * <a href="http://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wo/5.1.17.2.1.3.3.1.0.1.1.0.3.3.3.3.1" target="_blank">Obtain the iTunes COM for Windows SDK here (you&#8217;ll need an "Apple ID", it&#8217;s free to sign up)</a> 
+      * <a href="http://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wo/5.1.17.2.1.3.3.1.0.1.1.0.3.3.3.3.1" target="_blank">Obtain the iTunes COM for Windows SDK here (you'll need an "Apple ID", it's free to sign up)</a> 
       * To be clear, **you don’t need to download or install anything to use my script**… iTunes comes ready to be scripted out of the box. 
   * Note: if you’re experiencing the kind of trouble where the MP3 tag changes simply don’t take no matter what you do, try entirely wiping out the existing tags and start from scratch… for me, the “APE” metatag format always seemed to be a culprit (vs. “ID3” which is much more common) 
   * [MP3Tag][1] is an excellent tool for bulk tag cleanup efforts like this… tons of good wizard driven actions you can perform on mp3 files names & tags… remove string, mixed case conversion, etc. 
@@ -58,7 +58,7 @@ Steps:
   <li>
     in iTunes press CTRL-A to select all your tracks <ul>
       <li>
-        now ONLY IF YOU WANT TO REPLACE all your existing artwork with iTunes covers&#8230; with your entire library selected in iTunes, right mouse and select “Get Info”, and then check the box next to the blank cover image and hit OK, this will clear the artwork from all your MP3 files!&#160; Make sure you save any of the ones you care to keep ahead of time. It will take quite a while to complete that wipe, of course depending on the size of your library.
+        now ONLY IF YOU WANT TO REPLACE all your existing artwork with iTunes covers... with your entire library selected in iTunes, right mouse and select “Get Info”, and then check the box next to the blank cover image and hit OK, this will clear the artwork from all your MP3 files!&#160; Make sure you save any of the ones you care to keep ahead of time. It will take quite a while to complete that wipe, of course depending on the size of your library.
       </li>
     </ul>
   </li>
@@ -124,7 +124,7 @@ Enjoy!
         <li>
         </li>
         <li class="even">
-          &#160;&#160;&#160; /* uncomment to collect missing artwork into a big group that&#8217;s easily grouped together in the iTunes GUI by sorting on the "Show" column header
+          &#160;&#160;&#160; /* uncomment to collect missing artwork into a big group that's easily grouped together in the iTunes GUI by sorting on the "Show" column header
         </li>
         <li>
           &#160;&#160;&#160; if (track.Artwork.Count == 0)
@@ -150,7 +150,7 @@ Enjoy!
         <li class="even">
         </li>
         <li>
-          &#160;&#160;&#160; //now for all downloaded artwork, save it to an image file and then write it back into the mp3 file so that we&#8217;re free to carry music with artwork out of iTunes
+          &#160;&#160;&#160; //now for all downloaded artwork, save it to an image file and then write it back into the mp3 file so that we're free to carry music with artwork out of iTunes
         </li>
         <li class="even">
           &#160;&#160;&#160; var AlbumFolderName = fso.GetParentFolderName(track.Location) + "";

@@ -29,7 +29,7 @@ I envied this little eye candy on some other blogs and it was easy to throw toge
   
 ![image][1]
 
-If you&#8217;re on WordPress, a plugin like [Simple Custom CSS and JS][2] comes in handy for stuff like this.
+If you're on WordPress, a plugin like [Simple Custom CSS and JS][2] comes in handy for stuff like this.
 
 ### CSS
 

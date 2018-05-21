@@ -16,32 +16,32 @@ tags:
 ---
 # tl;dr
 
-new-up the elusive &#8220;PlatformParameters&#8221; in your AppDeligate.cs::FinishedLoading / MainActivity.cs::OnCreate
+new-up the elusive "PlatformParameters" in your AppDeligate.cs::FinishedLoading / MainActivity.cs::OnCreate
   
 &nbsp;
 
 # ts;wm (too short; want more ; )
 
-thankfully we have solid writeups on ADAL with XF&#8230; this post is just me trying to boil it down to essence and PCL as much as possible&#8230;
+thankfully we have solid writeups on ADAL with XF... this post is just me trying to boil it down to essence and PCL as much as possible...
   
-(BTW: ADAL = Active Directory Auth Lib&#8230; i needed it for PowerBI embedding)
+(BTW: ADAL = Active Directory Auth Lib... i needed it for PowerBI embedding)
 
   1. <http://www.appzinside.com/2016/02/22/implement-adal-for-cross-platform-xamarin-applications/>
   2. <https://blog.xamarin.com/authenticate-mobile-apps-using-microsoft-authentication-library/>
 
-the first post keeps the platform specific surface area pretty minimal but also winds up wrappering the stock ADAL classes quite a bit&#8230;
+the first post keeps the platform specific surface area pretty minimal but also winds up wrappering the stock ADAL classes quite a bit...
   
-the second post seems pretty minimal and leverages CustomRenderers for the right timing to grab this context&#8230; seems like a good general trick to tuck away&#8230;
+the second post seems pretty minimal and leverages CustomRenderers for the right timing to grab this context... seems like a good general trick to tuck away...
   
 &nbsp;
 
-the approach i came to is grabbing this context right up front in app initialization and then providing it through dependency injection later&#8230;
+the approach i came to is grabbing this context right up front in app initialization and then providing it through dependency injection later...
   
 both pieces of that are basically one liners which feels nice
   
-also it&#8217;s now conveniently available to other services should needs arise&#8230;
+also it's now conveniently available to other services should needs arise...
   
-and theoretically we&#8217;ve kept things clean for TDD but honestly i don&#8217;t readily see how to test this flow since it requires interactive auth&#8230; i&#8217;ll have to read up on how people generally recommend mocking this kind of thing
+and theoretically we've kept things clean for TDD but honestly i don't readily see how to test this flow since it requires interactive auth... i'll have to read up on how people generally recommend mocking this kind of thing
   
 &nbsp;
 

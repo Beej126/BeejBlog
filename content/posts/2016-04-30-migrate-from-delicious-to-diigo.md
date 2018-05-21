@@ -10,15 +10,15 @@ tags:
   - Productivity
 
 ---
-Delicious set the standard but they&#8217;ve been a bit of a bumpy ride lately with reliability&#8230; according to their <s>[blog][1]</s> [blog][2] they recently moved back to old code base and Del.icio.us domain (ah memories :)&#8230; and then _just_ as of today just got their settings page operational such that I could successfully export my bookmarks and hop to another free link lily pad&#8230; the export yields a simple html file full of links.
+Delicious set the standard but they've been a bit of a bumpy ride lately with reliability... according to their <s>[blog][1]</s> [blog][2] they recently moved back to old code base and Del.icio.us domain (ah memories :)... and then _just_ as of today just got their settings page operational such that I could successfully export my bookmarks and hop to another free link lily pad... the export yields a simple html file full of links.
   
 &nbsp;
 
-I&#8217;ve initially setted on [Diigo][3]&#8230; it&#8217;s pretty slick&#8230; there&#8217;s a nicely robust [Chrome plugin][4].
+I've initially setted on [Diigo][3]... it's pretty slick... there's a nicely robust [Chrome plugin][4].
   
 &nbsp;
 
-Below is a little jQuery i threw together to truncate my Delicious links at a certain cutoff date so I&#8217;m not loading a bunch of old junk.
+Below is a little jQuery i threw together to truncate my Delicious links at a certain cutoff date so I'm not loading a bunch of old junk.
   
 Edit the exported html file and add jquery in the head like so and F5 refresh the page.
 

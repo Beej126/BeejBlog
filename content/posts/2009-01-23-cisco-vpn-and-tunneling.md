@@ -21,4 +21,4 @@ tags:
   - SysAdmin
 
 ---
-And that&#8217;s all I have to say on this matter 😉
+And that's all I have to say on this matter 😉

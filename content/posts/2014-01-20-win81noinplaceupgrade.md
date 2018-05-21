@@ -42,11 +42,11 @@ tags:
   </tr>
 </table>
 
-I was met with only two options from the Windows 8.1 upgrade, &#8220;Keep Personal Files Only&#8221; or &#8220;Nothing&#8221;. Not much of an &#8220;upgrade&#8221;, I went poking around.
+I was met with only two options from the Windows 8.1 upgrade, "Keep Personal Files Only" or "Nothing". Not much of an "upgrade", I went poking around.
 
-For me it turned out that I had been fiddling with localized development a while back and had an old en-GB language pack still installed. There are various references that the Win8.1 upgrade criteria prohibits &#8220;cross language&#8221; installs.
+For me it turned out that I had been fiddling with localized development a while back and had an old en-GB language pack still installed. There are various references that the Win8.1 upgrade criteria prohibits "cross language" installs.
 
-Apparently a language pack can&#8217;t be removed from a running Windows instance, it must be &#8220;offline&#8221;. One way is from the CMD.exe of a Windows DVD/USB install boot disc. Tip: Shift-F10.
+Apparently a language pack can't be removed from a running Windows instance, it must be "offline". One way is from the CMD.exe of a Windows DVD/USB install boot disc. Tip: Shift-F10.
 
 <div id="irc_mimg">
   <table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; text-align: right;">
@@ -64,7 +64,7 @@ Apparently a language pack can&#8217;t be removed from a running Windows instanc
   </table>
 </div>
 
-To find which language packs are installed (&#8220;Language&#8221; is case sensitive):
+To find which language packs are installed ("Language" is case sensitive):
 
 <pre class="prettyprint">dism /image:c: /get-packages | find "Language"</pre>
 

@@ -24,19 +24,20 @@ tags:
 ---
 ### Problem
 
-None of the icons in the FA v4.7 release were showing up for me, while all the others were&#8230; so I had a basic working scenario but not entirely.
+None of the icons in the FA v4.7 release were showing up for me, while all the others were... so I had a basic working scenario but not entirely.
 
 ### Background
 
   * I was doing a simple approach of showing the icons in a Label like so:
   
     `<Label FontFamily="FontAwesome" Text="&#xf2b5;" />`
-  * I had my FontAwesome.ttf file under the iOS project&#8217;s Resources folder and via a [font explorer tool][1] I confirmed that the v4.7 icons were indeed present in that file 
-      * for the record, the new v4.7 icons look to begin at unicode hex xf2b5 (&#8220;handshake-o&#8221;)
+  * I had my FontAwesome.ttf file under the iOS project's Resources folder and via a [font explorer tool][1] I confirmed that the v4.7 icons were indeed present in that file 
+      * for the record, the new v4.7 icons look to begin at unicode hex xf2b5 ("handshake-o")
       * I also had my own FontAwesome.ttf listed under my `Info.plist > UIAppFonts` along with another custom font I was using successfully
-  * From previous approach, I also had the [Iconize][2] library loaded&#8230; with it&#8217;s &#8220;iconize-fontawesome.ttf&#8221; listed in Info.plist as well
+  * From previous approach, I also had the [Iconize][2] library loaded... with it's "iconize-fontawesome.ttf" listed in Info.plist as well
 
-[crayon title=&#8221;broken Info.plist (excerpt)&#8221; toolbar=&#8221;always&#8221;]
+`broken Info.plist (excerpt)`
+```
   
 <key>UIAppFonts</key>
   
@@ -52,13 +53,14 @@ None of the icons in the FA v4.7 release were showing up for me, while all the o
   
 </array>
   
-[/crayon]
+```
 
 ### Solution
 
-The clue that tipped me off was that i noticed Iconize was built with an older version of FontAwesome&#8230; so as a guess, I re-ordered my FontAwesome.ttf entry ABOVE the iconize-fontawesome.ttf like below&#8230; and wouldn&#8217;t you know it, that actually did the trick! : )
+The clue that tipped me off was that i noticed Iconize was built with an older version of FontAwesome... so as a guess, I re-ordered my FontAwesome.ttf entry ABOVE the iconize-fontawesome.ttf like below... and wouldn't you know it, that actually did the trick! : )
 
-[crayon title=&#8221;WORKING Info.plist (excerpt)&#8221; toolbar=&#8221;always&#8221;]
+`WORKING Info.plist (excerpt)`
+```
   
 <key>UIAppFonts</key>
   
@@ -74,7 +76,7 @@ The clue that tipped me off was that i noticed Iconize was built with an older v
   
 </array>
   
-[/crayon]
+```
 
  [1]: http://geticonjar.com/
  [2]: https://www.nuget.org/packages/Xam.FormsPlugin.Iconize/

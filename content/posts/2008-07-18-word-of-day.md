@@ -22,16 +22,16 @@ tags:
   - Fun
 
 ---
-Adjective: meretricious \`meri&#8217;treeshus
+Adjective: meretricious \`meri'treeshus
   
 1. Tastelessly showy
   
-&#8220;a meretricious yet stylish book&#8221;
+"a meretricious yet stylish book"
   
 2. Based on pretense; deceptively pleasing
   
-&#8220;meretricious praise&#8221;; &#8220;a meretricious argument&#8221;
+"meretricious praise"; "a meretricious argument"
   
 3. [archaic] Like or relating to a prostitute
   
-&#8220;meretricious relationships&#8221;
+"meretricious relationships"

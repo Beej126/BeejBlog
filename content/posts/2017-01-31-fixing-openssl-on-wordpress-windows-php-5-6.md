@@ -29,7 +29,7 @@ tags:
 
 i ran into OpenSSL errors during the Disqus plugin setup.
   
-there&#8217;s tons of hits suggesting various solutions, below is the very simple solution that worked for me&#8230;
+there's tons of hits suggesting various solutions, below is the very simple solution that worked for me...
 
 ### Sample error messages:
 

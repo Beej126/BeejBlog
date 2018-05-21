@@ -33,9 +33,9 @@ tags:
   - Software
 
 ---
-ok i know it&#8217;s been around for ages apparently&#8230; but man that&#8217;s awesome anybody do a hard drive cage in the "technic" rivit oriented pieces yet? 🙂 highlights:
+ok i know it's been around for ages apparently... but man that's awesome anybody do a hard drive cage in the "technic" rivit oriented pieces yet? 🙂 highlights:
 
-  * it actually "knows" when you put two technic "i-beams" together on a rivet pivot point&#8230; it&#8217;ll rotate them in 3D so you can line things up with true geometry! 
+  * it actually "knows" when you put two technic "i-beams" together on a rivet pivot point... it'll rotate them in 3D so you can line things up with true geometry! 
   * it adds up the whole parts list and gives you a total price to physically manifest your creation <nifty> 
   * people can & are publishing their custom designs 
   * it copies multi-part "bundles" and flips/rotates them easily to construct symmetric objects quickly 

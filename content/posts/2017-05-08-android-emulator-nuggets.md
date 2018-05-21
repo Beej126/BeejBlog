@@ -14,19 +14,19 @@ tags:
 ---
 ### Installing Google Play
 
-  * This worked very nicely minimally for Android v7.1.1 &#8220;with Google APIs&#8221;&#8230;
+  * This worked very nicely minimally for Android v7.1.1 "with Google APIs"...
   * Need to launch emulator.exe with `-writable-system -selinux permissive` args
   * grab the version of [OpenGapps][1] you want
-  * Basically follow [this guide][2] but stop at &#8220;Restarting and Creating another Image&#8221; 
+  * Basically follow [this guide][2] but stop at "Restarting and Creating another Image" 
       * Then `adb root & adb remount`
       * and I found that I just needed to `adb shell mkdir /system/priv-app/Phonesky & adb push Phonesky.apk /system/priv-app/Phonesky` not the other priv-apps
-  * and I also didn&#8217;t have to create a new image vs simply rebooting
+  * and I also didn't have to create a new image vs simply rebooting
 
 ### Root
 
 #### one time
 
-  * Grab [SuperSU Recovery Download][3] and extract &#8220;su&#8221;
+  * Grab [SuperSU Recovery Download][3] and extract "su"
   * `adb root & adb remount`
   * `adb push su /system/xbin/`
   * `adb shell chmod a+x /system/xbin/su`
@@ -35,10 +35,10 @@ tags:
 
   * `{path}\emulator.exe -avd Nexus_9_API_25 -writable-system -selinux permissive`
   * `adb wait-for-device & adb root & adb remount & adb shell "su -ad &"` 
-      * -ad stands for auto-daemon and just sounds cool&#8230; 
-      * i haven&#8217;t seen anybody set this up to where android automatically launches the su daemon)
+      * -ad stands for auto-daemon and just sounds cool... 
+      * i haven't seen anybody set this up to where android automatically launches the su daemon)
   * then just go install SuperSU from the Play Store 
-      * DO NOT allow it to upgrade the su binary upon prompting&#8230; that always hung my virtual device after reboot
+      * DO NOT allow it to upgrade the su binary upon prompting... that always hung my virtual device after reboot
   * and lastly fire up a Root Checker from Play Store to make sure 
 
 ### Clipboard integration
@@ -48,14 +48,14 @@ tags:
 
 ### Handy Links
 
-  * [Android Studio download][5]&#8230; main tools: 
+  * [Android Studio download][5]... main tools: 
       * SDK Manage
       * AVD Manager
       * Device Monitor &#8211; event log and GUI file explorer
   * [Google Play APK Downloader][6]
-  * [ChainFire&#8217;s &#8220;How To SU&#8221;][7]
+  * [ChainFire's "How To SU"][7]
   * Windows AVD Folder where the runnable virtual machines sit: %UserProfile%&#46;android\avd 
-      * HOWEVER Upon running Android Studio&#8217;s vs Visual Studio&#8217;s version of emulator.exe will manipulate the %UserProfile%&#46;android\avd\hardware-qemu.ini to point the .img file paths to their folders
+      * HOWEVER Upon running Android Studio's vs Visual Studio's version of emulator.exe will manipulate the %UserProfile%&#46;android\avd\hardware-qemu.ini to point the .img file paths to their folders
   * Android Studio puts everything here: %AppData%&#46;.\Local\Android\SDK
   * Visual Studio puts everything here: C:\Program Files (x86)\Android\android-sdk 
       * \platform-tools\adb.exe
@@ -63,9 +63,9 @@ tags:
       * \system-images\android-25\google\_apis\x86\_64\system.img, etc.
   * AStudio emulator.exe runs better NOT elevated
   * VStudio emulator.exe runs better ELEVATED
-  * AStudio emulator.exe v2.5.2 looks like it creates &#8220;copy on write&#8221; system.img.qcow2 files instead of modifying system.img directly which means you can save that qcow2 file as backup or erase it to rollback to clean baseline
+  * AStudio emulator.exe v2.5.2 looks like it creates "copy on write" system.img.qcow2 files instead of modifying system.img directly which means you can save that qcow2 file as backup or erase it to rollback to clean baseline
   * VStudio emulator.exe v2.5.5 looks like it modifies system.img directly
-  * `qemu-img.exe info file.qcow2` will show you what base .img it&#8217;s linked to ([download qemu bundle][8])
+  * `qemu-img.exe info file.qcow2` will show you what base .img it's linked to ([download qemu bundle][8])
   * [Install Intel HAXM directly][9] if SDK Manager is no cooperating
 
 ### My full fidelity emulator launch script

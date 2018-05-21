@@ -17,64 +17,64 @@ tags:
   - Oracle
 
 ---
-Yeah I actually said Oracle Forms, that product from the 90&#8217;s&#8230; as one might guess, i happen to be on a legacy conversion project at work&#8230;
+Yeah I actually said Oracle Forms, that product from the 90's... as one might guess, i happen to be on a legacy conversion project at work...
   
-There&#8217;s some rough edges getting these old bits to install and run that i wanted to capture&#8230;
+There's some rough edges getting these old bits to install and run that i wanted to capture...
 
 # Background
 
-  * my project is tied to the Oracle Forms v11g stack&#8230; the latest 11.x version at this time appears to be 11.1.2.2.0
-  * we&#8217;re using the web servlet stuff which runs our forms as java applets&#8230; it&#8217;s actually a pretty slick rich client arrangement for the bygone era it heralds from
-  * <span class="hl">the primary breakthrough i made was getting it all installed once and then doing &#8220;xcopy&#8221; deploy of the main &#8220;Oracle Home&#8221; folder (c:\oracle\middleware) to my other team members&#8217; machines</span>&#8230; plus the appropriate registry branch (e.g. HKEY\_LOCAL\_MACHINE\SOFTWARE\ORACLE\KEY_OH1949191890)
+  * my project is tied to the Oracle Forms v11g stack... the latest 11.x version at this time appears to be 11.1.2.2.0
+  * we're using the web servlet stuff which runs our forms as java applets... it's actually a pretty slick rich client arrangement for the bygone era it heralds from
+  * <span class="hl">the primary breakthrough i made was getting it all installed once and then doing "xcopy" deploy of the main "Oracle Home" folder (c:\oracle\middleware) to my other team members' machines</span>... plus the appropriate registry branch (e.g. HKEY\_LOCAL\_MACHINE\SOFTWARE\ORACLE\KEY_OH1949191890)
 
 # Java dependency
 
-  * JDK required &#8211; JRE&#8217;s not enough
-  * JDK 1.6.0u35 &#8211; through painful trial and error i&#8217;ve settled on this fairly dated release&#8230; i&#8217;ve seen various components in this whole stack run on more recent JDK&#8217;s but subsequent obscure runtime errors beat me into submission
+  * JDK required &#8211; JRE's not enough
+  * JDK 1.6.0u35 &#8211; through painful trial and error i've settled on this fairly dated release... i've seen various components in this whole stack run on more recent JDK's but subsequent obscure runtime errors beat me into submission
 
 ### both 32 & 64bit required
 
-  * we are running on Win10 x64 naturally preferring to install 64bit executables&#8230;
-  * thereby running the 64bit Forms Builder installation which requires 64bit JDK&#8230;
-  * however the servlet web site generates 32bit java <code> tag references (i&#8217;m kinda thinking IE was 32bit only at the time) so we also need the 32bit JDK installed
+  * we are running on Win10 x64 naturally preferring to install 64bit executables...
+  * thereby running the 64bit Forms Builder installation which requires 64bit JDK...
+  * however the servlet web site generates 32bit java <code> tag references (i'm kinda thinking IE was 32bit only at the time) so we also need the 32bit JDK installed
 
 ### Java Applet troubleshooting tips:
 
-  * be aware that Control Panel > Java will most likely only show you the 64 bit control panel&#8230;
-  * you&#8217;ll need to specifically launch the 32bit panel via `C:\Program Files (x86)\Java\jdk1.6.0_35\jre\bin\javacpl.exe`
-  * from there you&#8217;ll want to enable the Advanced > Java Console > Show Console, to get some visibility on any exceptions firing
-  * and very crucial tip here&#8230; Advanced > Default Java for browsers > Microsoft Internet Explorer is always greyed out but you can select that node and hit space bar to select it (nuts) 
+  * be aware that Control Panel > Java will most likely only show you the 64 bit control panel...
+  * you'll need to specifically launch the 32bit panel via `C:\Program Files (x86)\Java\jdk1.6.0_35\jre\bin\javacpl.exe`
+  * from there you'll want to enable the Advanced > Java Console > Show Console, to get some visibility on any exceptions firing
+  * and very crucial tip here... Advanced > Default Java for browsers > Microsoft Internet Explorer is always greyed out but you can select that node and hit space bar to select it (nuts) 
       * its also probably helpful to go back to the 64bit javacpl and uncheck it there
 
 ### Browser dependency
 
   * IE (v11 works) is the only browser that will properly launch the 32bit java applet for us on Windows 10 x64 (not Chrome, not Firefox, not Edge)
-  * IE11 can actually run in 64bit or 32bit mode depending on what each page&#8217;s elements require and due to the 32bit java tags mentioned above, it spawns into a 32bit IExplore.exe process
+  * IE11 can actually run in 64bit or 32bit mode depending on what each page's elements require and due to the 32bit java tags mentioned above, it spawns into a 32bit IExplore.exe process
 
 # Main Installation Steps
 
-  1. stop your virus checker&#8217;s active file scan &#8211; we&#8217;re on McAfee enterprise and everybody is pretty spooked that it interferes with these ancient installs and i had enough problems to go ahead and rule it out
+  1. stop your virus checker's active file scan &#8211; we're on McAfee enterprise and everybody is pretty spooked that it interferes with these ancient installs and i had enough problems to go ahead and rule it out
   2. WebLogic Server <span class="hl">v1.0.3.6 hard dependency</span> 
-      * i loosely understand weblogic as the web server backend, &#8220;servlets&#8221;, which deliver the pages and java applets
-      * as mentioned, we&#8217;re targeting the 11g/11.x stack which drives this 1.0.3.6 version requirement&#8230; seriously, trust me, save yourself the trouble, any other version is not going to work with the 11.x Oracle Forms stack which comes next
+      * i loosely understand weblogic as the web server backend, "servlets", which deliver the pages and java applets
+      * as mentioned, we're targeting the 11g/11.x stack which drives this 1.0.3.6 version requirement... seriously, trust me, save yourself the trouble, any other version is not going to work with the 11.x Oracle Forms stack which comes next
       * [see download links at the bottom of this page][1]
-      * <span class="hl">CRUCIAL &#8211; make sure to get the &#8220;Generic&#8221; jar &#8211; specifically wls1036_generic.jar</span>
+      * <span class="hl">CRUCIAL &#8211; make sure to get the "Generic" jar &#8211; specifically wls1036_generic.jar</span>
       * <span class="hl">CRUCIAL &#8211; launch wls1036_generic.jar specifically via the golden JDK above under ELEVATED aka Admin command line like so</span> 
           * `C:\Program Files\Java\jdk1.6.0_35\bin -jar wls1036_generic.jar`
-      * DO NOT just double click the .jar to launch, that will typically launch via JRE WHICH WILL ACTUALLY INSTALL WITHOUT ERROR AND THEN BITE YOU when it comes to the Oracle Forms piece&#8230; i know, nuts!
-      * we went with the default c:\oracle &#8220;home&#8221; path&#8230; which wound up creating a single c:\oracle\middleware folder
+      * DO NOT just double click the .jar to launch, that will typically launch via JRE WHICH WILL ACTUALLY INSTALL WITHOUT ERROR AND THEN BITE YOU when it comes to the Oracle Forms piece... i know, nuts!
+      * we went with the default c:\oracle "home" path... which wound up creating a single c:\oracle\middleware folder
   3. Oracle Forms 11.x ([v11.1.2.0 is current latest][2]) 
-      * the x64 zips worked for us&#8230;
+      * the x64 zips worked for us...
       * download & extract those zips and fire up the Disk1\setup.exe ELEVATED
-      * the prompts are pretty straightforward&#8230; 
-          * and one big important choice is to choose &#8220;Install Software &#8211; Do Not Configure&#8221;&#8230; we&#8217;ll do the configure step next
-          * we stuck with the default &#8220;Oracle_FRHome1&#8221; path
+      * the prompts are pretty straightforward... 
+          * and one big important choice is to choose "Install Software &#8211; Do Not Configure"... we'll do the configure step next
+          * we stuck with the default "Oracle_FRHome1" path
           * skip security updates (that ship has long since sailed ;)
       * once the install finishes then fire up c:\oracle\middleware\Oracle_FRHome1\bin\config.bat ELEVATED 
-          * select &#8220;configure for development&#8221; vs deployment
-          * provide the previous weblogic and oracle home paths&#8230;
+          * select "configure for development" vs deployment
+          * provide the previous weblogic and oracle home paths...
           * we just went with FormInstance1 for the instance path
-          * &#8220;for development only&#8221;, didn&#8217;t select the reports bits
+          * "for development only", didn't select the reports bits
           * auto port configuration = yes
   4. Lastly were specific environmental configs, [YMMV][3] 
       * copy our `default.env` file to c:\oracle\middleware\user\_projects\domains\FORMDomain\config\fmwconfig\servers\AdminServer\applications\formsapp\_11.1.2\config
@@ -82,8 +82,8 @@ There&#8217;s some rough edges getting these old bits to install and run that i 
       * copy our `tnsnames.ora` and `sqlnet.ora` => c:\oracle\middleware\FORMInstance\config
       * copy `jacob.jar` => c:\oracle\middleware\Oracle_FRHome1\forms\java
       * copy `jacob.dll` => c:\oracle\middleware\Oracle_FRHome1\forms\webutil (NOT down to either \win32|\win64)
-      * CRUCIAL &#8211; update registry `HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE\KEY_OH1949191890\FORMS_PATH` to include your forms &#8220;.fmb, .mmb, etc&#8221; file paths&#8230; we had separate folders for images, forms, libs & menus files to be included there 
-          * this &#8220;KEY_OH1949191890&#8221; path is probably different for each installation
+      * CRUCIAL &#8211; update registry `HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE\KEY_OH1949191890\FORMS_PATH` to include your forms ".fmb, .mmb, etc" file paths... we had separate folders for images, forms, libs & menus files to be included there 
+          * this "KEY_OH1949191890" path is probably different for each installation
 
  [1]: http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-main-097127.html
  [2]: http://www.oracle.com/technetwork/developer-tools/forms/downloads/forms-downloads-11g-2735004.html

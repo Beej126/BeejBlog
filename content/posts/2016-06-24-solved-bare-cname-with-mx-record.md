@@ -12,19 +12,19 @@ tags:
   - Networking
 
 ---
-just thought i&#8217;d throw this out into the interwebz since it seems to be such a well known _no-can-do_ that is actually a very handy can-do (where applicable)&#8230;
+just thought i'd throw this out into the interwebz since it seems to be such a well known _no-can-do_ that is actually a very handy can-do (where applicable)...
 
 ## Background
 
-DNS admin warnings advise against doing a &#8220;bare&#8221; (no prefix) CNAME along with an MX record, [example][1]
+DNS admin warnings advise against doing a "bare" (no prefix) CNAME along with an MX record, [example][1]
   
 ![][2]
 
 ## Disclaimer
 
-What i&#8217;m successfully demonstrating here is <span class="hl">clearly non-standard according to the specs</span>&#8230;
+What i'm successfully demonstrating here is <span class="hl">clearly non-standard according to the specs</span>...
   
-however, i&#8217;ve proven it does work for SOME servers implementation of the standards (including major provider Office 365 on the MX side) so it&#8217;s worth trying with your servers if this provides a convenient solution for your needs&#8230; and it will be immediately verifiably working or not; no &#8220;sometimes&#8221; ambiguity to worry about.
+however, i've proven it does work for SOME servers implementation of the standards (including major provider Office 365 on the MX side) so it's worth trying with your servers if this provides a convenient solution for your needs... and it will be immediately verifiably working or not; no "sometimes" ambiguity to worry about.
 
 ## Solution
 
@@ -32,11 +32,11 @@ Very simple &#8211; just try <span class="hl">positioning the MX record <strong>
   
 ![][3]
 
-along with a happy O365 MX record (sorry i can&#8217;t slam dunk it with showing actual host names, you&#8217;ll have to trust me that it really did work and i didn&#8217;t make this up)
+along with a happy O365 MX record (sorry i can't slam dunk it with showing actual host names, you'll have to trust me that it really did work and i didn't make this up)
   
 ![][4]
 
-I&#8217;ve found this &#8220;[MX ToolBox][5]&#8221; to be loads of help for double checking the various DNS responses:
+I've found this "[MX ToolBox][5]" to be loads of help for double checking the various DNS responses:
   
 [![][6]][5]
 

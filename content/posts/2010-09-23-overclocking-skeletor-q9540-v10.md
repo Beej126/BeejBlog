@@ -51,7 +51,7 @@ tags:
   * 333MHz FSB x quad pump means the minimum RAM spec is 1333MHz (= 4 x 333) to keep up with the FSB & CPU 
   * DDR &#8211; this 1333 MHz is a <a href="http://en.wikipedia.org/wiki/Double_data_rate" target="_blank">DDR</a> number meaning the RAM clock is actually half that (reference how the timings are typically rated under RAM Specs below) 
   * FSB/RAM Ratio &#8211; that 1333 MHz is bare minimum in order to stay with a 1:1 FSB/RAM clock ratio… one can lower typically jimmy with this ratio in your OC bios settings to avoid choking your RAM while still goosing your CPU… i don’t have a feel for how practical that compromise winds up being but OC’ing is all about bragging rights and 1:1 just sounds cooler doesn’t it? ;) 
-  * Anyway, I decided to go with bare minimum DDR3-1333&#8217;s starting out given Q2 2008 build date prices &#8230; Hoping that I’d be able to juice them a little over spec without paying for it of course 🙂 
+  * Anyway, I decided to go with bare minimum DDR3-1333's starting out given Q2 2008 build date prices ... Hoping that I’d be able to juice them a little over spec without paying for it of course 🙂 
 
 <div>
   &#160;
@@ -132,20 +132,20 @@ tags:
   OC Reality (kind of dismal actually):
 </div>
 
-  * 466 MHz FSB x 8 = 3.72 GHz wouldn&#8217;t even boot 🙂 
+  * 466 MHz FSB x 8 = 3.72 GHz wouldn't even boot 🙂 
   * 433 MHz FSB&#160;&#160;&#160;&#160;&#160;&#160; = 3.48 GHz booted but <a href="http://en.wikipedia.org/wiki/Bsod" target="_blank">BSOD</a>’d pretty quick 🙂 
   * 400 MHz FSB&#160;&#160;&#160;&#160;&#160;&#160; = 3.21 GHz lasted through 10+ minutes of serious crank tests <yeah?> but BSOD’d right when I fired up Outlook after those tests <rats!> 
   * 380 MHz FSB&#160;&#160;&#160;&#160;&#160;&#160; = 3.05 GHz seemed to hold <meh, better than nothing i guess> 
 
 I then realized that my BIOS OC settings were in an auto RAM ratio selection mode… at 380 MHz FSB it was choosing 456MHz core RAM clock (= 912 MHz DDR)… which compared to 1333MHz isn’t very awe inspiring… it was easy to change the BIOS OC settings from auto to a locked RAM clock to see what happens… I set my RAM clock to 1520MHz DDR (380 MHz x 4 for quad pump) to keep 1:1 with the FSB … it booted… ran for a while, still eventually BSOD’d 🙁 well, they’re rated for 1333 and apparently I got just what I paid for. Voltage:   
-I&#8217;m getting mixed signals from Everest&#8230; some screens say Core CPU is 1.0xxx and others say 1.2&#8230; no sure what to take as gospel there&#8230; my ASUS P5E3 x48 mobo&#8217;s got some nice auto OC optimizer logic that I believe is choosing that voltage for me&#8230; I think I&#8217;ve read that 1.3v is tops recommended so you don&#8217;t fry it&#8230; the way I see it, once everything else like bus bandwidths are lined up, voltage is the thing to creep up for stability &#8230; I&#8217;d like to get 3.2GHz CPU to be stable and be happy with that. Temps:   
-I&#8217;m idling just under 50c right now with silent medium fan level so I&#8217;m sorta wondering if I went a little too heavy on the thermal paste&#8230; easy mistake&#8230; I really really watched it but that&#8217;s my first guess&#8230; the stress test at medium fan level got right up to 70c but no higher thankfully&#8230; putting it at a reasonable but audible high fan level knocked everything down about 7c which is great to watch.
+I'm getting mixed signals from Everest... some screens say Core CPU is 1.0xxx and others say 1.2... no sure what to take as gospel there... my ASUS P5E3 x48 mobo's got some nice auto OC optimizer logic that I believe is choosing that voltage for me... I think I've read that 1.3v is tops recommended so you don't fry it... the way I see it, once everything else like bus bandwidths are lined up, voltage is the thing to creep up for stability ... I'd like to get 3.2GHz CPU to be stable and be happy with that. Temps:   
+I'm idling just under 50c right now with silent medium fan level so I'm sorta wondering if I went a little too heavy on the thermal paste... easy mistake... I really really watched it but that's my first guess... the stress test at medium fan level got right up to 70c but no higher thankfully... putting it at a reasonable but audible high fan level knocked everything down about 7c which is great to watch.
 
 <div>
   Bottom line:
 </div>
 
-  1. Obviously I didn’t get anywhere with OC&#8217;ing yet so far 
+  1. Obviously I didn’t get anywhere with OC'ing yet so far 
   2. I’ve now reapplied the thermal paste… i’m pretty clueless here… looked pretty thin smooth clean, but i really don’t know 
   3. First obvious move is DDR3-1600 to keep up with 400MHz FSB = 3.2GHz CPU …&#160; 
       * <strike>Rats, Everest pulled meta data which indicates mobo only supports up to DDR3-1333… hmmm… sounds like I should just get an i7 or something ;) </strike>

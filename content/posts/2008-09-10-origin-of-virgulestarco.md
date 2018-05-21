@@ -24,7 +24,7 @@ so SlashDot equals /.
 
 Based on that, being a comment happy developer, I thought an expansion of /* would be particularly apropos as that’s the well known opening <a href="http://en.wikipedia.org/wiki/Comment_(computer_programming)" target="_blank">comment syntax</a> in languages like C, C++, C#, Java, T-SQL, etc. 
 
-Of course, SlashStar.com and readily desirable derivates were already taken 🙁 … however, browsing for slash synonyms turned up "<a href="http://dictionary.reference.com/browse/virgule" target="_blank">virgule</a>", specifically for the <u>forward</u> slash character, nice!&#8230; yeah ok, it doesn&#8217;t role off the tongue but its obscurity meant I had an available domain name hit and that’s obviously key! 🙂 
+Of course, SlashStar.com and readily desirable derivates were already taken 🙁 … however, browsing for slash synonyms turned up "<a href="http://dictionary.reference.com/browse/virgule" target="_blank">virgule</a>", specifically for the <u>forward</u> slash character, nice!... yeah ok, it doesn't role off the tongue but its obscurity meant I had an available domain name hit and that’s obviously key! 🙂 
 
 And thus www.VirguleStar.com was born.
 

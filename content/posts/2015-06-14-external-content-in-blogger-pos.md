@@ -24,13 +24,13 @@ tags:
 ---
 Highlights:
 
-  * pull content from 3rd party source, using crossorigin.me (<a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">CORS</a> proxy) to avoid &#8220;no &#8216;access-control-allow-origin&#8217; header is present on the requested resource&#8221;
+  * pull content from 3rd party source, using crossorigin.me (<a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">CORS</a> proxy) to avoid "no 'access-control-allow-origin' header is present on the requested resource"
   * from what i can glean, Blogger does not offer any kind of&nbsp;<a href="https://en.wikipedia.org/wiki/Server_Side_Includes" target="_blank">server side include</a>&nbsp;facility so we have to resort to client browser tricks and that means this content is NOT going to be crawled/googlable
-  * this approach relies on jQuery (Core) so you&#8217;ll need to have that referenced as well &#8211; <a href="http://www.jquerybyexample.net/2010/08/jquery-tip-always-load-your-jquery.html" target="_blank">example here</a>, but also make sure you point at the <a href="http://code.jquery.com/" target="_blank">latest version</a>
+  * this approach relies on jQuery (Core) so you'll need to have that referenced as well &#8211; <a href="http://www.jquerybyexample.net/2010/08/jquery-tip-always-load-your-jquery.html" target="_blank">example here</a>, but also make sure you point at the <a href="http://code.jquery.com/" target="_blank">latest version</a>
 
 Usage:
   
-drop this helper function in a global JS/HTML widget via the Blogger Layout editor&#8230;
+drop this helper function in a global JS/HTML widget via the Blogger Layout editor...
 
 <pre class="prettyprint linenums">function pluginContent(url, containerSelector, boolPrettyPrint) {
   var ctrl = $(containerSelector);

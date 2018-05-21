@@ -50,7 +50,7 @@ tags:
       </h4>
       
       <p>
-        A self signed certificate is easy and works fine&#8230; here’s one way:
+        A self signed certificate is easy and works fine... here’s one way:
       </p>
       
       <ul>
@@ -58,13 +58,13 @@ tags:
           Get the IIS 6.0 Resource Kit Tools: <a href="http://www.microsoft.com/download/en/confirmation.aspx?id=17275">http://www.microsoft.com/download/en/confirmation.aspx?id=17275</a>
         </li>
         <li>
-          All you&#8217;ll need is the &#8220;SelfSSL.exe&#8221; tool so the custom install is minimal.
+          All you'll need is the "SelfSSL.exe" tool so the custom install is minimal.
         </li>
         <li>
           Find SelfSSL.exe in default install path: C:Program FilesIIS Resources
         </li>
         <li>
-          Good reference for SelfSSL usage: <a href="http://www.sslshopper.com/article-how-to-create-a-self-signed-certificate-in-iis-7.html">http://www.sslshopper.com/article-how-to-create-a-self-signed-certificate-in-iis-7.html</a>, scroll down to &#8220;Generate a Self Signed Certificate with the Correct Common Name&#8221;
+          Good reference for SelfSSL usage: <a href="http://www.sslshopper.com/article-how-to-create-a-self-signed-certificate-in-iis-7.html">http://www.sslshopper.com/article-how-to-create-a-self-signed-certificate-in-iis-7.html</a>, scroll down to "Generate a Self Signed Certificate with the Correct Common Name"
         </li>
         <li>
           Command line example: <div class="wlWriterEditableSmartContent" id="scid:9ce6104f-a9aa-4a17-a79f-3a39532ebf7c:7d965c1e-472b-4510-b2a8-534f6536b154" style="display: inline; float: none; margin: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
@@ -81,7 +81,7 @@ tags:
           
           <ul>
             <li>
-              The /V: part is the validity duration of your cert, in days. I believe 1999999 is the max, which corresponds to around 5475 years in the future (that ought&#8217;a last ya ;)
+              The /V: part is the validity duration of your cert, in days. I believe 1999999 is the max, which corresponds to around 5475 years in the future (that ought'a last ya ;)
             </li>
             <li>
               The /N:CN= part is the “Common Name” this cert will be tied to… in this case that needs to be the true machine name of your database server.
@@ -138,7 +138,7 @@ tags:
     </td>
     
     <td valign="top">
-      Screenshots&#8230;</p> 
+      Screenshots...</p> 
       
       <div class="expandee">
         <div class="wlWriterEditableSmartContent" id="scid:8747F07C-CDE8-481f-B0DF-C6CFD074BF67:2b3a630b-f36d-466a-bbce-6343743eca79" style="display: inline; float: none; margin: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
@@ -184,16 +184,16 @@ tags:
       
       <ul>
         <li>
-          Certs installed via the above process will be your &#8220;Personal > Certificates&#8221; <em>folder</em> (Export Fig.1)
+          Certs installed via the above process will be your "Personal > Certificates" <em>folder</em> (Export Fig.1)
         </li>
         <li>
-          Right mouse desired certifcate > All Tasks > Export > Next &#8230; (Export Fig.2)
+          Right mouse desired certifcate > All Tasks > Export > Next ... (Export Fig.2)
         </li>
         <li>
           “Export the private key?” => Yes … Next… (Export Fig.3)
         </li>
         <li>
-          Select PFX format, &#8220;Include all certs&#8230;&#8221;, &#8220;Export extended&#8221;, NOT “Delete…”, Next … (Export Fig.4)
+          Select PFX format, "Include all certs...", "Export extended", NOT “Delete…”, Next … (Export Fig.4)
         </li>
         <li>
           Enter a password, hit Next… (Export Fig.5) – ** REMEMBER THAT PASSWORD **
@@ -208,7 +208,7 @@ tags:
     </td>
     
     <td valign="top">
-      Screenshots&#8230;</p> 
+      Screenshots...</p> 
       
       <div class="expandee">
         <div class="wlWriterEditableSmartContent" id="scid:8747F07C-CDE8-481f-B0DF-C6CFD074BF67:dd057907-b970-479e-918f-590a65285323" style="display: inline; float: none; margin: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
@@ -259,7 +259,7 @@ tags:
           Go to Personal > Certs
         </li>
         <li>
-          Right mouse All Tasks > &#8220;Import&#8221;… (Import Fig.1)
+          Right mouse All Tasks > "Import"… (Import Fig.1)
         </li>
         <li>
           Next… (Import Fig.2)
@@ -286,7 +286,7 @@ tags:
     </td>
     
     <td valign="top">
-      Screenshots&#8230;</p> 
+      Screenshots...</p> 
       
       <div class="expandee">
         <div class="wlWriterEditableSmartContent" id="scid:8747F07C-CDE8-481f-B0DF-C6CFD074BF67:cf805770-e24d-49a0-a758-cef13c9a87b3" style="display: inline; float: none; margin: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
@@ -330,25 +330,25 @@ tags:
         <li>
           Fire up SQL Server’s Network Configuration Utility <ul>
             <li>
-              Start&nbsp; > All Programs > Microsoft SQL Server {version} > Configuration Tools > SQL Server Configuration Manager&#8221;&nbsp;
+              Start&nbsp; > All Programs > Microsoft SQL Server {version} > Configuration Tools > SQL Server Configuration Manager"&nbsp;
             </li>
           </ul>
         </li>
         
         <li>
-          then under &#8220;SQL Server Network Configuration&#8221;
+          then under "SQL Server Network Configuration"
         </li>
         <li>
-          Right click &#8220;Protocols for MSSQLServer&#8221;
+          Right click "Protocols for MSSQLServer"
         </li>
         <li>
-          select &#8220;Properties&#8221;
+          select "Properties"
         </li>
         <li>
-          set&nbsp; &#8220;Flags tab > Force Encryption&#8221; to Yes
+          set&nbsp; "Flags tab > Force Encryption" to Yes
         </li>
         <li>
-          and select the installed cert on the &#8220;Certificates&#8221; tab
+          and select the installed cert on the "Certificates" tab
         </li>
         <li>
           voila!

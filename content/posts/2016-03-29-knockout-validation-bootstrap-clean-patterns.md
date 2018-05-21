@@ -50,7 +50,7 @@ see the wiki for all [Native][3] and [User Contributed][4] rules available OOB.
   
 &nbsp;
   
-above _field name in error message_ examples require the following global rule.message tweak&#8230;
+above _field name in error message_ examples require the following global rule.message tweak...
 
 ### overriding default error messages
 
@@ -59,7 +59,7 @@ above _field name in error message_ examples require the following global rule.m
     ko.validation.rules["required"].message = "{0} required";
     
 
-### HTML sample &#8211; basic knockout data-bind&#8217;ing (in case you&#8217;re new : )
+### HTML sample &#8211; basic knockout data-bind'ing (in case you're new : )
 
     <input type="text" class="form-control" placeholder="Order Id" data-bind="value: orderId">
     
@@ -118,7 +118,7 @@ Usage
     }
     
 
-### CSS for comprehensiveness ( < word?)&#8230; completeness? arrrg what is the phrase that pays here (alternative languages welcome : )
+### CSS for comprehensiveness ( < word?)... completeness? arrrg what is the phrase that pays here (alternative languages welcome : )
 
     .error {
         border-color: #a94442;

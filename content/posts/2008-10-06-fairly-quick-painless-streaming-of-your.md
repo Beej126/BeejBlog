@@ -23,31 +23,31 @@ tags:
   - Software
 
 ---
-Here&#8217;s the basic pieces I plugged together:
+Here's the basic pieces I plugged together:
 
   * MediaMonkey is my preferred mp3 player: [www.MediaMonkey.com][1]
   1. MediaMonkey supports WinAmp API plugins which provides an excellent pool to draw nifty add-ons from
 
-  * EdCast (formerly &#8220;OddCast&#8221;) comes in various implementations, one of which is a WinAmp plugin that sends your current song to a ShoutCast (or IceCast) server: <http://www.oddsock.org/tools/edcast/> 
-      1. I chose the EdCast plugin versus ShoutCast&#8217;s own plugin because EdCast got the song name and artist to come through Media Monkey and ShoutCast&#8217;s plugin has a known issue that this feature only works with WinAmp 
+  * EdCast (formerly "OddCast") comes in various implementations, one of which is a WinAmp plugin that sends your current song to a ShoutCast (or IceCast) server: <http://www.oddsock.org/tools/edcast/> 
+      1. I chose the EdCast plugin versus ShoutCast's own plugin because EdCast got the song name and artist to come through Media Monkey and ShoutCast's plugin has a known issue that this feature only works with WinAmp 
   * ShoutCast DNAS (Distributed Network Audio Server) &#8211; streams the audio out to clients: <http://www.shoutcast.com/download-files> 
 
 Install/configure/run:
 
   * Drop the EdCast plugin into Program FilesMediaMonkeyPlugins 
   * Fire up your Monkey and get some tunes rolling 
-  * Then in Monkey > Tools > Options > Player > DSP Plugins > edcast DSP&#8230; 
+  * Then in Monkey > Tools > Options > Player > DSP Plugins > edcast DSP... 
       1. Click on the meter in the middle of the dialog to turn on the
   
         broadcast 
-      2. Hit &#8220;Add Encoder&#8221; and then right click the entry to configure for MP3 and
+      2. Hit "Add Encoder" and then right click the entry to configure for MP3 and
   
         localhost, change password to what you want 
       3. Personalize your stream on the YP Settings 
   * Now install the ShoutCast server and fire that up 
-  * Cruise through the config file via the menu option in that GUI&#8230; it&#8217;s very self explanatory and all the defaults are good&#8230; probably just have to make sure you get the password lined up with what you put in the plugin config 
-  * Then just browse to <http://yourserveraddress:8000/listen.pls> from another machine and it&#8217;ll fire up your local media player (if you&#8217;ve got .pls associated of course) 
-  * There&#8217;s some interesting stuff kicked out as a default web page if you browse to [http://yourserveraddress:8000][2]&#8230; including an admin page where you can monitor listeners, etc. 
+  * Cruise through the config file via the menu option in that GUI... it's very self explanatory and all the defaults are good... probably just have to make sure you get the password lined up with what you put in the plugin config 
+  * Then just browse to <http://yourserveraddress:8000/listen.pls> from another machine and it'll fire up your local media player (if you've got .pls associated of course) 
+  * There's some interesting stuff kicked out as a default web page if you browse to [http://yourserveraddress:8000][2]... including an admin page where you can monitor listeners, etc. 
   * The default DNAS config automatically publishes you to the global ShoutCast directory (so you might want to watch your intake from that vector victor 🙂
   * PS- The main reason I did this was so I could listen to my tunez at work w/minimal effort 🙂
 

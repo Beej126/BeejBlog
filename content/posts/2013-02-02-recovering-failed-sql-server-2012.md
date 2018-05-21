@@ -33,7 +33,7 @@ tags:
       * note that my chosen SQL Server instance name is “MSSQLSERVER2012” so you’ll need to substitute that with your own, or none at all if you are using default instance 
       * was getting errors like this:   
         2013-02-02 12:08:26.74 Server&#160;&#160;&#160;&#160;&#160; Error: 17058, Severity: 16, State: 1.   
-        2013-02-02 12:08:26.74 Server&#160;&#160;&#160;&#160;&#160; initerrlog: Could not open error log file &#8221;. Operating system error = 3(The system cannot find the path specified.). 
+        2013-02-02 12:08:26.74 Server&#160;&#160;&#160;&#160;&#160; initerrlog: Could not open error log file ". Operating system error = 3(The system cannot find the path specified.). 
   * got sqlservr.exe to run a little further by specifying the errorlog path parm: 
       * -e"C:Program FilesMicrosoft SQL ServerMSSQL11.MSSQLSERVER2012MSSQLLOGERRORLOG" 
   * Next errors made me realize I needed to provide all the missing system databases by copying them 
@@ -43,14 +43,14 @@ tags:
           * –m”C:Program FilesMicrosoft SQL ServerMSSQL11.MSSQLSERVER2012MSSQLDATAmaster.mdf" 
           * -l"C:Program FilesMicrosoft SQL ServerMSSQL11.MSSQLSERVER2012MSSQLDATAmastlog.ldf" 
   * Next errors were like this: 
-    2013-02-02 12:54:59.13 spid4s&#160;&#160;&#160;&#160;&#160; Starting up database &#8216;msdb&#8217;.   
-    2013-02-02 12:54:59.13 spid8s&#160;&#160;&#160;&#160;&#160; Starting up database &#8216;mssqlsystemresource&#8217;.   
+    2013-02-02 12:54:59.13 spid4s&#160;&#160;&#160;&#160;&#160; Starting up database 'msdb'.   
+    2013-02-02 12:54:59.13 spid8s&#160;&#160;&#160;&#160;&#160; Starting up database 'mssqlsystemresource'.   
     2013-02-02 12:54:59.14 spid4s&#160;&#160;&#160;&#160;&#160; Error: 17204, Severity: 16, State: 1.   
     2013-02-02 12:54:59.14 spid4s&#160;&#160;&#160;&#160;&#160; FCB::Open failed: Could not open file **<u>e:sql11\_main\_t.obj.x86releasesqlmkmastrdatabasesobjfrei386MSDBData.mdf</u>** for file number 1.&#160; OS error: 3(The system cannot find the path specified.).   
     2013-02-02 12:54:59.14 spid4s&#160;&#160;&#160;&#160;&#160; Error: 5120, Severity: 16, State: 101.   
     2013-02-02 12:54:59.14 spid4s&#160;&#160;&#160;&#160;&#160; Unable to open the physical file "e:sql11\_main\_t.obj.x86releasesqlmkmastrdatabasesobjfrei386MSDBData.mdf". Operating system error 3: "3 (The system cannot find the path specified.)".   
     2013-02-02 12:54:59.15 spid4s&#160;&#160;&#160;&#160;&#160; Error: 17207, Severity: 16, State: 1.   
-    2013-02-02 12:54:59.15 spid4s&#160;&#160;&#160;&#160;&#160; FileMgr::StartLogFiles: Operating system error 2(The system cannot find the file specified.) occurred while creating or opening file &#8216;e:sql11\_main\_t.obj.x86releasesqlmkmastrdatabasesobjfrei386MSDBLog.ldf&#8217;. Diagnose and correct the operating system error, and retry the operation. </p> 
+    2013-02-02 12:54:59.15 spid4s&#160;&#160;&#160;&#160;&#160; FileMgr::StartLogFiles: Operating system error 2(The system cannot find the file specified.) occurred while creating or opening file 'e:sql11\_main\_t.obj.x86releasesqlmkmastrdatabasesobjfrei386MSDBLog.ldf'. Diagnose and correct the operating system error, and retry the operation. </p> 
     
       * I’m gathering this “e:sql11\_main\_t.obj.x86release” path was where all the temporary files sat during installation… I haven’t been able to track down where that path is stored in order to set it right… for now I took the easy way out and simply created a <a href="http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact" target="_blank">symbolic link</a> from that bogus path to my C: path and as they say, robert is your father’s brother. 
   * Next problem was that the failed installation hadn’t gotten to the point of establishing any of the sysadmins logins… so couldn’t get SSMS to connect to the instance … I’ve actually run into this before… it’s not that bad to work around \*IF\* you can log into windows as the builtin “Administrator” account… 

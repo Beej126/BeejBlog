@@ -52,7 +52,7 @@ Enclosure:
 
 > <a title="CoolMax Product Detail" href="http://coolmaxusa.com/productDetails.asp?item=HD-250L-eSATA&details=overview&subcategory=eSATA&category=2.5SATA" target="_blank"><img alt="HD-250L-eSATA" align="center" src="http://www.coolmaxusa.com/computerS/enlarge/HD-250L_2.jpg" /></a><a href="http://coolmaxusa.com/productDetails.asp?item=HD-250L-eSATA&details=faq&subcategory=eSATA&category=2.5SATA" target="_blank"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://lh3.ggpht.com/_XlySlDLkdOc/ShwVsRR9ugI/AAAAAAAADRE/akF7B7jgdFw/image%5B6%5D.png?imgmax=800" width="244" height="139" /></a> <a href="http://coolmaxusa.com/productDetails.asp?item=HD-250L-eSATA&details=faq&subcategory=eSATA&category=2.5SATA" target="_blank"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_XlySlDLkdOc/ShwVsye16EI/AAAAAAAADRI/CFZefjewN68/image%5B7%5D.png?imgmax=800" width="244" height="122" /></a> 
 
-&#160; Previous Fave&#8217;:
+&#160; Previous Fave':
 
   * <a href="http://www.wdc.com/en/products/products.asp?driveid=477" target="_blank">Western Digital Scorpio “Black” with <strong>Free Fall Sensor</strong></a> (Model#: WD3200BJKT) 
   * ~<a href="http://www.google.com/products/catalog?hl=en&q=WD3200BJKT&cid=13330041035018023775&scoring=p#ps-sellers" target="_blank">$80 street</a> 

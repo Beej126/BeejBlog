@@ -25,19 +25,19 @@ Azure AD writeups are prevalent but I was really struggling to find examples of 
 
 ### TL;DR
 
-The kicker solution for me was having both a web and native App registration (i.e. two Client Id&#8217;s) and providing the WEB App registration&#8217;s Application Id as the &#8220;RESOURCE&#8221; parameter to the AuthenticationContext.AcquireTokenAsync() call in the Native app (see [code sample][1] below).
+The kicker solution for me was having both a web and native App registration (i.e. two Client Id's) and providing the WEB App registration's Application Id as the "RESOURCE" parameter to the AuthenticationContext.AcquireTokenAsync() call in the Native app (see [code sample][1] below).
 
-So the web registration is tied directly to the Azure Function&#8230; and then we&#8217;re piggybacking the web registration by requesting the web as the resource parameter in the native client call &#8230; i haven&#8217;t seen this documented yet so i can&#8217;t say whether this is an officially preferred solution.
+So the web registration is tied directly to the Azure Function... and then we're piggybacking the web registration by requesting the web as the resource parameter in the native client call ... i haven't seen this documented yet so i can't say whether this is an officially preferred solution.
 
 ### Basic Steps
 
 This is a good [getting started guide][2] guide, in parity with current landscape.
 
-  1. get your Azure Function working as a web api&#8230; probably doesn&#8217;t matter whether web or native comes first but it seems like the web is more &#8220;trusted&#8221; from an OAuth standpoint and more clearly documented&#8230; OAuth refers to native clients as &#8220;public&#8221; and requiring a couple more OAuth contortions than web clients.
-  2. create a <u>Web type</u> entry for your Function under `New Portal > Azure Active Directory > App registrations`&#8230; all the defaults are good, except you&#8217;ll need to create the Reply URLs that are valid for you&#8230; reply url is a parameter to your ADAL.js client call&#8230; in the end this entry provides the crucial <u>Application Id aka Client Id</u>
+  1. get your Azure Function working as a web api... probably doesn't matter whether web or native comes first but it seems like the web is more "trusted" from an OAuth standpoint and more clearly documented... OAuth refers to native clients as "public" and requiring a couple more OAuth contortions than web clients.
+  2. create a <u>Web type</u> entry for your Function under `New Portal > Azure Active Directory > App registrations`... all the defaults are good, except you'll need to create the Reply URLs that are valid for you... reply url is a parameter to your ADAL.js client call... in the end this entry provides the crucial <u>Application Id aka Client Id</u>
   3. now configure this web registration for AD Auth via `New Portal > App Services > {your Function app} > Function app settings > Configure authentication > Authentication Providers > Azure AD > Express` > 
       1. `Azure AD App` = the Web App registration name you gave above
-  4. Now create another Azure AD > App registration as <u>Native type</u> and <span class="HL">(HERE&#8217;S THE KICKER) > Settings > Required Permissions > Add > Select an API > <u>TYPE IN YOUR web App registration name in the search box</u> and it&#8217;ll show up to be selected</span>
+  4. Now create another Azure AD > App registration as <u>Native type</u> and <span class="HL">(HERE'S THE KICKER) > Settings > Required Permissions > Add > Select an API > <u>TYPE IN YOUR web App registration name in the search box</u> and it'll show up to be selected</span>
   5. finally, use the Application Id guid from your web app as the RESOURCE parameter to the AcquireTokenAsync() call in your native app 
 
 ### Working ADAL.js web client code sample
@@ -104,25 +104,25 @@ i was also getting these where {app} was the resource i was passing when i had t
 
 ### Helpful references
 
-  * [Mat Velloso&#8217;s Troubleshooting common Azure Active Directory Errors][3]
-  * MSFT&#8217;s offcial Azure AD docs &#8211; [Authentication Scenarios for Azure AD][4]
+  * [Mat Velloso's Troubleshooting common Azure Active Directory Errors][3]
+  * MSFT's offcial Azure AD docs &#8211; [Authentication Scenarios for Azure AD][4]
   * [GitHub Azure Samples &#8211; ADAL.js][5]
-  * [ADAL client &#8220;Developer Portal&#8221; guides][2]
-  * have to mention [Vittorio Bertocci&#8217;s blog][6] as a primary internal MSFT source of ADAL progress
+  * [ADAL client "Developer Portal" guides][2]
+  * have to mention [Vittorio Bertocci's blog][6] as a primary internal MSFT source of ADAL progress
 
-### What is my Tenant Id or &#8220;Authority&#8221; URL ???
+### What is my Tenant Id or "Authority" URL ???
 
-Wanted to mention this in closing since &#8220;Tentant&#8221; is currently so ambiguously referred to in the documentation i ran into&#8230;
+Wanted to mention this in closing since "Tentant" is currently so ambiguously referred to in the documentation i ran into...
   
-New Portal > Azure Active Directory > App registrations > Endpoints is where you pull the &#8220;Authority&#8221; Url from the &#8220;OAUTH 2.0 AUTHORIZATION ENDPOINT&#8221; slot &#8211; the main argument for `new AuthenticationContext()`
+New Portal > Azure Active Directory > App registrations > Endpoints is where you pull the "Authority" Url from the "OAUTH 2.0 AUTHORIZATION ENDPOINT" slot &#8211; the main argument for `new AuthenticationContext()`
 
 for example:
           
 `https://login.windows.net/9198d419-6ce5-4229-a457-8c38421f7466/oauth2/authorize`
   
-this &#8220;9198&#8230;&#8221; guid is your <u>Tenant Id</u> (don&#8217;t worry this one is made up)
+this "9198..." guid is your <u>Tenant Id</u> (don't worry this one is made up)
 
-our tenant appears to be simply our azure ad domain name, at least in typical configurations&#8230; so this works here as well:
+our tenant appears to be simply our azure ad domain name, at least in typical configurations... so this works here as well:
           
 `https://login.windows.net/XYZ.onmicrosoft.com/oauth2/authorize`
 

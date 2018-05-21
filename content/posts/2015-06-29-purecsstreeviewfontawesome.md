@@ -24,7 +24,7 @@ tags:
 ---
 &nbsp;
 
-Update 2015-07-18: shux! not valid to apply ::before/after psuedo elements to <input> since it&#8217;s not technically content ([stack-o reference][1])
+Update 2015-07-18: shux! not valid to apply ::before/after psuedo elements to <input> since it's not technically content ([stack-o reference][1])
 
 &nbsp;
 
@@ -36,7 +36,7 @@ jQuery solution:
 
 &nbsp;
 
-Following solution works in Chrome and Safari <span class="hl">but not Firefox or IE</span>&#8230; so i guess that means i like webkit.
+Following solution works in Chrome and Safari <span class="hl">but not Firefox or IE</span>... so i guess that means i like webkit.
 
 &nbsp;
 

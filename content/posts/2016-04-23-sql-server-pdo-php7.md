@@ -19,7 +19,7 @@ tags:
         extension=php_pdo_sqlsrv_7_nts.dll
         
 
-  3. here&#8217;s sample call code: 
+  3. here's sample call code: 
         <?php
         
         try {

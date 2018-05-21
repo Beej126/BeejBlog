@@ -37,22 +37,22 @@ tags:
   
 <http://lifehacker.com/5958865/how-to-use-windows-8s-new-file-history-backup-aka-time-machine-for-windows> 
   
-i&#8217;ve always considered the Vista/Win7 &#8220;previous versions&#8221; facility to be pretty similar to Time Machine just lacking Apple&#8217;s meticulous care to making it drop dead easy to use. 
+i've always considered the Vista/Win7 "previous versions" facility to be pretty similar to Time Machine just lacking Apple's meticulous care to making it drop dead easy to use. 
   
-i hadn&#8217;t yet noticed the MS boys had taken yet another swipe at simplifying the UI in Win8&#8230; i&#8217;m assuming there&#8217;s still a usability gap that the Mac boys can laugh at us, but gee, first impression is &#8220;not bad Balmer you ol’ dog”
+i hadn't yet noticed the MS boys had taken yet another swipe at simplifying the UI in Win8... i'm assuming there's still a usability gap that the Mac boys can laugh at us, but gee, first impression is "not bad Balmer you ol’ dog”
 
-  1. search for &#8220;file history&#8221; in win8 home screen 
+  1. search for "file history" in win8 home screen 
   2. fire up the ui 
   3. select my backup drive 
-  4. click the &#8220;turn on&#8221; button 
-  5. in normal explorer window right mouse all my favorite folders and <a href="http://marcoditullio.wordpress.com/2012/10/29/windows-8-file-history-add-custom-folders/" target="_blank">add them to the documents &#8220;library&#8221;</a> &#8211; since that&#8217;s included in what gets backed up (libraries are those fancy pants folder buckets that came along probably with Vista) 
-  6. click the &#8220;run now&#8221; link 
-  7. click &#8220;restore personal files&#8221; link and yep sure enough all the stuff is piling up out there
+  4. click the "turn on" button 
+  5. in normal explorer window right mouse all my favorite folders and <a href="http://marcoditullio.wordpress.com/2012/10/29/windows-8-file-history-add-custom-folders/" target="_blank">add them to the documents "library"</a> &#8211; since that's included in what gets backed up (libraries are those fancy pants folder buckets that came along probably with Vista) 
+  6. click the "run now" link 
+  7. click "restore personal files" link and yep sure enough all the stuff is piling up out there
 
-defaults to hourly file versions, just like time machine, but can be readily bumped down to minutes in obvious &#8220;advanced settings&#8221; UI if you want, just like time machine. 
+defaults to hourly file versions, just like time machine, but can be readily bumped down to minutes in obvious "advanced settings" UI if you want, just like time machine. 
   
-the restore UI is clean simple and has exactly what I&#8217;d want/expect out of the box&#8230; a standard folder explorer big current time stamped version at the top and previous, next and a big restore button (see attached) 
+the restore UI is clean simple and has exactly what I'd want/expect out of the box... a standard folder explorer big current time stamped version at the top and previous, next and a big restore button (see attached) 
   
-not bad i say, not bad at all&#8230; &#8217;bout f&#8217;ing time.
+not bad i say, not bad at all... 'bout f'ing time.
 
  [1]: http://lh3.ggpht.com/-Xh2JUo3h_YI/UfmhfMF5ItI/AAAAAAAAFT0/u_K5cJ6GDOs/s1600-h/image%25255B5%25255D.png

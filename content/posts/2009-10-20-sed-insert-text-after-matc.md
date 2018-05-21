@@ -31,7 +31,7 @@ General syntax:
 
 Example:
 
-  * sed &#8220;s/BEGIN AS/& nnSET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED/&#8221; Plans_s.sql
+  * sed "s/BEGIN AS/& nnSET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED/" Plans_s.sql
 
 Explanation:
 

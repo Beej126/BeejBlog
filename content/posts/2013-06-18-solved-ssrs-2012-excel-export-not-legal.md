@@ -28,12 +28,12 @@ tags:
 ---
 ### Cause
 
-For my situation, it wound up being that executing TimeSerial(0,0,secs) in some vbscript code, when the &#8220;secs&#8221; param value was greater than 24 hours.
+For my situation, it wound up being that executing TimeSerial(0,0,secs) in some vbscript code, when the "secs" param value was greater than 24 hours.
 
 ### Analysis
 
 Somehow out of all the different formats SSRS will export to, the Excel output was the only one running into this issue.
 
-From the [TimeSerial][1] specs I don’t see anything inherently invalid about going that high&#8230; the docs indicate it simply rolls it into the day portion of the resulting value as I would expect. Given that the error refers to &#8220;Ole&#8221;, there must be some other intermediate data type conversion going on here&#8230; perhaps it passes through a time only type???
+From the [TimeSerial][1] specs I don’t see anything inherently invalid about going that high... the docs indicate it simply rolls it into the day portion of the resulting value as I would expect. Given that the error refers to "Ole", there must be some other intermediate data type conversion going on here... perhaps it passes through a time only type???
 
  [1]: https://msdn.microsoft.com/en-us/library/microsoft.visualbasic.dateandtime.timeserial.aspx

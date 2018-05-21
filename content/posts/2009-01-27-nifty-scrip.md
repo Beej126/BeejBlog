@@ -19,11 +19,11 @@ tags:
   - SysAdmin
 
 ---
-Pre-req&#8217;s: 
+Pre-req's: 
 
   * 4NT &#8211; love love love that little bugger… but i guess PowerShell is probably the new cool kid in town for this kind of stuff&#160; 
-      * ‘echos’ command in 4NT outputs test w/o a linefeed&#8230; so I can tack something else I wanted onto the URL… obviously the sky is your limit (can’t find the equivalent in PowerShell yet??)
-  * curl &#8211; everybody&#8217;s favorite web mashup tool 
+      * ‘echos’ command in 4NT outputs test w/o a linefeed... so I can tack something else I wanted onto the URL… obviously the sky is your limit (can’t find the equivalent in PowerShell yet??)
+  * curl &#8211; everybody's favorite web mashup tool 
 
 echos <http://> >clip:   
 curl -s "<a href="http://whatismyip.org" ?="?">http://whatismyip.org"</a> >>clip:   

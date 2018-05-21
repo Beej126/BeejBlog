@@ -3,6 +3,7 @@ baseURL = "https://www.beejblog.com/"
 pygmentsCodeFences = true
 title = "/* BeejBlog */"
 disqusShortname = "beejblog"
+pygmentsOptions = "linenos=table"
 
 [params]
 	favicon = "favicon.ico"

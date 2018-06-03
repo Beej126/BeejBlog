@@ -31,7 +31,7 @@ snapTW:
 categories:
   - Uncategorized
 tags:
-  - Zenphoto
+  - Photography
 
 ---
 I really like ZenPhoto &#8211; it's a solid photo gallery with an easy point and click web admin GUI.   

@@ -29,7 +29,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 tags:
-  - Zenphoto
+  - Photography
 
 ---
   * Edit _zp-coretemplate-functions.php_, look for _printCustomSizedImage()_ function and edit it to switch to using _style=”background:url(‘’)”_ as shown below. 

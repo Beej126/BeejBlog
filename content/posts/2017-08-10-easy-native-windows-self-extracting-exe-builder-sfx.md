@@ -21,13 +21,13 @@ For the record, I started out with 7zip's SFX facility and eventually got it wor
 Launching IExpress.exe without any args will present the wizard which will walk you through building a "SED" config file with several commonly desired "setup.exe" options like user confirmation prompt, etc... importantly, this includes specifying a batch file you wish to be launched after extract.
 
 Handy batch for recreating exe whenever you update your script:
-
-    ::start sets appropriate working directory
-    ::especially crucial when launched as admin (which normally defaults to c:\windows\system32)
-    ::and allows us to use relative file references in the SED config file so that launching from any path works (including UNC)
+``` cmd
+::start sets appropriate working directory
+::especially crucial when launched as admin (which normally defaults to c:\windows\system32)
+::and allows us to use relative file references in the SED config file so that launching from any path works (including UNC)
     
-    start "Title" /d"%~dp0" iexpress /n Project.sed
-    
+start "Title" /d"%~dp0" iexpress /n Project.sed
+```    
 
 ## Tips
 

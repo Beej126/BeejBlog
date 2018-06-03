@@ -1,9 +1,47 @@
-theme = "hugo-theme-bootstrap4-blog" 
-baseURL = "https://www.beejblog.com/"
-pygmentsCodeFences = true
+baseurl = "/"
 title = "/* BeejBlog */"
-disqusShortname = "beejblog"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "beejblog" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
 
-[params]
-	favicon = "favicon.ico"
+[blackfriday]
+    extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]
+
+[Author]
+    name = "John Doe"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
+
+
+[Params]
+  	favicon = "favicon.ico"
+    #subtitle = "Just another site" # Subtitle of your site
+    #description = " John Doe's Personal blog about everything" # Description of your site
+    opengraph = true
+    twitter_cards = false
+    readmore = true # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = false
+    post_navigation = true
+    postSections = ["posts"]
+
+
+[Params.widgets]
+    search = false # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
+    categories = false # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+
+# Enable "Social" widget, if any of "social_*" set a value
+    #social_facebook = "username"
+    #social_twitter = "username"
+    #social_linkedin = "username"
+    #social_github = "username"
+    #social_email = "example@example.com"
+    #social_google_plus = "profileid"

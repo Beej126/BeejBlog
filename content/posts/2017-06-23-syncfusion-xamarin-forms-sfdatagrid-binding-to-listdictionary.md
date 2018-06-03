@@ -29,61 +29,62 @@ Below is sample working code including "SimpleTable" wrapper for List and <span 
 FYI, I believe there is also a bug with SfDataGrid column sorting logic when bound to this kind of Dictionary, a non-fatal exception fires. I worked around by implementing grid.SortColumnsChanging.
 
 ### Sample Deserialize call:
-
-    var data = "[{\"Source\":\"Web\",\"Batch Id\":1}, {\"Source\":\"Manual\",\"Batch Id\":2}]";
-    var table = JsonConvert.DeserializeObject<SimpleTable>(data);
-    
+  ```js
+  var data = "[{\"Source\":\"Web\",\"Batch Id\":1}, {\"Source\":\"Manual\",\"Batch Id\":2}]";
+  var table = JsonConvert.DeserializeObject<SimpleTable>(data);
+  ``` 
 
 ### Binding sample with crucial MappingName syntax:
-
-    grid.ItemsSource = table;
-    grid.Columns.Add(new GridTextColumn()
-    {
-      HeaderText = "Source",
-      MappingName = "Vals[Source]" // **** HERE'S THE KICKER ****
-    });
-    
+  ```js
+  grid.ItemsSource = table;
+  grid.Columns.Add(new GridTextColumn()
+  {
+    HeaderText = "Source",
+    MappingName = "Vals[Source]" // **** HERE'S THE KICKER ****
+  });
+  ```    
 
 ### SimpleTable.cs
-
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    using Newtonsoft.Json;
+  ```csharp
+  using System;
+  using System.Collections.Generic;
+  using System.Linq;
+  using System.Text;
+  using System.Threading.Tasks;
+  using Newtonsoft.Json;
     
-    namespace DataHelpers
+  namespace DataHelpers
+  {
+    [JsonConverter(typeof(DictRow_DictDeserializer))]
+    public class DictRow
     {
-      [JsonConverter(typeof(DictRow_DictDeserializer))]
-      public class DictRow
+      public Dictionary<string, object> Vals { get; set; }
+      public DictRow(Dictionary<string, object> dict) { Vals = dict; }
+    }
+    
+    public class SimpleTable : List<DictRow>
+    {
+      public SimpleTable(IEnumerable<DictRow> list) : base(list) { }
+    }
+    
+    public class DictRow_DictDeserializer : JsonConverter
+    {
+      public override bool CanRead => true;
+      public override bool CanWrite => false;
+      public override bool CanConvert(Type objectType) => objectType == typeof(Dictionary<string, object>);
+    
+      public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
       {
-        public Dictionary<string, object> Vals { get; set; }
-        public DictRow(Dictionary<string, object> dict) { Vals = dict; }
+        return new DictRow(serializer.Deserialize<Dictionary<string, object>>(reader));
       }
     
-      public class SimpleTable : List<DictRow>
+      public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
       {
-        public SimpleTable(IEnumerable<DictRow> list) : base(list) { }
-      }
-    
-      public class DictRow_DictDeserializer : JsonConverter
-      {
-        public override bool CanRead => true;
-        public override bool CanWrite => false;
-        public override bool CanConvert(Type objectType) => objectType == typeof(Dictionary<string, object>);
-    
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-        {
-          return new DictRow(serializer.Deserialize<Dictionary<string, object>>(reader));
-        }
-    
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-          throw new NotSupportedException();
-        }
+        throw new NotSupportedException();
       }
     }
+  }
+  ```
 
  [1]: https://www.syncfusion.com/forums/125388/data-grid-mapping-to-xaml-with-list-of-dictionaries-as-the-itemssource-collection
  [2]: https://www.syncfusion.com/kb/6643/how-to-bind-dictionary-to-column-in-sfdatagrid

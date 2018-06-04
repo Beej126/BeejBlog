@@ -10,6 +10,7 @@ pygmentsOptions = "linenos=table"
 
 [blackfriday]
     extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]
+    hrefTargetBlank = true
 
 [Author]
     name = "John Doe"

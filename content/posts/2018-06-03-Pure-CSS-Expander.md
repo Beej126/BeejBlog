@@ -12,8 +12,9 @@ tags:
   - WebDev
 ---
 
-
 The gist here is leveraging a hidden checkbox to maintain expand/collapse state and css `:before {content: "xyz" }` to add the expand/collapse widget which keeps the additional markup minimal.
+
+### [Demo post (rendered via Markdown)](/2015/04/osx-v2p.html)
 
 [Not an original idea by any means](https://css-tricks.com/the-checkbox-hack/#article-header-id-1) ... just boiling it down for my specific usage
 
@@ -29,7 +30,7 @@ For the record, it's not valid html to apply :before/after psuedo elements to fo
   * nested content that will be expanded
 ```
 _yeah i know, what's up with the the extra &lt;p&gt; tag pal?! those sprinkles on my minimalist day parade are the only way i could get my blog's markdown renderer ([Hugo](https://gohugo.io/) &gt; "[Blackfriday](https://github.com/russross/blackfriday)") to not mangle the expander input under a p tag which ruins using css sibling selector used target the show/hide content_
-  
+
 Look ma, no JS! :)
 <script async src="//jsfiddle.net/h3c3cb3m/110/embed/result,css,html/dark/"></script>
 

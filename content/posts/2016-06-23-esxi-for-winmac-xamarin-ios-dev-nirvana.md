@@ -23,7 +23,7 @@ tags:
   - Xamarin
 
 ---
-## <sup class="fa fa-quote-right fa-flip-horizontal"></sup>Only virtualizing RAM & Compute, not KVM & HDD<sup class="fa fa-quote-right"></sup>
+## in other words, only virtualizing RAM & Compute, not KVM & HDD
 
 ### Overview:
 

@@ -17,8 +17,6 @@ tags:
   - Oracle
 
 ---
-### aka ODAC
-
 ## [start here for latest downloads][1]
 
 ## Oracle Provider for OLE DB

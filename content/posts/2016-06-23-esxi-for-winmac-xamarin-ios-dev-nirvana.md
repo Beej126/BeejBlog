@@ -60,11 +60,11 @@ tags:
 * install [vSphere Client](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2089791)</a> on a remote machine
 * use client to remote into the host by ip and root/password
 * create your VM's paying attention to the following screenshots & config notes
-    
-### VM Creation Settings at a glance:
 
-_i took these screenshots via ESXi host Web client but that actually runs into various validation errors upon save... the vSphere client is therefore the go to whenever creating/modifying settings (see [Which Client?](#which_client) below)_
+<p></p><input type="checkbox" class="expander">
 
+### VM creation settings screenshots...<span>
+i took these screenshots via ESXi host Web client but that actually runs into various validation errors upon save... the vSphere client is therefore the go to whenever creating/modifying settings (see [Which Client?](#which_client) below)<br/><br/>
 ![](https://3.bp.blogspot.com/-qgcZ6beVm0k/V3C-LjucRtI/AAAAAAAAUj0/WLDupVxqgbMHoqxt4rI1xDzzBtoS-SLYQCLcB/s1600/Snap08.png)
 ![](https://3.bp.blogspot.com/-FJILG9yrTJk/V3C-Kkp5b2I/AAAAAAAAUjY/AIN1DnACKJgv226XBHPdLQGD-VbaD0cZwCLcB/s1600/Snap03.png)
 ![](https://3.bp.blogspot.com/-WjyVp-BrbMg/V3C-K77ketI/AAAAAAAAUjo/1KhEAzp92wIaSPQ3OXmHdW5Z3tCxCy9wQCLcB/s1600/Snap04.png)
@@ -73,6 +73,7 @@ _i took these screenshots via ESXi host Web client but that actually runs into v
 ![](https://4.bp.blogspot.com/-3vlrlWdjww0/V3C-L-tYqlI/AAAAAAAAUjw/8zEnYy-0WCgUjPWikE8ttxz2CmkrD-YcwCLcB/s1600/Snap09.png)
 ![](https://1.bp.blogspot.com/-XvXIHzhEKAQ/V3DNkJgoJ9I/AAAAAAAAUkU/nKIlzLE-dDUaL1Z0ZWbWa-tWhB_s_YMoQCLcB/s1600/Snap12.png)
 ![](https://4.bp.blogspot.com/-eNUYtP2vBCI/V3DavGp5sII/AAAAAAAAUlI/OjRYWBVB8OM50X211pvUIlgDc2XzAL_3gCLcB/s1600/Snap12.png)
+</span>
 
 ### Video config:
 
@@ -85,7 +86,18 @@ _i took these screenshots via ESXi host Web client but that actually runs into v
 *   pretty sure could just as well run the Mac on the VT-d GPU and thereby gain full QE/CI accelerated graphics if needed (iMovie being a notable app)... VM'ing OSX with VT-d graphics providing full speed QE/CI is an interesting blend of virtual and physical versus more traditional full physical approach to the hackintosh game... i suppose it still comes down to fiddling with each of your specific I/O devices (Bluetooth, WiFi, Audio, etc)
 
 ### HD config: 
-* [this post](http://www.vm-help.com/esx40i/SATA_RDMs.php) details how to create RDM (Raw Device Mapping) vmdk's to <span class="hl">mount our <u>**consumer sata drives**</u> containing existing physical Win and Mac boot installations directly as VMs</span>, nice! ... Nutshell steps: ```shell #one time only md /vmfs/volumes/datastore1/RDMs #list your disks ls -l /dev/disks | grep -i "vml.*[^:][^9] ->" #create virtual drive mapping referencing the corresponding disk "guid" #edit "Sam500" for your preferences vmkfstools -r /vmfs/devices/disks/vml.0100000000533231484e5341464335303333354c202020202053616d73756e /vmfs/volumesdatastore1/RDMs/Sam500_Win10_RDM.vmdk ``` 
+* [this post](http://www.vm-help.com/esx40i/SATA_RDMs.php) details how to create RDM (Raw Device Mapping) vmdk's to <span class="hl">mount our <u>**consumer sata drives**</u> containing existing physical Win and Mac boot installations directly as VMs</span>, nice! ... Nutshell steps:
+
+    ```shell
+    #one time only md /vmfs/volumes/datastore1/RDMs
+
+    #list your disks
+    ls -l /dev/disks | grep -i "vml.*[^:][^9] ->"
+    
+    #take disk "guid" from above and sub in below
+    #and replace .vmdk below with yours
+    vmkfstools -r /vmfs/devices/disks/vml.0100000000533231484e5341464335303333354c202020202053616d73756e /vmfs/volumesdatastore1/RDMs/Sam500_Win10_RDM.vmdk
+    ``` 
 
 ### Keyboard / Mouse (surprisingly hard):
 
@@ -123,8 +135,52 @@ _i took these screenshots via ESXi host Web client but that actually runs into v
     *   if you've got the new Ubuntu Linux Subsystem for Windows 10 loaded, that BASH has SSH built in
 
 ### Skipping Clover:
-<p></p><input type="checkbox" class="expander"><i>TL;DR: Add a new entry to the ESXi EFI BIOS Boot Manager for OSX's /System/Library/CoreServices/boot.efi</i>
-<p>Background: Sometimes it's handy to actually physically boot into the Mac... one reason is to get full CG/CI video on a real GPU for something like iMovie (although could actually probably pull this off via GPU passthrough)... anyway, for booting into physical Mac I like Clover so I have that installed in the EFI partition... by default, Clover is then in the loop when booting Mac as a VMware ESXi guest as well... problem is, for me, versions of Clover beyond r3265 crash upon selecting the Mac entry... one workaround I've wriggled out is to skip Clover by putting a "direct to Mac" entry in the VMware EFI BIOS boot selection screen (i.e. the "F2" menu)...![](https://cloud.githubusercontent.com/assets/6301228/25316765/a7349f34-2821-11e7-9c99-1350fafbdbd8.png)![](https://cloud.githubusercontent.com/assets/6301228/25316405/b70cd170-281b-11e7-80ea-b9887756a3fa.png)![](https://cloud.githubusercontent.com/assets/6301228/25316407/bef2b0da-281b-11e7-87b6-848424631812.png)<br/>Loading the HFS driver so we can see the OSX System partition<br/>![](https://cloud.githubusercontent.com/assets/6301228/25316410/c3347d7c-281b-11e7-9efe-30dad8799715.png)![](https://cloud.githubusercontent.com/assets/6301228/25316411/c8a71dfa-281b-11e7-894f-74f35a0b4bda.png)![](https://cloud.githubusercontent.com/assets/6301228/25316414/ccd9ceae-281b-11e7-8f64-66286dcf7cdd.png)![](https://cloud.githubusercontent.com/assets/6301228/25316416/d00d1914-281b-11e7-9ea4-4fed9696f6f8.png)![](https://cloud.githubusercontent.com/assets/6301228/25316417/d3339c44-281b-11e7-8b33-d49e3d9e412a.png)![](https://cloud.githubusercontent.com/assets/6301228/25316421/d941b404-281b-11e7-8659-17df1fb4307a.png)![](https://cloud.githubusercontent.com/assets/6301228/25316422/dedc057c-281b-11e7-8a4c-5bc705888bf2.png)![](https://cloud.githubusercontent.com/assets/6301228/25316423/e38497c4-281b-11e7-8176-83ac3346ab77.png)![](https://cloud.githubusercontent.com/assets/6301228/25316589/ac9a93f0-281e-11e7-9b02-6d54e97c1a94.png)![](https://cloud.githubusercontent.com/assets/6301228/25316598/e2d11200-281e-11e7-8a0f-ce69d4e1d5a6.png)<br/>now hit ESC back up to the top<br/>Adding the Mac's boot.efi entry  ![](https://cloud.githubusercontent.com/assets/6301228/25316425/e6f906ce-281b-11e7-8081-d08d5267f664.png)[](https://cloud.githubusercontent.com/assets/6301228/25316427/eb36147a-281b-11e7-81bd-1702dcbd9214.png)![](https://cloud.githubusercontent.com/assets/6301228/25316428/ef2352a0-281b-11e7-9981-7ec9ed530033.png)![](https://cloud.githubusercontent.com/assets/6301228/25316433/f3e7f1c4-281b-11e7-9d56-39f48580561c.png)![](https://cloud.githubusercontent.com/assets/6301228/25316435/f79d7ba4-281b-11e7-8c97-e92506c0d7f4.png)![](https://cloud.githubusercontent.com/assets/6301228/25316436/fb7e1c6a-281b-11e7-92c0-46d48d2ec162.png)![](https://cloud.githubusercontent.com/assets/6301228/25316438/fec17656-281b-11e7-9f32-3ece014d10bf.png)![](https://cloud.githubusercontent.com/assets/6301228/25316440/01a2faac-281c-11e7-8a79-a590488c92b0.png)<br/>Change the Boot Order to put it at the top to be the default<br/>![](https://cloud.githubusercontent.com/assets/6301228/25316623/72b04666-281f-11e7-8d9e-87de18a0c23e.png)![](https://cloud.githubusercontent.com/assets/6301228/25316687/c47c65f0-2820-11e7-99fb-75f38a76f230.png)<br/>Note: originally i worked this out through the EFI Shell prompt via BCFG commands... but upon returning to retrace my steps bcfg is not present in the shell!?... i must've accidentally enabled it during experimentation and have no recollection of how... i was doing things like loading \EFI\CLOVER\TOOLS\SHELL64.efi but that didn't seem to do it this time around... would love to hear what i'm missing?? here are those bcfg commands for the record
+Sometimes it's handy to physically boot into the Mac... one reason is to get full CG/CI video on a real GPU for something like iMovie... i like Clover for this (EFI mode)... but then it is also in the loop when booting Mac under VMware... problem is, for me **versions of Clover beyond r3265 crash under the VM**... 
+
+TL;DR: Add a new entry to the ESXi EFI BIOS Boot Manager for OSX's /System/Library/CoreServices/boot.efi
+
+<p></p><input type="checkbox" class="expander"><i>T he long story...</i><div>
+
+i've found one way to workaround is to "skip" Clover by configuring a special entry in the VMware EFI BIOS boot selection screen (i.e. the "F2" menu)...
+
+<p></p><input type="checkbox" class="expander"><i>screenshots of all the BIOS screen settings...</i><div>
+
+![](https://cloud.githubusercontent.com/assets/6301228/25316765/a7349f34-2821-11e7-9c99-1350fafbdbd8.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316405/b70cd170-281b-11e7-80ea-b9887756a3fa.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316407/bef2b0da-281b-11e7-87b6-848424631812.png)
+
+<br/>Loading the HFS driver so we can see the OSX System partition<br/>
+<br/>
+![](https://cloud.githubusercontent.com/assets/6301228/25316410/c3347d7c-281b-11e7-9efe-30dad8799715.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316411/c8a71dfa-281b-11e7-894f-74f35a0b4bda.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316414/ccd9ceae-281b-11e7-8f64-66286dcf7cdd.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316416/d00d1914-281b-11e7-9ea4-4fed9696f6f8.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316417/d3339c44-281b-11e7-8b33-d49e3d9e412a.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316421/d941b404-281b-11e7-8659-17df1fb4307a.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316422/dedc057c-281b-11e7-8a4c-5bc705888bf2.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316423/e38497c4-281b-11e7-8176-83ac3346ab77.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316589/ac9a93f0-281e-11e7-9b02-6d54e97c1a94.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316598/e2d11200-281e-11e7-8a0f-ce69d4e1d5a6.png)<br/>
+
+now hit ESC back up to the top<br/>
+Adding the Mac's boot.efi entry 
+![](https://cloud.githubusercontent.com/assets/6301228/25316425/e6f906ce-281b-11e7-8081-d08d5267f664.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316427/eb36147a-281b-11e7-81bd-1702dcbd9214.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316428/ef2352a0-281b-11e7-9981-7ec9ed530033.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316433/f3e7f1c4-281b-11e7-9d56-39f48580561c.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316435/f79d7ba4-281b-11e7-8c97-e92506c0d7f4.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316436/fb7e1c6a-281b-11e7-92c0-46d48d2ec162.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316438/fec17656-281b-11e7-9f32-3ece014d10bf.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316440/01a2faac-281c-11e7-8a79-a590488c92b0.png)<br/>
+
+Change the Boot Order to put it at the top to be the default<br/>
+![](https://cloud.githubusercontent.com/assets/6301228/25316623/72b04666-281f-11e7-8d9e-87de18a0c23e.png)
+![](https://cloud.githubusercontent.com/assets/6301228/25316687/c47c65f0-2820-11e7-99fb-75f38a76f230.png)<br/>
+</div><br/>
+
+<p></p><input type="checkbox" class="expander">
+#### EFI Shell BFCG gone missing???
+* i originally worked this out through the EFI Shell prompt via BCFG commands... but retracing my steps bcfg is not present in the shell???... i must've somehow enabled it during experimentation and have no recollection of how... i was doing things like loading \EFI\CLOVER\TOOLS\SHELL64.efi but that didn't seem to do it this time around... would love to hear what i'm missing?? here are those bcfg commands for the record
 * we need to load an HFS driver to get to it... on my system the EFI partition where Clover is installed is mapped to FS0:, main OSX partition is FS1:, so:  
 * `load fs0:\EFI\CLOVER\drivers64UEFI\VBoxHfs-64.efi`  
 * `reconnect -r`  
@@ -139,7 +195,7 @@ _i took these screenshots via ESXi host Web client but that actually runs into v
 * for the google record, the error i run into with Clover beyond r3265 under VMware was *"firmware encountered an unexpected exception"* 
 * i've just tried Clover r4061 2017-04-19 and it's still busted => seems the bug is [already reported](https://sourceforge.net/p/cloverefiboot/tickets/354/)...  
 * and i indeed have now come to require a more recent Clover release than r3265 under physical Mac ([due to this](https://nickwoodhams.com/x99-hackintosh-osxaptiofixdrv-allocaterelocblock-error-update/))
-</p>
+</div></br>
 
 ### Unfiltered Tips:
 

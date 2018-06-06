@@ -57,6 +57,10 @@ a.header-link {
   padding: 10px !important;
 }
 
+code {
+white-space: unset !important;
+}
+
 @font-face {
   font-family: 'Novacento Sans Wide';
   src: url("../fonts/Novecentosanswide-UltraLight-webfont.eot");

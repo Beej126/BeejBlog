@@ -18,6 +18,7 @@ input.expander {
   cursor: pointer;
   margin: 5px 0;
   position: absolute;
+  transform: scale(1.5);
 }
 
   /* main settings for the visible "expander" element */

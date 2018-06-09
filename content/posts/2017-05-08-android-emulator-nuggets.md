@@ -72,29 +72,31 @@ tags:
 
 _(special [TCC/LE][10] batch syntax)_
 
-    @echo off
-    SETLOCAL 
+```cmd
+@echo off
+SETLOCAL 
     
-    ::call tk qemu-system-x86_64
-    start "Android Emulator" /inv /pgm "C:\Users\beej1\AppData\Local\Android\sdk\emulator\emulator.exe" -avd Nexus_9_API_25 -writable-system -selinux permissive
-    adb wait-for-device
-    adb root
-    adb remount
-    adb shell "su -ad &"
+::call tk qemu-system-x86_64
+start "Android Emulator" /inv /pgm "C:\Users\beej1\AppData\Local\Android\sdk\emulator\emulator.exe" -avd Nexus_9_API_25 -writable-system -selinux permissive
+adb wait-for-device
+adb root
+adb remount
+adb shell "su -ad &"
     
-    :pasteloop
+:pasteloop
     
-    echos Press any key when ready... to paste current clipboard to android^r
-    pause
+echos Press any key when ready... to paste current clipboard to android^r
+pause
     
-    set clipline=0
-    do forever
-      set cliptxt=%@clip[%clipline%]%
-      if "%cliptxt%" EQ "**EOC**" LEAVE
-      adb shell input text '%cliptxt%'
-      set clipline=%@inc[%clipline%]%
-    enddo 
-    goto pasteloop
+set clipline=0
+do forever
+  set cliptxt=%@clip[%clipline%]%
+  if "%cliptxt%" EQ "**EOC**" LEAVE
+  adb shell input text '%cliptxt%'
+  set clipline=%@inc[%clipline%]%
+enddo 
+goto pasteloop
+```
 
  [1]: http://opengapps.org/#downloadsection
  [2]: https://infosectrek.wordpress.com/2017/01/17/installing-the-google-play-store-app-apk-on-the-android-emulator/#comment-296

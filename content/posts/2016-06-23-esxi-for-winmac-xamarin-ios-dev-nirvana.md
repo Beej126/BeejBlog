@@ -139,7 +139,7 @@ Sometimes it's handy to physically boot into the Mac... one reason is to get ful
 
 TL;DR: Add a new entry to the ESXi EFI BIOS Boot Manager for OSX's /System/Library/CoreServices/boot.efi
 
-<p></p><input type="checkbox" class="expander"><i>T he long story...</i><div>
+<p></p><input type="checkbox" class="expander"><i>The long story...</i><div>
 
 i've found one way to workaround is to "skip" Clover by configuring a special entry in the VMware EFI BIOS boot selection screen (i.e. the "F2" menu)...
 
@@ -205,8 +205,7 @@ Change the Boot Order to put it at the top to be the default<br/>
     *   VMX setting: isolation.tools.bug328986.disable = "TRUE"
 *   make sure you apply the smc.version = "0" tip in the unlocker notes if creating ESXi 6.0 compatibility level VM's (i.e. "Hardware Version 11")
 *   Unfortunately after most guest reboots (not all), Win10 falls into an "automated repair" blue screen cycle of doom... i've come to realize that merely deleting and recreating RDM file from CLI is all that's needed... so i created a little script for that in the host's RDM folder and SSH in to execute it whenever things go south  
-    `resetSam500` 
-    ```  
+    ```
     rm Sam500_Win10_RDM*.vmdk  
     vmkfstools -r /vmfs/devices/disks/vml.0100000000533231484e5341464335303333354c202020202053616d73756e Sam500_Win10_RDM.vmdk  
     ```

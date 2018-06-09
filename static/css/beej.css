@@ -13,6 +13,11 @@
   background-color: #2a2a2aa8;
 }
 
+.post__content a {
+  font-weight: unset !important;
+  color: blue !important;
+}
+
 .sidebar {
   width: 25%;
 }
@@ -57,8 +62,12 @@ a.header-link {
   padding: 10px !important;
 }
 
-code {
-white-space: unset !important;
+:not(pre) > code {
+  color: lightgreen !important;
+  white-space: unset !important;
+  padding: 3px !important;
+  background-color: black !important;
+  border: unset !important;
 }
 
 @font-face {

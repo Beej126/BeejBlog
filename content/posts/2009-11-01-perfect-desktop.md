@@ -32,22 +32,24 @@ tags:
   - Productivity
 
 ---
-I’ve finally achieved my own _OS X like_ desktop nirvana on Windows 7:
+This should really be titled "Endlessly Searching For... The Perfect Desktop"... circa Windows 7, this is a reasonably satisfying mock of OS X's desktop:
 
-  * StarDock’s <a href="http://www.stardock.com/products/objectdock/" target="_blank">ObjectDock</a> for the main OS X cool factor dock at the bottom 
-  * After long searching for a way to reliably replicate all the Windows Notification Area functionality, I finally realized that running the standard Windows Taskbar minimized at the top of the screen is an excellent solution to the personal aesthetic I’ve been seeking. <ul style="margin-bottom: 0px">
-      <li>
-        StarDock’s <a href="http://www.stardock.com/products/objectbar/" target="_blank">ObjectBar</a> was pretty good but not perfect… there are several great skins that makes it look just like the Mac, and it replicates the Notification Area quite well.&#160; Unfortunately, for example, the volume icon did not work properly.&#160; It would not pop up the volume slider window (which is apparently technically called a “<a href="http://msdn.microsoft.com/en-us/library/aa511446.aspx#thumbnail" target="_blank">Thumbnail Toolbar</a>” in the Windows User Experience Guidelines).
-      </li>
-      <li>
-        I love that the built in volume slider popup responds to the mouse wheel… that’s perfectly convenient for a quick change.
-      </li>
-    </ul>
+# Dock
+* Using StarDock’s [ObjectDock](http://www.stardock.com/products/objectdock/) for the main OS X cool factor dock at the bottom... there's other open source alts like [Rocket](https://rocketdock.com/), [XWDock](https://github.com/VolodymyrLykhonis/XWindows-Dock-2.0), etc... while grateful for their efforts in what must be an unrewarding niche, i always wind up wanting more :)
 
-  * An old tool called <a href="http://homepage1.nifty.com/kazubon/tclocklight/" target="_blank">TClock</a> allowed me to configure the clock exactly how I wanted it to **<u>include the date</u>**.&#160; Without this little tweak, when the Taskbar is this minimized, the native clock only displays the time.&#160; This little gem let’s you configure everything about the clock and even several other interesting Taskbar properties… like transparency, etc.&#160; Highly recommended. 
-  * <a href="http://arshi2009.deviantart.com/art/Stack-Docklet-For-ObjectDock-103031280" target="_blank">StacksDocklet</a> by Arshi2009 is awesome for replicating the sexy OSX _stack_ effect… I’m using this to house my favorite little utilities & control panels. 
-  * As you can see I’m running a couple other cool Docklets for the Weather and Clock (both come with ObjectDock), <a href="http://www.dockex.com/items/28" target="_blank">CPU Usage</a> and <a href="http://www.wincustomize.com/skins.aspx?skinid=2349&libid=29" target="_blank">System Sleep</a> (which is actually scrolled off the far right of the screenshot). 
+* [StacksDocklet](http://arshi2009.deviantart.com/art/Stack-Docklet-For-ObjectDock-103031280) by Arshi2009 is awesome for replicating the sexy OSX _stack_ effect… I’m using this to house my favorite little utilities & control panels. 
 
-&#160;[<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="http://lh4.ggpht.com/_XlySlDLkdOc/TB0pDaudBDI/AAAAAAAAEvM/x2BrC9f3rmw/image_thumb%5B3%5D.png?imgmax=800" width="840" height="552" />][1]
+* Running a couple other native Docklets for Weather and Clock as well as 3rd party [CPU Usage](http://www.dockex.com/items/28) and [System Sleep](http://www.wincustomize.com/skins.aspx?skinid=2349&libid=29) (which is actually scrolled off the far right of the screenshot).
 
- [1]: http://lh6.ggpht.com/_XlySlDLkdOc/TB0pCLL0FkI/AAAAAAAAEvI/8dkWrf76cic/s1600-h/image%5B5%5D.png
+# Notification Icons
+* After long searching for a way to reliably replicate all the Windows Notification Area functionality, I finally accepted simply running the standard Windows Taskbar at screen top is probably the most functional Mac approximation.
+
+* StarDock’s [ObjectBar](http://www.stardock.com/products/objectbar/) was pretty good but not perfect… there are several decent Mac skins, and it does replicate the Notification Area.  Unfortunately, for example, the volume icon did not work properly.  It would not pop up the volume slider window (which is apparently technically called a “[Thumbnail Toolbar](http://msdn.microsoft.com/en-us/library/aa511446.aspx#thumbnail)” in the Windows User Experience Guidelines). 
+
+* I love that the built in native Windows volume slider popup responds to mouse wheel… very convenient for quick adjustments.
+
+# Clock
+* An old tool called [TClock](https://web.archive.org/web/20161031011736/http://homepage1.nifty.com/kazubon/tclocklight/) enabled the kind of tweaks I'm into, like **<u>showing the date</u>**.  Otherwise the minimized native Taskbar clock only displays time.  This little gem let’s us configure several interesting properties like transparency. Definitely worth a look. 
+
+# Demo Screenshot
+![](https://user-images.githubusercontent.com/6301228/41195268-d1ae3e1c-6bde-11e8-8dd7-2fe351d26bab.png)

@@ -7,15 +7,16 @@ disqusShortname = "beejblog" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
+canonifyURLs = true
 
 [blackfriday]
     extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]
     hrefTargetBlank = true
 
 [Author]
-    name = "John Doe"
-    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-    avatar = "img/avatar.png"
+    #name = "John Doe"
+    #bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    #avatar = "img/avatar.png"
 
 
 [Params]

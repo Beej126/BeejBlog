@@ -22,8 +22,8 @@ input.expander {
 }
 
   /* main settings for the visible "expander" element */
-  input.expander + p + *:before, /*handle extra p tag inserted after heading tags*/
-  input.expander + *:not(p):before { /*everything else normal */
+  input.expander + p + *:before, /*skip extra p tag inserted after heading tags by markdown renderer (Hugo > Blackfriday)*/
+  input.expander + *:not(p):before { /*...everything else just hit the next sibling, whatever it is*/
     content: "\f196 "; /*fa-plus-square-o - these codes can be found on the detail page for each fa icon*/
     font-family: FontAwesome;
     cursor: pointer;

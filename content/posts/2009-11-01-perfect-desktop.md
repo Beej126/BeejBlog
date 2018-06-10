@@ -35,7 +35,7 @@ tags:
 This should really be titled "Endlessly Searching For... The Perfect Desktop"... circa Windows 7, this is a reasonably satisfying mock of OS X's desktop:
 
 # Dock
-* Using StarDock’s [ObjectDock](http://www.stardock.com/products/objectdock/) for the main OS X cool factor dock at the bottom... there's other open source alts like [Rocket](https://rocketdock.com/), [XWDock](https://github.com/VolodymyrLykhonis/XWindows-Dock-2.0), etc... while grateful for their efforts in what must be an unrewarding niche, i always wind up wanting more :)
+* Currently using StarDock’s [ObjectDock](http://www.stardock.com/products/objectdock/) for the main OS X cool factor dock at the bottom... there's of course been others over the years, [WinStep](https://www.winstep.net/nexus.asp), [Rocket](https://rocketdock.com/), [XWDock](https://github.com/VolodymyrLykhonis/XWindows-Dock-2.0)... while grateful for their efforts in what must be an unrewarding niche, i always wind up wanting more :)
 
 * [StacksDocklet](http://arshi2009.deviantart.com/art/Stack-Docklet-For-ObjectDock-103031280) by Arshi2009 is awesome for replicating the sexy OSX _stack_ effect… I’m using this to house my favorite little utilities & control panels. 
 

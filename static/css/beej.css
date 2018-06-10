@@ -18,6 +18,12 @@
   color: blue !important;
 }
 
+.list__footer-readmore {
+  color: unset;
+  background-color: unset;
+  text-decoration: underline;
+}
+
 .sidebar {
   width: 25%;
 }

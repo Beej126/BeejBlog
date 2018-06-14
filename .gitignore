@@ -5,3 +5,4 @@
 /.vs
 /sh.exe.stackdump
 /public
+/build-scripts/node_modules

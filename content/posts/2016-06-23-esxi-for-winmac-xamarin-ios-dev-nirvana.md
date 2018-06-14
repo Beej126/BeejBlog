@@ -29,7 +29,9 @@ tags:
 
   * i was looking for a single machine Mac + Win solution... working from one primary desktop and remoting to the other...
   * this is of course the general posture of all the popular VM "Workstation" products but they gave me heartburn for one reason or another (see Motivation)
-  * ESXi &#8211;VMWare's FREE & very "light" HyperVisor server product&#8211; requires some mildly esoteric configurations of HDD, Video & USB to accomplish the desired **single machine** workstation footprint, hence these notes
+  * ESXi &#8211;VMWare's FREE HyperVisor product&#8211; can support Mac (unlike Windows Hyper-V) yet requires some configurations of HDD, Video & USB to accomplish the desired **single machine** workstation footprint, hence these notes
+
+<p></p><input type="checkbox" class="expander" />
 
 ### Motivation:
 

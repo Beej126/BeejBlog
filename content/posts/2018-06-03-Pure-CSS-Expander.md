@@ -4,7 +4,7 @@ title: "Minimal Pure CSS Expand/Collapse Widget"
 author: Beej
 type: post
 description: ""
-date: "2018-06-03T14:16:00-07:00"
+date: 2018-06-03T14:16:00-07:00
 thumbnail: ""
 categories:
   - ""

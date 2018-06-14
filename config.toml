@@ -8,6 +8,18 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
 canonifyURLs = true
+# prevent hugo from creating folders/indexes for each section
+#disableKinds = ["section"]
+sectionPagesMenu = "main"
+
+[permalinks]
+    # :title is used if :slug is not defined in post frontmatter
+    #posts = "/:year/:month/:slug/"
+    archm = "/:year/:month/"
+    archives = "/:year/"
+
+[taxonomies]
+  tag = "tags"
 
 [blackfriday]
     extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]

@@ -4,7 +4,7 @@ title: "Self Escalating Batch"
 author: Beej
 type: post
 description: ""
-date: "2018-06-09T09:53:00-07:00"
+date: 2018-06-09T09:53:00-07:00
 thumbnail: ""
 categories:
   - ""
@@ -19,7 +19,9 @@ use this version of [Sudo for Windows](https://github.com/mattn/sudo)... it goes
 setlocal
 
 ::self escalate
-net session >nul 2>&1 
+net session >nul 2>&1
+::we need the timeout here versus in the main body logic...
+::because sudo remaps stdin which then fails  timeout's "press any key to continue" 
 if %errorlevel% NEQ 0 (sudo %0 & timeout /t 5 & exit /b)
 
 ::...rest of your logic...

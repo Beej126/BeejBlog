@@ -34,36 +34,38 @@ tags:
   3. and we'll also need the [smart contract compiler "SOLC"][3] (C:\Program Files\cpp-ethereum)... make sure those are both in your path
   4. create a working folder for this instance (aka "private network") and make it current, hereby referred to as `{workdir}`
   5. throw together a genesis.json like so, filling in the as blanks as noted (from here <sup id="fnref-1457-guide2"><a href="#fn-1457-guide2" class="jetpack-footnote">1</a></sup>)
-  ```js
-  {
-    "nonce": "0x0",
-    "timestamp": "0x0",
-    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "extraData": "0x0",
-    "gasLimit": "0x8000000",
-    "difficulty": "0x400",
-    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "coinbase": "0x0",
-    "alloc": { "0x0": {"balance": "20000000000000000000"}}
-  }
-  ```
+      ```js
+      {
+        "nonce": "0x0",
+        "timestamp": "0x0",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "extraData": "0x0",
+        "gasLimit": "0x8000000",
+        "difficulty": "0x400",
+        "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0",
+        "alloc": { "0x0": {"balance": "20000000000000000000"}}
+      }
+      ```
 
   * **nonce**: throw in a self generated hex guid ... one way to create a guid would be to install ScriptCS.exe and then `System.Guid.NewGuid().ToString("n")` ... recommend installing ScriptCS and anything else via [Chocolatey][4] Windows package manager
   * **coinbase & alloc**: note that later we'll replace those "0x0" values with your **primary account number** as where you want your mined ether to deposit and build up
   6. initialize your working folder files:
      
-      ```
+      ```bash
       geth -dev -datadir . init genesis.json
       ```
 
   7. do ourselves a big favor and create a default javascript file to toss in any of our own custom convenience routines to be available whenever the server starts up... save the following to e.g. helpers.js (referenced in the ethStart.cmd below)
   
       ```js
-      function balance() { return web3.fromWei(eth.getBalance(eth.accounts[0])) + " ethers"; }
+      function balance() {
+        return web3.fromWei(eth.getBalance(eth.accounts[0])) + " ethers"; 
+      }
       ```
   8. save the following to ethStart.cmd and launch it to fire up the server
   
-      ```
+      ```batch
       geth -dev -mine -minerthreads 1 -datadir . -networkid 399524671 -etherbase 0x057c86cae703b08c59fa6a9f066dbcc241da52a7 -rpc -rpcapi "eth,net,web3,personal" -rpccorsdomain * -password pw.txt -preload "helpers.js" console
       ::move unlock into command line after primary account is created
       ::-unlock 0
@@ -84,129 +86,76 @@ tags:
  12. drumroll... restart `ethStart.cmd` ... watch for any errors in the output
  13. <span class="hl">i had to wait a few minutes for mining activity like below to kick in... it would be interesting to hear what it's doing during this extended delay... </span>
   
-      ```
+      ```batch
       I1222 23:12:12.999058 miner/worker.go:542] commit new work on block 8 with 0 txs & 0 uncles. Took 0s
-  
       I1222 23:12:12.999559 miner/worker.go:542] commit new work on block 8 with 0 txs & 0 uncles. Took 0s
-  
       I1222 23:13:13.817780 miner/worker.go:344] 🔨 Mined block (#8 / 7d659f91). Wait 5 blocks for confirmation
-  
       I1222 23:13:13.818278 miner/worker.go:542] commit new work on block 9 with 0 txs & 0 uncles. Took 497.4µs
-  
       I1222 23:13:13.818777 miner/worker.go:542] commit new work on block 9 with 0 txs & 0 uncles. Took 0s
-  
       I1222 23:14:10.930228 miner/worker.go:344] 🔨 Mined block (#9 / b076ded1). Wait 5 blocks for confirmation
-  
       ```
       * definitely try `miner.start(1)` from the geth javascript command line if nothing happens after say 3 minutes tops
       * good troubleshooting ref <sup id="fnref-1457-guide1"><a href="#fn-1457-guide1" class="jetpack-footnote">3</a></sup>
  14. once you see mined block output, then try `balance()` and you should see a few ethers piling up in your kettle
-      ```
+      ```batch
       "50 ethers"
       ```
  15. here is my actual full happy output for your reference... don't worry, all "secret" values herein (e.g. account#, password, etc) are local testnet only / completely sacrificial
   
-      ```
+      ```batch
       [C:\Users\beej1\AppData\Roaming\Ethereum\beejnet]ethStart
-  
       geth -dev -mine -minerthreads 1 -datadir . -networkid 399524671 -etherbase 0x057c86cae703b08c59fa6a9f066dbcc241da52a7 -rpc -unlock 0 console
-  
       I1222 23:07:20.578872 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to C:\Users\beej1\AppData\Roaming\Ethereum\beejnet\geth\chaindata
-  
       I1222 23:07:20.620876 ethdb/database.go:176] closed db:C:\Users\beej1\AppData\Roaming\Ethereum\beejnet\geth\chaindata
-  
       I1222 23:07:20.621873 node/node.go:175] instance: Geth/v1.5.3-stable-978737f5/windows/go1.7.3
-  
       I1222 23:07:20.621873 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to C:\Users\beej1\AppData\Roaming\Ethereum\beejnet\geth\chaindata
-  
       <span class="hl">I1222 23:07:20.661879 core/genesis.go:93] Genesis block already in chain. Writing canonical number<br /> I1222 23:07:20.662377 eth/backend.go:282] Successfully wrote custom genesis block: e5be92145a301820111f91866566e3e99ee344d155569e4556a39bc71238f3bc</span>
-  
       I1222 23:07:20.662877 eth/backend.go:301] ethash used in test mode
-  
       I1222 23:07:20.663381 eth/backend.go:193] Protocol Versions: [63 62], Network Id: 399524671
-  
       I1222 23:07:20.663381 eth/backend.go:221] Chain config: {ChainID: 0 Homestead: <nil> DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil>}
-  
       I1222 23:07:20.663880 core/blockchain.go:214] Last header: #6 [1b77c210…] TD=917760
-  
       I1222 23:07:20.664380 core/blockchain.go:215] Last block: #6 [1b77c210…] TD=917760
-  
       I1222 23:07:20.664380 core/blockchain.go:216] Fast block: #6 [1b77c210…] TD=917760
-  
       I1222 23:07:20.665379 p2p/server.go:336] Starting Server
-  
       I1222 23:07:22.797260 p2p/discover/udp.go:217] Listening, enode://f2db422043fb3f846d2b429e0c2c99c1c2943ed2eea111d48dbafd203a250369e8c5ed56364d2248651647a094a4649529d3faf23e4b038f961ccc80cadf628a@[::]:61740
-  
       I1222 23:07:22.798761 p2p/server.go:604] Listening on [::]:49887
-  
       I1222 23:07:22.798761 whisper/whisperv2/whisper.go:176] Whisper started
-  
       I1222 23:07:22.798761 eth/backend.go:481] Automatic pregeneration of ethash DAG ON (ethash dir: C:\Users\beej1\AppData\Ethash)
-  
       I1222 23:07:22.799260 eth/backend.go:488] checking DAG (ethash dir: C:\Users\beej1\AppData\Ethash)
-  
       I1222 23:07:22.800262 node/node.go:340] IPC endpoint opened: \.\pipe\geth.ipc
-  
       I1222 23:07:22.813263 node/node.go:410] HTTP endpoint opened: http://localhost:8545
-  
       Unlocking account 0 | Attempt 1/3
-  
       <span class="hl">Passphrase: </span>
-  
       I1222 23:08:28.727457 cmd/geth/accountcmd.go:200] Unlocked account 057c86cae703b08c59fa6a9f066dbcc241da52a7
-  
       I1222 23:08:28.727954 miner/miner.go:137] Starting mining operation (CPU=1 TOT=2)
-  
       I1222 23:08:28.728455 miner/worker.go:542] commit new work on block 7 with 0 txs & 0 uncles. Took 0s
-  
       I1222 23:08:28.728955 vendor/github.com/ethereum/ethash/ethash.go:259] Generating DAG for epoch 0 (size 32768) (0000000000000000000000000000000000000000000000000000000000000000)
-  
       I1222 23:08:28.730457 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 0%
-  
       I1222 23:08:28.730958 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 1%
-  
       I1222 23:08:28.730958 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 2%
-  
       I1222 23:08:28.730958 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 3%
-  
       I1222 23:08:28.731456 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 4%
-  
       I1222 23:08:28.731456 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 5%
-  
       ... skipping ...
-  
       I1222 23:08:28.752959 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 97%
-  
       I1222 23:08:28.752959 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 98%
-  
       I1222 23:08:28.752959 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 99%
-  
       I1222 23:08:28.753459 vendor/github.com/ethereum/ethash/ethash.go:291] Generating DAG: 100%
-  
       I1222 23:08:28.753459 vendor/github.com/ethereum/ethash/ethash.go:276] Done generating DAG for epoch 0, it took 25.0043ms
-  
+
       Welcome to the Geth JavaScript console!
 
       instance: Geth/v1.5.3-stable-978737f5/windows/go1.7.3
-  
       coinbase: 0x057c86cae703b08c59fa6a9f066dbcc241da52a7
-  
       at block: 6 (Thu, 22 Dec 2016 22:58:56 PST)
-   
       datadir: C:\Users\beej1\AppData\Roaming\Ethereum\beejnet
-   
       modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 shh:1.0 txpool:1.0 web3:1.0
 
       I1222 23:12:12.999058 miner/worker.go:542] commit new work on block 8 with 0 txs & 0 uncles. Took 0s
-    
       I1222 23:12:12.999559 miner/worker.go:542] commit new work on block 8 with 0 txs & 0 uncles. Took 0s
-    
       I1222 23:13:13.817780 miner/worker.go:344] 🔨 Mined block (#8 / 7d659f91). Wait 5 blocks for confirmation
-    
       I1222 23:13:13.818278 miner/worker.go:542] commit new work on block 9 with 0 txs & 0 uncles. Took 497.4µs
-    
       I1222 23:13:13.818777 miner/worker.go:542] commit new work on block 9 with 0 txs & 0 uncles. Took 0s
-    
       I1222 23:14:10.930228 miner/worker.go:344] 🔨 Mined block (#9 / b076ded1). Wait 5 blocks for confirmation
       ``` 
 
@@ -216,7 +165,7 @@ now we can jump into the [greeter hello world sample][5]
 
   1. save this to `greeter.js`
   
-      ```
+      ```js
       var _greeting = "Hello World!"
   
       var greeterContract = web3.eth.contract(greeterCompiled.greeter.info.abiDefinition);</p> 
@@ -239,18 +188,17 @@ now we can jump into the [greeter hello world sample][5]
       
       expected output:
   
-      ```
+      ```bash
       I1222 23:58:58.069301 internal/ethapi/api.go:1045] Tx(0x293ae70fcfaa52d875cbc8fb72937da69983724016321eea944eda2b1a87732b) created: 0xec99e07dc19d075761456f8c33558ba2148eb048
-  
       Contract transaction send: TransactionHash: 0x293ae70fcfaa52d875cbc8fb72937da69983724016321eea944eda2b1a87732b waiting to be mined...
       ```
   3. <span class="hl">again, sit and twiddle your thumbs for an excruciatingly long time (7 minutes for me!?!?)... and hopefully you eventually see output</span>
-      ```
+      ```bash
       Contract mined! Address: 0xec99e07dc19d075761456f8c33558ba2148eb048
       ```
   4. now we finally get to do: `greeter.greet()` 
      expected output
-      ```
+      ```bash
       "Hello World!"
       ```
 

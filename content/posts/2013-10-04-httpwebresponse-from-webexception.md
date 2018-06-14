@@ -22,15 +22,16 @@ tags:
   - .Net
 
 ---
-<pre class="prettyprint">using (var response = (HttpWebResponse)((Func<WebResponse>)(() =>
+```js
+using (var response = (HttpWebResponse)((Func)(() =>
 {
-&nbsp; try { return(request.GetResponse());}
-&nbsp; catch (WebException ex) { return(ex.Response); }
+  try { return(request.GetResponse());}
+  catch (WebException ex) { return(ex.Response); }
 }))()) //<-- too funny
 using (var responseStream = response.GetResponseStream())
 // ReSharper disable once AssignNullToNotNullAttribute
 using (var readStream = new StreamReader(responseStream, Encoding.UTF8))
 {
-&nbsp; return String.Format("{0} {1}. {2}", (int)response.StatusCode, response.StatusCode, readStream.ReadToEnd());
+  return String.Format("{0} {1}. {2}", (int)response.StatusCode, response.StatusCode, readStream.ReadToEnd());
 }
-</pre>
+```

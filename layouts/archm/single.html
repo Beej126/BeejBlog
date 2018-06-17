@@ -1,10 +1,30 @@
-{{ $archYear := .Date.Format "2006" }}
-{{ $archMonth := .Date.Format "January" }}
+{{ partial "header.html" . }}
 
-<h2>Archive for {{ $archMonth }} {{ $archYear }}</h2>
+<main class="main list content" role="main">
+  {{- with .Title }}
+  <header class="page-header">
+    <h1 class="page-header__title">{{ . }}</h1>
+  </header>
+  {{- end }}
+  {{- with .Content }}
+  <div class="page-content">
+    {{ . }}
+  </div>
+  {{- end }}
 
-{{ range where .Site.Pages "Section" "posts" }}
-{{ if and (eq (.Date.Format "2006") $archYear) (eq (.Date.Format "January") $archMonth) }}
-{{ partial "post/archive" . }}
-{{ end }}
-{{ end }}
+  {{ $archYear := .Date.Format "2006" }}
+  {{ $archMonth := .Date.Format "January" }}
+
+  <h2>Archive for {{ $archMonth }} {{ $archYear }}</h2>
+
+  {{ range where .Site.Pages "Section" "posts" }}
+  {{ if and (ne .Title "Posts") (eq (.Date.Format "2006") $archYear) (eq (.Date.Format "January") $archMonth) }}
+  {{- .Render "summary" }}
+  {{ end }}
+  {{ end }}
+
+</main>
+
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}
+

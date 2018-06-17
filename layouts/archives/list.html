@@ -18,10 +18,16 @@
     {{ $year := .Date.Format "2006" }}
     <li style="margin-bottom: 10px">
       <a href="{{ .Permalink }}">{{ $year }}</a>
+      ({{ len (index (where ((where .Site.RegularPages "Type" "post").GroupByDate "2006") "Key" $year) 0).Pages }})
       <ul class="months">
         {{ range where .Site.Pages "Section" "archm" }}
-        {{ if eq (.Date.Format "2006") $year }}
-        <li><a href="{{ .Permalink }}">{{ .Date.Format "January" }}</a></li>
+        {{ $yyyymm := .Date.Format "200601" }}
+        {{ if and (not ($.Scratch.Get $yyyymm)) (eq (.Date.Format "2006") $year) }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Date.Format "January" }}</a>
+          ({{ len (index (where ((where .Site.RegularPages "Type" "post").GroupByDate "200601") "Key" $yyyymm) 0).Pages }})
+        </li>
+        {{ $.Scratch.Set $yyyymm true }}
         {{ end }}
         {{ end }}
       </ul>

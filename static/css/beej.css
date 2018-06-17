@@ -75,6 +75,24 @@ a.header-link {
     opacity: 0.5;
   }
 
+a.menu__link {
+  color: #8bc34a !important;
+}
+
+.menu__item--active, .menu__item:hover {
+  background: #8bc34a5c;
+}
+
+  .menu__item--active > a.menu__link {
+    color: black !important;
+  }
+
+
+nav.menu {
+  background-color: unset !important;
+  border-bottom-color: #8bc34a5c !important;
+}
+
 
 .highlight {
   margin-bottom: 1.5em;

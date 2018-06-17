@@ -10,7 +10,8 @@
 
 .widget-taglist__link {
   border-radius: 5px;
-  background-color: #2a2a2aa8;
+  background-color: unset;
+  color: black;
 }
 
 .post__content a {
@@ -40,11 +41,11 @@ ul, ol {
   margin-left: 1.5em;
 }
 
-h1:hover > .header-link, 
-h2:hover > .header-link, 
-h3:hover > .header-link, 
-h4:hover > .header-link, 
-h5:hover > .header-link, 
+h1:hover > .header-link,
+h2:hover > .header-link,
+h3:hover > .header-link,
+h4:hover > .header-link,
+h5:hover > .header-link,
 h6:hover > .header-link {
   opacity: 1;
   transition: opacity 0.2s linear;
@@ -276,8 +277,24 @@ h1 {
 }
 
 .logo__title {
-  font-family: "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important;
+  font-family: monospace !important;
   font-weight: unset !important;
+}
+
+  .logo__title:hover > span.title {
+    transform: rotate(185deg) translateY(1px);
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    opacity: 1;
+  }
+
+  .logo__title:hover > span#title2 {
+    opacity: 0;
+  }
+
+
+span.title {
+  opacity: 0;
+  position: absolute;
 }
 
 .btn {

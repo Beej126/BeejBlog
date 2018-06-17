@@ -19,7 +19,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 tags:
-  - .Net
+  - DotNetFramework
 
 ---
 It’s been long enough that the little things tripped me when I fired up a new project… so here they are for “next time”: 

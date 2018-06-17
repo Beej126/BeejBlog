@@ -21,7 +21,7 @@ dsq_thread_id:
 categories:
   - Highlights
 tags:
-  - .Net
+  - DotNetFramework
   - Database
   - Synthesis
 

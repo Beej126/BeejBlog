@@ -17,7 +17,7 @@ blogger_permalink:
 categories:
   - Uncategorized
 tags:
-  - .Net
+  - DotNetFramework
 
 ---
   * .Net Framework v4 New Features 

@@ -29,7 +29,7 @@ snapTW:
 categories:
   - Uncategorized
 tags:
-  - .Net
+  - DotNetFramework
   - Database
   - WPF
 

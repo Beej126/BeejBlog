@@ -19,7 +19,7 @@ dsq_thread_id:
 categories:
   - Uncategorized
 tags:
-  - .Net
+  - DotNetFramework
 
 ---
 ```js

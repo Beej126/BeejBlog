@@ -23,7 +23,7 @@ snapTW:
 categories:
   - Uncategorized
 tags:
-  - .NetStandard
+  - DotNetCore
   - Aurelia
 
 ---

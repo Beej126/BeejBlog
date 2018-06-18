@@ -15,6 +15,7 @@ tags:
 ### Installing Google Play
 
   * This worked very nicely minimally for Android v7.1.1 "with Google APIs"...
+    <!--more-->
   * Need to launch emulator.exe with `-writable-system -selinux permissive` args
   * grab the version of [OpenGapps][1] you want
   * Basically follow [this guide][2] but stop at "Restarting and Creating another Image" 

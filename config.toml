@@ -41,8 +41,6 @@ sectionPagesMenu = "main"
     leftsidebar = false # Move sidebar to the left side if true
     authorbox = false
     post_navigation = true
-    postSections = ["posts"]
-
 
 [Params.widgets]
     search = false # Enable "Search" widget

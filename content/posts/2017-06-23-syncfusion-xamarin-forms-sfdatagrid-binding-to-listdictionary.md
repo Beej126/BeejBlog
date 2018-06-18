@@ -21,6 +21,7 @@ Binding to Collection<Dictionary<,>> can be accomplished but doesn't appear to b
 The basic trick is to set the SfDataGrid's column.MappingName = "Fields[FieldName]";
        
 where Fields is a Dictionary property on your _DictionaryWrapper_ class.
+<!--more-->
 
 I couldn't get List<Dictionary<string, object>> working directly without the wrapper class "hiding" the dictionary from what I think is an SfDataGrid bug. The app crash exception call stack ultimately winds up on an invalid Linq related get_Item() call.
 

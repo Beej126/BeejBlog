@@ -15,6 +15,7 @@ tags:
 
 ---
 i'm basically following [this guide][1], while humbly attempting to trim down to bare necessity and re-align configs with crucial bits that've shifted since then... and likely to continue shifting 😐
+<!--more-->
 
   1. [install Node][2]... there's many ways but their setup.exe is handy... this includes npm
   2. from cmd.exe: `npm install -g typescript` (-g means globally vs project specific)

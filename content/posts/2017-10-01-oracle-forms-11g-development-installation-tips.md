@@ -20,6 +20,7 @@ tags:
 Yeah I actually said Oracle Forms, that product from the 90's... as one might guess, i happen to be on a legacy conversion project at work...
   
 There's some rough edges getting these old bits to install and run that i wanted to capture...
+<!--more-->
 
 # Background
 

@@ -22,6 +22,7 @@ tags:
 ## Oracle Provider for OLE DB
 
   * I initially found a free generic database object browser tool called [Oracle Maestro][2]... 
+      <!--more-->
       * i actually wound up landing on a much better tool, [linked below][3], but getting Maestro to work walked me through some troubleshooting which would come up for anything requiring OLEDB connectivity
       * Maestro happened to be 32bit only and as usual, the bitness of our runtime is a fun factor...
   * the need for an OLEDB connection string prompted my handy trick of creating a "test.udl" file and then double clicking it to get into a helpful OLD DB Config Wizard UI... once you've configured a connection, just notepad that UDL file to copy/paste the connection string, nice!

@@ -13,4 +13,7 @@ tags:
   - SysAdmin
 
 ---
+I was envious of how the mac auto extracts zips and took a shot at doing that via powershell script on windows
+<!--more-->
+
 {{< gist Beej126 3064e77ddb5fad34ff04ee40ffec16bc >}}

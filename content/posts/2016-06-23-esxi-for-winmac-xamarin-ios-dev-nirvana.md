@@ -23,7 +23,7 @@ tags:
   - Xamarin
 
 ---
-## in other words, only virtualizing RAM & Compute, not KVM & HDD
+## Virtualizing Compute and Video but not Keyboard, Mouse & HDD :)
 
 ### Overview:
 
@@ -33,7 +33,7 @@ tags:
 
 <p></p><input type="checkbox" class="expander" />
 
-### Motivation:
+### Motivation...
 
   * Hosting Mac VM side under Windows VMware Workstation i ran into very unreliable connection from Visual Studio 2015 to Xamarin's Mac Build Agent (believe me, tried all latest VS2015 update bits as well as Xamarin alpha channel)... only after MANY MANY frustrating retries would it eventually connect
   * as well as surprising Xamarin Studio NuGet package gallery connectivity roadblock with virtual Mac's network interface in NAT mode which seemed to be the only way Build Agent would ever connect... NuGet worked under Bridged but then Visual Studio couldn't connect... arrrrg

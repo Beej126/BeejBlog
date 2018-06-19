@@ -37,6 +37,10 @@ ul ul, ul ol, ol ul, ol ol {
   margin-bottom: 0 !important;
 }
 
+nav > ul > li {
+  list-style: none;
+}
+
 ul, ol {
   margin-left: 1.5em;
 }

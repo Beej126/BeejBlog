@@ -1,6 +1,7 @@
 ﻿/* Octopress overrides */
 p.meta > a.label, p.meta > a.label::before { display: none}
 table.lntable { overflow: auto; }
+span.lnt { display: inherit; }
 /* Octopress -- end -- */
 
 /* tags */

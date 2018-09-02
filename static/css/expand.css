@@ -33,10 +33,12 @@ input.expander {
     color: blue !important;
   }
 
+  /* this didn't work with Octopress
   input.expander + p + * {
     display: inline-block;
   }
-
+  */
+  
   input.expander + i {
     font-style: normal;
   }

@@ -19,7 +19,7 @@ tags:
   - Xamarin
 
 ---
-### Problem
+### Problem Statement
 
 Azure AD writeups are prevalent but I was really struggling to find examples of calling the same Azure Function API, secured by Azure AD Authentication, by <u>both Native as well as Web clients</u> (_since we can only select one app type in the Azure AD App registration, not both_).
 
@@ -31,66 +31,67 @@ So the web registration is tied directly to the Azure Function... and then we're
 
 ### Basic Steps
 
-This is a good [getting started guide][2] guide, in parity with current landscape.
+My notes on top of this [getting started guide][2]:
 
   1. get your Azure Function working as a web api... probably doesn't matter whether web or native comes first but it seems like the web is more "trusted" from an OAuth standpoint and more clearly documented... OAuth refers to native clients as "public" and requiring a couple more OAuth contortions than web clients.
   2. create a <u>Web type</u> entry for your Function under `New Portal > Azure Active Directory > App registrations`... all the defaults are good, except you'll need to create the Reply URLs that are valid for you... reply url is a parameter to your ADAL.js client call... in the end this entry provides the crucial <u>Application Id aka Client Id</u>
-  3. now configure this web registration for AD Auth via `New Portal > App Services > {your Function app} > Function app settings > Configure authentication > Authentication Providers > Azure AD > Express` > 
+  3. now configure this web registration for AD Auth via `New Portal > App Services > {your Function app} > Function app settings > Configure authentication > Authentication Providers > Azure AD > Express >`
       1. `Azure AD App` = the Web App registration name you gave above
   4. Now create another Azure AD > App registration as <u>Native type</u> and <span class="HL">(HERE'S THE KICKER) > Settings > Required Permissions > Add > Select an API > <u>TYPE IN YOUR web App registration name in the search box</u> and it'll show up to be selected</span>
   5. finally, use the Application Id guid from your web app as the RESOURCE parameter to the AcquireTokenAsync() call in your native app 
 
 ### Working ADAL.js web client code sample
 
-    function adalResultHandler(err, token) {
-      if (err) {
-        self.userName(null);
-        lobibox.notify("error", { size: "mini", title: "Azure AD Auth", msg: err });
-        return false;
-      } else {
-        self.userName(adal.getCachedUser().profile.name);
-        //lobibox.notify("info", { size: "mini", msg: "login successful\nuser: " + user.profile.name + "\ntoken: " + token });
-        return true;
-      }
-    }
-    
-    var adal = new AuthenticationContext({
-      instance: "https://login.microsoftonline.com/",
-      tenant: "{your domain}.onmicrosoft.com",
-      clientId: "{your web guid}", // your Azure AD > App registrationS > {your web api} > APPLICATION ID
-      //NUGGET: these "reply URLs" are set under Azure Portal > AD > App registrations > {your App Service} > Settings > Reply URLs
-      //NOT under {your App Service} > Settings > (Manage) Auth > AD > Redirect URLs !!!
-      redirectUri: window.location.href, //REPLACE WITH YOUR REDIRECT URL
-      popUp: true
-    });
-    
-    adal.callback = function (err, token) { if (adalResultHandler(err, token)) doSomething(); }
-    
-    adal.login();
-    
+```js
+function adalResultHandler(err, token) {
+  if (err) {
+    self.userName(null);
+    lobibox.notify("error", { size: "mini", title: "Azure AD Auth", msg: err });
+    return false;
+  } else {
+    self.userName(adal.getCachedUser().profile.name);
+    //lobibox.notify("info", { size: "mini", msg: "login successful\nuser: " + user.profile.name + "\ntoken: " + token });
+    return true;
+  }
+}
+
+var adal = new AuthenticationContext({
+  instance: "https://login.microsoftonline.com/",
+  tenant: "{your domain}.onmicrosoft.com",
+  clientId: "{your web guid}", // your Azure AD > App registrationS > {your web api} > APPLICATION ID
+  //NUGGET: these "reply URLs" are set under Azure Portal > AD > App registrations > {your App Service} > Settings > Reply URLs
+  //NOT under {your App Service} > Settings > (Manage) Auth > AD > Redirect URLs !!!
+  redirectUri: window.location.href, //REPLACE WITH YOUR REDIRECT URL
+  popUp: true
+});
+
+adal.callback = function (err, token) { if (adalResultHandler(err, token)) doSomething(); }
+
+adal.login();
+```    
 
 <a name="nativeCodeSample"><i class="fa fa-anchor"></i></a>
 
 ### Working Xamarin Native iOS app client code sample
+```js
+private const string Instance = "https://login.microsoftonline.com";
+private const string Tenant = "{your domain}.onmicrosoft.com"; //common //COMMON OR YOUR TENANT ID // "hfcazure.com", //"4be68759-0968-4760-b716-f82711a28fcb", //http://stackoverflow.com/questions/26384034/how-to-get-the-azure-account-tenant-id
+private const string ClientId = "{your native guid}"; //from your Azure AD > App registrations > {your ***NATIVE*** api} > APPLICATION ID
+private const string RedirectUri = "https://{your azure function api name}.azurewebsites.net";
+private const string ResourceId = "{your web guid}"; //take this from your Azure AD > App registrations > {your ***WEB*** api} > APPLICATION ID // **isn't that interesting, we're requesting another API as the "resource" of this api**
 
-    private const string Instance = "https://login.microsoftonline.com";
-    private const string Tenant = "{your domain}.onmicrosoft.com"; //common //COMMON OR YOUR TENANT ID // "hfcazure.com", //"4be68759-0968-4760-b716-f82711a28fcb", //http://stackoverflow.com/questions/26384034/how-to-get-the-azure-account-tenant-id
-    private const string ClientId = "{your native guid}"; //from your Azure AD > App registrations > {your ***NATIVE*** api} > APPLICATION ID
-    private const string RedirectUri = "https://{your azure function api name}.azurewebsites.net";
-    private const string ResourceId = "{your web guid}"; //take this from your Azure AD > App registrations > {your ***WEB*** api} > APPLICATION ID // **isn't that interesting, we're requesting another API as the "resource" of this api**
-    
-    var Azure_OAuth2_Authority_Url = $"{Instance}/{Tenant}/oauth2/authorize");
-    var authContext = new AuthenticationContext(Azure_OAuth2_Authority_Url);
-    
-    var authResult = await authContext.AcquireTokenAsync(ResourceId, ClientId, new Uri(RedirectUri), await _platformParameters.GetAsync()); //_platformParameters is something i whipped up special
-    CurrentUser = new HfcUserAuth
-    {
-      FirstName = authResult.UserInfo?.GivenName,
-      LastName = authResult.UserInfo?.FamilyName,
-      AccessToken = authResult.AccessToken,
-      IdToken = authResult.IdToken
-    };
-    
+var Azure_OAuth2_Authority_Url = $"{Instance}/{Tenant}/oauth2/authorize");
+var authContext = new AuthenticationContext(Azure_OAuth2_Authority_Url);
+
+var authResult = await authContext.AcquireTokenAsync(ResourceId, ClientId, new Uri(RedirectUri), await _platformParameters.GetAsync()); //_platformParameters is something i whipped up special
+CurrentUser = new HfcUserAuth
+{
+  FirstName = authResult.UserInfo?.GivenName,
+  LastName = authResult.UserInfo?.FamilyName,
+  AccessToken = authResult.AccessToken,
+  IdToken = authResult.IdToken
+};
+```    
 
 ### Typical error responses
 

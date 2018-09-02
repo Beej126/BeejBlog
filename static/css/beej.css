@@ -1,4 +1,22 @@
-﻿.container {
+﻿/* Octopress overrides */
+p.meta > a.label, p.meta > a.label::before { display: none}
+table.lntable { overflow: auto; }
+/* Octopress -- end -- */
+
+/* tags */
+a.widget__link:hover {
+  background: #0181eb;
+  text-shadow: none;
+  color: #f8f8f8 !important;
+}
+a.widget__link {text-decoration: none}
+/* tags -- end -- */
+
+/* hide the "Archive Months" navigation menu 
+   since we get everything on the years page anyway */
+ul.main-navigation > li > a[title="Archms"] { display: none }
+
+.container {
   max-width: unset !important;
   width: 95% !important;
 }
@@ -37,7 +55,9 @@ ul ul, ul ol, ol ul, ol ol {
   margin-bottom: 0 !important;
 }
 
-nav > ul > li {
+nav#TableOfContents::before {content: "Table of Contents"; font-size: x-large; font-weight: bold}
+
+nav#TableOfContents li {
   list-style: none;
 }
 
@@ -107,7 +127,7 @@ nav.menu {
     padding: 10px !important;
   }
 
-:not(pre) > code {
+:not(pre) > -code {
   color: lightgreen !important;
   white-space: unset !important;
   padding: 3px !important;
@@ -139,14 +159,14 @@ nav.menu {
 }
 */
 
-_body {
+-body {
   font-family: "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.6;
   font-size: 18px !important;
 }
 
-h2, h3, h4, h5, h6 {
+-h2, -h3, -h4, -h5, -h6 {
   font-family: "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-rendering: optimizeLegibility;
   color: #5e5e5e;
@@ -154,7 +174,7 @@ h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
-h1 {
+-h1 {
   font-family: "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;

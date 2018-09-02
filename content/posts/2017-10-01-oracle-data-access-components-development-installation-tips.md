@@ -17,7 +17,6 @@ tags:
   - Oracle
 
 ---
-## [start here for latest downloads][1]
 
 ## Oracle Provider for OLE DB
 
@@ -93,19 +92,20 @@ machine.config entries i wound up editing in as of current version
 
 ![][11]
 
-# 3rd Party Tools
+## Links and Tools
 
+  * [latest downloads](http://www.oracle.com/technetwork/topics/dotnet/downloads/index.html)
   * [Devart's dbForge Studio for Oracle free Express edition][12] looks like a winner... no OLEDB ODAC required??
 
- [1]: http://www.oracle.com/technetwork/topics/dotnet/downloads/index.html
+
  [2]: https://www.sqlmaestro.com/products/oracle/maestro/
  [3]: #3rdPartyTools
  [4]: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
  [5]: https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
- [6]: https://www.beejblog.com/wp-content/uploads/2017/10/snap217.png
+ [6]: /wp-content/uploads/2017/10/snap217.png
  [7]: http://www.maherjendoubi.io/odp-net-on-microsoft-net-core/
- [8]: https://www.beejblog.com/wp-content/uploads/2017/10/snap218.png
+ [8]: /wp-content/uploads/2017/10/snap218.png
  [9]: https://stackoverflow.com/a/26039859
- [10]: https://www.beejblog.com/wp-content/uploads/2017/10/snap220.png
- [11]: https://www.beejblog.com/wp-content/uploads/2017/10/snap219.png
+ [10]: /wp-content/uploads/2017/10/snap220.png
+ [11]: /wp-content/uploads/2017/10/snap219.png
  [12]: https://www.devart.com/dbforge/oracle/studio/download.html

@@ -1,25 +1,31 @@
+theme = "Octopress"
 baseurl = "/"
-title = "/* B33jBl0g */"
+title = "/* BeejBløg */"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
 disqusShortname = "beejblog" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-73280219-1" # Enable Google Analytics by entering your tracking id
-pygmentsCodeFences = true
-pygmentsOptions = "linenos=table"
 canonifyURLs = true
 # prevent hugo from creating folders/indexes for each section
 #disableKinds = ["section"]
 sectionPagesMenu = "main"
 
-[permalinks]
-    # :title is used if :slug is not defined in post frontmatter
-    #posts = "/:year/:month/:slug/"
-    archm = "/:year/:month/"
-    archives = "/:year/"
+pygmentsCodeFences = true
+pygmentsOptions = "linenos=table"
+pygmentsUseClasses = true
 
 [taxonomies]
-  tag = "tags"
+    tag = "tags"
+    #year = "year"
+    #month = "month"
+
+[permalinks]
+    # :title is used if :slug is not defined in post frontmatter
+    posts = "/:year/:month/:slug/"
+    #archm = "/:year/:month/"
+    #archives = "/:year/"
+    #year = "/post/:slug/"
+    #month = "/post/:slug/"
 
 [blackfriday]
     extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]
@@ -29,7 +35,6 @@ sectionPagesMenu = "main"
     #name = "John Doe"
     #bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
     #avatar = "img/avatar.png"
-
 
 [Params]
   	favicon = "favicon.ico"
@@ -41,6 +46,18 @@ sectionPagesMenu = "main"
     leftsidebar = false # Move sidebar to the left side if true
     authorbox = false
     post_navigation = true
+
+    # Octopress theme (Parsiya)
+    sidebarMenuEnabled = true
+    sidebarSocialEnabled = false
+    sidebarRecentLimit = 5
+    tableOfContents = true
+    generateTaxonomyList = true
+    # Alphabetical sort
+    # sortTaxonomyAlphabetical = true
+    customCSS = ["css/beej.css", "css/expand.css"]
+    fontAwesome = true
+    # Octopress -- end --
 
 [Params.widgets]
     search = false # Enable "Search" widget
@@ -57,3 +74,4 @@ sectionPagesMenu = "main"
     #social_github = "username"
     #social_email = "example@example.com"
     #social_google_plus = "profileid"
+ 

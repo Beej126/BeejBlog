@@ -12,7 +12,7 @@ tags:
   - SysAdmin
 
 ---
-This is an oldie but goody... the gist is that even latest Windows 10 still ships with working IExpress.exe which is a self extracting exe builder! Who knew.
+This is an oldie but goody... the gist is that even latest Windows 10 still ships with working IExpress.exe which is a self extracting exe builder! Who knew?!
 <!--more-->
 
 In my case, very handy for bundling a batch file and it's dependencies into a single exe for a buddy.

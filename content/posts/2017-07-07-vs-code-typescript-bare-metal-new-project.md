@@ -26,15 +26,15 @@ i'm basically following [this guide][1], while humbly attempting to trim down to
       1. this will create a crucial `tasks.json` file with working default settings... 
       2. -AND- that "watch mode" choice means the moment you save any .ts file, the IDE will automatically regen the corresponding .js files... which plays into live edit and continue style debugging
   7. vsc> File > New File > populate with the following json block and save as `tsconfig.json` ... this directs vscode to "transpile" .ts script to standard .js for us
-
-        {
-            "compilerOptions": {
-                "target": "es5", 
-                "outDir": "out/",
-                "sourceMap": true
-            }    
-        }
-    
+     ```json
+    {
+        "compilerOptions": {
+            "target": "es5", 
+            "outDir": "out/",
+            "sourceMap": true
+        }    
+    }
+    ```
 
   1. vsc> File > New File > throw in something simple like `console.log("Hello World!");` and save as `app.ts`
   2. vsc> <u>build</u> aka compile via <kbd>CTRL+SHIFT+B</kbd>... after a few pregnant seconds, this will gen some stuff in the `out` folder that we specified in above `tsconfig.json`

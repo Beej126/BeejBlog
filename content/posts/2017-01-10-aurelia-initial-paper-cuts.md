@@ -116,15 +116,15 @@ No iOS browser provides any debugger tools -BUT- on Mac, we can fire up the Xcod
       * then from command line: `netsh http add urlacl url=http://address:port/ user=everyone`
 
 #### Off to the races?
-  <i class="fa fa-check-square-o"></i> basic working project.
+  <i class="far fa-check-square"></i> basic working project.
 
-  <i class="fa fa-check-square-o"></i> working server side debug.
+  <i class="far fa-check-square"></i> working server side debug.
 
-  <i class="fa fa-check-square-o"></i> working client side debug.
+  <i class="far fa-check-square"></i> working client side debug.
 
-  <i class="fa fa-check-square-o"></i> working ajax call.
+  <i class="far fa-check-square"></i> working ajax call.
 
-  <i class="fa fa-check-square-o"></i> fresh copy of "[Learning Aurelia][17]" on the Kindle
+  <i class="far fa-check-square"></i> fresh copy of "[Learning Aurelia][17]" on the Kindle
 
 I'm gone like the wind!
 

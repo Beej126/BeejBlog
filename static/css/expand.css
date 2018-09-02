@@ -21,6 +21,14 @@ input.expander {
   transform: scale(1.5);
 }
 
+input.expander + p + h1,
+input.expander + p + h2,
+input.expander + p + h3,
+input.expander + p + h4,
+input.expander + p + h5,
+input.expander + p + h6 {
+  display: inline;
+}
   /* main settings for the visible "expander" element */
   input.expander + p + *:before, /*skip extra p tag inserted after heading tags by markdown renderer (Hugo > Blackfriday)*/
   input.expander + *:not(p):before { /*...everything else just hit the next sibling, whatever it is*/
@@ -28,7 +36,7 @@ input.expander {
     font-family: FontAwesome;
     cursor: pointer;
     width: 1em;
-    display: inline-block;
+    display: inline-block !important;
     /*font-size: larger;*/
     color: blue !important;
   }

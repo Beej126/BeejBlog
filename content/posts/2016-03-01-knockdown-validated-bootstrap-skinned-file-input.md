@@ -29,10 +29,10 @@ tags:
   
 Highlights:
 
-  * Skinning the native html &lt;input type="file"&gt; by setting it's opacity=0 and positioning above a bootstrap skinned button... this way when you click the pretty button you're really clicking on the invisible native button which launches the file open dialog as usual, cool! :)
-  * [Bootstrap input-group][2] aesthetically bundles the visual elements &#8211; file button, filename box, valiation message and clear button
-  * Knockout [Custom Binding][3] on the file input change event to save into VM observable
-  * [Knockout-Validation][4] lib to require selected file to be an image type &#8211; nice thing here is keeping that logic in the js ViewModel vs dirtying the html with it.
+* Skinning the native html &lt;input type="file"&gt; by setting it's opacity=0 and positioning above a bootstrap skinned button... this way when you click the pretty button you're really clicking on the invisible native button which launches the file open dialog as usual, cool! :)
+* [Bootstrap input-group][2] aesthetically bundles the visual elements &#8211; file button, filename box, valiation message and clear button
+* Knockout [Custom Binding][3] on the file input change event to save into VM observable
+* [Knockout-Validation][4] lib to require selected file to be an image type &#8211; nice thing here is keeping that logic in the js ViewModel vs dirtying the html with it.
 
 ### Live Demo:
 

@@ -7,6 +7,7 @@
     left: 218px;
     top: 53px;
     opacity: 0;
+    cursor: pointer;
   }
 
   /* show/hide the articles */
@@ -43,8 +44,8 @@
       <article style="margin-top: 0; padding-top: 0">
           <input type="checkbox" class="showhide" title="expand articles">
           <h1 style="margin-bottom: 0.5em">Archives
-              <i class="far fa-caret-square-down expanded" style="cursor: pointer; color: blue"></i>
-              <i class="far fa-caret-square-right contracted" style="cursor: pointer; color: blue"></i>
+              <i class="far fa-caret-square-down expanded" style="color: blue"></i>
+              <i class="far fa-caret-square-right contracted" style="color: blue"></i>
           </h1>
           <ul class="years">
           {{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}

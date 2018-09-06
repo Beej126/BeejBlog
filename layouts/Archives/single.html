@@ -1,6 +1,11 @@
 {{ partial "header.html" . }}
 
 <style>
+  li.year {
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: -1em"
+  }
   input.showhide {
     transform: scale(3);
     position: absolute;
@@ -11,19 +16,20 @@
   }
 
   /* show/hide the articles */
-  input.showhide:not(:checked) ~ ul.years ul.articles {
+  input.showhide:not(:checked) ~ ul.year ul.articles {
+    z-index: -1; position: relative; /*this prevents the hidden collapsed content from conflicting with hrefs on the visible*/
     height: 0;
     opacity: 0;
   }
 
-  input.showhide ~ ul.years ul.articles {
+  input.showhide ~ ul.year ul.articles {
     opacity: 1;
     height: 100%;
     transition: all 0.5s ease-in-out;
   }
 
   /* disable the links */
-  input.showhide:not(:checked) ~ ul.years ul.articles a {
+  input.showhide:not(:checked) ~ ul.year ul.articles a {
     pointer-events: none;
     cursor: unset;
   }
@@ -47,14 +53,14 @@
               <i class="far fa-caret-square-down expanded" style="color: blue"></i>
               <i class="far fa-caret-square-right contracted" style="color: blue"></i>
           </h1>
-          <ul class="years">
+          <ul class="year">
           {{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
-            <li style="margin-bottom: 10px; list-style: none; margin-left: -1em">
-              <h2>{{ .Key }} ({{ len .Pages }})</h2>
+            <li class="year">
+              <h2><a href="/{{ .Key }}">{{ .Key }}</a> ({{ len .Pages }})</h2>
               <ul class="months">
-                {{ range .Pages.GroupByDate "200601" }}
+                {{ range .Pages.GroupByDate "2006/01" }}
                   <li style="list-style: none">
-                    {{ print (substr .Key 0 4) "-" (substr .Key 4 2) "-01" | dateFormat "January" }} ({{ len .Pages }})
+                    <a href="/{{.Key}}">{{ print (replace .Key "/" "-") "-01" | dateFormat "January" }}</a> ({{ len .Pages }})
                     <ul class="articles">
                       {{ range .Pages }}
                         <li>

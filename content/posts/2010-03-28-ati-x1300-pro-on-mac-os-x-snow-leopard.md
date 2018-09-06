@@ -3,6 +3,8 @@ title: Hacking ATI x1300 into Mac OS X (Latest = Snow Leopard v10.6.8)
 author: Beej
 type: post
 date: 2010-03-28T20:55:00+00:00
+year: "2010"
+month: "2010/03"
 url: /2010/03/ati-x1300-pro-on-mac-os-x-snow-leopard.html
 blogger_bid:
   - 7726907200224433699

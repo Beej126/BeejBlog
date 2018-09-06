@@ -3,6 +3,8 @@ title: Blogger Custom Domain
 author: Beej
 type: post
 date: 2012-12-09T02:49:00+00:00
+year: "2012"
+month: "2012/12"
 url: /2012/12/blogger-custom-domain.html
 blogger_bid:
   - 7726907200224433699

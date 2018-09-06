@@ -3,6 +3,8 @@ title: CAC (SmartCard) Enabling ASP.Net on IIS
 author: Beej
 type: post
 date: 2011-12-16T16:31:00+00:00
+year: "2011"
+month: "2011/12"
 url: /2011/12/cac-smartcard-enabling-aspnet-on-iis.html
 blogger_bid:
   - 7726907200224433699

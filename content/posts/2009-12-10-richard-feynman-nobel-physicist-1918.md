@@ -3,6 +3,8 @@ title: Richard Feynman (Nobel Physicist, 1918 – 1988)
 author: Beej
 type: post
 date: 2009-12-10T17:14:00+00:00
+year: "2009"
+month: "2009/12"
 url: /2009/12/richard-feynman-nobel-physicist-1918.html
 blogger_bid:
   - 7726907200224433699

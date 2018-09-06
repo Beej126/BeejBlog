@@ -3,6 +3,8 @@ title: Canon’s consumer inkjet printer + scanner workhorses
 author: Beej
 type: post
 date: 2008-09-08T17:36:00+00:00
+year: "2008"
+month: "2008/09"
 url: /2008/09/excellent-price-on-canon-mp830-printer.html
 blogger_bid:
   - 7726907200224433699

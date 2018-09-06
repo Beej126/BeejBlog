@@ -3,6 +3,8 @@ title: Windows File Explorer auto extract zips like Mac Finder
 author: Beej
 type: post
 date: 2018-02-15T21:12:37+00:00
+year: "2018"
+month: "2018/02"
 url: /2018/02/windows-file-explorer-auto-extract-zips-like-mac-finder.html
 dsq_thread_id:
   - 6482473441

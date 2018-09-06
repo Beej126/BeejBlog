@@ -3,6 +3,8 @@ title: 'Solving Visual Studio 2017 -> Xamarin Mac Agent connectivity issues'
 author: Beej
 type: post
 date: 2016-11-22T05:11:57+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/solving-xamarin-mac-agent-connectivity-issues.html
 snapEdIT:
   - 1

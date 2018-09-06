@@ -3,6 +3,8 @@ title: 'Easy *Native* Windows Self Extracting EXE Builder (SFX)'
 author: Beej
 type: post
 date: 2017-08-10T20:21:25+00:00
+year: "2017"
+month: "2017/08"
 url: /2017/08/easy-native-windows-self-extracting-exe-builder-sfx.html
 dsq_thread_id:
   - 6056896687

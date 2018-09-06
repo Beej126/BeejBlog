@@ -3,6 +3,8 @@ title: Sizing a Battery Backup (aka UPS)
 author: Beej
 type: post
 date: 2015-11-23T19:45:00+00:00
+year: "2015"
+month: "2015/11"
 url: /2015/11/sizing-battery-backup-aka-ups.html
 blogger_bid:
   - 7726907200224433699

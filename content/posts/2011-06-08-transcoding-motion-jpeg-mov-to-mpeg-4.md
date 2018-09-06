@@ -3,6 +3,8 @@ title: Transcoding Motion-JPEG (.MOV) to MPEG-4 (H264)
 author: Beej
 type: post
 date: 2011-06-09T04:45:00+00:00
+year: "2011"
+month: "2011/06"
 url: /2011/06/transcoding-motion-jpeg-mov-to-mpeg-4.html
 blogger_bid:
   - 7726907200224433699

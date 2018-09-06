@@ -3,6 +3,8 @@ title: Enable SSL Connections to SQL Server
 author: Beej
 type: post
 date: 2013-02-04T04:01:00+00:00
+year: "2013"
+month: "2013/02"
 url: /2013/02/enable-ssl-connections-to-sql-server.html
 blogger_bid:
   - 7726907200224433699

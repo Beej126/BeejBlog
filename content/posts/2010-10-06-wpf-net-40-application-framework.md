@@ -3,6 +3,8 @@ title: WPF .Net 4 LOB Application Framework
 author: Beej
 type: post
 date: 2010-10-06T22:19:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/wpf-net-40-application-framework.html
 blogger_bid:
   - 7726907200224433699

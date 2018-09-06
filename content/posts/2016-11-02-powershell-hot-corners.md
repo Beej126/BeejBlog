@@ -3,6 +3,8 @@ title: “Hot Corners” for Windows (PowerShell)
 author: Beej
 type: post
 date: 2016-11-02T07:42:04+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/powershell-hot-corners.html
 dsq_thread_id:
   - 5508631464

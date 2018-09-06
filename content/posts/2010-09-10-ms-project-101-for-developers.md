@@ -3,6 +3,8 @@ title: MS Project 101 for Developers
 author: Beej
 type: post
 date: 2010-09-10T18:48:00+00:00
+year: "2010"
+month: "2010/09"
 url: /2010/09/ms-project-101-for-developers.html
 blogger_bid:
   - 7726907200224433699

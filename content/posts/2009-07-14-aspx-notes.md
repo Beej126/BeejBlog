@@ -3,6 +3,8 @@ title: 'ASP.Net (& Ajax) Notes'
 author: Beej
 type: post
 date: 2009-07-14T20:58:00+00:00
+year: "2009"
+month: "2009/07"
 url: /2009/07/aspx-notes.html
 blogger_bid:
   - 7726907200224433699

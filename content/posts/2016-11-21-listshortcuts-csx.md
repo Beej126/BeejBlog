@@ -3,6 +3,8 @@ title: ListShortcuts.csx
 author: Beej
 type: post
 date: 2016-11-22T05:54:08+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/listshortcuts-csx.html
 snapEdIT:
   - 1

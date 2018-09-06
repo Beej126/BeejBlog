@@ -3,6 +3,8 @@ title: Migrate from Delicious to Diigo
 author: Beej
 type: post
 date: 2016-04-30T19:13:27+00:00
+year: "2016"
+month: "2016/04"
 url: /2016/04/migrate-from-delicious-to-diigo.html
 dsq_thread_id:
   - 5569890296

@@ -3,6 +3,8 @@ title: Recovering failed SQL Server 2012 Installation
 author: Beej
 type: post
 date: 2013-02-02T22:31:00+00:00
+year: "2013"
+month: "2013/02"
 url: /2013/02/recovering-failed-sql-server-2012.html
 blogger_bid:
   - 7726907200224433699

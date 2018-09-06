@@ -3,6 +3,8 @@ title: Understanding Exposure
 author: Beej
 type: post
 date: 2011-03-03T17:42:00+00:00
+year: "2011"
+month: "2011/03"
 url: /2011/03/understanding-exposure.html
 blogger_bid:
   - 7726907200224433699

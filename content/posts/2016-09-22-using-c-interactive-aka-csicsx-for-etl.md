@@ -3,6 +3,8 @@ title: 'Using “C# Interactive” aka CSI/CSX for ETL'
 author: Beej
 type: post
 date: 2016-09-22T19:12:44+00:00
+year: "2016"
+month: "2016/09"
 url: /2016/09/using-c-interactive-aka-csicsx-for-etl.html
 dsq_thread_id:
   - 5517826054

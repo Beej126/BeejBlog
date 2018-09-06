@@ -3,6 +3,8 @@ title: SQL Split AWK Script
 author: Beej
 type: post
 date: 2009-06-24T15:41:00+00:00
+year: "2009"
+month: "2009/06"
 url: /2009/06/sql-split-awk-scrip.html
 blogger_bid:
   - 7726907200224433699

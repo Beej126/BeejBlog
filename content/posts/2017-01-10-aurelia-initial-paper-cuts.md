@@ -3,6 +3,8 @@ title: Aurelia – initial paper cuts
 author: Beej
 type: post
 date: 2017-01-10T08:46:34+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/aurelia-initial-paper-cuts.html
 snap_isAutoPosted:
   - 1

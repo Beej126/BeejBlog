@@ -3,6 +3,8 @@ title: Grand Mal Mocha
 author: Beej
 type: post
 date: 2011-07-02T17:50:00+00:00
+year: "2011"
+month: "2011/07"
 url: /2011/07/grand-mal-mocha.html
 blogger_bid:
   - 7726907200224433699

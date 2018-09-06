@@ -3,6 +3,8 @@ title: Fixing OpenSSL on WordPress Windows PHP 5.6+
 author: Beej
 type: post
 date: 2017-01-31T08:03:24+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/fixing-openssl-on-wordpress-windows-php-5-6.html
 snap_isAutoPosted:
   - 1

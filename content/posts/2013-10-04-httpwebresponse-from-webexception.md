@@ -3,6 +3,8 @@ title: HttpWebResponse from WebException
 author: Beej
 type: post
 date: 2013-10-05T02:02:00+00:00
+year: "2013"
+month: "2013/10"
 url: /2013/10/httpwebresponse-from-webexception.html
 blogger_bid:
   - 7726907200224433699

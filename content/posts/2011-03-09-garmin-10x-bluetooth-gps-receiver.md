@@ -3,6 +3,8 @@ title: Garmin 10x Bluetooth GPS Receiver Broken Clip Hack
 author: Beej
 type: post
 date: 2011-03-09T21:48:00+00:00
+year: "2011"
+month: "2011/03"
 url: /2011/03/garmin-10x-bluetooth-gps-receiver.html
 blogger_bid:
   - 7726907200224433699

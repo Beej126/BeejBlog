@@ -3,6 +3,8 @@ title: '[SOLVED] Certain Font Awesome icons not showing in Xamarin iOS'
 author: Beej
 type: post
 date: 2017-01-12T08:17:36+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/solved-certain-font-awesome-icons-not-showing-in-xamarin-ios.html
 snap_isAutoPosted:
   - 1

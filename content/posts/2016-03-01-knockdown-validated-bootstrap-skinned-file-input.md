@@ -3,6 +3,8 @@ title: Knockout, Validation, Bootstrap skinned File Input
 author: Beej
 type: post
 date: 2016-03-01T11:55:11+00:00
+year: "2016"
+month: "2016/03"
 url: /2016/03/knockdown-validated-bootstrap-skinned-file-input.html
 snapEdIT:
   - 1

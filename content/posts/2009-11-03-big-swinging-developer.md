@@ -3,6 +3,8 @@ title: Big Swinging Developer
 author: Beej
 type: post
 date: 2009-11-04T04:59:00+00:00
+year: "2009"
+month: "2009/11"
 url: /2009/11/big-swinging-developer.html
 blogger_bid:
   - 7726907200224433699

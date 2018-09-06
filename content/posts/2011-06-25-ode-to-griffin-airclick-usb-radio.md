@@ -3,6 +3,8 @@ title: Ode to Griffin AirClick USB – Radio Frequency PC Media Remote
 author: Beej
 type: post
 date: 2011-06-26T01:30:00+00:00
+year: "2011"
+month: "2011/06"
 url: /2011/06/ode-to-griffin-airclick-usb-radio.html
 blogger_bid:
   - 7726907200224433699

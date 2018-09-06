@@ -3,6 +3,8 @@ title: Bash script – loop over inline list of files
 author: Beej
 type: post
 date: 2015-10-26T00:51:00+00:00
+year: "2015"
+month: "2015/10"
 url: /2015/10/bash-script-loop-over-inline-list-of.html
 blogger_bid:
   - 7726907200224433699

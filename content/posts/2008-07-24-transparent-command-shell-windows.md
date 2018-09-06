@@ -3,6 +3,8 @@ title: Transparent Command Shell (Windows)
 author: Beej
 type: post
 date: 2008-07-25T06:36:00+00:00
+year: "2008"
+month: "2008/07"
 url: /2008/07/transparent-command-shell-windows.html
 blogger_bid:
   - 7726907200224433699

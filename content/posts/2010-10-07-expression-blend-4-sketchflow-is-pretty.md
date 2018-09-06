@@ -3,6 +3,8 @@ title: Expression Blend 4 + SketchFlow is pretty dang cool
 author: Beej
 type: post
 date: 2010-10-08T05:39:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/expression-blend-4-sketchflow-is-pretty.html
 blogger_bid:
   - 7726907200224433699

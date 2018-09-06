@@ -3,6 +3,8 @@ title: Man Cave Bling – Beer Fridge – Koldfront 80 (BBR900BL) by EdgeStar
 author: Beej
 type: post
 date: 2013-08-11T05:19:00+00:00
+year: "2013"
+month: "2013/08"
 url: /2013/08/bbr900bl-koldfront-80-by-edgestar.html
 blogger_bid:
   - 7726907200224433699

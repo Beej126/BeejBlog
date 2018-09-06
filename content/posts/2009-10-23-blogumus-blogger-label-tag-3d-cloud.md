@@ -3,6 +3,8 @@ title: “Blogumus” – Blogger Label Tag 3D Cloud Widget
 author: Beej
 type: post
 date: 2009-10-23T19:40:00+00:00
+year: "2009"
+month: "2009/10"
 url: /2009/10/blogumus-blogger-label-tag-3d-cloud.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: 'SQL Server – [SOLVED] “Unable to initialize SSL encryption because a
 author: Beej
 type: post
 date: 2012-02-11T18:44:00+00:00
+year: "2012"
+month: "2012/02"
 url: /2012/02/sql-server-solved-unable-to-initialize.html
 blogger_bid:
   - 7726907200224433699

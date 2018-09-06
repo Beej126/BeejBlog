@@ -3,6 +3,8 @@ title: SymLinks (and their ilk) Are Excellent System Restore ‘Glue’
 author: Beej
 type: post
 date: 2009-05-21T06:30:00+00:00
+year: "2009"
+month: "2009/05"
 url: /2009/05/symlinks-and-their-ilk-are-excellen.html
 blogger_bid:
   - 7726907200224433699

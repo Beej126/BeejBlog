@@ -3,6 +3,8 @@ title: SQL Server PDO PHP7
 author: Beej
 type: post
 date: 2016-04-23T22:25:39+00:00
+year: "2016"
+month: "2016/04"
 url: /2016/04/sql-server-pdo-php7.html
 dsq_thread_id:
   - 5517836230

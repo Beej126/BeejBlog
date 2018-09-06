@@ -3,6 +3,8 @@ title: '[SOLVED] SSRS (2012), Excel export, “Not a legal OleAut date” error'
 author: Beej
 type: post
 date: 2013-06-18T18:28:00+00:00
+year: "2013"
+month: "2013/06"
 url: /2013/06/solved-ssrs-2012-excel-export-not-legal.html
 blogger_bid:
   - 7726907200224433699

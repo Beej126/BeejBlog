@@ -3,6 +3,8 @@ title: Evolving a custom ADO.Net based repository
 author: Beej
 type: post
 date: 2011-06-25T19:03:00+00:00
+year: "2011"
+month: "2011/06"
 url: /2011/06/evolving-custom-sqlclientnet-datalayer.html
 blogger_bid:
   - 7726907200224433699

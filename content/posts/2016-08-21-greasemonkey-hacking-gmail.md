@@ -3,6 +3,8 @@ title: GreaseMonkey hacking Gmail
 author: Beej
 type: post
 date: 2016-08-21T14:08:13+00:00
+year: "2016"
+month: "2016/08"
 url: /2016/08/greasemonkey-hacking-gmail.html
 dsq_thread_id:
   - 5514693661

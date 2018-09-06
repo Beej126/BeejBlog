@@ -3,6 +3,8 @@ title: GPS / Mapping / Garmin – Tips
 author: Beej
 type: post
 date: 2009-08-17T19:48:00+00:00
+year: "2009"
+month: "2009/08"
 url: /2009/08/gps-mapping-garmin-tips.html
 blogger_bid:
   - 7726907200224433699

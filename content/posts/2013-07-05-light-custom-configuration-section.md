@@ -3,6 +3,8 @@ title: Light Custom Configuration Section
 author: Beej
 type: post
 date: 2013-07-06T03:27:00+00:00
+year: "2013"
+month: "2013/07"
 url: /2013/07/light-custom-configuration-section.html
 blogger_bid:
   - 7726907200224433699

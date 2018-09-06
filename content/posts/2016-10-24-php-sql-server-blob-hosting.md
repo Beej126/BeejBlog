@@ -3,6 +3,8 @@ title: PHP SQL Server blob hosting
 author: Beej
 type: post
 date: 2016-10-24T23:13:18+00:00
+year: "2016"
+month: "2016/10"
 url: /2016/10/php-sql-server-blob-hosting.html
 dsq_thread_id:
   - 5758814177

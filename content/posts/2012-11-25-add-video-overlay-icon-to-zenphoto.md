@@ -3,6 +3,8 @@ title: Add Video overlay Icon to Zenphoto Thumbnails
 author: Beej
 type: post
 date: 2012-11-26T06:06:00+00:00
+year: "2012"
+month: "2012/11"
 url: /2012/11/add-video-overlay-icon-to-zenphoto.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: SQL Server Aliasing
 author: Beej
 type: post
 date: 2014-02-08T22:55:00+00:00
+year: "2014"
+month: "2014/02"
 url: /2014/02/sql-server-aliasing.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: 'Json.Net Serialize Dictionary<Tkey, Tobject> to List<Tobject>'
 author: Beej
 type: post
 date: 2014-08-28T10:37:00+00:00
+year: "2014"
+month: "2014/08"
 url: /2014/08/jsonnet-serialize-dictionary-tobject-to.html
 blogger_bid:
   - 7726907200224433699

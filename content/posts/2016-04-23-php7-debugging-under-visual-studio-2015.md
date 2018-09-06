@@ -3,6 +3,8 @@ title: PHP7 Debugging under Visual Studio 2015
 author: Beej
 type: post
 date: 2016-04-23T21:35:39+00:00
+year: "2016"
+month: "2016/04"
 url: /2016/04/php7-debugging-under-visual-studio-2015.html
 snapEdIT:
   - 1

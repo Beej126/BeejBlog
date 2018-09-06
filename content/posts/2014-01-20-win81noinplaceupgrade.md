@@ -3,6 +3,8 @@ title: '[SOLVED] Win8.1 Upgrade – No “Keep Windows settings, personal files,
 author: Beej
 type: post
 date: 2014-01-20T16:43:00+00:00
+year: "2014"
+month: "2014/01"
 url: /2014/01/win81noinplaceupgrade.html
 blogger_bid:
   - 7726907200224433699

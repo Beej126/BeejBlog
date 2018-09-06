@@ -3,6 +3,8 @@ title: WordPress Append HashTag to PermaLink
 author: Beej
 type: post
 date: 2016-01-26T00:13:00+00:00
+year: "2016"
+month: "2016/01"
 url: /2016/01/wordpress-append-hashtag-to-permalink.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Fix Orphaned SQL Server Database Users
 author: Beej
 type: post
 date: 2011-02-23T19:01:00+00:00
+year: "2011"
+month: "2011/02"
 url: /2011/02/fix-orphaned-sql-server-database-users.html
 blogger_bid:
   - 7726907200224433699

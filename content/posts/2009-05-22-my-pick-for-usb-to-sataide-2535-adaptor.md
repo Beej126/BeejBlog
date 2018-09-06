@@ -3,6 +3,8 @@ title: My Pick for USB to SATA/IDE (2.5”/3.5”) Adaptor
 author: Beej
 type: post
 date: 2009-05-22T08:27:00+00:00
+year: "2009"
+month: "2009/05"
 url: /2009/05/my-pick-for-usb-to-sataide-2535-adaptor.html
 blogger_bid:
   - 7726907200224433699

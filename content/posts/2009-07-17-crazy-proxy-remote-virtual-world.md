@@ -3,6 +3,8 @@ title: Crazy Proxy Remote Virtual World, or – my first courtship with Google V
 author: Beej
 type: post
 date: 2009-07-17T15:45:00+00:00
+year: "2009"
+month: "2009/07"
 url: /2009/07/crazy-proxy-remote-virtual-world.html
 blogger_bid:
   - 7726907200224433699

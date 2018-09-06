@@ -3,6 +3,8 @@ title: Fantastic ORM details
 author: Beej
 type: post
 date: 2012-01-13T17:49:00+00:00
+year: "2012"
+month: "2012/01"
 url: /2012/01/fantastic-orm-details.html
 blogger_bid:
   - 7726907200224433699

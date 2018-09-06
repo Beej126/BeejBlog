@@ -3,6 +3,8 @@ title: HTML5 Canvas based 3d Tag Cloud
 author: Beej
 type: post
 date: 2016-02-09T16:46:49+00:00
+year: "2016"
+month: "2016/02"
 url: /2016/02/html5-canvas-based-3d-tag-cloud.html
 dsq_thread_id:
   - 5568155472

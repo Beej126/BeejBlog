@@ -3,6 +3,8 @@ title: ATI 5450 with Hackintosh (OSX 10.8.5)
 author: Beej
 type: post
 date: 2012-03-29T14:54:00+00:00
+year: "2012"
+month: "2012/03"
 url: /2012/03/ati-5450-with-hackintosh-lion-107x.html
 blogger_bid:
   - 7726907200224433699

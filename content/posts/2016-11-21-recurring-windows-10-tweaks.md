@@ -3,6 +3,8 @@ title: Recurring Windows 10 Tweaks
 author: Beej
 type: post
 date: 2016-11-21T16:54:01+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/recurring-windows-10-tweaks.html
 dsq_thread_id:
   - 5557770469

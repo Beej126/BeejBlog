@@ -3,6 +3,8 @@ title: 'Toggle XAML <> Code-Behind in Visual Studio 2015, ReSharper, Xamarin For
 author: Beej
 type: post
 date: 2016-10-04T00:42:29+00:00
+year: "2016"
+month: "2016/10"
 url: /2016/10/toggle-xaml-code-behind-in-visual-studio-2015-resharper-xamarin-forms.html
 snapEdIT:
   - 1

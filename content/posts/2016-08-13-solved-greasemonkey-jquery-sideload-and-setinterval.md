@@ -3,6 +3,8 @@ title: '[Solved] Greasemonkey/Tampermonkey jQuery sideload and setInterval'
 author: Beej
 type: post
 date: 2016-08-13T17:19:22+00:00
+year: "2016"
+month: "2016/08"
 url: /2016/08/solved-greasemonkey-jquery-sideload-and-setinterval.html
 snapEdIT:
   - 1

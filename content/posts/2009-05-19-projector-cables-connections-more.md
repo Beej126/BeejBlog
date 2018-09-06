@@ -3,6 +3,8 @@ title: 'Projector Cables & Connections – More Complex Than You’d Think (or �
 author: Beej
 type: post
 date: 2009-05-19T12:26:00+00:00
+year: "2009"
+month: "2009/05"
 url: /2009/05/projector-cables-connections-more.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Configuring VMware ESXi as a Workstation
 author: Beej
 type: post
 date: 2016-06-23T23:14:27+00:00
+year: "2016"
+month: "2016/06"
 url: /2016/06/esxi-for-winmac-xamarin-ios-dev-nirvana.html
 dsq_thread_id:
   - 5512951017

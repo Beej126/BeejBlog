@@ -3,6 +3,8 @@ title: Open Air PC
 author: Beej
 type: post
 date: 2009-10-20T18:45:00+00:00
+year: "2009"
+month: "2009/10"
 url: /2009/10/open-air-pc.html
 blogger_bid:
   - 7726907200224433699

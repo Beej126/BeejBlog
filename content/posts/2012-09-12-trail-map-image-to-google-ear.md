@@ -3,6 +3,8 @@ title: Georeference Trail Map Image to mobile Google Earth
 author: Beej
 type: post
 date: 2012-09-12T11:48:00+00:00
+year: "2012"
+month: "2012/09"
 url: /2012/09/trail-map-image-to-google-ear.html
 blogger_bid:
   - 7726907200224433699

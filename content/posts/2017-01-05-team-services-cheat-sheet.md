@@ -3,6 +3,8 @@ title: Team Services Cheat Sheet
 author: Beej
 type: post
 date: 2017-01-06T03:04:25+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/team-services-cheat-sheet.html
 snap_isAutoPosted:
   - 1

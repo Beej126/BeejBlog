@@ -3,6 +3,8 @@ title: ASP.Net Controller API nuggets
 author: Beej
 type: post
 date: 2017-03-04T23:17:46+00:00
+year: "2017"
+month: "2017/03"
 url: /2017/03/asp-net-controller-api-nuggets.html
 snap_isAutoPosted:
   - 1

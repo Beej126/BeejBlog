@@ -3,6 +3,8 @@ title: WebDrive (WebDAV client… that actually works!)
 author: Beej
 type: post
 date: 2009-04-07T06:35:00+00:00
+year: "2009"
+month: "2009/04"
 url: /2009/04/webdrive-webdav-client-that-actually.html
 blogger_bid:
   - 7726907200224433699

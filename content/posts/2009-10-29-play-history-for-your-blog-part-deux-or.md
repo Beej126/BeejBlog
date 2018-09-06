@@ -3,6 +3,8 @@ title: WinAmp Play History Blog “Badge”
 author: Beej
 type: post
 date: 2009-10-30T05:53:00+00:00
+year: "2009"
+month: "2009/10"
 url: /2009/10/play-history-for-your-blog-part-deux-or.html
 blogger_bid:
   - 7726907200224433699

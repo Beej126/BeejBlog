@@ -3,6 +3,8 @@ title: Amiga – Future Tank game (Tron Font)
 author: Beej
 type: post
 date: 2012-01-29T21:28:00+00:00
+year: "2012"
+month: "2012/01"
 url: /2012/01/amiga-future-tank-game-tron-fon.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Cisco VPN and "Split Tunneling"
 author: Beej
 type: post
 date: 2009-01-23T01:25:00+00:00
+year: "2009"
+month: "2009/01"
 url: /2009/01/cisco-vpn-and-tunneling.html
 blogger_bid:
   - 7726907200224433699

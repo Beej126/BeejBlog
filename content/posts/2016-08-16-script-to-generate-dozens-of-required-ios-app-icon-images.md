@@ -3,6 +3,8 @@ title: Script to generate dozens of required iOS app icon images
 author: Beej
 type: post
 date: 2016-08-16T22:13:53+00:00
+year: "2016"
+month: "2016/08"
 url: /2016/08/script-to-generate-dozens-of-required-ios-app-icon-images.html
 dsq_thread_id:
   - 5518418900

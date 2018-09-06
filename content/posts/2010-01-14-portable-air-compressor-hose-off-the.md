@@ -3,6 +3,8 @@ title: 'Portable Air Compressor – Dust Out Your PC In Style : )'
 author: Beej
 type: post
 date: 2010-01-14T21:38:00+00:00
+year: "2010"
+month: "2010/01"
 url: /2010/01/portable-air-compressor-hose-off-the.html
 blogger_bid:
   - 7726907200224433699

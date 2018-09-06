@@ -3,6 +3,8 @@ title: Chrome User Script – Whack page elements based on jQuery selectors
 author: Beej
 type: post
 date: 2015-11-10T05:03:00+00:00
+year: "2015"
+month: "2015/11"
 url: /2015/11/chrome-user-script-whack-page-elements.html
 blogger_bid:
   - 7726907200224433699

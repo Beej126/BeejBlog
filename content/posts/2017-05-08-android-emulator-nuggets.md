@@ -3,6 +3,8 @@ title: Android Emulator Nuggets
 author: Beej
 type: post
 date: 2017-05-09T00:22:52+00:00
+year: "2017"
+month: "2017/05"
 url: /2017/05/android-emulator-nuggets.html
 dsq_thread_id:
   - 5799344857

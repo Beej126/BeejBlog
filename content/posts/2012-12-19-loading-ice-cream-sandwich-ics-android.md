@@ -3,6 +3,8 @@ title: Loading Ice Cream Sandwich (ICS – Android v4.0) on Samsung Galaxy Tab 7
 author: Beej
 type: post
 date: 2012-12-19T02:49:00+00:00
+year: "2012"
+month: "2012/12"
 url: /2012/12/loading-ice-cream-sandwich-ics-android.html
 blogger_bid:
   - 7726907200224433699

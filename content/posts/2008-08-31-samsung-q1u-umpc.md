@@ -3,6 +3,8 @@ title: Samsung Q1U-V Ultra Mobile PC (UMPC)
 author: Beej
 type: post
 date: 2008-08-31T09:29:00+00:00
+year: "2008"
+month: "2008/08"
 url: /2008/08/samsung-q1u-umpc.html
 blogger_bid:
   - 7726907200224433699

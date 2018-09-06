@@ -3,6 +3,8 @@ title: Free iTunes Album Cover Artwork + Embed Artwork Image to MP3 via iTunes C
 author: Beej
 type: post
 date: 2010-06-12T02:29:00+00:00
+year: "2010"
+month: "2010/06"
 url: /2010/06/free-itunes-album-cover-artwork-embed.html
 blogger_bid:
   - 7726907200224433699

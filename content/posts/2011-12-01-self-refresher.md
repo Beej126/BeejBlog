@@ -3,6 +3,8 @@ title: 2011 Q4 .Net State of the Union
 author: Beej
 type: post
 date: 2011-12-02T02:23:00+00:00
+year: "2011"
+month: "2011/12"
 url: /2011/12/self-refresher.html
 blogger_bid:
   - 7726907200224433699

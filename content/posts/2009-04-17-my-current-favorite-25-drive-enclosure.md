@@ -3,6 +3,8 @@ title: My Current Favorite 2.5” Drive + Enclosure
 author: Beej
 type: post
 date: 2009-04-17T00:23:00+00:00
+year: "2009"
+month: "2009/04"
 url: /2009/04/my-current-favorite-25-drive-enclosure.html
 blogger_bid:
   - 7726907200224433699

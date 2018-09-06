@@ -3,6 +3,8 @@ title: Ethereum 101 on Windows
 author: Beej
 type: post
 date: 2016-12-23T12:15:33+00:00
+year: "2016"
+month: "2016/12"
 url: /2016/12/ethereum-101-on-windows.html
 snap_isAutoPosted:
   - 1

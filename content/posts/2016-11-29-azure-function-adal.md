@@ -3,6 +3,8 @@ title: 'Exposing Azure Function web API to native & web clients through Azure AD
 author: Beej
 type: post
 date: 2016-11-29T08:44:13+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/azure-function-adal.html
 snapEdIT:
   - 1

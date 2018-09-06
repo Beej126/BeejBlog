@@ -3,6 +3,8 @@ title: Troubleshooting Prism Xamarin Forms
 author: Beej
 type: post
 date: 2016-12-07T22:02:26+00:00
+year: "2016"
+month: "2016/12"
 url: /2016/12/troubleshooting-prism-xamarin-forms.html
 snap_isAutoPosted:
   - 1

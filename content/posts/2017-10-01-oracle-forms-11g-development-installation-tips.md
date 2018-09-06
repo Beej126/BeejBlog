@@ -3,6 +3,8 @@ title: Oracle Forms 11g Development Installation Tips
 author: admin
 type: post
 date: 2017-10-01T21:28:41+00:00
+year: "2017"
+month: "2017/10"
 url: /2017/10/oracle-forms-11g-development-installation-tips.html
 snap_isAutoPosted:
   - 1

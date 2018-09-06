@@ -3,6 +3,8 @@ title: 'HTML <Table> tag has a handy <Caption> sub-tag'
 author: Beej
 type: post
 date: 2009-11-02T17:02:00+00:00
+year: "2009"
+month: "2009/11"
 url: /2009/11/html-tag-has-handy-sub-tag.html
 blogger_bid:
   - 7726907200224433699

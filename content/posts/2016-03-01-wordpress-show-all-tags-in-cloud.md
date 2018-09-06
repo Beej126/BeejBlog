@@ -3,6 +3,8 @@ title: WordPress – show all Tags in Cloud
 author: Beej
 type: post
 date: 2016-03-02T00:50:33+00:00
+year: "2016"
+month: "2016/03"
 url: /2016/03/wordpress-show-all-tags-in-cloud.html
 dsq_thread_id:
   - 6304593094

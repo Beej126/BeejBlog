@@ -3,6 +3,8 @@ title: SQL Server "CHECKSUM()"
 author: Beej
 type: post
 date: 2009-02-03T09:34:00+00:00
+year: "2009"
+month: "2009/02"
 url: /2009/02/sql-server.html
 blogger_bid:
   - 7726907200224433699

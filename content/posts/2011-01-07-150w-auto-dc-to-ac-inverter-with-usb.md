@@ -3,6 +3,8 @@ title: 150W Auto DC to AC Inverter with USB
 author: Beej
 type: post
 date: 2011-01-07T19:54:00+00:00
+year: "2011"
+month: "2011/01"
 url: /2011/01/150w-auto-dc-to-ac-inverter-with-usb.html
 blogger_bid:
   - 7726907200224433699

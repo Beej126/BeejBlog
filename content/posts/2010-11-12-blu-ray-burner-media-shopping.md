@@ -3,6 +3,8 @@ title: 'Blu-ray Burner & Media Shopping'
 author: Beej
 type: post
 date: 2010-11-12T17:10:00+00:00
+year: "2010"
+month: "2010/11"
 url: /2010/11/blu-ray-burner-media-shopping.html
 blogger_bid:
   - 7726907200224433699

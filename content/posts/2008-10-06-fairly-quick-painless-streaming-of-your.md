@@ -3,6 +3,8 @@ title: '(Fairly) Quick & Painless Streaming of Your Local Audio'
 author: Beej
 type: post
 date: 2008-10-06T21:57:00+00:00
+year: "2008"
+month: "2008/10"
 url: /2008/10/fairly-quick-painless-streaming-of-your.html
 blogger_bid:
   - 7726907200224433699

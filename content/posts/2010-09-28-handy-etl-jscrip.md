@@ -3,6 +3,8 @@ title: Handy ETL JScript
 author: Beej
 type: post
 date: 2010-09-28T17:10:00+00:00
+year: "2010"
+month: "2010/09"
 url: /2010/09/handy-etl-jscrip.html
 blogger_bid:
   - 7726907200224433699

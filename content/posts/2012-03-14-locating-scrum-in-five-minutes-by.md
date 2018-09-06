@@ -3,6 +3,8 @@ title: Locating “Scrum In Five Minutes” By www.Softhouse.se
 author: Beej
 type: post
 date: 2012-03-15T03:15:00+00:00
+year: "2012"
+month: "2012/03"
 url: /2012/03/locating-scrum-in-five-minutes-by.html
 blogger_bid:
   - 7726907200224433699

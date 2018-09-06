@@ -3,6 +3,8 @@ title: 'Visual Studio 2010 Slow Startup [resolved]'
 author: Beej
 type: post
 date: 2011-02-24T17:11:00+00:00
+year: "2011"
+month: "2011/02"
 url: /2011/02/visual-studio-2010-slow-startup.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Optoma EX525ST – A worthy short throw projector?
 author: Beej
 type: post
 date: 2009-05-08T12:16:00+00:00
+year: "2009"
+month: "2009/05"
 url: /2009/05/short-throw-projector-optoma-ex525s.html
 blogger_bid:
   - 7726907200224433699

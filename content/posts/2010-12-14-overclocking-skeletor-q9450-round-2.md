@@ -3,6 +3,8 @@ title: Overclocking ‘Skeletor’ Q9450 – Round 2
 author: Beej
 type: post
 date: 2010-12-14T22:21:00+00:00
+year: "2010"
+month: "2010/12"
 url: /2010/12/overclocking-skeletor-q9450-round-2.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Oracle Data Access Components – Development Installation Tips
 author: admin
 type: post
 date: 2017-10-01T21:56:17+00:00
+year: "2017"
+month: "2017/10"
 url: /2017/10/oracle-data-access-components-development-installation-tips.html
 snap_isAutoPosted:
   - 1

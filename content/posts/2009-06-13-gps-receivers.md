@@ -3,6 +3,8 @@ title: GPS Receivers
 author: Beej
 type: post
 date: 2009-06-13T14:58:00+00:00
+year: "2009"
+month: "2009/06"
 url: /2009/06/gps-receivers.html
 blogger_bid:
   - 7726907200224433699

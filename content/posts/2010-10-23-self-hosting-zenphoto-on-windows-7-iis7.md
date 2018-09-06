@@ -3,6 +3,8 @@ title: 'Self-hosting Zenphoto on Windows 7 (IIS7, PHP & MySQL)'
 author: Beej
 type: post
 date: 2010-10-23T23:50:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/self-hosting-zenphoto-on-windows-7-iis7.html
 blogger_bid:
   - 7726907200224433699

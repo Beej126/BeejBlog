@@ -3,6 +3,8 @@ title: Roof Cargo Box
 author: Beej
 type: post
 date: 2013-05-01T22:27:00+00:00
+year: "2013"
+month: "2013/05"
 url: /2013/05/roof-cargo-box.html
 blogger_bid:
   - 7726907200224433699

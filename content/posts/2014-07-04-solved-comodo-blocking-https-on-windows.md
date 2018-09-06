@@ -3,6 +3,8 @@ title: '[SOLVED] Comodo v7 blocking HTTP/S and FTP/S on Windows 8.1 IIS 8.5'
 author: Beej
 type: post
 date: 2014-07-04T16:19:00+00:00
+year: "2014"
+month: "2014/07"
 url: /2014/07/solved-comodo-blocking-https-on-windows.html
 blogger_bid:
   - 7726907200224433699

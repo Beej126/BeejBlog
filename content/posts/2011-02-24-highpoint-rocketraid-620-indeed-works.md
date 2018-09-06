@@ -3,6 +3,8 @@ title: HighPoint RocketRAID 620 indeed works for Hackintosh
 author: Beej
 type: post
 date: 2011-02-24T19:20:00+00:00
+year: "2011"
+month: "2011/02"
 url: /2011/02/highpoint-rocketraid-620-indeed-works.html
 blogger_bid:
   - 7726907200224433699

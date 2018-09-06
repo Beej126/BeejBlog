@@ -3,6 +3,8 @@ title: Awesome, CAD for LEGOs!
 author: Beej
 type: post
 date: 2009-01-15T04:21:00+00:00
+year: "2009"
+month: "2009/01"
 url: /2009/01/awesome-cad-for-legos.html
 blogger_bid:
   - 7726907200224433699

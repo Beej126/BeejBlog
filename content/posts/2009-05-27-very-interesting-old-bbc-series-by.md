@@ -3,6 +3,8 @@ title: Very interesting (old) BBC series by James Burke – tracks the thread of
 author: Beej
 type: post
 date: 2009-05-27T21:12:00+00:00
+year: "2009"
+month: "2009/05"
 url: /2009/05/very-interesting-old-bbc-series-by.html
 blogger_bid:
   - 7726907200224433699

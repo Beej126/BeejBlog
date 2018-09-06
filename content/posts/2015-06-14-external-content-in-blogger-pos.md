@@ -3,6 +3,8 @@ title: External Content in Blogger Post
 author: Beej
 type: post
 date: 2015-06-15T05:47:00+00:00
+year: "2015"
+month: "2015/06"
 url: /2015/06/external-content-in-blogger-pos.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Xamarin iOS Provisioning Gotchas
 author: Beej
 type: post
 date: 2017-01-11T03:55:35+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/xamarin-ios-provisioning-gotchas.html
 snap_isAutoPosted:
   - 1

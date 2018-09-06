@@ -3,6 +3,8 @@ title: 'Yet Another Simple Audit Table Approach (YASATA : )'
 author: Beej
 type: post
 date: 2009-11-05T18:17:00+00:00
+year: "2009"
+month: "2009/11"
 url: /2009/11/yet-another-simple-audit-table-approac.html
 blogger_bid:
   - 7726907200224433699

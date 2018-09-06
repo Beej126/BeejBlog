@@ -3,6 +3,8 @@ title: TortoiseSVN + Code.Google.com = development LOCATION nirvana
 author: Beej
 type: post
 date: 2010-10-19T00:11:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/visual-studio-codegooglecom-developmen.html
 blogger_bid:
   - 7726907200224433699

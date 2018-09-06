@@ -3,6 +3,8 @@ title: Word of the Day – Austere
 author: Beej
 type: post
 date: 2010-01-22T04:18:00+00:00
+year: "2010"
+month: "2010/01"
 url: /2010/01/austere-word-of-day.html
 blogger_bid:
   - 7726907200224433699

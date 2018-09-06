@@ -3,6 +3,8 @@ title: The Perfect Desktop
 author: Beej
 type: post
 date: 2009-11-01T07:42:00+00:00
+year: "2009"
+month: "2009/11"
 url: /2009/11/perfect-desktop.html
 blogger_bid:
   - 7726907200224433699

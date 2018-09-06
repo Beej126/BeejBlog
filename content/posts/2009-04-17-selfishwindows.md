@@ -3,6 +3,8 @@ title: 'Concept: ‘Selfish’ Window Manager aka ‘Greedy Winders’'
 author: Beej
 type: post
 date: 2009-04-18T05:45:00+00:00
+year: "2009"
+month: "2009/04"
 url: /2009/04/selfishwindows.html
 blogger_bid:
   - 7726907200224433699

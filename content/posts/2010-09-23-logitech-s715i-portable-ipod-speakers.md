@@ -3,6 +3,8 @@ title: Logitech S715i Portable iPod Speakers Review
 author: Beej
 type: post
 date: 2010-09-23T09:13:00+00:00
+year: "2010"
+month: "2010/09"
 url: /2010/09/logitech-s715i-portable-ipod-speakers.html
 blogger_bid:
   - 7726907200224433699

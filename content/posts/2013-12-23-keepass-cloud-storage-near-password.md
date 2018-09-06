@@ -3,6 +3,8 @@ title: KeePass + Cloud Storage = (near) Password Nirvana
 author: Beej
 type: post
 date: 2013-12-23T06:55:00+00:00
+year: "2013"
+month: "2013/12"
 url: /2013/12/keepass-cloud-storage-near-password.html
 blogger_bid:
   - 7726907200224433699

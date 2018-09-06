@@ -3,6 +3,8 @@ title: Samsung Galaxy Tab 7.7 (P6800)
 author: Beej
 type: post
 date: 2012-04-05T06:12:00+00:00
+year: "2012"
+month: "2012/04"
 url: /2012/04/samsung-galaxy-tab-77-p6800.html
 blogger_bid:
   - 7726907200224433699

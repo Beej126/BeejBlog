@@ -3,6 +3,8 @@ title: VS Code, Typescript – Bare Metal New Project
 author: Beej
 type: post
 date: 2017-07-08T05:58:22+00:00
+year: "2017"
+month: "2017/07"
 url: /2017/07/vs-code-typescript-bare-metal-new-project.html
 dsq_thread_id:
   - 5972829990

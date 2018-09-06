@@ -3,6 +3,8 @@ title: Free SSL Certs
 author: Beej
 type: post
 date: 2016-04-23T20:10:59+00:00
+year: "2016"
+month: "2016/04"
 url: /2016/04/free-ssl-certs.html
 categories:
   - Uncategorized

@@ -3,6 +3,8 @@ title: Google Wave – WOW
 author: Beej
 type: post
 date: 2009-10-18T20:53:00+00:00
+year: "2009"
+month: "2009/10"
 url: /2009/10/re-google-wave.html
 blogger_bid:
   - 7726907200224433699

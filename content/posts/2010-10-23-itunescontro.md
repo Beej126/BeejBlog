@@ -3,6 +3,8 @@ title: iTunesControl
 author: Beej
 type: post
 date: 2010-10-23T09:46:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/itunescontro.html
 blogger_bid:
   - 7726907200224433699

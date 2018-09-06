@@ -3,6 +3,8 @@ title: Trailer Hitch Bike Rack
 author: Beej
 type: post
 date: 2013-05-01T22:45:00+00:00
+year: "2013"
+month: "2013/05"
 url: /2013/05/trailer-hitch-bike-rack.html
 blogger_bid:
   - 7726907200224433699

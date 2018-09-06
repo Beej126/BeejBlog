@@ -3,6 +3,8 @@ title: Outlook Bulk Remove Encryption
 author: Beej
 type: post
 date: 2012-03-04T05:06:00+00:00
+year: "2012"
+month: "2012/03"
 url: /2012/03/outlook-bulk-remove-encryption.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: What’s this? A pretty decent “Time Machine” built into Win8!?
 author: Beej
 type: post
 date: 2013-08-01T06:45:00+00:00
+year: "2013"
+month: "2013/08"
 url: /2013/07/win8-time-machine.html
 blogger_bid:
   - 7726907200224433699

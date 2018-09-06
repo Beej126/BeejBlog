@@ -3,6 +3,8 @@ title: Transcode MOV to MP4
 author: Beej
 type: post
 date: 2015-11-20T13:56:00+00:00
+year: "2015"
+month: "2015/11"
 url: /2015/11/transcode-iphone-mov-to-mp4-handbrake.html
 blogger_bid:
   - 7726907200224433699

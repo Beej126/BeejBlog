@@ -3,6 +3,8 @@ title: List all your Azure RDP’s
 author: Beej
 type: post
 date: 2014-06-12T02:04:00+00:00
+year: "2014"
+month: "2014/06"
 url: /2014/06/list-all-your-azure-rdps.html
 blogger_bid:
   - 7726907200224433699

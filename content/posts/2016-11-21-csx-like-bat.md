@@ -3,6 +3,8 @@ title: Launch .CSX as conveniently as .BAT files
 author: Beej
 type: post
 date: 2016-11-22T05:33:56+00:00
+year: "2016"
+month: "2016/11"
 url: /2016/11/csx-like-bat.html
 snapEdIT:
   - 1

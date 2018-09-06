@@ -3,6 +3,8 @@ title: "Scott Hanselman's 2009 Ultimate Developer and Power Users Tool List for 
 author: Beej
 type: post
 date: 2009-11-20T01:17:00+00:00
+year: "2009"
+month: "2009/11"
 url: /2009/11/scott-hanselman-2009-ultimate-developer.html
 blogger_bid:
   - 7726907200224433699

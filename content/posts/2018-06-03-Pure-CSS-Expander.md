@@ -5,6 +5,8 @@ author: Beej
 type: post
 description: ""
 date: 2018-06-03T14:16:00-07:00
+year: "2018"
+month: "2018/06"
 thumbnail: ""
 categories:
   - ""

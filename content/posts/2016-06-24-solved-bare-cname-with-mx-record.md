@@ -3,6 +3,8 @@ title: '[SOLVED] Bare CNAME with MX record'
 author: Beej
 type: post
 date: 2016-06-24T23:32:49+00:00
+year: "2016"
+month: "2016/06"
 url: /2016/06/solved-bare-cname-with-mx-record.html
 dsq_thread_id:
   - 5576413198

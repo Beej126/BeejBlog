@@ -3,6 +3,8 @@ title: "Nifty 'WhatIsMyIP' Script – put current WAN IP on Clipboard"
 author: Beej
 type: post
 date: 2009-01-27T10:44:00+00:00
+year: "2009"
+month: "2009/01"
 url: /2009/01/nifty-scrip.html
 blogger_bid:
   - 7726907200224433699

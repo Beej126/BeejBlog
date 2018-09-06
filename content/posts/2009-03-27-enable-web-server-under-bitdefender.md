@@ -3,6 +3,8 @@ title: Enable IIS7 under BitDefender 2009 Firewall Rules
 author: Beej
 type: post
 date: 2009-03-27T08:18:00+00:00
+year: "2009"
+month: "2009/03"
 url: /2009/03/enable-web-server-under-bitdefender.html
 blogger_bid:
   - 7726907200224433699

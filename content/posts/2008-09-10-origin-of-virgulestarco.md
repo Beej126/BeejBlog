@@ -3,6 +3,8 @@ title: The Origin of VirguleStar.com
 author: Beej
 type: post
 date: 2008-09-11T05:26:00+00:00
+year: "2008"
+month: "2008/09"
 url: /2008/09/origin-of-virgulestarco.html
 blogger_bid:
   - 7726907200224433699

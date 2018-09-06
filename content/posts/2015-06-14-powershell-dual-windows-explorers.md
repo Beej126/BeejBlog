@@ -3,6 +3,8 @@ title: PowerShell Dual Windows Explorers
 author: Beej
 type: post
 date: 2015-06-15T01:14:00+00:00
+year: "2015"
+month: "2015/06"
 url: /2015/06/powershell-dual-windows-explorers.html
 blogger_bid:
   - 7726907200224433699

@@ -14,18 +14,23 @@ pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
 pygmentsUseClasses = true
 
+[menu]
+    [[menu.main]]
+        name = "Archives"
+        url = "/Archives/"
+
 [taxonomies]
     tag = "tags"
-    #year = "year"
-    #month = "month"
+    year = "year"
+    month = "month"
 
 [permalinks]
     # :title is used if :slug is not defined in post frontmatter
     posts = "/:year/:month/:slug/"
     #archm = "/:year/:month/"
     #archives = "/:year/"
-    #year = "/post/:slug/"
-    #month = "/post/:slug/"
+    year = "/:slug/"
+    month = "/:slug/"
 
 [blackfriday]
     extensions = ["laxHtmlBlocks", "noEmptyLineBeforeBlock"]
@@ -60,7 +65,7 @@ pygmentsUseClasses = true
     # Octopress -- end --
 
 [Params.widgets]
-    search = false # Enable "Search" widget
+    search = true # Enable "Search" widget
     recent_articles = true # Enable "Recent arcticles" widget
     recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
     categories = false # Enable "Categories" widget

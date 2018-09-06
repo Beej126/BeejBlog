@@ -3,6 +3,8 @@ title: SQL Server Import and Export Wizard with MSDE2000 (aka DTSWizard)
 author: Beej
 type: post
 date: 2009-07-24T12:27:00+00:00
+year: "2009"
+month: "2009/07"
 url: /2009/07/sql-server-import-and-export-wizard.html
 blogger_bid:
   - 7726907200224433699

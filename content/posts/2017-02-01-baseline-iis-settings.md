@@ -3,6 +3,8 @@ title: Baseline IIS Settings
 author: Beej
 type: post
 date: 2017-02-01T17:19:12+00:00
+year: "2017"
+month: "2017/02"
 draft: true
 url: /?p=1692
 snapEdIT:

@@ -3,6 +3,8 @@ title: Updating 2006 MacBook Pro to Windows 10
 author: Beej
 type: post
 date: 2017-02-07T09:36:50+00:00
+year: "2017"
+month: "2017/02"
 url: /2017/02/win10_on_legacy_macbookpro.html
 snap_isAutoPosted:
   - 1

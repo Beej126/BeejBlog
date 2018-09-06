@@ -3,6 +3,8 @@ title: Configuring a Windows 7 PC as a WiFi Router
 author: Beej
 type: post
 date: 2011-07-09T08:15:00+00:00
+year: "2011"
+month: "2011/07"
 url: /2011/07/configuring-pc-as-wifi-router.html
 blogger_bid:
   - 7726907200224433699

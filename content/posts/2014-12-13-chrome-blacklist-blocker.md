@@ -3,6 +3,8 @@ title: Chrome Blacklist Blocker (PowerShell)
 author: Beej
 type: post
 date: 2014-12-14T05:31:00+00:00
+year: "2014"
+month: "2014/12"
 url: /2014/12/chrome-blacklist-blocker.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: Word of the Day – Meretricious
 author: Beej
 type: post
 date: 2008-07-18T08:24:00+00:00
+year: "2008"
+month: "2008/07"
 url: /2008/07/word-of-day.html
 blogger_bid:
   - 7726907200224433699

@@ -3,6 +3,8 @@ title: SED – Insert text after match
 author: Beej
 type: post
 date: 2009-10-20T19:50:00+00:00
+year: "2009"
+month: "2009/10"
 url: /2009/10/sed-insert-text-after-matc.html
 blogger_bid:
   - 7726907200224433699

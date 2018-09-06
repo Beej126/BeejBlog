@@ -3,6 +3,8 @@ title: JavaScript (ES7) async wrappers perfect for Chrome.Bookmarks API
 author: Beej
 type: post
 date: 2017-01-24T01:32:29+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/javascript-es7-async-wrappers-perfect-for-chrome-bookmarks-api.html
 snap_isAutoPosted:
   - 1

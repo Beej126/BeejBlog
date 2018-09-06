@@ -3,6 +3,8 @@ title: PowerShell Photo Slideshow
 author: Beej
 type: post
 date: 2015-12-21T02:20:00+00:00
+year: "2015"
+month: "2015/12"
 url: /2015/12/powershell-photo-slideshow.html
 blogger_bid:
   - 7726907200224433699

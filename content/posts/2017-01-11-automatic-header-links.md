@@ -3,6 +3,8 @@ title: Automatic Header Links
 author: Beej
 type: post
 date: 2017-01-12T04:04:12+00:00
+year: "2017"
+month: "2017/01"
 url: /2017/01/automatic-header-links.html
 snap_isAutoPosted:
   - 1

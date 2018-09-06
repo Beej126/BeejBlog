@@ -3,6 +3,8 @@ title: Exporting and Re-deploying SQL Server 2008 Maintenance Plans
 author: Beej
 type: post
 date: 2012-02-12T13:03:00+00:00
+year: "2012"
+month: "2012/02"
 url: /2012/02/exporting-and-re-deploying-sql-server.html
 blogger_bid:
   - 7726907200224433699

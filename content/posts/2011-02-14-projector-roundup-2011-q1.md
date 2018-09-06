@@ -3,6 +3,8 @@ title: Projector Roundup 2011 Q1
 author: Beej
 type: post
 date: 2011-02-14T22:02:00+00:00
+year: "2011"
+month: "2011/02"
 url: /2011/02/projector-roundup-2011-q1.html
 blogger_bid:
   - 7726907200224433699

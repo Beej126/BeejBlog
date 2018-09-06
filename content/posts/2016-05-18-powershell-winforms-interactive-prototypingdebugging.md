@@ -3,6 +3,8 @@ title: PowerShell WinForms interactive Prototyping/Debugging
 author: Beej
 type: post
 date: 2016-05-18T22:30:21+00:00
+year: "2016"
+month: "2016/05"
 url: /2016/05/powershell-winforms-interactive-prototypingdebugging.html
 dsq_thread_id:
   - 5515890377

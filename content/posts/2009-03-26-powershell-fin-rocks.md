@@ -3,6 +3,8 @@ title: PowerShell f’in rocks!
 author: Beej
 type: post
 date: 2009-03-26T23:43:00+00:00
+year: "2009"
+month: "2009/03"
 url: /2009/03/powershell-fin-rocks.html
 blogger_bid:
   - 7726907200224433699

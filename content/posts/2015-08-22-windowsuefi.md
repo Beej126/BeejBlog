@@ -3,6 +3,8 @@ title: Installing Windows in UEFI Mode
 author: Beej
 type: post
 date: 2015-08-22T11:27:00+00:00
+year: "2015"
+month: "2015/08"
 url: /2015/08/windowsuefi.html
 blogger_bid:
   - 7726907200224433699

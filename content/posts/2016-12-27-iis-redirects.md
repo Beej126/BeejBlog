@@ -3,6 +3,8 @@ title: Cleanly driving SSL and WWW prefix on IIS
 author: Beej
 type: post
 date: 2016-12-27T20:53:05+00:00
+year: "2016"
+month: "2016/12"
 url: /2016/12/iis-redirects.html
 snap_isAutoPosted:
   - 1

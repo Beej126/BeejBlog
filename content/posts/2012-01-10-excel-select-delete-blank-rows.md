@@ -3,6 +3,8 @@ title: Excel – Select (Delete) Blank Rows
 author: Beej
 type: post
 date: 2012-01-10T19:59:00+00:00
+year: "2012"
+month: "2012/01"
 url: /2012/01/excel-select-delete-blank-rows.html
 blogger_bid:
   - 7726907200224433699

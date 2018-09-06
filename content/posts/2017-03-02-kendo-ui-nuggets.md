@@ -3,6 +3,8 @@ title: Kendo UI Nuggets
 author: Beej
 type: post
 date: 2017-03-02T08:10:06+00:00
+year: "2017"
+month: "2017/03"
 url: /2017/03/kendo-ui-nuggets.html
 snap_isAutoPosted:
   - 1

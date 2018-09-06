@@ -3,6 +3,8 @@ title: YASBE – Open Source Code Incremental Backup Windows WPF Application
 author: Beej
 type: post
 date: 2011-03-03T07:46:00+00:00
+year: "2011"
+month: "2011/03"
 url: /2011/03/yasbe-open-source-code-incremental.html
 blogger_bid:
   - 7726907200224433699

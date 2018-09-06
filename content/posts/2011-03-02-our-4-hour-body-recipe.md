@@ -3,6 +3,8 @@ title: Our 4-Hour Body Recipe
 author: Beej
 type: post
 date: 2011-03-02T23:30:00+00:00
+year: "2011"
+month: "2011/03"
 url: /2011/03/our-4-hour-body-recipe.html
 blogger_bid:
   - 7726907200224433699

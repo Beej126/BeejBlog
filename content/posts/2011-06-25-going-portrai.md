@@ -3,6 +3,8 @@ title: Going Portrait!
 author: Beej
 type: post
 date: 2011-06-25T17:38:00+00:00
+year: "2011"
+month: "2011/06"
 url: /2011/06/going-portrai.html
 blogger_bid:
   - 7726907200224433699

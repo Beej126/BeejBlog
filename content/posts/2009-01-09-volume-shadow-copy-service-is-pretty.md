@@ -3,6 +3,8 @@ title: Volume Shadow Copy Service is Pretty Cool
 author: Beej
 type: post
 date: 2009-01-09T18:49:00+00:00
+year: "2009"
+month: "2009/01"
 url: /2009/01/volume-shadow-copy-service-is-pretty.html
 blogger_bid:
   - 7726907200224433699

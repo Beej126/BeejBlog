@@ -3,6 +3,8 @@ title: '[SOLVED] Acer Aspire One won’t boot Syslinux USB thumbdrive'
 author: Beej
 type: post
 date: 2013-08-27T21:25:00+00:00
+year: "2013"
+month: "2013/08"
 url: /2013/08/solved-acer-aspire-one-wont-boo.html
 blogger_bid:
   - 7726907200224433699

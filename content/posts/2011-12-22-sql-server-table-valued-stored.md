@@ -3,6 +3,8 @@ title: 'SQL Server Table-Valued Stored Procedure Parameters <=> ADO.Net'
 author: Beej
 type: post
 date: 2011-12-22T22:32:00+00:00
+year: "2011"
+month: "2011/12"
 url: /2011/12/sql-server-table-valued-stored.html
 blogger_bid:
   - 7726907200224433699

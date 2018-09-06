@@ -3,6 +3,8 @@ title: Minimal pure css expand/collapse widget
 author: Beej
 type: post
 date: 2015-06-29T08:37:00+00:00
+year: "2015"
+month: "2015/06"
 url: /2015/06/purecsstreeviewfontawesome.html
 blogger_bid:
   - 7726907200224433699

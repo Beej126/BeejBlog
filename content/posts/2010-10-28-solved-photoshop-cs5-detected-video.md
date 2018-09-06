@@ -3,6 +3,8 @@ title: '[SOLVED!] Photoshop CS5 – Detected Video Card: Blank'
 author: Beej
 type: post
 date: 2010-10-28T22:00:00+00:00
+year: "2010"
+month: "2010/10"
 url: /2010/10/solved-photoshop-cs5-detected-video.html
 blogger_bid:
   - 7726907200224433699

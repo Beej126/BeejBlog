@@ -3,6 +3,8 @@ title: Overclocking ‘Skeletor’ Q9540 v1.0
 author: Beej
 type: post
 date: 2010-09-23T18:44:00+00:00
+year: "2010"
+month: "2010/09"
 url: /2010/09/overclocking-skeletor-q9540-v10.html
 blogger_bid:
   - 7726907200224433699

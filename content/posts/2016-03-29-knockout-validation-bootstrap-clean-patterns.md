@@ -3,6 +3,8 @@ title: Knockout-Validation lib – clean patterns
 author: Beej
 type: post
 date: 2016-03-29T07:14:12+00:00
+year: "2016"
+month: "2016/03"
 url: /2016/03/knockout-validation-bootstrap-clean-patterns.html
 snapEdIT:
   - 1

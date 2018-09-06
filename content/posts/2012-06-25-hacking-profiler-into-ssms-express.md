@@ -3,6 +3,8 @@ title: Hacking Profiler into SSMS Express
 author: Beej
 type: post
 date: 2012-06-25T00:25:00+00:00
+year: "2012"
+month: "2012/06"
 url: /2012/06/hacking-profiler-into-ssms-express.html
 blogger_bid:
   - 7726907200224433699

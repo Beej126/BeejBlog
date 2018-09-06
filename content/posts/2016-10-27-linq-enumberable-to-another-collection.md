@@ -3,6 +3,8 @@ title: Linq Enumerable to another Collection
 author: Beej
 type: post
 date: 2016-10-28T04:23:34+00:00
+year: "2016"
+month: "2016/10"
 url: /2016/10/linq-enumberable-to-another-collection.html
 snapEdIT:
   - 1

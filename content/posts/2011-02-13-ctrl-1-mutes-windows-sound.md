@@ -3,6 +3,8 @@ title: CTRL, 1 – Mutes Windows Sound?!?!
 author: Beej
 type: post
 date: 2011-02-13T12:00:00+00:00
+year: "2011"
+month: "2011/02"
 url: /2011/02/ctrl-1-mutes-windows-sound.html
 blogger_bid:
   - 7726907200224433699

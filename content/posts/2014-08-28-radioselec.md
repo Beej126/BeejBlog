@@ -3,6 +3,8 @@ title: 'Style all <select>’s with a given CSS class into a fancy radio button 
 author: Beej
 type: post
 date: 2014-08-28T10:40:00+00:00
+year: "2014"
+month: "2014/08"
 url: /2014/08/radioselec.html
 blogger_bid:
   - 7726907200224433699

@@ -28,7 +28,7 @@ thankfully we have solid writeups on ADAL with XF... this post is just me trying
   
 (BTW: ADAL = Active Directory Auth Lib... i needed it for PowerBI embedding)
 
-  1. <http://www.appzinside.com/2016/02/22/implement-adal-for-cross-platform-xamarin-applications/>
+  1. <https://www.appzinside.com/2016/02/22/implement-adal-for-cross-platform-xamarin-applications/>
   2. <https://blog.xamarin.com/authenticate-mobile-apps-using-microsoft-authentication-library/>
 
 the first post keeps the platform specific surface area pretty minimal but also winds up wrappering the stock ADAL classes quite a bit...

@@ -38,5 +38,5 @@ i had VS2017 doing iOS builds just yesterday but for some reason was getting per
 thankfully it's actually connecting after that (phew) ... for the record, same errors are still firing in mac system.log, so maybe just recycling sshd service is the [huckleberry][3] here
 
  [1]: https://forums.xamarin.com/discussion/comment/235162/#Comment_235162
- [2]: http://stackoverflow.com/questions/29751813/failure-opening-ssh-to-mac-os-x-10-10-using-net/31777166#31777166
- [3]: http://www.urbandictionary.com/define.php?term=I%27m%20your%20huckleberry
+ [2]: https://stackoverflow.com/questions/29751813/failure-opening-ssh-to-mac-os-x-10-10-using-net/31777166#31777166
+ [3]: https://www.urbandictionary.com/define.php?term=I%27m%20your%20huckleberry

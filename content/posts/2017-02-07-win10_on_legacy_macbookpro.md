@@ -97,21 +97,21 @@ _not as easy as one might think_ &#8211; this firmware is very finicky... USB Th
 
  [1]: https://www.microsoft.com/en-us/software-download/windows10
  [2]: https://mattgadient.com/2016/07/11/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models
- [3]: http://www.sevenforums.com/attachments/general-discussion/32382d1256189124-make-bootable-iso-student-d-l-oscdimg.zip
- [4]: http://www.imgburn.com/index.php?act=Download
- [5]: http://www.rodsbooks.com/refind/index.html
- [6]: http://www.rodsbooks.com/refind/getting.html
- [7]: http://fgimian.github.io/blog/2016/03/12/installing-windows-10-on-a-mac-without-bootcamp/#partitioning-your-drive
+ [3]: https://www.sevenforums.com/attachments/general-discussion/32382d1256189124-make-bootable-iso-student-d-l-oscdimg.zip
+ [4]: https://www.imgburn.com/index.php?act=Download
+ [5]: https://www.rodsbooks.com/refind/index.html
+ [6]: https://www.rodsbooks.com/refind/getting.html
+ [7]: https://fgimian.github.io/blog/2016/03/12/installing-windows-10-on-a-mac-without-bootcamp/#partitioning-your-drive
  [8]: /2015/08/windowsuefi.html#NotesLessonsLearned
  [9]: https://social.technet.microsoft.com/Forums/windowsserver/en-US/ebc26d5d-09bc-43a6-a946-608c84d46f61/change-volume-label-of-system-volume?forum=winservercore
  [10]: https://downloadcenter.intel.com/download/20018/INF-Update-Utility-Primarily-for-Intel-6-5-4-3-900-Series-Chipsets-Zip-Format?product=1145
  [11]: https://en.wikipedia.org/wiki/List_of_Intel_chipsets#Core_2_chipsets
- [12]: http://images.techhive.com/images/article/2014/01/device-manager-100226208-orig.png
- [13]: http://www.catalog.update.microsoft.com/Search.aspx?q=v5200
+ [12]: https://images.techhive.com/images/article/2014/01/device-manager-100226208-orig.png
+ [13]: https://www.catalog.update.microsoft.com/Search.aspx?q=v5200
  [14]: https://support.apple.com/en-us/HT205016
  [15]: https://digiex.net/threads/apple-windows-10-bootcamp-6-drivers-download-applebcupdate-exe-april-1st-2016.14828/
- [16]: http://swcdn.apple.com/content/downloads/16/10/031-55711/ufi4c7o3x20i5ge93l2yu869yegn222i8l/AppleBcUpdate.exe
+ [16]: https://swcdn.apple.com/content/downloads/16/10/031-55711/ufi4c7o3x20i5ge93l2yu869yegn222i8l/AppleBcUpdate.exe
  [17]: https://support.apple.com/kb/DL1636?locale=en_US
- [18]: http://support.apple.com/downloads/DL1636/en_US/BootCamp4.0.4326.zip
- [19]: http://superuser.com/questions/975717/does-windows-10-support-utc-as-bios-time
+ [18]: https://support.apple.com/downloads/DL1636/en_US/BootCamp4.0.4326.zip
+ [19]: https://superuser.com/questions/975717/does-windows-10-support-utc-as-bios-time
  [20]: https://cloud.githubusercontent.com/assets/6301228/22683281/1c793688-eccc-11e6-8ed6-c12c5034ab71.png

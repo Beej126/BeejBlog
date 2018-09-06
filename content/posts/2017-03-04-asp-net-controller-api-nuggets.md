@@ -33,7 +33,7 @@ tags:
 public class GenericProcArgs
 {
   public string procName { get; set; }
-  //from: http://stackoverflow.com/questions/5022958/passing-dynamic-json-object-to-c-sharp-mvc-controller
+  //from: https://stackoverflow.com/questions/5022958/passing-dynamic-json-object-to-c-sharp-mvc-controller
   //super convenient way to receive JS object with arbitrary properties to be fed straight to proc parms
   public dynamic parms { get; set; }
   /// <summary>
@@ -62,5 +62,5 @@ public ActionResult GetProc(GenericProcArgs args)
   * here i'm using a database layer represented by my own [custom Proc class][2]... which is a bundle of convenient methods wrapped around SqlCommand ... in this case, it's firing SqlCommand.ExecuteReader() and writing the results directly to the response via Newtonsoft.Json StreamWriters... i honestly haven't done a real profile on this call stack but it feels like a nice straight shot from sql streaming through web tier transform to client
   * another nifty nugget in play here is the usage of C# Dynamic to catch arbitrary JS objects posted from the ajax client, and that **Dynamic is then inherently castable to a Dictionary**
 
- [1]: http://stackoverflow.com/questions/943122/writing-to-output-stream-from-action
+ [1]: https://stackoverflow.com/questions/943122/writing-to-output-stream-from-action
  [2]: https://github.com/Beej126/SqlClientHelpers

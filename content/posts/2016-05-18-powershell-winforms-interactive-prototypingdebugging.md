@@ -88,4 +88,4 @@ and here is simple usage... spin up a running WinForm and <span class="hl">give 
   * execute that debug-runspace command and your breakpoints will light up in the editor and break when the code fires
   * CTRL-BREAK your way out of that mode when you want to go back to the powershell command line and manipulate the UI objects some more
 
- [1]: http://poshcode.org/5520
+ [1]: https://poshcode.org/5520

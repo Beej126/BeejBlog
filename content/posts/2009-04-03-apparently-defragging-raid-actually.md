@@ -23,4 +23,4 @@ tags:
 ---
 [Disk Defragmentation in RAID and SAN Environments][1]
 
- [1]: http://www.perfectdisk.com/user_data/white_papers/raid_san_environment.pdf "FAT Disk Defragmentation in RAID and SAN Environments"
+ [1]: https://www.perfectdisk.com/user_data/white_papers/raid_san_environment.pdf "FAT Disk Defragmentation in RAID and SAN Environments"

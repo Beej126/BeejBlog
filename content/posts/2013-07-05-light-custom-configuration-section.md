@@ -35,8 +35,8 @@ tags:
         /*URLElement class below represents a bundle of properties (URL, password, etc) for each endpoint we need to send to... 
     
         And the following custom app.configuration section allows us to maintain a list of these URLElements. 
-        copied from here: http://www.abhisheksur.com/2011/09/writing-custom-configurationsection-to.html 
-        and here: http://stackoverflow.com/questions/1755421/c-sharp-appsettings-is-there-a-easy-way-to-put-a-collection-into-appsetting 
+        copied from here: https://www.abhisheksur.com/2011/09/writing-custom-configurationsection-to.html 
+        and here: https://stackoverflow.com/questions/1755421/c-sharp-appsettings-is-there-a-easy-way-to-put-a-collection-into-appsetting 
         The basic gist is 3 fairly light implementation classes -- 
         URLElement = individual elements, URLCollection = collection of elements, and URLSection = new custom app.config section. 
         */

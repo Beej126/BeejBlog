@@ -88,6 +88,6 @@ There's some rough edges getting these old bits to install and run that i wanted
       * CRUCIAL &#8211; update registry `HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE\KEY_OH1949191890\FORMS_PATH` to include your forms ".fmb, .mmb, etc" file paths... we had separate folders for images, forms, libs & menus files to be included there 
           * this "KEY_OH1949191890" path is probably different for each installation
 
- [1]: http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-main-097127.html
- [2]: http://www.oracle.com/technetwork/developer-tools/forms/downloads/forms-downloads-11g-2735004.html
+ [1]: https://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-main-097127.html
+ [2]: https://www.oracle.com/technetwork/developer-tools/forms/downloads/forms-downloads-11g-2735004.html
  [3]: https://en.wiktionary.org/wiki/your_mileage_may_vary#English

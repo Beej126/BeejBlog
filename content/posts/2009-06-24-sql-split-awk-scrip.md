@@ -32,7 +32,7 @@ Note: The current RegEx’s are tailored around the following scripting options 
   * “Include descriptive headers” = true&nbsp; (this is the default after SSMS 2008 install) – located under:&nbsp; SSMS > Tools > Options > SQL Server Object Explorer > Scripting > General scripting options) 
   * “Schema qualify object names” =&nbsp; false (**NOT the default**) &#8211; under: … > Object scripting options 
 
-Download GAWK.exe for Windows: <a href="http://sourceforge.net/project/showfiles.php?group_id=23617&package_id=16431" target="_blank">link1</a>, <a href="http://www.google.com/search?q=download+gawk+windows&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a" target="_blank">link2</a>
+Download GAWK.exe for Windows: <a href="https://sourceforge.net/project/showfiles.php?group_id=23617&package_id=16431" target="_blank">link1</a>, <a href="https://www.google.com/search?q=download+gawk+windows&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a" target="_blank">link2</a>
 
 <pre class="prettyprint"># example: gawk -f sqlsplit.awk file-to-split.sql
 

@@ -101,10 +101,10 @@ enddo
 goto pasteloop
 ```
 
- [1]: http://opengapps.org/#downloadsection
+ [1]: https://opengapps.org/#downloadsection
  [2]: https://infosectrek.wordpress.com/2017/01/17/installing-the-google-play-store-app-apk-on-the-android-emulator/#comment-296
  [3]: www.supersu.com/download
- [4]: http://stackoverflow.com/a/42678005/813599
+ [4]: https://stackoverflow.com/a/42678005/813599
  [5]: https://developer.android.com/studio/index.html
  [6]: https://apps.evozi.com/apk-downloader/
  [7]: https://su.chainfire.eu/

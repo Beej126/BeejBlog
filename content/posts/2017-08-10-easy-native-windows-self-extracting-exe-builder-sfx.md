@@ -38,4 +38,4 @@ start "Title" /d"%~dp0" iexpress /n Project.sed
   * The IExpress SED wizard will hard code paths, just edit afterwards and remove to be relative. It works.
   * This would of course work for PowerShell or any other script that can be launched via its runner, either bundled in the EXE or native, e.g. [ScriptCS][1]
 
- [1]: http://scriptcs.net/
+ [1]: https://scriptcs.net/

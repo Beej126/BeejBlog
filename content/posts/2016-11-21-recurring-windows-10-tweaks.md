@@ -58,5 +58,5 @@ Stored in Reg here:
 
 ![image][2]
 
- [1]: http://winaero.com/download.php?view.21
+ [1]: https://winaero.com/download.php?view.21
  [2]: https://cloud.githubusercontent.com/assets/6301228/20513514/2b53af30-b03b-11e6-9512-4234409f5b0e.png

@@ -47,4 +47,4 @@ If you don't have server side control, just apply necessary elements via jQuery 
 
       jQuery(".tagcloud").wrap('<canvas id="canvas3dTagCloud" width="256" height="256"></canvas>');
 
- [1]: http://www.goat1000.com/tagcanvas.php
+ [1]: https://www.goat1000.com/tagcanvas.php

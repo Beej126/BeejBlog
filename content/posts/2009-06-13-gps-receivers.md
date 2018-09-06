@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2009/06/gps-receivers.html
 blogger_thumbnail:
-  - http://www.locationstore.com/images/Product/medium/28519.jpg
+  - https://www.locationstore.com/images/Product/medium/28519.jpg
 tags:
   - Hardware
   - Mapping
@@ -32,10 +32,10 @@ tags:
   * Runs on a rechargeable battery so you do have to tether it (with included USB cable) every once in a while to recharge 
   * Garmin also included the cigarette lighter power adapter in my package… Pretty sure I wound up with two of these due to a screwed up initial shipment so I have a spare in case you don’t wind up with one… cigarette lighter to mini-usb is kindof a handy thingy to have in general these days… would charge other USB power based stuff like MP3 players etc. 
   * $107 retail 
-  * <a href="http://buy.garmin.com/shop/shop.do?cID=158&pID=423" target="_blank"><img title="Click here to view larger image" border="0" alt="Garmin GPS 10x Receiver for mobile devices" src="http://www.locationstore.com/images/Product/medium/28519.jpg" width="121" height="121" /></a> 
+  * <a href="https://buy.garmin.com/shop/shop.do?cID=158&pID=423" target="_blank"><img title="Click here to view larger image" border="0" alt="Garmin GPS 10x Receiver for mobile devices" src="https://www.locationstore.com/images/Product/medium/28519.jpg" width="121" height="121" /></a> 
   * The annoying thing is I managed to find an actual Garmin.com link where it was posted as $50… BUT I DIDN’T SAVE THE DANG LINK <ARG!> 
-  * <a href="http://www.google.com/products/catalog?hl=en&q=%2B%22gps+10x%22&cid=18374702854470042297&scoring=p#ps-sellers" target="_blank">Cheapest new street price I’ve seen is around $80 (from reputable vendors like TheNerds.net, etc)</a>
-  * <a href="http://shop.ebay.com/items/__garmin-gps-10x?_trkparms=65%253A12%257C66%253A2%257C39%253A1%257C72%253A1205&_dmpt=GPS_Devices&_trksid=p3286.c0.m14&_sop=15&_sc=1 " target="_blank">eBay has a refurb for $50 at the moment</a>
+  * <a href="https://www.google.com/products/catalog?hl=en&q=%2B%22gps+10x%22&cid=18374702854470042297&scoring=p#ps-sellers" target="_blank">Cheapest new street price I’ve seen is around $80 (from reputable vendors like TheNerds.net, etc)</a>
+  * <a href="https://shop.ebay.com/items/__garmin-gps-10x?_trkparms=65%253A12%257C66%253A2%257C39%253A1%257C72%253A1205&_dmpt=GPS_Devices&_trksid=p3286.c0.m14&_sop=15&_sc=1 " target="_blank">eBay has a refurb for $50 at the moment</a>
 
 **I still wonder if USB might be slightly easier to deal with** than waiting for BlueTooth to connect, especially if you’re primarily using in a static environment like a car and it avoids the rechargeable battery dance so here’s a couple of those… 20x (USB) 
 
@@ -67,6 +67,6 @@ tags:
  [1]: https://buy.garmin.com/shop/shop.do?cID=158&pID=32632
  [2]: https://buy.garmin.com/shop/shop.do?cID=158&pID=27594
  [3]: https://buy.garmin.com/shop/shop.do?pID=13484&pvID=14858
- [4]: http://www8.garmin.com/support/download.jsp
+ [4]: https://www8.garmin.com/support/download.jsp
  [5]: https://buy.garmin.com/shop/shop.do?cID=253&pID=1456#
- [6]: http://www.garmin.com/garmin/cms/us/maps/onthetrailmaps
+ [6]: https://www.garmin.com/garmin/cms/us/maps/onthetrailmaps

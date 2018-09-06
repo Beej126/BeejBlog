@@ -38,7 +38,7 @@ In my case it was because the "Bundle ID" aka "App ID" set in my info.plist was 
 
 ### More background
 
-  1. My Provisioning Certificates had expired (as we know, issued from http://Developer.Apple.com) ... that did throw me off for a bit but eventually I got the clue and went through the Apple Developer account renewal process... 
+  1. My Provisioning Certificates had expired (as we know, issued from https://Developer.Apple.com) ... that did throw me off for a bit but eventually I got the clue and went through the Apple Developer account renewal process... 
   2. Funny thing, I'd been waiting for our Apple Enterprise Developer aka In House distribution account to finalize... I noticed it had finally opened up (_there's a big yellow sign indicating 2wk delay between approval and the corresponding "In House" radio button becoming available on the provisioning profile page_) and decided to just run with that vs my personal Developer keys...
   3. This meant I was creating all the necessary provisioning bits from scratch...
   4. First up, creating my App ID aka Bundle Id record (_cue foreboding thunderclap_)... 'course when you're establishing a new name, it's always fun to apply your more current understanding of just what that name should be... here's where I messed up, this <span class="hl">App ID gets embedded in the provisioning profile which must then be the same as what's in your iOS project's info.plist > CFBundleIdentifier entry !!</span>
@@ -54,5 +54,5 @@ Somehow I'd never really run smack into this but one pertinent difference _durin
 
 [![image][2]][2]
 
- [1]: http://stackoverflow.com/a/17999469/813599
+ [1]: https://stackoverflow.com/a/17999469/813599
  [2]: https://cloud.githubusercontent.com/assets/6301228/21834849/4225598a-d76d-11e6-87b1-6188a28f600a.png

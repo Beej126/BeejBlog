@@ -48,6 +48,6 @@ hopefully you're off to the races and you can bootstrap yourself further by goog
 
 i am a bit "ashamed" this is still so obtuse
 
- [1]: http://www.mithunvp.com/typescript-tutorials-setting-visual-studio-code/
+ [1]: https://www.mithunvp.com/typescript-tutorials-setting-visual-studio-code/
  [2]: https://nodejs.org/en/download/
  [3]: https://code.visualstudio.com/download

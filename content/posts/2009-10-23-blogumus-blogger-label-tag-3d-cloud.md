@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2009/10/blogumus-blogger-label-tag-3d-cloud.html
 blogger_thumbnail:
-  - http://lh6.ggpht.com/_XlySlDLkdOc/SuIGnNibyEI/AAAAAAAAEl8/I1wMNidc75w/Test%5B3%5D.gif?imgmax=800
+  - https://lh6.ggpht.com/_XlySlDLkdOc/SuIGnNibyEI/AAAAAAAAEl8/I1wMNidc75w/Test%5B3%5D.gif?imgmax=800
 dsq_thread_id:
   - 5546277571
 snapEdIT:

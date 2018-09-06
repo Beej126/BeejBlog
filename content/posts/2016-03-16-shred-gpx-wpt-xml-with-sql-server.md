@@ -39,7 +39,7 @@ tags:
 # namespace example
 
     declare @xml xml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" mc:Ignorable="x14ac">
+    <worksheet xmlns="https://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="https://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="https://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="https://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" mc:Ignorable="x14ac">
     <dimension ref="A1:H700"/>
     <sheetViews>...</sheetViews>
     <sheetFormatPr defaultRowHeight="15" x14ac:dyDescent="0.25"/>
@@ -63,7 +63,7 @@ tags:
     </row>
     </sheetData>
     
-    ;WITH XMLNAMESPACES('http://schemas.openxmlformats.org/spreadsheetml/2006/main' AS x)
+    ;WITH XMLNAMESPACES('https://schemas.openxmlformats.org/spreadsheetml/2006/main' AS x)
     SELECT 
       n.value('x:c[1]/x:v[1]', 'varchar(100)') as Id,
       n.value('x:c[2]/x:v[1]', 'varchar(100)') as Value

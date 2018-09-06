@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2011/03/understanding-exposure.html
 blogger_thumbnail:
-  - http://1.bp.blogspot.com/-DhDRqPYeNFQ/VA8YPdDh76I/AAAAAAAAJWY/TD99N1PaXHM/s1600/light_meter.png
+  - https://1.bp.blogspot.com/-DhDRqPYeNFQ/VA8YPdDh76I/AAAAAAAAJWY/TD99N1PaXHM/s1600/light_meter.png
 snapEdIT:
   - 1
 snapTW:
@@ -37,7 +37,7 @@ tags:
 <table border="0" cellpadding="0" cellspacing="10">
   <tr>
     <td valign="top">
-      <a href="http://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390" target="_blank">This is a great book by a Mr. Bryan Peterson</a> </p> 
+      <a href="https://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390" target="_blank">This is a great book by a Mr. Bryan Peterson</a> </p> 
       
       <p>
         Make sure you get the latest edition (currently Aug.2010).
@@ -98,7 +98,7 @@ tags:
               Smaller apertures wind up pulling in a greater “depth of field” which just means <b>more of the background is sharper</b>.
             </li>
             <li>
-              Wider apertures (*smaller* f/#’s, i.e *divided* by a smaller number = bigger) give that fuzzy background effect (<a href="http://en.wikipedia.org/wiki/Bokeh" target="_blank">bokeh</a>)… typically when you want to draw the most attention to a specific subject vs a complex background.
+              Wider apertures (*smaller* f/#’s, i.e *divided* by a smaller number = bigger) give that fuzzy background effect (<a href="https://en.wikipedia.org/wiki/Bokeh" target="_blank">bokeh</a>)… typically when you want to draw the most attention to a specific subject vs a complex background.
             </li>
           </ul>
         </li>
@@ -125,7 +125,7 @@ tags:
       </p>
       
       <div class="separator" style="clear: both; text-align: center;">
-        <a href="http://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png" height="55" width="320" /></a>
+        <a href="https://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png" height="55" width="320" /></a>
       </div>
       
       <p>
@@ -136,5 +136,5 @@ tags:
         For an alternative example, if we want to capture that “blurry water” effect on a stream or a waterfall, we’ll start with a longer shutter to (e.g. 1/8 sec or even 1 full sec) and then move the f/stop to get the light meter to 0… the f/stop will be high in this case (perhaps even f/32) because a long shutter is a long exposure to light and therefore a correspondingly small opening is necessary to counteract that light washout (i.e. overexposure).</td> 
         
         <td align="center" valign="top" wrap="1">
-          <a href="http://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390" target="_blank"><img alt="Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image" border="0" src="http://lh5.ggpht.com/_XlySlDLkdOc/TW-YLaRs_JI/AAAAAAAAE4o/XjYPHv3ukxE/Understanding%20Exposure%2C%203rd%20Edition%20-%20Bryan%20Peterson%20%282010.08%29%20-cover%20image%5B7%5D.jpg?imgmax=800" height="483" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image" width="366" /></a> <br /> <b>ISBN-10:</b> 0817439390 <br /> <b>ISBN-13:</b> 978-0817439392
+          <a href="https://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390" target="_blank"><img alt="Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image" border="0" src="https://lh5.ggpht.com/_XlySlDLkdOc/TW-YLaRs_JI/AAAAAAAAE4o/XjYPHv3ukxE/Understanding%20Exposure%2C%203rd%20Edition%20-%20Bryan%20Peterson%20%282010.08%29%20-cover%20image%5B7%5D.jpg?imgmax=800" height="483" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image" width="366" /></a> <br /> <b>ISBN-10:</b> 0817439390 <br /> <b>ISBN-13:</b> 978-0817439392
         </td></tr> </tbody> </table>

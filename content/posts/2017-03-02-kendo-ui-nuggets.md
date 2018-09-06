@@ -41,7 +41,7 @@ sigCapVm.packingSlips.subscribe(function (newval) {
     if (kgrid) kgrid.destroy();
     gridPackingSlips.kendoGrid({
       //workaround for autogenerating columns with spaces
-      //from: http://www.telerik.com/forums/field-name-with-space-and-other-than-numeric-creating-issues-to-load-the-grid#23fk8zzWZkioYCn7Tr4xFg
+      //from: https://www.telerik.com/forums/field-name-with-space-and-other-than-numeric-creating-issues-to-load-the-grid#23fk8zzWZkioYCn7Tr4xFg
 
       columns: $.map(Object.keys(newval.length === 0 ? {} : newval[0]),
         function (el) {

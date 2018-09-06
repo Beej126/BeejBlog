@@ -58,8 +58,8 @@ tags:
 
   * msinfo32.exe > System Summary > “BIOS Mode” – looking for “UEFI” (“Legacy” means not UEFI)
 
- [1]: http://www.tenforums.com/tutorials/1950-windows-10-clean-install.html
+ [1]: https://www.tenforums.com/tutorials/1950-windows-10-clean-install.html
  [2]: https://en.wikipedia.org/wiki/Microsoft_Reserved_Partition
  [3]: https://rufus.akeo.ie/
  [4]: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#CSM_booting
- [5]: http://www.eightforums.com/tutorials/29504-bios-mode-see-if-windows-boot-uefi-legacy-mode.html
+ [5]: https://www.eightforums.com/tutorials/29504-bios-mode-see-if-windows-boot-uefi-legacy-mode.html

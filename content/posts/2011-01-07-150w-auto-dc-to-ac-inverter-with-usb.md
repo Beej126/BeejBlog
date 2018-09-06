@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2011/01/150w-auto-dc-to-ac-inverter-with-usb.html
 blogger_thumbnail:
-  - http://lh3.ggpht.com/_XlySlDLkdOc/TSdvWWpKEHI/AAAAAAAAE2E/Mo2Y4lS45ZA/image%5B3%5D.png?imgmax=800
+  - https://lh3.ggpht.com/_XlySlDLkdOc/TSdvWWpKEHI/AAAAAAAAE2E/Mo2Y4lS45ZA/image%5B3%5D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -34,11 +34,11 @@ tags:
   - Hardware
 
 ---
-Here’s the one I got: <a href="http://www.xoxide.com/150w-acpower-inverter-usb.html" target="_blank"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lh3.ggpht.com/_XlySlDLkdOc/TSdvWWpKEHI/AAAAAAAAE2E/Mo2Y4lS45ZA/image%5B3%5D.png?imgmax=800" width="204" height="184" /></a> Input: DC 12V   
+Here’s the one I got: <a href="https://www.xoxide.com/150w-acpower-inverter-usb.html" target="_blank"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lh3.ggpht.com/_XlySlDLkdOc/TSdvWWpKEHI/AAAAAAAAE2E/Mo2Y4lS45ZA/image%5B3%5D.png?imgmax=800" width="204" height="184" /></a> Input: DC 12V   
 Output: AC 110-120V, 60Hz, 150W   
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; USB DC 5V, 500mA I use it for our camera battery chargers when we go on road trips.   
 It's a pretty compact arrangement to plug a cam.batt.charger into this and forget about it.   
 And it's nice to be able to toss our iPods, Smart Phones, etc on the USB port. I've read that charging camera batteries requires more juice than you can get out of USB,   
 and that's probably why those are all A/C wall plugs only. They don't show it in the picture but on the reverse side of the unit is a little 20v _external_ fuse (i.e. easily user serviceable).   
 You don't always see that kind of feature with these kinds of cheapo things. There's actually a little fan in that box which is probably a good thing.   
-Unfortunately you can hear it when it cranks up... it's not a deafening noise but you can hear it. I actually don’t like Xoxide that well… they definitely bungled my last order… you might want to source this somewhere else… the model number appears to be “DAU-150”… I can’t identify a manufacturer name anywhere on the outside… Here’s a <a href="http://www.google.com/webhp#q=150w+inverter+usb&hl=en&tbs=shop:1,p_ord:p" target="_blank">Google Search for similar items</a> (inverter is a key word to include in your searches)… there’s plenty of good options out there… Here’s one on <a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=230517351522#vi-content" target="_blank">eBay that looks just like mine </a>but also sports a dual Euro/US compatible AC socket.
+Unfortunately you can hear it when it cranks up... it's not a deafening noise but you can hear it. I actually don’t like Xoxide that well… they definitely bungled my last order… you might want to source this somewhere else… the model number appears to be “DAU-150”… I can’t identify a manufacturer name anywhere on the outside… Here’s a <a href="https://www.google.com/webhp#q=150w+inverter+usb&hl=en&tbs=shop:1,p_ord:p" target="_blank">Google Search for similar items</a> (inverter is a key word to include in your searches)… there’s plenty of good options out there… Here’s one on <a href="https://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=230517351522#vi-content" target="_blank">eBay that looks just like mine </a>but also sports a dual Euro/US compatible AC socket.

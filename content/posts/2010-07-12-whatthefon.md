@@ -24,4 +24,4 @@ tags:
 ---
 [Very very very handy… font lookup by uploading a bitmap example!!][1]
 
- [1]: http://new.myfonts.com/WhatTheFont/
+ [1]: https://new.myfonts.com/WhatTheFont/

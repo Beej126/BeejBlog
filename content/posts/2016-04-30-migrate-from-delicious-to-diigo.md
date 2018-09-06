@@ -25,7 +25,7 @@ Below is a little jQuery i threw together to truncate my Delicious links at a ce
 Edit the exported html file and add jquery in the head like so and F5 refresh the page.
 
     <head>
-      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     </head>
     
 
@@ -49,7 +49,7 @@ then run this JS straight from the F12 developer tools console in Chrome, or wha
     // and import to Diigo :)
     // https://www.diigo.com/tools/import_all
 
- [1]: http://blog.delicious.com
- [2]: http://blog.del.icio.us/
- [3]: http://diigo.com
+ [1]: https://blog.delicious.com
+ [2]: https://blog.del.icio.us/
+ [3]: https://diigo.com
  [4]: https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh?hl=en

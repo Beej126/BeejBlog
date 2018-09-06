@@ -46,18 +46,18 @@ there are a number of free icon generating web sites available which begs the qu
     rename "%inFile%.save" "%inFile%"
     
     :: this was a handy page that did most BUT NOT ALL of what i saw in the "Resources" folder generated from the Xamarin project template...
-    :: http://icon.angrymarmot.org/index.html#c9a51e815eac3df5c54f
+    :: https://icon.angrymarmot.org/index.html#c9a51e815eac3df5c54f
     
     :: so i decided to have a crack at generating the remaining "Default" aka splash screen images since they represented an interesting challenge of:
     :: 1) resizing onto a larger background
     :: 2) applying "outer glow" to mitigate the blue-on-blue...
     ::    albeit, i could've chosen a more simpatico background color, but i favor sticking with defaults until something really kicks me in a different direction
     
-    ::***install fantastically handy ImageMagick tool from => http://www.imagemagick.org/script/binary-releases.php
-    ::main options docs: http://www.imagemagick.org/script/command-line-options.php#compose
+    ::***install fantastically handy ImageMagick tool from => https://www.imagemagick.org/script/binary-releases.php
+    ::main options docs: https://www.imagemagick.org/script/command-line-options.php#compose
     
     ::clarify options used:
-    ::-channel portion yields more desireable hard edge on shadow, see: http://www.imagemagick.org/Usage/blur/#shadow_outline
+    ::-channel portion yields more desireable hard edge on shadow, see: https://www.imagemagick.org/Usage/blur/#shadow_outline
     ::+swap is necessary because we need the input image to initially come first in order to render it's corresponding shadow but then we want the shadow behind... and the + sign is handy shortcut to swap the last 2 layers in pipeline w/o having to explicitly specify
     ::-gravity North centers horizontally and at top vertically and then the -extent sets the outer "canvas" size with the negative offset bringing the icon down from the top
     ::the double %% on -level is required to escape the normal processing of "%" as a batch variable

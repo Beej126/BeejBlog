@@ -22,6 +22,6 @@ categories:
   - Uncategorized
 
 ---
-  * <a href="http://shaikhsohail.wordpress.com/2008/09/27/how-to-crack-unprotect-or-remove-document-protection-in-word/" target="_blank">Here’s the gist</a> – fire up Word, open your file, then select Tools > Macro > “Microsoft Script Editor”, you’ll get an HTML view, search for “UnprotectPassword” and change it to all zero’s – voila!
+  * <a href="https://shaikhsohail.wordpress.com/2008/09/27/how-to-crack-unprotect-or-remove-document-protection-in-word/" target="_blank">Here’s the gist</a> – fire up Word, open your file, then select Tools > Macro > “Microsoft Script Editor”, you’ll get an HTML view, search for “UnprotectPassword” and change it to all zero’s – voila!
   * I had to un-check IE > Tools > Internet Options > Advanced > Disable Script Debugging (other) to get the MSE menu item in MS Word enabled.
   * MSE exe location on my system (Office 2003) -&#160; C:Program FilesMicrosoft OfficeOFFICE11MSE7.exe

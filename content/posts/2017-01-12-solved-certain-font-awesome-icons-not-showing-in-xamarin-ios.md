@@ -80,5 +80,5 @@ The clue that tipped me off was that i noticed Iconize was built with an older v
   
 ```
 
- [1]: http://geticonjar.com/
+ [1]: https://geticonjar.com/
  [2]: https://www.nuget.org/packages/Xam.FormsPlugin.Iconize/

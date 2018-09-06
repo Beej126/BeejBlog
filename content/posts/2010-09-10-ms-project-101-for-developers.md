@@ -26,7 +26,7 @@ tags:
 ---
 (Emphasis on For Developers)
   
-<a href="http://en.wikipedia.org/wiki/BLUF_%28communication%29" target="_blank">BLUF</a>: the simple idea here is that it’s quite easy to project your aggregated Remaining Duration estimates into a quickie calendar date.
+<a href="https://en.wikipedia.org/wiki/BLUF_%28communication%29" target="_blank">BLUF</a>: the simple idea here is that it’s quite easy to project your aggregated Remaining Duration estimates into a quickie calendar date.
 
   1. capture a list of rational tasks &#8211; do an initial break down by individual screen if you don't have something else in mind... a little sub-task depth is good but don't go too deep at first... in typical software architecture, program functions and/or database objects are good candidates.
   2. then spend a little time throwing out a rough estimate for each task… don't get too hung up on accuracy here 
@@ -39,7 +39,7 @@ tags:
   7. fill out the % Completion numbers as best you can 
       * as you’re doing so, the Remaining Duration for each task will go down accordingly 
   8. use sub-task nesting to create a task nodes with automatically summed Remaining Duration totals which represent your Milestones du jour 
-  9. and then use <a href="http://worldwattweb.com/Test/default.aspx" target="_blank">Business Day Calculator</a> > Add Business Days to project some quick and dirty milestone completion dates to talk to 
+  9. and then use <a href="https://worldwattweb.com/Test/default.aspx" target="_blank">Business Day Calculator</a> > Add Business Days to project some quick and dirty milestone completion dates to talk to 
 
   * to me this approach can give you something reasonably concrete to talk to in an hour
   * there becomes some "safety in numbers" here... it's harder for someone to throw out the timeline w/o somehow acknowledging the existing one
@@ -51,4 +51,4 @@ Misc notes:
   * The different kinds of _Percent Complete_
   * % Complete &#8211; deals with time
   * % Work Complete &#8211; deals with man-hours
-  * % Physical Complete &#8211; deals with physical progress (<a href="http://www.tech-archive.net/Archive/Project/microsoft.public.project/2006-10/msg00188.html" target="_blank">link</a>) … in Development land “physical” of course gets very abstract and therefore makes it fun deciding where to draw the line on what is the smallest "thing" be a trackable task – but for example: screens, stored procedures, classes are granular enough “physical” things typical worthy of tracking completion.
+  * % Physical Complete &#8211; deals with physical progress (<a href="https://www.tech-archive.net/Archive/Project/microsoft.public.project/2006-10/msg00188.html" target="_blank">link</a>) … in Development land “physical” of course gets very abstract and therefore makes it fun deciding where to draw the line on what is the smallest "thing" be a trackable task – but for example: screens, stored procedures, classes are granular enough “physical” things typical worthy of tracking completion.

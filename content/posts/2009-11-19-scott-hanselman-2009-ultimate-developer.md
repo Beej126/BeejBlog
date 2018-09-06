@@ -28,4 +28,4 @@ tags:
 
 Just too dang good to relegate to a simple Delicious bookmark !
 
- [1]: http://www.hanselman.com/blog/ScottHanselmans2009UltimateDeveloperAndPowerUsersToolListForWindows.aspx
+ [1]: https://www.hanselman.com/blog/ScottHanselmans2009UltimateDeveloperAndPowerUsersToolListForWindows.aspx

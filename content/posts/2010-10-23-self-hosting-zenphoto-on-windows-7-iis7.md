@@ -19,7 +19,7 @@ blogger_comments:
 blogger_permalink:
   - /2010/10/self-hosting-zenphoto-on-windows-7-iis7.html
 blogger_thumbnail:
-  - http://lh6.ggpht.com/_XlySlDLkdOc/TMMSU9BrwgI/AAAAAAAAE0w/Ft6SInH1-RM/image_thumb%5B6%5D.png?imgmax=800
+  - https://lh6.ggpht.com/_XlySlDLkdOc/TMMSU9BrwgI/AAAAAAAAE0w/Ft6SInH1-RM/image_thumb%5B6%5D.png?imgmax=800
 dsq_thread_id:
   - 5508631365
 snapEdIT:
@@ -42,22 +42,22 @@ The main thing I dig is that i can point it at my main photos folder on my hard 
 
   * I installed them all to c:Program Files because that's my speedy SSD and I want this site to be as performant as possible 
       * then i simply SymLink my main photos folder (on a RAID1 volume elsewhere) over the top of c:Program Fileszenphotoalbums 
-      * here's an awesome <a href="http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html" target="_blank">SymLink utility</a> for Windows Explorer!! 
+      * here's an awesome <a href="https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html" target="_blank">SymLink utility</a> for Windows Explorer!! 
   * IIS &#8211; I'm on Win7 so it's IIS7 &#8211; Apache's cool and all but i saw a note somewhere that gave me the impression that on Windows, IIS + PHP via FastCGI module is&#160; going to be more performant than Apache... otherwise, I did previously run it all on Apache just fine via the nifty "XAMPP" stack that installs everything for you in minutes and it "just works" which was honestly much less trouble than getting it all to hang together under IIS7 myself. 
-  * <a href="http://windows.php.net/download/)" target="_blank">PHP</a> &#8211; there's a specific Windows/IIS “Fast CGI” version (current version: 5.3.3) (<a href="http://www.iis-aid.com/articles/my_word/difference_between_php_thread_safe_and_non_thread_safe_binaries" target="_blank">see this for Thread Safe vs Non Thread Safe binaries</a>, non thread safe + IIS FastCGI is most performant) 
-  * <a href="http://dev.mysql.com/downloads/" target="_blank">MySQL</a> &#8211; and their WorkBench tool is handy (current version: 5.1.51) 
+  * <a href="https://windows.php.net/download/)" target="_blank">PHP</a> &#8211; there's a specific Windows/IIS “Fast CGI” version (current version: 5.3.3) (<a href="https://www.iis-aid.com/articles/my_word/difference_between_php_thread_safe_and_non_thread_safe_binaries" target="_blank">see this for Thread Safe vs Non Thread Safe binaries</a>, non thread safe + IIS FastCGI is most performant) 
+  * <a href="https://dev.mysql.com/downloads/" target="_blank">MySQL</a> &#8211; and their WorkBench tool is handy (current version: 5.1.51) 
       * there's a lot of environmental tuning questions during the install wizard but i mostly selected default settings 
       * I chose to go with a MySQL_Data subfolder for the datafiles 
       * configure for TCP/IP access (i don't yet know how to configure PHP to connect to MySQL over named pipes) 
-  * <a href="http://www.zenphoto.org/index.php" target="_blank">ZenPhoto</a> &#8211; just an unzip (current version: 1.3.1.2) 
-  * <a href="http://blueskywebcreations.com/zpgalleriffic/themes/zpgalleriffic/readme.html" target="_blank">zpGallerific</a> theme (current version: 1.0) 
+  * <a href="https://www.zenphoto.org/index.php" target="_blank">ZenPhoto</a> &#8211; just an unzip (current version: 1.3.1.2) 
+  * <a href="https://blueskywebcreations.com/zpgalleriffic/themes/zpgalleriffic/readme.html" target="_blank">zpGallerific</a> theme (current version: 1.0) 
 
 <u>**FIREWALL!!!**</u> turn it completely off to begin with so you know whether it's your main problem or not 
 
   * I had to add these two rules to BitDefender 
-  * [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh6.ggpht.com/_XlySlDLkdOc/TMMSU9BrwgI/AAAAAAAAE0w/Ft6SInH1-RM/image_thumb%5B6%5D.png?imgmax=800" width="958" height="46" />][1] 
+  * [<img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh6.ggpht.com/_XlySlDLkdOc/TMMSU9BrwgI/AAAAAAAAE0w/Ft6SInH1-RM/image_thumb%5B6%5D.png?imgmax=800" width="958" height="46" />][1] 
   * THE ORDER OF THE RULES MATTERS... MOVE THESE TO THE VERY TOP of the list with the arrow buttons!! 
-  * helpful: <http://forum.bitdefender.com/index.php?showtopic=12764> 
+  * helpful: <https://forum.bitdefender.com/index.php?showtopic=12764> 
   * nutshell: to see what's blocked "Increase Verbosity" and "Show Log" on Activity tab&#160; 
 
 <u>**Folder Permissions:   
@@ -66,7 +66,7 @@ The main thing I dig is that i can point it at my main photos folder on my hard 
   * grant IUSR full permissions to root zenphoto folder (IIS_IUSRS group did NOT work) 
       * it was also necessary on the true target of the symlinked albums folder 
   * <strike>something happened on my win7 box where my albums folder was no longer accessible to zenPhoto/PHP… maybe a Windows Update closed a security loophole or something… </strike> 
-      * <strike>anyway, I found this: </strike>[<strike>http://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7</strike>][2]<strike> </strike>
+      * <strike>anyway, I found this: </strike>[<strike>https://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7</strike>][2]<strike> </strike>
       * <strike>the basic idea is to change the account for the AppPool that’s running your site to something specific rather than the pseudo “ASP.Net V4.0” / ApplicationPoolIdentity accounts used by default… so I changed to LocalSystem and everything started working again</strike> 
 
 **<u>IIS Tweaks:</u>**
@@ -78,7 +78,7 @@ The main thing I dig is that i can point it at my main photos folder on my hard 
       * once I got everything fired up I realized that it’d be nice to support my old URLs that I’ve mailed out to everybody already 
       * interesting thing was, Apache was doing something cool I didn’t realize… it was mod_rewrite’ing my php urls for me so they looked like pretty folders 
       * actually zenphoto was kicking out the pretty urls and mod_rewrite was translating them back into /index.php?album=blah format behind the covers 
-      * IIS doesn’t do that right out of the box but they have a nice free <a href="http://www.iis.net/download/urlrewrite" target="_blank">URL Rewrite module</a> you can drop in to do this very same thing (v2.0 currently) 
+      * IIS doesn’t do that right out of the box but they have a nice free <a href="https://www.iis.net/download/urlrewrite" target="_blank">URL Rewrite module</a> you can drop in to do this very same thing (v2.0 currently) 
       * you have to restart IIS Manager GUI after you install to see the “URL Rewrite” icon under the “IIS” section of your web site 
       * it has a good wizard for the easy stuff which is all I needed to map “photos/(.*)/” to “photos/index.php?album={R:1}” 
       * also under conditionals, input: {REQUEST_FILENAME} => “Is Not a File” & “Is Not a Folder” was crucial to allow the real URLs for direct downloading of images and such to continue working 
@@ -244,12 +244,12 @@ The main thing I dig is that i can point it at my main photos folder on my hard 
 >   </div></p>
 > </div>
 > 
-> [<img title="Create Self-Signed Cert IIS7" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Create Self-Signed Cert IIS7" src="http://lh4.ggpht.com/_XlySlDLkdOc/TbxXEY9WyDI/AAAAAAAAE8M/NNqMOakeZL0/Create%20Self-Signed%20Cert%20IIS7_thumb%5B3%5D.png?imgmax=800" width="590" height="412" />][3] 
+> [<img title="Create Self-Signed Cert IIS7" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Create Self-Signed Cert IIS7" src="https://lh4.ggpht.com/_XlySlDLkdOc/TbxXEY9WyDI/AAAAAAAAE8M/NNqMOakeZL0/Create%20Self-Signed%20Cert%20IIS7_thumb%5B3%5D.png?imgmax=800" width="590" height="412" />][3] 
 
 **<u>PHP Setup:</u>**
 
   * Map an IIS virtual directory to your zenphoto root 
-  * browse to <http://{your domain}/{zenphoto virtual dir}/setup.php> 
+  * browse to <https://{your domain}/{zenphoto virtual dir}/setup.php> 
   * it'll probably bark about a couple settings you have to make manually... no biggie hopefully 
   * you'll have to reset "World Wide Web Publishing Service" to refresh any PHP settings it tells you to twiddle 
   * I had to leave file/folder permissions as "loose (0777)"... all of the stricter settings blocked zenphoto subfolder permissions 
@@ -280,6 +280,6 @@ The main thing I dig is that i can point it at my main photos folder on my hard 
           * Color = Blue 
           * Tagline = Cassidy, Anne, BJ & Friends
 
- [1]: http://lh5.ggpht.com/_XlySlDLkdOc/TMMSUJFFxuI/AAAAAAAAE0s/rxteppXzI1E/s1600-h/image%5B8%5D.png
- [2]: http://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7 "http://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7"
- [3]: http://lh5.ggpht.com/_XlySlDLkdOc/TbxXDgiSGlI/AAAAAAAAE8I/ZEBZWENrNtY/s1600-h/Create%20Self-Signed%20Cert%20IIS7%5B5%5D.png
+ [1]: https://lh5.ggpht.com/_XlySlDLkdOc/TMMSUJFFxuI/AAAAAAAAE0s/rxteppXzI1E/s1600-h/image%5B8%5D.png
+ [2]: https://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7 "https://www.gotknowhow.com/articles/fix-login-failed-for-user-iis-apppool-aspnet-v4-error-iis7"
+ [3]: https://lh5.ggpht.com/_XlySlDLkdOc/TbxXDgiSGlI/AAAAAAAAE8I/ZEBZWENrNtY/s1600-h/Create%20Self-Signed%20Cert%20IIS7%5B5%5D.png

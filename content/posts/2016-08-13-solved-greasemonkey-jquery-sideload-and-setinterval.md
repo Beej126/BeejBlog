@@ -47,7 +47,7 @@ update &#8211; after that last round, i realized the whole thing about sideloadi
     // @name          Pandora - "still listening" click
     // @author        Brent Anderson
     // @homepage      /2016/08/solved-greasemonkey-jquery-sideload-and-setinterval.html
-    // @match         http://www.pandora.com/*
+    // @match         https://www.pandora.com/*
     // @grants        none
     // @run-at        document-end
     // ==/UserScript==
@@ -127,14 +127,14 @@ update &#8211; after that last round, i realized the whole thing about sideloadi
     function loadJq() {
         if (!window.jq) {
             script = document.createElement("script");
-            script.src = "http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js";
+            script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js";
             script.onload = function() { window.jq = $.noConflict(true); cosmetics(); };
             document.getElementsByTagName("head")[0].appendChild(script);
         }
         else cosmetics();
     }
     
-        //helpful: http://userscripts-mirror.org/scripts/show/125936
+        //helpful: https://userscripts-mirror.org/scripts/show/125936
     
       window.addEventListener('beforescriptexecute', function(e) {
           if (e.target.src.indexOf("pandora.js") != -1) {
@@ -160,7 +160,7 @@ update &#8211; after that last round, i realized the whole thing about sideloadi
     // @grants         GM_xmlhttpRequest
     /*GM_xmlhttpRequest({
       method: "GET",
-      url: "http://rawgit.com/Beej126/567a36f2dd1e3ce613ad8ec5846a40d4/raw/fac20b4ab17681b5da41b07c2549676ff3571fc9/dorPanda.js", //"http://www.pandora.com/pandora.js?v=440211416",
+      url: "https://rawgit.com/Beej126/567a36f2dd1e3ce613ad8ec5846a40d4/raw/fac20b4ab17681b5da41b07c2549676ff3571fc9/dorPanda.js", //"https://www.pandora.com/pandora.js?v=440211416",
       onload: function(response) {
         debugger;
     
@@ -217,6 +217,6 @@ starting the same hijinx for Spotify... they load MooTools into $ and for some r
       document.head.appendChild(script);
     }
 
- [1]: http://stackoverflow.com/a/8852366/813599
+ [1]: https://stackoverflow.com/a/8852366/813599
  [2]: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US
  [3]: https://github.com/chrisaljoudi/uBlock/issues/1255

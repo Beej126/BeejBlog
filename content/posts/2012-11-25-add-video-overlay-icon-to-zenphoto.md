@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2012/11/add-video-overlay-icon-to-zenphoto.html
 blogger_thumbnail:
-  - http://lh6.ggpht.com/-Z7mqgQlMOOI/ULKan_C4lOI/AAAAAAAAFHM/pOPqz7BxIJ4/Video_Overlay_thumb%25255B2%25255D.png?imgmax=800
+  - https://lh6.ggpht.com/-Z7mqgQlMOOI/ULKan_C4lOI/AAAAAAAAFHM/pOPqz7BxIJ4/Video_Overlay_thumb%25255B2%25255D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -43,7 +43,7 @@ tags:
 
 For example:
   
-[<img alt="Video_Overlay" src="http://lh6.ggpht.com/-Z7mqgQlMOOI/ULKan_C4lOI/AAAAAAAAFHM/pOPqz7BxIJ4/Video_Overlay_thumb%25255B2%25255D.png?imgmax=800" height="168" style="display: inline;" title="Video_Overlay" width="168" />][1]
+[<img alt="Video_Overlay" src="https://lh6.ggpht.com/-Z7mqgQlMOOI/ULKan_C4lOI/AAAAAAAAFHM/pOPqz7BxIJ4/Video_Overlay_thumb%25255B2%25255D.png?imgmax=800" height="168" style="display: inline;" title="Video_Overlay" width="168" />][1]
 
 <pre class="prettyprint">function printCustomSizedImage($alt, $size, $width=NULL, $height=NULL, $cropw=NULL, $croph=NULL, $cropx=NULL, $cropy=NULL, $class=NULL, $id=NULL, $thumbStandin=false, $effects=NULL) {
     global $_zp_current_image;
@@ -87,4 +87,4 @@ function VideoOverlayIcon($url)
 }
 </pre>
 
- [1]: http://lh3.ggpht.com/-6u4N74pJ8-8/ULKanCkQrkI/AAAAAAAAFHE/kVg29WJKxHo/s1600-h/Video_Overlay%25255B4%25255D.png
+ [1]: https://lh3.ggpht.com/-6u4N74pJ8-8/ULKanCkQrkI/AAAAAAAAFHE/kVg29WJKxHo/s1600-h/Video_Overlay%25255B4%25255D.png

@@ -70,5 +70,5 @@ tags:
  [1]: https://github.com/Beej126/PoShHotCorners
  [2]: https://en.wikipedia.org/wiki/Screen_hotspot
  [3]: https://cloud.githubusercontent.com/assets/6301228/20070283/ab4e62e2-a4d4-11e6-84ab-70abd4ff34b9.png
- [4]: http://www.xxcopy.com/xxcopy38.htm
- [5]: http://superuser.com/questions/453446/how-can-i-stop-windows-re-positioning-after-waking-from-sleep
+ [4]: https://www.xxcopy.com/xxcopy38.htm
+ [5]: https://superuser.com/questions/453446/how-can-i-stop-windows-re-positioning-after-waking-from-sleep

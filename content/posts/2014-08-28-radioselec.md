@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2014/08/RadioSelect.html
 blogger_thumbnail:
-  - http://3.bp.blogspot.com/-0vwpFifFiYY/U_6k61k9F_I/AAAAAAAAIrs/ku-dsGXukB4/s1600/8-27-2014%2B8-40-58%2BPM.png
+  - https://3.bp.blogspot.com/-0vwpFifFiYY/U_6k61k9F_I/AAAAAAAAIrs/ku-dsGXukB4/s1600/8-27-2014%2B8-40-58%2BPM.png
 snapEdIT:
   - 1
 snapTW:
@@ -34,6 +34,6 @@ tags:
   - WebDev
 
 ---
-<a style="font-size: x-large;" href="http://stackoverflow.com/a/25455374/813599">http://stackoverflow.com/a/25455374/813599</a>
+<a style="font-size: x-large;" href="https://stackoverflow.com/a/25455374/813599">https://stackoverflow.com/a/25455374/813599</a>
 
-<a href="http://www.BeejBlog.com/wp-content/uploads/2014/08/8-27-20148-40-58PM.png" imageanchor="1" ><img border="0" src="http://www.BeejBlog.com/wp-content/uploads/2014/08/8-27-20148-40-58PM.png" /></a>
+<a href="https://www.BeejBlog.com/wp-content/uploads/2014/08/8-27-20148-40-58PM.png" imageanchor="1" ><img border="0" src="https://www.BeejBlog.com/wp-content/uploads/2014/08/8-27-20148-40-58PM.png" /></a>

@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2010/10/itunescontrol.html
 blogger_thumbnail:
-  - http://lh5.ggpht.com/_XlySlDLkdOc/TMKu5wqLbnI/AAAAAAAAE0o/YvyM0guh-FQ/image_thumb%5B16%5D.png?imgmax=800
+  - https://lh5.ggpht.com/_XlySlDLkdOc/TMKu5wqLbnI/AAAAAAAAE0o/YvyM0guh-FQ/image_thumb%5B16%5D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -34,6 +34,6 @@ tags:
   - Music
 
 ---
-<a href="http://itunescontrol.com/" target="_blank">This thing totally rocks</a>!… essentially flawless implementation of global hotkeys plugin to control iTunes and also sweet configurable heads-up-display functionality (example shot below)… if you’ve been looking for this kind of functionality, look no further! (waaaay more functional than the clunky Aqua-Soft mmKeys.dll plugin that’s out there) Super bonus points: the developer Carson Morrow is a great guy… very responsive! [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_XlySlDLkdOc/TMKu5wqLbnI/AAAAAAAAE0o/YvyM0guh-FQ/image_thumb%5B16%5D.png?imgmax=800" width="773" height="504" />][1]
+<a href="https://itunescontrol.com/" target="_blank">This thing totally rocks</a>!… essentially flawless implementation of global hotkeys plugin to control iTunes and also sweet configurable heads-up-display functionality (example shot below)… if you’ve been looking for this kind of functionality, look no further! (waaaay more functional than the clunky Aqua-Soft mmKeys.dll plugin that’s out there) Super bonus points: the developer Carson Morrow is a great guy… very responsive! [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="https://lh5.ggpht.com/_XlySlDLkdOc/TMKu5wqLbnI/AAAAAAAAE0o/YvyM0guh-FQ/image_thumb%5B16%5D.png?imgmax=800" width="773" height="504" />][1]
 
- [1]: http://lh3.ggpht.com/_XlySlDLkdOc/TMKu4kEyHnI/AAAAAAAAE0k/ZJgboBFngBA/s1600-h/image%5B26%5D.png
+ [1]: https://lh3.ggpht.com/_XlySlDLkdOc/TMKu4kEyHnI/AAAAAAAAE0k/ZJgboBFngBA/s1600-h/image%5B26%5D.png

@@ -40,7 +40,7 @@ EOF
 
 #echo ${#arr[*]}
 
-# http://stackoverflow.com/questions/9084257/bash-array-with-spaces-in-elements
+# https://stackoverflow.com/questions/9084257/bash-array-with-spaces-in-elements
 # disable default space delimiter
 IFS=""
 for filePath in ${arr[*]}

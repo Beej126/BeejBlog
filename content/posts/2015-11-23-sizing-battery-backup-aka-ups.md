@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2015/11/sizing-battery-backup-aka-ups.html
 blogger_thumbnail:
-  - http://3.bp.blogspot.com/-mqZF5vjxKzM/VmEl1-grHyI/AAAAAAAAR4M/OC2jDiZ0ARs/s1600/Snap4.png
+  - https://3.bp.blogspot.com/-mqZF5vjxKzM/VmEl1-grHyI/AAAAAAAAR4M/OC2jDiZ0ARs/s1600/Snap4.png
 snapEdIT:
   - 1
 snapTW:
@@ -79,16 +79,16 @@ I live in the Seattle area, apparently we get a nice windy storm around every Th
 
 #### Fig.1 {#fig1}
 
-<img height="200" src="http://www.BeejBlog.com/wp-content/uploads/2015/11/Snap4.png" />
+<img height="200" src="https://www.BeejBlog.com/wp-content/uploads/2015/11/Snap4.png" />
 
- [1]: http://www.power-solutions.com/watts-va
+ [1]: https://www.power-solutions.com/watts-va
  [2]: https://en.wikipedia.org/wiki/Power_factor
- [3]: http://electronics.stackexchange.com/questions/91975/what-does-load-mean-and-what-are-the-different-types
- [4]: http://www.energy-in-motion.com/PFC.html
- [5]: http://www.amazon.com/P3-P4400-Electricity-Usage-Monitor/dp/B00009MDBU/ref=sr_1_1?ie=UTF8&qid=1448315611&sr=8-1&keywords=kill%20a%20watt%20usage%20monitor
- [6]: http://www.beejblog.com/2015/09/X99Build.html
- [7]: http://www.amazon.com/CyberPower-EC850LCD-Ecologic-510-Watts-Efficient/dp/B00DBAA696/ref=sr_1_5?ie=UTF8&qid=1448301527&sr=8-5&keywords=sine+wave+ups
- [8]: http://www.amazon.com/APC-BE550G-Back-UPS-8-outlet-Uninterruptible/dp/B0019804U8/ref=sr_1_2?s=pc&ie=UTF8&qid=1448319704&sr=1-2&keywords=ups%20battery%20backup
- [9]: http://www.tech-army.org/forum/forum_posts.asp?TID=1129
- [10]: http://www.amazon.com/CyberPower-CP600LCD-Intelligent-600VA-Compact/dp/B000OTEZ5I/ref=cm_cr_pr_product_top?ie=UTF8
- [11]: http://www.tomshardware.com/forum/352692-28-will-corsair-work-sinwave-square-wave#10211635
+ [3]: https://electronics.stackexchange.com/questions/91975/what-does-load-mean-and-what-are-the-different-types
+ [4]: https://www.energy-in-motion.com/PFC.html
+ [5]: https://www.amazon.com/P3-P4400-Electricity-Usage-Monitor/dp/B00009MDBU/ref=sr_1_1?ie=UTF8&qid=1448315611&sr=8-1&keywords=kill%20a%20watt%20usage%20monitor
+ [6]: https://www.beejblog.com/2015/09/X99Build.html
+ [7]: https://www.amazon.com/CyberPower-EC850LCD-Ecologic-510-Watts-Efficient/dp/B00DBAA696/ref=sr_1_5?ie=UTF8&qid=1448301527&sr=8-5&keywords=sine+wave+ups
+ [8]: https://www.amazon.com/APC-BE550G-Back-UPS-8-outlet-Uninterruptible/dp/B0019804U8/ref=sr_1_2?s=pc&ie=UTF8&qid=1448319704&sr=1-2&keywords=ups%20battery%20backup
+ [9]: https://www.tech-army.org/forum/forum_posts.asp?TID=1129
+ [10]: https://www.amazon.com/CyberPower-CP600LCD-Intelligent-600VA-Compact/dp/B000OTEZ5I/ref=cm_cr_pr_product_top?ie=UTF8
+ [11]: https://www.tomshardware.com/forum/352692-28-will-corsair-work-sinwave-square-wave#10211635

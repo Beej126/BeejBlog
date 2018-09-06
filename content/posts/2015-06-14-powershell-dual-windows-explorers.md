@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2015/06/powershell-dual-windows-explorers.html
 blogger_thumbnail:
-  - http://4.bp.blogspot.com/-NtEZUIcuaLQ/Vo4r9rJ8x3I/AAAAAAAAR84/3SAxaVZOGas/s1600/Snap2.png
+  - https://4.bp.blogspot.com/-NtEZUIcuaLQ/Vo4r9rJ8x3I/AAAAAAAAR84/3SAxaVZOGas/s1600/Snap2.png
 dsq_thread_id:
   - 5515123033
 snapEdIT:
@@ -64,7 +64,7 @@ Highlights:
       * there are a few wacky interfaces behind the shell objects but the neat thing is that runtime dynamic type binding makes using real types largely irrelevant... i feel that does lose some self documentation in the balance so i've tried to include the pertinent interfaces in the comments for future reference and expansion
 
  [1]: https://github.com/Beej126/PoShDualExplorers
- [2]: http://www.BeejBlog.com/wp-content/uploads/2015/06/Snap2-1024x699.png
- [3]: http://lifehacker.com/399155/five-best-alternative-file-managers
+ [2]: https://www.BeejBlog.com/wp-content/uploads/2015/06/Snap2-1024x699.png
+ [3]: https://lifehacker.com/399155/five-best-alternative-file-managers
  [4]: https://github.com/denwilliams/FontAwesome-WindowsForms
- [5]: http://fortawesome.github.io/Font-Awesome/icons/
+ [5]: https://fortawesome.github.io/Font-Awesome/icons/

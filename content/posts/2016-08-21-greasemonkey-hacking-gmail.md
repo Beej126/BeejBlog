@@ -48,7 +48,7 @@ obvious next nice to haves rush to mind:
 ```js
 // ==UserScript==
 // @name         GmailMonkey
-// @namespace    http://Next-Technologies.com/
+// @namespace    https://Next-Technologies.com/
 // @version      0.1
 // @description  try to take over the world!
 // @author       Brent Anderson
@@ -252,8 +252,8 @@ loader([
   "//apis.google.com/js/client.js?onload=nextTechInit"
 ]);
 ```
- [1]: http://whatis.techtarget.com/definition/inbox-zero
- [2]: http://blog.hubspot.com/sales/email-multiple-inboxes
+ [1]: https://whatis.techtarget.com/definition/inbox-zero
+ [2]: https://blog.hubspot.com/sales/email-multiple-inboxes
  [3]: https://www.sitepoint.com/mastering-your-inbox-with-gmail-javascript-api/
- [4]: http://lobianijs.com/site/lobibox#notification-examples-basic
+ [4]: https://lobianijs.com/site/lobibox#notification-examples-basic
  [5]: https://cloud.githubusercontent.com/assets/6301228/17837527/720ea2be-676a-11e6-8d10-b09722c492cc.png

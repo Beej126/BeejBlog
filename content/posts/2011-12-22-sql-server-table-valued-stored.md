@@ -35,11 +35,11 @@ Nutshell:
 Notes: 
 
   * The Table-Valued Stored Procedure Parameters feature was first included in SQL Server 2008 
-  * <a href="http://code.google.com/p/yasbe/source/browse/trunk/#trunk" target="_blank">Full working project source available here</a> 
+  * <a href="https://code.google.com/p/yasbe/source/browse/trunk/#trunk" target="_blank">Full working project source available here</a> 
 
 Code Examples:
 
-  1. <a href="http://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/File_UDT.sql" target="_blank">File_UDT.sql</a> <pre class="prettyprint lang-sql">CREATE TYPE File_UDT AS TABLE
+  1. <a href="https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/File_UDT.sql" target="_blank">File_UDT.sql</a> <pre class="prettyprint lang-sql">CREATE TYPE File_UDT AS TABLE
 (
   FullPath varchar(900) PRIMARY KEY, 
   ModifiedDate datetime, 
@@ -50,7 +50,7 @@ GO
 GRANT EXECUTE ON TYPE::dbo.File_UDT TO PUBLIC
 GO</pre>
 
-  2. <a href="http://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql" target="_blank">Files_UploadCompare.sql</a> <pre class="prettyprint lang-sql">CREATE PROCEDURE [dbo].[Files_UploadCompare]
+  2. <a href="https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql" target="_blank">Files_UploadCompare.sql</a> <pre class="prettyprint lang-sql">CREATE PROCEDURE [dbo].[Files_UploadCompare]
 @BackupProfileID INT,
 @NextDiscNumber INT = NULL OUT,
 @AllFiles File_UDT READONLY -- <= *****
@@ -97,7 +97,7 @@ END
 }  
 </pre>
 
-  4. <a href="http://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs" target="_blank">MainWindow.xaml.cs</a> <pre class="prettyprint">using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))
+  4. <a href="https://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs" target="_blank">MainWindow.xaml.cs</a> <pre class="prettyprint">using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))
 {
   Files_UploadCompare["@BackupProfileID"] = (int)cbxBackupProfiles.SelectedValue;
   Files_UploadCompare["@AllFiles"] = IncludedFilesTable; // <= ******
@@ -107,9 +107,9 @@ END
 
 Tips: 
 
-  * (<a href="http://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters.aspx#3" target="_blank">from here</a>): If the login that <a href="http://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters(v=vs.110).aspx" target="_blank">SqlCommandBuilder.DeriveParameters</a> is run under does not have permission to access the UDT, no error will be thrown &#8211; the method will return successfully, but the SqlCommand.Parameters collection will not contain the UDT parameter.!!! 
-  * Granting permissions on a type (<a href="http://www.sqlteam.com/article/sql-server-2008-table-valued-parameters" target="_blank">from here</a>): GRANT EXECUTE ON TYPE::dbo.MyType TO public; 
+  * (<a href="https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters.aspx#3" target="_blank">from here</a>): If the login that <a href="https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters(v=vs.110).aspx" target="_blank">SqlCommandBuilder.DeriveParameters</a> is run under does not have permission to access the UDT, no error will be thrown &#8211; the method will return successfully, but the SqlCommand.Parameters collection will not contain the UDT parameter.!!! 
+  * Granting permissions on a type (<a href="https://www.sqlteam.com/article/sql-server-2008-table-valued-parameters" target="_blank">from here</a>): GRANT EXECUTE ON TYPE::dbo.MyType TO public; 
 
 Links: 
 
-  * <a href="http://msdn.microsoft.com/en-us/library/bb510489.aspx" target="_blank">MSDN page on Table-Valued Parameters</a>
+  * <a href="https://msdn.microsoft.com/en-us/library/bb510489.aspx" target="_blank">MSDN page on Table-Valued Parameters</a>

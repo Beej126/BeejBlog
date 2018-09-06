@@ -28,7 +28,7 @@ tags:
 ---
 Like what Jay Grieves has to say
 
-  * [3 Words That Guarantee Success](http://blog.bigswingingdeveloper.com/2009/09/3-words-that-guarantee-success.html) 
-  * [Getting Things Done vs. Making Things Happen](http://blog.bigswingingdeveloper.com/2009/03/getting-things-done-vs-making-things-happen.html) 
-      * [**The Dead Simple Guide To Making Things Happen**](http://blog.bigswingingdeveloper.com/2009/03/the-dead-simple-guide-to-making-things-happen.html)
-  * [First-Rate Companies Have First-Rate Systems](http://blog.bigswingingdeveloper.com/2009/08/firstrate-companies-have-firstrate-systems.html)
+  * [3 Words That Guarantee Success](https://blog.bigswingingdeveloper.com/2009/09/3-words-that-guarantee-success.html) 
+  * [Getting Things Done vs. Making Things Happen](https://blog.bigswingingdeveloper.com/2009/03/getting-things-done-vs-making-things-happen.html) 
+      * [**The Dead Simple Guide To Making Things Happen**](https://blog.bigswingingdeveloper.com/2009/03/the-dead-simple-guide-to-making-things-happen.html)
+  * [First-Rate Companies Have First-Rate Systems](https://blog.bigswingingdeveloper.com/2009/08/firstrate-companies-have-firstrate-systems.html)

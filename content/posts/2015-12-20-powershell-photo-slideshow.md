@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2015/12/powershell-photo-slideshow.html
 blogger_thumbnail:
-  - http://2.bp.blogspot.com/-XWNHk4bUjmw/VnZCbx0p_RI/AAAAAAAAR6Y/hjDvvY8mkqE/s1600/Screen%2BShot%2B2015-12-19%2Bat%2B9.36.43%2BPM.png
+  - https://2.bp.blogspot.com/-XWNHk4bUjmw/VnZCbx0p_RI/AAAAAAAAR6Y/hjDvvY8mkqE/s1600/Screen%2BShot%2B2015-12-19%2Bat%2B9.36.43%2BPM.png
 dsq_thread_id:
   - 5508631346
 categories:
@@ -87,7 +87,7 @@ Simply target a (nested) folder of images. Local or LAN UNC path supported. &nbs
   5. [blog request][4]: Automatically update folder cache upon new items... to be clear, current approach automatically recognizes new files in existing folders since it only caches the list of folders from which it randomly grabs the next image. Thoughts - Seems pretty straightforward to throw in [PowerShell FileWatcher][5] configured to call the existing `updateFolderCache` function.
 
  [1]: https://github.com/Beej126/PoShSlideshow
- [2]: http://2.bp.blogspot.com/-XWNHk4bUjmw/VnZCbx0p_RI/AAAAAAAAR6Y/hjDvvY8mkqE/s1600/Screen%2BShot%2B2015-12-19%2Bat%2B9.36.43%2BPM.png
- [3]: http://3.bp.blogspot.com/-fON1N7pNVps/VnbndLY3ipI/AAAAAAAAR7A/p1T8oja9fso/s1600/Screen%2BShot%2B2015-12-20%2Bat%2B9.26.42%2BAM.png
- [4]: http://www.beejblog.com/2015/12/powershell-photo-slideshow.html#comment-424
- [5]: http://stackoverflow.com/a/29067433/813599
+ [2]: https://2.bp.blogspot.com/-XWNHk4bUjmw/VnZCbx0p_RI/AAAAAAAAR6Y/hjDvvY8mkqE/s1600/Screen%2BShot%2B2015-12-19%2Bat%2B9.36.43%2BPM.png
+ [3]: https://3.bp.blogspot.com/-fON1N7pNVps/VnbndLY3ipI/AAAAAAAAR7A/p1T8oja9fso/s1600/Screen%2BShot%2B2015-12-20%2Bat%2B9.26.42%2BAM.png
+ [4]: https://www.beejblog.com/2015/12/powershell-photo-slideshow.html#comment-424
+ [5]: https://stackoverflow.com/a/29067433/813599

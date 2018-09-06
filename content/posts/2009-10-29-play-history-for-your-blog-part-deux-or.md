@@ -19,7 +19,7 @@ blogger_comments:
 blogger_permalink:
   - /2009/10/play-history-for-your-blog-part-deux-or.html
 blogger_thumbnail:
-  - http://lh3.ggpht.com/_XlySlDLkdOc/Suoc_HXEkaI/AAAAAAAAEmY/tozgHSkaPM0/image_thumb%5B1%5D.png?imgmax=800
+  - https://lh3.ggpht.com/_XlySlDLkdOc/Suoc_HXEkaI/AAAAAAAAEmY/tozgHSkaPM0/image_thumb%5B1%5D.png?imgmax=800
 dsq_thread_id:
   - 5508631400
 snapEdIT:
@@ -44,7 +44,7 @@ tags:
   * [Orgler][2] is the name for WinAmp’s recent Play History plug-in
   * Sign up for a music.AOL.com account via the Orgler options menu shown below (this provides the bucket for your personal play history data… takes 2 seconds, no fee)
   * Play some music 🙂
-  * (a) Your feed will start showing up at a URL like this: [http://music.aol.com/profile/beej126@hotmail.com][3]
+  * (a) Your feed will start showing up at a URL like this: [https://music.aol.com/profile/beej126@hotmail.com][3]
   * Now here’s the fun part… fire up [Yahoo Pipes][4]
   * Search for Orgler and you should find my published pipe that already does the right filtering
   * Clone it and replace the “Fetch Page” URL with your own like (a) above
@@ -52,14 +52,14 @@ tags:
   * I didn’t have any luck with the specific Blogger badge… never changed from a continual “working on it…” style generic Pipes image… So I just went with a plain vanilla RSS feed widget. 
     [![image][6]][7] [![image][8]][9] [![image][10]][11]
 
- [1]: http://www.winamp.com/media-player/
- [2]: http://blog.winamp.com/2009/07/02/winamp-charts-and-orgler-tutorial/2
- [3]: http://music.aol.com/profile/beej126@hotmail.com "http://music.aol.com/profile/beej126@hotmail.com"
- [4]: http://pipes.yahoo.com/
- [5]: http://pipes.yahoo.com/pipes/docs?doc=troubleshooting#q11
- [6]: http://lh3.ggpht.com/_XlySlDLkdOc/Suoc_HXEkaI/AAAAAAAAEmY/tozgHSkaPM0/image_thumb%5B1%5D.png?imgmax=800 "image"
- [7]: http://lh6.ggpht.com/_XlySlDLkdOc/Suoc-oOp5AI/AAAAAAAAEmU/oiXk1Yhx_ww/s1600-h/image%5B3%5D.png
- [8]: http://lh5.ggpht.com/_XlySlDLkdOc/Suoc_wg7nVI/AAAAAAAAEmg/JtpxVggWjQs/image_thumb%5B4%5D.png?imgmax=800 "image"
- [9]: http://lh3.ggpht.com/_XlySlDLkdOc/Suoc_lsujRI/AAAAAAAAEmc/FELJ2cSgM2g/s1600-h/image%5B8%5D.png
- [10]: http://lh6.ggpht.com/_XlySlDLkdOc/SuodBW4C9qI/AAAAAAAAEmo/CLDy-Aq0Zg8/image_thumb%5B7%5D.png?imgmax=800 "image"
- [11]: http://lh3.ggpht.com/_XlySlDLkdOc/SuodAn4iB0I/AAAAAAAAEmk/l589zXYKSV4/s1600-h/image%5B13%5D.png
+ [1]: https://www.winamp.com/media-player/
+ [2]: https://blog.winamp.com/2009/07/02/winamp-charts-and-orgler-tutorial/2
+ [3]: https://music.aol.com/profile/beej126@hotmail.com "https://music.aol.com/profile/beej126@hotmail.com"
+ [4]: https://pipes.yahoo.com/
+ [5]: https://pipes.yahoo.com/pipes/docs?doc=troubleshooting#q11
+ [6]: https://lh3.ggpht.com/_XlySlDLkdOc/Suoc_HXEkaI/AAAAAAAAEmY/tozgHSkaPM0/image_thumb%5B1%5D.png?imgmax=800 "image"
+ [7]: https://lh6.ggpht.com/_XlySlDLkdOc/Suoc-oOp5AI/AAAAAAAAEmU/oiXk1Yhx_ww/s1600-h/image%5B3%5D.png
+ [8]: https://lh5.ggpht.com/_XlySlDLkdOc/Suoc_wg7nVI/AAAAAAAAEmg/JtpxVggWjQs/image_thumb%5B4%5D.png?imgmax=800 "image"
+ [9]: https://lh3.ggpht.com/_XlySlDLkdOc/Suoc_lsujRI/AAAAAAAAEmc/FELJ2cSgM2g/s1600-h/image%5B8%5D.png
+ [10]: https://lh6.ggpht.com/_XlySlDLkdOc/SuodBW4C9qI/AAAAAAAAEmo/CLDy-Aq0Zg8/image_thumb%5B7%5D.png?imgmax=800 "image"
+ [11]: https://lh3.ggpht.com/_XlySlDLkdOc/SuodAn4iB0I/AAAAAAAAEmk/l589zXYKSV4/s1600-h/image%5B13%5D.png

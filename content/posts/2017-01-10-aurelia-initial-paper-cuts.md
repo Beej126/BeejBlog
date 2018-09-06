@@ -115,7 +115,7 @@ No iOS browser provides any debugger tools -BUT- on Mac, we can fire up the Xcod
               </site>
         ...
         ```
-      * then from command line: `netsh http add urlacl url=http://address:port/ user=everyone`
+      * then from command line: `netsh http add urlacl url=https://address:port/ user=everyone`
 
 #### Off to the races?
   <i class="far fa-check-square"></i> basic working project.
@@ -130,7 +130,7 @@ No iOS browser provides any debugger tools -BUT- on Mac, we can fire up the Xcod
 
 I'm gone like the wind!
 
- [1]: http://tutaurelia.net/2016/07/02/getting-started-with-aurelia-and-typescript-in-visual-studio-2015-update-3/
+ [1]: https://tutaurelia.net/2016/07/02/getting-started-with-aurelia-and-typescript-in-visual-studio-2015-update-3/
  [2]: https://nodejs.org/en/
  [3]: https://www.microsoft.com/net/download/core#/current
  [4]: https://github.com/dotnet/cli#installers-and-binaries
@@ -141,7 +141,7 @@ I'm gone like the wind!
  [9]: https://github.com/aspnet/JavaScriptServices/issues/561#issuecomment-270968331
  [10]: https://cloud.githubusercontent.com/assets/6301228/21798875/9f49cdc8-d6cb-11e6-9abf-2a4b5a7cb8cc.png
  [11]: https://itunes.apple.com/us/app/xcode/id497799835?mt=12#
- [12]: http://stackoverflow.com/a/16203106/813599
+ [12]: https://stackoverflow.com/a/16203106/813599
  [13]: https://cloud.githubusercontent.com/assets/6301228/21831718/b8d1b2d0-d75a-11e6-94df-61121db9ea24.png
  [14]: https://github.com/aurelia/fetch-client/issues/13#issuecomment-137876549
  [15]: https://github.com/github/fetch#installation

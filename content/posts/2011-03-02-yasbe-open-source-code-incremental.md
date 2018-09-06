@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2011/03/yasbe-open-source-code-incremental.html
 blogger_thumbnail:
-  - http://lh3.ggpht.com/_XlySlDLkdOc/TW7WwiNKDRI/AAAAAAAAE4A/lllxfhmoIlQ/image_thumb%5B7%5D.png?imgmax=800
+  - https://lh3.ggpht.com/_XlySlDLkdOc/TW7WwiNKDRI/AAAAAAAAE4A/lllxfhmoIlQ/image_thumb%5B7%5D.png?imgmax=800
 dsq_thread_id:
   - 5542099156
 snapEdIT:
@@ -42,7 +42,7 @@ I’ll admit right up front, the UI is a a bit cluttered and terse… classic, g
 
 [![image][2]][3]
 
-  * <strike><a href="http://code.google.com/p/yasbe/source/browse/#svn%2Ftrunk%2FApp%253Fstate%253Dclosed" target="_blank">full source svn repo</a></strike> Update 3/24/15 * Google is shutting down code.google.com 🙁 but provided easy migration to github: [New source link][4].
+  * <strike><a href="https://code.google.com/p/yasbe/source/browse/#svn%2Ftrunk%2FApp%253Fstate%253Dclosed" target="_blank">full source svn repo</a></strike> Update 3/24/15 * Google is shutting down code.google.com 🙁 but provided easy migration to github: [New source link][4].
   * Basically, it just works like a champ… I really like how it came together… WPF is awesome… it all feels _very_ peppy & responsive on my “aging” Quad Core 2…
   * currently implemented on sql server 2008 (express)… should be relatively database agnostic in theory, but…
   * The one big sql server 2008 dependency that I do use is _[SQL Server table*valued stored proc parameters][5]._
@@ -60,13 +60,13 @@ I’ll admit right up front, the UI is a a bit cluttered and terse… classic, g
   * Here’s the interesting anecdotal evidence, after the burn, Nero spews out a list of mandatory renames for files that somehow wouldn’t fit the disc’s file system… which is UDF I believe… I’m wondering if Win7 doesn’t perform that kind of necessary bulletproofing and that’s why the burns would always fail several minutes in, after wildly jumping around between random %complete estimates and a schizophrenic progress bar.
   * Nero methodically clicks off percent*completes nice & fast … seems like 25GB only takes about 15mins… very doable… I did 8 x 25GB discs to cover my whole photo library while working on other things and it went by like clockwork.
 
- [1]: http://forum.acronis.com/forum/14860
- [2]: http://lh3.ggpht.com/_XlySlDLkdOc/TW7WwiNKDRI/AAAAAAAAE4A/lllxfhmoIlQ/image_thumb%5B7%5D.png?imgmax=800 "image"
- [3]: http://lh5.ggpht.com/_XlySlDLkdOc/TW7WvBi6lOI/AAAAAAAAE38/sca1Hz*yjqs/s1600*h/image%5B13%5D.png
+ [1]: https://forum.acronis.com/forum/14860
+ [2]: https://lh3.ggpht.com/_XlySlDLkdOc/TW7WwiNKDRI/AAAAAAAAE4A/lllxfhmoIlQ/image_thumb%5B7%5D.png?imgmax=800 "image"
+ [3]: https://lh5.ggpht.com/_XlySlDLkdOc/TW7WvBi6lOI/AAAAAAAAE38/sca1Hz*yjqs/s1600*h/image%5B13%5D.png
  [4]: https://github.com/Beej126/yasbe/
  [5]: /2011/12/sql*server*table*valued*stored.html
- [6]: http://code.google.com/p/yasbe/source/browse/#svn%2Ftrunk%2FDB
+ [6]: https://code.google.com/p/yasbe/source/browse/#svn%2Ftrunk%2FDB
  [7]: /2010/10/wpf*net*40*application*framework.html
- [8]: http://code.google.com/p/yasbe/source/browse/trunk/App/FileSystemNode.cs
- [9]: http://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml
- [10]: http://www.nero.com/eng/downloads*nbl*free.php
+ [8]: https://code.google.com/p/yasbe/source/browse/trunk/App/FileSystemNode.cs
+ [9]: https://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml
+ [10]: https://www.nero.com/eng/downloads*nbl*free.php

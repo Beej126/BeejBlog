@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2015/11/transcode-iphone-mov-to-mp4-handbrake.html
 blogger_thumbnail:
-  - http://4.bp.blogspot.com/-NVKxjcyswzU/Vk629MzkLSI/AAAAAAAAR2g/01McsMZEtoI/s1600/Snap6.png
+  - https://4.bp.blogspot.com/-NVKxjcyswzU/Vk629MzkLSI/AAAAAAAAR2g/01McsMZEtoI/s1600/Snap6.png
 snapEdIT:
   - 1
 snapTW:
@@ -66,12 +66,12 @@ Digital cameras and phones typically save video to MOV (Motion JPEG) files. I sh
 ![enter image description here][10]
 
  [1]: https://github.com/Beej126/PowerShell/blob/master/transcode.ps1
- [2]: http://www.zenphoto.org/
+ [2]: https://www.zenphoto.org/
  [3]: https://flowplayer.org/
- [4]: http://www.lopesoft.com/en/products
+ [4]: https://www.lopesoft.com/en/products
  [5]: https://github.com/Beej126/SingleInstanceAccumulator
  [6]: https://handbrake.fr/downloads.php
- [7]: http://mediaarea.net/en/MediaInfo/Download/Windows
+ [7]: https://mediaarea.net/en/MediaInfo/Download/Windows
  [8]: https://en.wikipedia.org/wiki/Exchangeable_image_file_format
  [9]: https://raw.githubusercontent.com/Beej126/PowerShell/master/transcode.ps1
- [10]: http://www.BeejBlog.com/wp-content/uploads/2015/11/Snap6.png
+ [10]: https://www.BeejBlog.com/wp-content/uploads/2015/11/Snap6.png

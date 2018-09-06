@@ -22,7 +22,7 @@ tags:
   - Video
 
 ---
-[http://www.youtube.com/results?search\_type=&search\_query=james+burke&aq=f][1]
+[https://www.youtube.com/results?search\_type=&search\_query=james+burke&aq=f][1]
   
 I’ve watched episodes 1-4 so far… 4 is a pretty good one
   
@@ -32,7 +32,7 @@ Make sure you take advantage of the preconfigured playlists &#8212; look for “
   
 Search for “james burke episode xxx” to dial in on each bundle if you’re not seeing it from the URL I gave above… there appear to be at least up to 20 episodes
   
-(btw: My buddy Joel turned me on to it… he’s full of nifty idears… here’s a gratuitous plug for his vlog site: [http://joelart.blip.tv/][2])
+(btw: My buddy Joel turned me on to it… he’s full of nifty idears… here’s a gratuitous plug for his vlog site: [https://joelart.blip.tv/][2])
 
- [1]: http://www.youtube.com/results?search_type=&search_query=james+burke&aq=f
- [2]: http://joelart.blip.tv/ "http://joelart.blip.tv/"
+ [1]: https://www.youtube.com/results?search_type=&search_query=james+burke&aq=f
+ [2]: https://joelart.blip.tv/ "https://joelart.blip.tv/"

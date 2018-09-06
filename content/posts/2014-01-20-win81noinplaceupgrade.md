@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2014/01/Win81NoInPlaceUpgrade.html
 blogger_thumbnail:
-  - http://1.bp.blogspot.com/-0xTAR1MFlqI/UuGBaWwZZTI/AAAAAAAADiE/IsQmRuCsdxM/s1600/before.png
+  - https://1.bp.blogspot.com/-0xTAR1MFlqI/UuGBaWwZZTI/AAAAAAAADiE/IsQmRuCsdxM/s1600/before.png
 snapEdIT:
   - 1
 snapTW:
@@ -33,7 +33,7 @@ tags:
 <table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;">
   <tr>
     <td style="text-align: center;">
-      <a href="http://www.BeejBlog.com/wp-content/uploads/2014/01/before.png" imageanchor="1" style="clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="313" src="http://www.BeejBlog.com/wp-content/uploads/2014/01/before.png" width="400" /></a>
+      <a href="https://www.BeejBlog.com/wp-content/uploads/2014/01/before.png" imageanchor="1" style="clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="313" src="https://www.BeejBlog.com/wp-content/uploads/2014/01/before.png" width="400" /></a>
     </td>
   </tr>
   
@@ -54,7 +54,7 @@ Apparently a language pack can't be removed from a running Windows instance, it 
   <table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; text-align: right;">
     <tr>
       <td style="text-align: center;">
-        <a data-ved="0CAUQjRw" href="http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&docid=-v5uE1-SNET-OM&tbnid=gvewjCgwRmJdKM:&ved=0CAUQjRw&url=http%3A%2F%2Fblogs.dirteam.com%2Fblogs%2Fdavestork%2Farchive%2F2013%2F11%2F19%2Fwindows-8-1-enterprise-upgrade-you-can-t-keep-apps.aspx&ei=AlHdUoD7GOrisASRhICYAw&bvm=bv.59568121,d.eW0&psig=AFQjCNHRhB9xY2K4NMzvryI764-AhuvbPg&ust=1390322304330627" id="irc_mil" style="border: 0px none; clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img class="irc_mut" height="352" id="irc_mi" src="http://www.BeejBlog.com/wp-content/uploads/2014/01/After.png" style="margin-top: 0px;" width="400" /></a>
+        <a data-ved="0CAUQjRw" href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&docid=-v5uE1-SNET-OM&tbnid=gvewjCgwRmJdKM:&ved=0CAUQjRw&url=http%3A%2F%2Fblogs.dirteam.com%2Fblogs%2Fdavestork%2Farchive%2F2013%2F11%2F19%2Fwindows-8-1-enterprise-upgrade-you-can-t-keep-apps.aspx&ei=AlHdUoD7GOrisASRhICYAw&bvm=bv.59568121,d.eW0&psig=AFQjCNHRhB9xY2K4NMzvryI764-AhuvbPg&ust=1390322304330627" id="irc_mil" style="border: 0px none; clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img class="irc_mut" height="352" id="irc_mi" src="https://www.BeejBlog.com/wp-content/uploads/2014/01/After.png" style="margin-top: 0px;" width="400" /></a>
       </td>
     </tr>
     

@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2009/01/awesome-cad-for-legos.html
 blogger_thumbnail:
-  - http://cache.lego.com/upload/contentTemplating/LDDHomepage/images/2057/picE9286D5C-661B-4152-8292-8560AECF75EF.jpg
+  - https://cache.lego.com/upload/contentTemplating/LDDHomepage/images/2057/picE9286D5C-661B-4152-8292-8560AECF75EF.jpg
 snapEdIT:
   - 1
 snapTW:
@@ -44,5 +44,5 @@ ok i know it's been around for ages apparently... but man that's awesome anybody
 
 [![Get Started][1]][2]
 
- [1]: http://cache.lego.com/upload/contentTemplating/LDDHomepage/images/2057/picE9286D5C-661B-4152-8292-8560AECF75EF.jpg
- [2]: http://ldd.lego.com/
+ [1]: https://cache.lego.com/upload/contentTemplating/LDDHomepage/images/2057/picE9286D5C-661B-4152-8292-8560AECF75EF.jpg
+ [2]: https://ldd.lego.com/

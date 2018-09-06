@@ -39,8 +39,8 @@ namespace YouNameIt {
 
   using CartItemDict = Dictionary<long, CartItemDto>;
 
-  //reverse of this: http://stackoverflow.com/questions/24759181/deserializing-a-json-dictionaryint-customtype-to-listcustomtype
-  //adapted from here: http://james.newtonking.com/json/help/index.html?topic=html/CustomJsonConverter.htm
+  //reverse of this: https://stackoverflow.com/questions/24759181/deserializing-a-json-dictionaryint-customtype-to-listcustomtype
+  //adapted from here: https://james.newtonking.com/json/help/index.html?topic=html/CustomJsonConverter.htm
   public class DictToListConverter : JsonConverter
   {
     public override bool CanConvert(Type objectType)

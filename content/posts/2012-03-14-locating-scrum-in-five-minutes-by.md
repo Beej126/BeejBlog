@@ -24,9 +24,9 @@ tags:
   - ProjMgmt
 
 ---
-It’s not on their main downloads page anymore. Here’s their registration page with immediate PDF download after: <s>[http://softhouseeducation.com/material/scrum-five-minutes][1]</s>
+It’s not on their main downloads page anymore. Here’s their registration page with immediate PDF download after: <s>[https://softhouseeducation.com/material/scrum-five-minutes][1]</s>
   
 [Updated download][2], now via free cart checkout
 
- [1]: http://softhouseeducation.com/material/scrum-five-minutes "http://softhouseeducation.com/material/scrum-five-minutes"
- [2]: http://softhouseeducation.se/produkt/scrum-pa-fem-minuter-2?attribute_pa_format=pdf&attribute_pa_sprak=engelska
+ [1]: https://softhouseeducation.com/material/scrum-five-minutes "https://softhouseeducation.com/material/scrum-five-minutes"
+ [2]: https://softhouseeducation.se/produkt/scrum-pa-fem-minuter-2?attribute_pa_format=pdf&attribute_pa_sprak=engelska

@@ -26,7 +26,7 @@ tags:
     Get-AzureVM | # this one gets the detailed object for each specific VM
     %{
         $port = ($_ | Get-AzureEndpoint | ? {$_.name -like "Remote*"})[0].Port;
-        $null = $_.DNSName -match 'http://(.*?)/'
+        $null = $_.DNSName -match 'https://(.*?)/'
         write-host "$($_.Name) - $($matches[1]):$($port)"
     }
 </pre>

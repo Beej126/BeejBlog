@@ -19,7 +19,7 @@ blogger_comments:
 blogger_permalink:
   - /2010/10/solved-photoshop-cs5-detected-video.html
 blogger_thumbnail:
-  - http://lh5.ggpht.com/_XlySlDLkdOc/TMpfIkCEn2I/AAAAAAAAE08/rugBj2TKpfQ/image_thumb%5B2%5D.png?imgmax=800
+  - https://lh5.ggpht.com/_XlySlDLkdOc/TMpfIkCEn2I/AAAAAAAAE08/rugBj2TKpfQ/image_thumb%5B2%5D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -56,8 +56,8 @@ More keywords for Google to bring home other wayward souls: Photoshop, CS5, No D
 | ---------------- | ---------------- |
 | [![image][2]][3] | [![image][4]][5] |
 
- [1]: http://support.amd.com/us/gpudownload/windows/Legacy/Pages/radeonaiw_vista64.aspx?type=2.4.1&product=2.4.1.3.13&lang=English
- [2]: http://lh5.ggpht.com/_XlySlDLkdOc/TMpfIkCEn2I/AAAAAAAAE08/rugBj2TKpfQ/image_thumb%5B2%5D.png?imgmax=800 "image"
- [3]: http://lh6.ggpht.com/_XlySlDLkdOc/TMpfINlzJ6I/AAAAAAAAE04/efuNpVrmdx4/s1600-h/image%5B4%5D.png
- [4]: http://lh4.ggpht.com/_XlySlDLkdOc/TMpfJ_nGkmI/AAAAAAAAE1E/cChYQM9TlqA/image_thumb%5B7%5D.png?imgmax=800 "image"
- [5]: http://lh6.ggpht.com/_XlySlDLkdOc/TMpfJGlbZ3I/AAAAAAAAE1A/pHDOsunmWdw/s1600-h/image%5B11%5D.png
+ [1]: https://support.amd.com/us/gpudownload/windows/Legacy/Pages/radeonaiw_vista64.aspx?type=2.4.1&product=2.4.1.3.13&lang=English
+ [2]: https://lh5.ggpht.com/_XlySlDLkdOc/TMpfIkCEn2I/AAAAAAAAE08/rugBj2TKpfQ/image_thumb%5B2%5D.png?imgmax=800 "image"
+ [3]: https://lh6.ggpht.com/_XlySlDLkdOc/TMpfINlzJ6I/AAAAAAAAE04/efuNpVrmdx4/s1600-h/image%5B4%5D.png
+ [4]: https://lh4.ggpht.com/_XlySlDLkdOc/TMpfJ_nGkmI/AAAAAAAAE1E/cChYQM9TlqA/image_thumb%5B7%5D.png?imgmax=800 "image"
+ [5]: https://lh6.ggpht.com/_XlySlDLkdOc/TMpfJGlbZ3I/AAAAAAAAE1A/pHDOsunmWdw/s1600-h/image%5B11%5D.png

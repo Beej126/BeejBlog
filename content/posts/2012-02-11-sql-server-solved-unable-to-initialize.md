@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2012/02/sql-server-solved-unable-to-initialize.html
 blogger_thumbnail:
-  - http://lh6.ggpht.com/-GWYFCTiBYhs/Tza6-xQQACI/AAAAAAAAFB0/3XcFzrprRBg/Snap3%25255B6%25255D.png?imgmax=800
+  - https://lh6.ggpht.com/-GWYFCTiBYhs/Tza6-xQQACI/AAAAAAAAFB0/3XcFzrprRBg/Snap3%25255B6%25255D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -81,5 +81,5 @@ In a blatant attempt to cast a wide net on search hits, here’s a typical sql l
  [1]: #cert
  [2]: //lh6.ggpht.com/-GWYFCTiBYhs/Tza6-xQQACI/AAAAAAAAFB0/3XcFzrprRBg/Snap3%25255B6%25255D.png?imgmax=800 "Snap3"
  [3]: https://twitter.com/thinkglobally/status/783435120145346560
- [4]: http://www.microsoft.com/download/en/confirmation.aspx?id=17275
+ [4]: https://www.microsoft.com/download/en/confirmation.aspx?id=17275
  [5]: //lh4.ggpht.com/-o7bEJ_P9Hlk/Tza6_lHroPI/AAAAAAAAFCM/kZbUN1QgPbQ/Snap1%25255B13%25255D.png?imgmax=800 "Snap1"

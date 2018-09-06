@@ -50,5 +50,5 @@ tags:
 
 [GitHub Repo][2]... key items flagged with "nugget:" comment
 
- [1]: http://en.wikipedia.org/wiki/Line_of_business
+ [1]: https://en.wikipedia.org/wiki/Line_of_business
  [2]: https://github.com/Beej126/itraacv2-1

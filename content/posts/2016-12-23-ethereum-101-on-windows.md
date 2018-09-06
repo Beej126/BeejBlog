@@ -80,7 +80,7 @@ tags:
       * **unlock**: this will prompt you for password and thereby <span class="hl">start server with specified etherbase aka coinbase account unlocked to enable spending ether which is REQUIRED TO SUBMIT ANY TRANSACTIONS, including our first hello world sample smart contract!! =)</span>
       * **etherbase**: update this with your primary account, next step...
       * **password**: create pw.txt with the same password you specify in next step...
-      * **rpc**: fire up the http-rpc endpoint... defaults to: http://localhost:8545
+      * **rpc**: fire up the http-rpc endpoint... defaults to: https://localhost:8545
       * **preload**: loads our custom convenience routines
   9. create your primary account: `personal.newAccount("fill in a password")` ... this will output the hex number of your first account# aka primary aka eth.accounts[0]
  10. stop the server with CTRL-D
@@ -125,7 +125,7 @@ tags:
       I1222 23:07:22.798761 eth/backend.go:481] Automatic pregeneration of ethash DAG ON (ethash dir: C:\Users\beej1\AppData\Ethash)
       I1222 23:07:22.799260 eth/backend.go:488] checking DAG (ethash dir: C:\Users\beej1\AppData\Ethash)
       I1222 23:07:22.800262 node/node.go:340] IPC endpoint opened: \.\pipe\geth.ipc
-      I1222 23:07:22.813263 node/node.go:410] HTTP endpoint opened: http://localhost:8545
+      I1222 23:07:22.813263 node/node.go:410] HTTP endpoint opened: https://localhost:8545
       Unlocking account 0 | Attempt 1/3
       <span class="hl">Passphrase: </span>
       I1222 23:08:28.727457 cmd/geth/accountcmd.go:200] Unlocked account 057c86cae703b08c59fa6a9f066dbcc241da52a7
@@ -217,7 +217,7 @@ now we can jump into the [greeter hello world sample][5]
 
   1. install nodeJS / npm via: `choco install nodejs`
   2. `npm install -g blockapps-bloc`
-  3. test your Ethereum dev net apiUrl is listening: `curl http://localhost:8545`, expecting output: `{"jsonrpc":"2.0","error":{"code":-32600,"message":"EOF"}}`
+  3. test your Ethereum dev net apiUrl is listening: `curl https://localhost:8545`, expecting output: `{"jsonrpc":"2.0","error":{"code":-32600,"message":"EOF"}}`
   4. create a fresh BlockApps project... 
       1. CD into PARENT directory of your new project folder
       2. `block init` and follow the prompts - the Visual Studio extension link has nice screenshots
@@ -226,15 +226,15 @@ now we can jump into the [greeter hello world sample][5]
       2. `bloc genkey` - will prompt for password and create initial "admin" user, expecting output: `transaction successfully mined!`
   5. `bloc start` fires up the Strato server listening for REST requests, expecting output:
       ```
-      bloc is listening on http://0.0.0.0:8000
-      api is pointed to http://localhost:8545 with profile strato-dev
+      bloc is listening on https://0.0.0.0:8000
+      api is pointed to https://localhost:8545 with profile strato-dev
       ```
       * _that's pretty cool we're running on top of our own custom dev net_
-  6. (open yet another CMD window) `curl "http://localhost:8000/users"`, expecting: `["admin"]`
+  6. (open yet another CMD window) `curl "https://localhost:8000/users"`, expecting: `["admin"]`
   7. continue on with the guides...
   8. particularly [this Ether transfer example][9] 
-      * tip, `curl "http://localhost:8000/users/admin"` yields the necessary user address number
-      * sample transfer: `curl -X POST -d "password=ann0ying&toAddress=39b32d2be0c29c1011f7d1481f945b9d355cae96&value=10" http://localhost:8000/users/admin/a962a8e09ae6a096258d988588f2e8639cd2a664/send`
+      * tip, `curl "https://localhost:8000/users/admin"` yields the necessary user address number
+      * sample transfer: `curl -X POST -d "password=ann0ying&toAddress=39b32d2be0c29c1011f7d1481f945b9d355cae96&value=10" https://localhost:8000/users/admin/a962a8e09ae6a096258d988588f2e8639cd2a664/send`
       * ran into this error: `{"errorTags":["transactionResult","submitTransaction","Transaction"],"message":"txHash must be a hex string (got: [object Object])"}`
       * [only mention of this kind of error i've found so far has no response][10]
       * i got node.exe JS file breakpoints working in Visual Studio 2015... a little tricky because bloc "spawn"s the main web listener as child process... so basically tweak this `%appdata%\npm\node_modules\blockapps-bloc\bin\main.js` line as so `var server = spawn('node', ['--debug-brk=5859', 'app.js' ]);` and follow this [VS guide][11]
@@ -254,16 +254,16 @@ now we can jump into the [greeter hello world sample][5]
 <footnotes>
 <ul>
 <li id="fn-1457-guide2">
-  another short and sweet private network <a href="http://vanderwijk.info/blog/getting-started-ethereum/">getting started guide that filled in several blanks for me</a>&#160;<a href="#fnref-1457-guide2">&#8617;</a>
+  another short and sweet private network <a href="https://vanderwijk.info/blog/getting-started-ethereum/">getting started guide that filled in several blanks for me</a>&#160;<a href="#fnref-1457-guide2">&#8617;</a>
 </li>
 <li id="fn-1457-geth_CLI">
   all the <a href="https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options">geth CLI options</a>&#160;<a href="#fnref-1457-geth_CLI">&#8617;</a>
 </li>
 <li id="fn-1457-guide1">
-  good <a href="http://ethereum.stackexchange.com/a/2787">getting started guide with troubleshooting tips</a>&#160;<a href="#fnref-1457-guide1">&#8617;</a>
+  good <a href="https://ethereum.stackexchange.com/a/2787">getting started guide with troubleshooting tips</a>&#160;<a href="#fnref-1457-guide1">&#8617;</a>
 </li>
 <li id="fn-1457-strato">
-  <a href="http://ethereum.stackexchange.com/questions/9905/whats-the-real-value-in-using-blockapps-strato">What's the real value in using BlockApps Strato?</a>&#160;<a href="#fnref-1457-strato">&#8617;</a> </fn>
+  <a href="https://ethereum.stackexchange.com/questions/9905/whats-the-real-value-in-using-blockapps-strato">What's the real value in using BlockApps Strato?</a>&#160;<a href="#fnref-1457-strato">&#8617;</a> </fn>
 </ul>
 </footnotes>
 
@@ -275,10 +275,10 @@ now we can jump into the [greeter hello world sample][5]
  [6]: https://blogs.msdn.microsoft.com/caleteet/2016/04/01/solidity-integration-with-visual-studio/
  [7]: https://github.com/blockapps/bloc
  [8]: https://www.npmjs.com/package/blockapps-js#blockapps-profiles
- [9]: http://www.blockapps.net/dashboard/quick-starts/bloc-keyserver
+ [9]: https://www.blockapps.net/dashboard/quick-starts/bloc-keyserver
  [10]: https://github.com/blockapps/issues/issues/6#issuecomment-225995947
  [11]: https://github.com/Microsoft/nodejstools/issues/197#issuecomment-113581676
- [12]: http://forums.blockapps.net/#!/issues:ethereum-error-on-private-d
+ [12]: https://forums.blockapps.net/#!/issues:ethereum-error-on-private-d
  [13]: https://www.linkedin.com/in/kjameslubin
  [14]: https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.ezop8r22z
- [15]: http://blockapps.net/documentation#get-addresses
+ [15]: https://blockapps.net/documentation#get-addresses

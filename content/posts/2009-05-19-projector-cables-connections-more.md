@@ -35,12 +35,12 @@ tags:
 
 They have an absolutely dismal presentation for the amount of excellent hard core data they have to provide… here’s the root “[commentary][8]” list where i pulled these. And this is an excellent [feature finder][9] drop down box filter search.
 
- [1]: http://www.projectorcentral.com/component.htm
- [2]: http://www.projectorcentral.com/svga_xga.htm
- [3]: http://www.projectorcentral.com/DVI_HDMI_connections.htm
- [4]: http://www.projectorcentral.com/dvi_hdmi_copper_optical.htm
- [5]: http://forum.ecoustics.com/bbs/messages/34579/122868.html
- [6]: http://www.projectorcentral.com/lcd_dlp_update7.htm
- [7]: http://www.projectorcentral.com/1080p_720p.htm
- [8]: http://www.projectorcentral.com/projector-commentary.cfm
- [9]: http://www.projectorcentral.com/projectors.cfm
+ [1]: https://www.projectorcentral.com/component.htm
+ [2]: https://www.projectorcentral.com/svga_xga.htm
+ [3]: https://www.projectorcentral.com/DVI_HDMI_connections.htm
+ [4]: https://www.projectorcentral.com/dvi_hdmi_copper_optical.htm
+ [5]: https://forum.ecoustics.com/bbs/messages/34579/122868.html
+ [6]: https://www.projectorcentral.com/lcd_dlp_update7.htm
+ [7]: https://www.projectorcentral.com/1080p_720p.htm
+ [8]: https://www.projectorcentral.com/projector-commentary.cfm
+ [9]: https://www.projectorcentral.com/projectors.cfm

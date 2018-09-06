@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2010/10/expression-blend-4-sketchflow-is-pretty.html
 blogger_thumbnail:
-  - http://lh3.ggpht.com/_XlySlDLkdOc/TK5MMPFUtiI/AAAAAAAAEzI/B4evFQ2fHxg/image_thumb%5B3%5D.png?imgmax=800
+  - https://lh3.ggpht.com/_XlySlDLkdOc/TK5MMPFUtiI/AAAAAAAAEzI/B4evFQ2fHxg/image_thumb%5B3%5D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -34,8 +34,8 @@ tags:
   - ProjMgmt
 
 ---
-[<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="http://lh3.ggpht.com/_XlySlDLkdOc/TK5MMPFUtiI/AAAAAAAAEzI/B4evFQ2fHxg/image_thumb%5B3%5D.png?imgmax=800" width="749" height="532" />][1] I’m just getting my feet wet with a silly little project… i wanted to create a high res icon for <a href="http://www.angelfire.com/falcon/speedload/Enabler.htm" target="_blank">Windows Enabler</a> in my <a href="http://www.stardock.com/products/objectdock/" target="_blank">ObjectDock</a>… turned out decent: [<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="http://lh6.ggpht.com/_XlySlDLkdOc/TK5MNP1fmGI/AAAAAAAAEzQ/JN_ZrN3Qrdk/image_thumb%5B8%5D.png?imgmax=800" width="284" height="285" />][2] [<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_XlySlDLkdOc/TK5M8wVzUNI/AAAAAAAAEzY/c11216yGOzg/image_thumb%5B11%5D.png?imgmax=800" width="493" height="206" />][3]
+[<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="https://lh3.ggpht.com/_XlySlDLkdOc/TK5MMPFUtiI/AAAAAAAAEzI/B4evFQ2fHxg/image_thumb%5B3%5D.png?imgmax=800" width="749" height="532" />][1] I’m just getting my feet wet with a silly little project… i wanted to create a high res icon for <a href="https://www.angelfire.com/falcon/speedload/Enabler.htm" target="_blank">Windows Enabler</a> in my <a href="https://www.stardock.com/products/objectdock/" target="_blank">ObjectDock</a>… turned out decent: [<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="https://lh6.ggpht.com/_XlySlDLkdOc/TK5MNP1fmGI/AAAAAAAAEzQ/JN_ZrN3Qrdk/image_thumb%5B8%5D.png?imgmax=800" width="284" height="285" />][2] [<img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="https://lh5.ggpht.com/_XlySlDLkdOc/TK5M8wVzUNI/AAAAAAAAEzY/c11216yGOzg/image_thumb%5B11%5D.png?imgmax=800" width="493" height="206" />][3]
 
- [1]: http://lh5.ggpht.com/_XlySlDLkdOc/TK5MLDZaf9I/AAAAAAAAEzE/wrQF653LnQM/s1600-h/image%5B5%5D.png
- [2]: http://lh6.ggpht.com/_XlySlDLkdOc/TK5MMn4RUsI/AAAAAAAAEzM/ZFWTItQExrU/s1600-h/image%5B14%5D.png
- [3]: http://lh4.ggpht.com/_XlySlDLkdOc/TK5M8G0BUjI/AAAAAAAAEzU/hfsw3Nve9Rs/s1600-h/image%5B19%5D.png
+ [1]: https://lh5.ggpht.com/_XlySlDLkdOc/TK5MLDZaf9I/AAAAAAAAEzE/wrQF653LnQM/s1600-h/image%5B5%5D.png
+ [2]: https://lh6.ggpht.com/_XlySlDLkdOc/TK5MMn4RUsI/AAAAAAAAEzM/ZFWTItQExrU/s1600-h/image%5B14%5D.png
+ [3]: https://lh4.ggpht.com/_XlySlDLkdOc/TK5M8G0BUjI/AAAAAAAAEzU/hfsw3Nve9Rs/s1600-h/image%5B19%5D.png

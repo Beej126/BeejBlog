@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2009/11/yet-another-simple-audit-table-approach.html
 blogger_thumbnail:
-  - http://lh5.ggpht.com/_XlySlDLkdOc/SvLcn9HbSbI/AAAAAAAAEoY/wQlRvFldGfc/image_thumb%5B9%5D.png?imgmax=800
+  - https://lh5.ggpht.com/_XlySlDLkdOc/SvLcn9HbSbI/AAAAAAAAEoY/wQlRvFldGfc/image_thumb%5B9%5D.png?imgmax=800
 dsq_thread_id:
   - 5650220440
 snapEdIT:
@@ -36,8 +36,8 @@ tags:
 ---
 Feedback Update #1 [2009-11-15]:
 
-  * Two different vectors of peer feedback highlight my myopia for sending all the audit data to a single table… and yes, why the heck i felt comfortable cramming disparate data into one table in the first place seems very bonehead :)&#160; having mirror copies of each table where the audit data resides seems much more <a href="http://en.wikipedia.org/wiki/KISS_principle" target="_blank">KISS</a>… and i figure i better scramble my design in that direction before anybody really gets cranking on this new system 
-  * Another point of feedback is SQL Server 2008’s “<a href="http://www.zdnetasia.com/techguide/storage/0,39045058,62050506,00.htm" target="_blank">Change Data Control</a>” (CDC) facility… i wasn’t actively tracking on this and it’ll be great to head towards… the author even suggests that there is some support for this in SQL Server 2005… given the basic approach, coding something ourselves doesn’t seem that tough… it’s probably stuff like the built-in automatic schema change handling in 2008 that we’d be missing in 2005. 
+  * Two different vectors of peer feedback highlight my myopia for sending all the audit data to a single table… and yes, why the heck i felt comfortable cramming disparate data into one table in the first place seems very bonehead :)&#160; having mirror copies of each table where the audit data resides seems much more <a href="https://en.wikipedia.org/wiki/KISS_principle" target="_blank">KISS</a>… and i figure i better scramble my design in that direction before anybody really gets cranking on this new system 
+  * Another point of feedback is SQL Server 2008’s “<a href="https://www.zdnetasia.com/techguide/storage/0,39045058,62050506,00.htm" target="_blank">Change Data Control</a>” (CDC) facility… i wasn’t actively tracking on this and it’ll be great to head towards… the author even suggests that there is some support for this in SQL Server 2005… given the basic approach, coding something ourselves doesn’t seem that tough… it’s probably stuff like the built-in automatic schema change handling in 2008 that we’d be missing in 2005. 
 
 Highlights/Assumptions/Considerations [2009-11-05]:
 
@@ -57,16 +57,16 @@ Highlights/Assumptions/Considerations [2009-11-05]:
   * **Automatic Schema Change Awareness** – The HashBytes() T-SQL function is used to store the column signature that existed when the Audit\_Trigger\_CodeGen was last run … there’s a little subroutine proc that checks to see whether this hash is the same and refreshes the table’s trigger definition accordingly… if you’re really worried about runaway columns then throw a call to this checker proc at the beginning of all your update procs … currently i’m just keeping this off to the side and running a refresh when i know i’ve added a new column so i don’t have that nagging feeling that i’m zapping some nano-secs of performance for no good reason. 
   * So yes, lots of assumptions and caveats but not too shabby when it honestly came together in just 1.5 days of dedicated coding. 
 
-Teaser screen shots: [<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_XlySlDLkdOc/SvLcn9HbSbI/AAAAAAAAEoY/wQlRvFldGfc/image_thumb%5B9%5D.png?imgmax=800" width="628" height="187" />][1]&#160;[<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_XlySlDLkdOc/SvLcopl8vbI/AAAAAAAAEog/FvH9E2TzjXs/image_thumb%5B7%5D.png?imgmax=800" width="503" height="162" />][2] Code Attachments:
+Teaser screen shots: [<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="https://lh5.ggpht.com/_XlySlDLkdOc/SvLcn9HbSbI/AAAAAAAAEoY/wQlRvFldGfc/image_thumb%5B9%5D.png?imgmax=800" width="628" height="187" />][1]&#160;[<img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="https://lh5.ggpht.com/_XlySlDLkdOc/SvLcopl8vbI/AAAAAAAAEog/FvH9E2TzjXs/image_thumb%5B7%5D.png?imgmax=800" width="503" height="162" />][2] Code Attachments:
 
   * First off, i’m rolling with “Google Docs” here until i find something better, they don’t support certain filetypes like .cs, so save-as accordingly 
   * Secondly, if Google Docs prompts you for a login and you don’t feel like creating an account, just change the URL to HTTPS and refresh… after that it will create the appropriate cookie and HTTP links will work… yep it’s a known bug 
 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfM2M1NXAyd2Rk&hl=en" target="_blank">DataLayer.cs</a> – the greatest Proc class ever writen ;) 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfN2Y4dDk5emc5&hl=en" target="_blank">ReflectionHelpers.cs</a> (referenced in DataLayer.cs so you’ll want it) 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNWNnYmdqY2Rt&hl=en" target="_blank">Audit_Trigger_Checker.sql</a> – the HashBytes() stuff 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNHI4Z2RzcW43&hl=en" target="_blank">Audit_Trigger_CodeGen.sql</a> – here’s the beef 
-  * <a href="http://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNmdtOXFjOWQ3&hl=en" target="_blank">SqlDataSource_snippet.cs.sql</a> – how to slap in SqlDataSources w/o much effort 
+  * <a href="https://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfM2M1NXAyd2Rk&hl=en" target="_blank">DataLayer.cs</a> – the greatest Proc class ever writen ;) 
+  * <a href="https://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfN2Y4dDk5emc5&hl=en" target="_blank">ReflectionHelpers.cs</a> (referenced in DataLayer.cs so you’ll want it) 
+  * <a href="https://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNWNnYmdqY2Rt&hl=en" target="_blank">Audit_Trigger_Checker.sql</a> – the HashBytes() stuff 
+  * <a href="https://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNHI4Z2RzcW43&hl=en" target="_blank">Audit_Trigger_CodeGen.sql</a> – here’s the beef 
+  * <a href="https://docs.google.com/Doc?docid=0AS8Y50ZAhKVDZGN4Z3ZkbnRfNmdtOXFjOWQ3&hl=en" target="_blank">SqlDataSource_snippet.cs.sql</a> – how to slap in SqlDataSources w/o much effort 
   * Audit Table:
   
     > CREATE TABLE \[Audit\](   
@@ -88,5 +88,5 @@ Teaser screen shots: [<img style="border-right-width: 0px; display: inline; bord
     &#160; }   
     }
 
- [1]: http://lh4.ggpht.com/_XlySlDLkdOc/SvLcncmk5tI/AAAAAAAAEoU/EGdKjCBlwoI/s1600-h/image%5B15%5D.png
- [2]: http://lh6.ggpht.com/_XlySlDLkdOc/SvLcoIPHdvI/AAAAAAAAEoc/gDM8bWP2fxo/s1600-h/image%5B13%5D.png
+ [1]: https://lh4.ggpht.com/_XlySlDLkdOc/SvLcncmk5tI/AAAAAAAAEoU/EGdKjCBlwoI/s1600-h/image%5B15%5D.png
+ [2]: https://lh6.ggpht.com/_XlySlDLkdOc/SvLcoIPHdvI/AAAAAAAAEoc/gDM8bWP2fxo/s1600-h/image%5B13%5D.png

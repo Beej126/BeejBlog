@@ -30,9 +30,9 @@ Here's the basic pieces I plugged together:
   * MediaMonkey is my preferred mp3 player: [www.MediaMonkey.com][1]
   1. MediaMonkey supports WinAmp API plugins which provides an excellent pool to draw nifty add-ons from
 
-  * EdCast (formerly "OddCast") comes in various implementations, one of which is a WinAmp plugin that sends your current song to a ShoutCast (or IceCast) server: <http://www.oddsock.org/tools/edcast/> 
+  * EdCast (formerly "OddCast") comes in various implementations, one of which is a WinAmp plugin that sends your current song to a ShoutCast (or IceCast) server: <https://www.oddsock.org/tools/edcast/> 
       1. I chose the EdCast plugin versus ShoutCast's own plugin because EdCast got the song name and artist to come through Media Monkey and ShoutCast's plugin has a known issue that this feature only works with WinAmp 
-  * ShoutCast DNAS (Distributed Network Audio Server) &#8211; streams the audio out to clients: <http://www.shoutcast.com/download-files> 
+  * ShoutCast DNAS (Distributed Network Audio Server) &#8211; streams the audio out to clients: <https://www.shoutcast.com/download-files> 
 
 Install/configure/run:
 
@@ -48,10 +48,10 @@ Install/configure/run:
       3. Personalize your stream on the YP Settings 
   * Now install the ShoutCast server and fire that up 
   * Cruise through the config file via the menu option in that GUI... it's very self explanatory and all the defaults are good... probably just have to make sure you get the password lined up with what you put in the plugin config 
-  * Then just browse to <http://yourserveraddress:8000/listen.pls> from another machine and it'll fire up your local media player (if you've got .pls associated of course) 
-  * There's some interesting stuff kicked out as a default web page if you browse to [http://yourserveraddress:8000][2]... including an admin page where you can monitor listeners, etc. 
+  * Then just browse to <https://yourserveraddress:8000/listen.pls> from another machine and it'll fire up your local media player (if you've got .pls associated of course) 
+  * There's some interesting stuff kicked out as a default web page if you browse to [https://yourserveraddress:8000][2]... including an admin page where you can monitor listeners, etc. 
   * The default DNAS config automatically publishes you to the global ShoutCast directory (so you might want to watch your intake from that vector victor 🙂
   * PS- The main reason I did this was so I could listen to my tunez at work w/minimal effort 🙂
 
- [1]: http://www.mediamonkey.com/
- [2]: http://yourserveraddress:8000/
+ [1]: https://www.mediamonkey.com/
+ [2]: https://yourserveraddress:8000/

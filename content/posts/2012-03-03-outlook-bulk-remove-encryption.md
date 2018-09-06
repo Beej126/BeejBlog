@@ -40,7 +40,7 @@ $outlook = new-object -com Outlook.Application
 $f = $outlook.Session.PickFolder() 
 if ($f -eq $null) { exit } 
 
-$PR_SECURITY_FLAGS = "http://schemas.microsoft.com/mapi/proptag/0x6E010003" 
+$PR_SECURITY_FLAGS = "https://schemas.microsoft.com/mapi/proptag/0x6E010003" 
 $cr = [char]0x2028 
 function RemoveCrypto($folder) 
 { 
@@ -53,7 +53,7 @@ function RemoveCrypto($folder)
     try { 
       ############################################ 
       # here's the beef. too easy! 
-      # thanks to this post: http://support.microsoft.com/kb/2636465 
+      # thanks to this post: https://support.microsoft.com/kb/2636465 
       $mailitem.PropertyAccessor.SetProperty($PR_SECURITY_FLAGS, 0) 
       $mailitem.save() 
       ############################################ 

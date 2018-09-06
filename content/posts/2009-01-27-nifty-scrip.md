@@ -27,6 +27,6 @@ Pre-req's:
       * ‘echos’ command in 4NT outputs test w/o a linefeed... so I can tack something else I wanted onto the URL… obviously the sky is your limit (can’t find the equivalent in PowerShell yet??)
   * curl &#8211; everybody's favorite web mashup tool 
 
-echos <http://> >clip:   
-curl -s "<a href="http://whatismyip.org" ?="?">http://whatismyip.org"</a> >>clip:   
+echos <https://> >clip:   
+curl -s "<a href="https://whatismyip.org" ?="?">https://whatismyip.org"</a> >>clip:   
 echos /training >>clip:

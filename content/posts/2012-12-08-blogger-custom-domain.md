@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2012/12/blogger-custom-domain.html
 blogger_thumbnail:
-  - http://lh3.ggpht.com/-KejrOKUZri4/UMMu5NuLxrI/AAAAAAAAFHo/uc4izslIARU/image3_thumb.png?imgmax=800
+  - https://lh3.ggpht.com/-KejrOKUZri4/UMMu5NuLxrI/AAAAAAAAFHo/uc4izslIARU/image3_thumb.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -29,7 +29,7 @@ tags:
   - Networking
 
 ---
-<a href="http://www.techpinas.com/2009/09/what-is-google-or-bloggers-nameserver.html" target="_blank">(taken from here)</a> 
+<a href="https://www.techpinas.com/2009/09/what-is-google-or-bloggers-nameserver.html" target="_blank">(taken from here)</a> 
 
 <table style="border-collapse: collapse" cellspacing="0" cellpadding="2" border="1">
   <tr>
@@ -38,7 +38,7 @@ tags:
     </td>
     
     <td valign="top">
-      <a href="http://lh6.ggpht.com/-c-o35MdPIXY/UMMu4axREBI/AAAAAAAAFHg/BLfzqwwFOcg/s1600-h/image3%25255B1%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh3.ggpht.com/-KejrOKUZri4/UMMu5NuLxrI/AAAAAAAAFHo/uc4izslIARU/image3_thumb.png?imgmax=800" width="313" height="304" /></a>
+      <a href="https://lh6.ggpht.com/-c-o35MdPIXY/UMMu4axREBI/AAAAAAAAFHg/BLfzqwwFOcg/s1600-h/image3%25255B1%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh3.ggpht.com/-KejrOKUZri4/UMMu5NuLxrI/AAAAAAAAFHo/uc4izslIARU/image3_thumb.png?imgmax=800" width="313" height="304" /></a>
     </td>
   </tr>
   
@@ -58,7 +58,7 @@ tags:
         You’re done with the Blogger side.</td> 
         
         <td valign="top">
-          <a href="http://lh5.ggpht.com/-z6BmS4LvLuo/UMMu55S-kZI/AAAAAAAAFHw/yoLDGARW66U/s1600-h/image%25255B17%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh6.ggpht.com/-jh1X_3KMX04/UMMu6S2dONI/AAAAAAAAFH4/Od4keEsjp9o/image_thumb%25255B9%25255D.png?imgmax=800" width="351" height="205" /></a>
+          <a href="https://lh5.ggpht.com/-z6BmS4LvLuo/UMMu55S-kZI/AAAAAAAAFHw/yoLDGARW66U/s1600-h/image%25255B17%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh6.ggpht.com/-jh1X_3KMX04/UMMu6S2dONI/AAAAAAAAFH4/Od4keEsjp9o/image_thumb%25255B9%25255D.png?imgmax=800" width="351" height="205" /></a>
         </td></tr> 
         
         <tr>
@@ -67,7 +67,7 @@ tags:
           </td>
           
           <td valign="top">
-            <a href="http://lh3.ggpht.com/-N47HK9qxV_M/UMMu7LvzO9I/AAAAAAAAFIA/VFB6PAa1ex4/s1600-h/image%25255B4%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh5.ggpht.com/-m-TA8TmPSzw/UMMu74l2l-I/AAAAAAAAFII/kVVy6YfYHbc/image_thumb%25255B2%25255D.png?imgmax=800" width="319" height="198" /></a>
+            <a href="https://lh3.ggpht.com/-N47HK9qxV_M/UMMu7LvzO9I/AAAAAAAAFIA/VFB6PAa1ex4/s1600-h/image%25255B4%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh5.ggpht.com/-m-TA8TmPSzw/UMMu74l2l-I/AAAAAAAAFII/kVVy6YfYHbc/image_thumb%25255B2%25255D.png?imgmax=800" width="319" height="198" /></a>
           </td>
         </tr>
         
@@ -77,7 +77,7 @@ tags:
           </td>
           
           <td valign="top">
-            <a href="http://lh3.ggpht.com/-bPuk4eyfwGk/UMMu8g01EWI/AAAAAAAAFIQ/jZMKaxN1lB0/s1600-h/image%25255B12%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh5.ggpht.com/-rR-B3xnlqzw/UMMu9eecS3I/AAAAAAAAFIY/pwyYa1qtLZ4/image_thumb%25255B6%25255D.png?imgmax=800" width="317" height="288" /></a>
+            <a href="https://lh3.ggpht.com/-bPuk4eyfwGk/UMMu8g01EWI/AAAAAAAAFIQ/jZMKaxN1lB0/s1600-h/image%25255B12%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh5.ggpht.com/-rR-B3xnlqzw/UMMu9eecS3I/AAAAAAAAFIY/pwyYa1qtLZ4/image_thumb%25255B6%25255D.png?imgmax=800" width="317" height="288" /></a>
           </td>
         </tr>
         
@@ -87,7 +87,7 @@ tags:
           </td>
           
           <td valign="top">
-            <a href="http://lh6.ggpht.com/-PVVFZ8TF3DI/UMMu-LROVZI/AAAAAAAAFIg/2VUfbHCfvV0/s1600-h/image%25255B20%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://lh6.ggpht.com/-g7nq-w9TVso/UMMu-50XiPI/AAAAAAAAFIo/YoOP2k924xI/image_thumb%25255B10%25255D.png?imgmax=800" width="143" height="244" /></a>
+            <a href="https://lh6.ggpht.com/-PVVFZ8TF3DI/UMMu-LROVZI/AAAAAAAAFIg/2VUfbHCfvV0/s1600-h/image%25255B20%25255D.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="https://lh6.ggpht.com/-g7nq-w9TVso/UMMu-50XiPI/AAAAAAAAFIo/YoOP2k924xI/image_thumb%25255B10%25255D.png?imgmax=800" width="143" height="244" /></a>
           </td>
         </tr>
         

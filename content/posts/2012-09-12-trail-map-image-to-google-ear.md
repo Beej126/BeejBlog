@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2012/09/trail-map-image-to-google-earth.html
 blogger_thumbnail:
-  - http://lh5.ggpht.com/-aGWvx5bGstU/UFAT-gcmngI/AAAAAAAAFGQ/vkF8uCG3obo/image_thumb%25255B2%25255D.png?imgmax=800
+  - https://lh5.ggpht.com/-aGWvx5bGstU/UFAT-gcmngI/AAAAAAAAFGQ/vkF8uCG3obo/image_thumb%25255B2%25255D.png?imgmax=800
 snapEdIT:
   - 1
 snapTW:
@@ -60,13 +60,13 @@ Here’s an [example KMZ][6] I’ve slapped together from [this source PDF][7]. 
 
 If you load [GE][8] on your PC, you’ll be able to double click this file to see what I’m saying. It all rotates in 3D and even gets “clamped” to the terrain! From what I can tell, once mobile GE has cached the map tiles for your desired area, you can count on it displaying even while offline on the trail.
 
-<span style="display: inline-block; margin: 0.5em 0.5em 0 0; text-align: center;">Before<br /> <a href="http://lh4.ggpht.com/-yOgqtm1YpRE/UFAT-CZ_aQI/AAAAAAAAFGI/PHCGztQlVBg/s1600-h/image%25255B6%25255D.png"><img src="http://lh5.ggpht.com/-aGWvx5bGstU/UFAT-gcmngI/AAAAAAAAFGQ/vkF8uCG3obo/image_thumb%25255B2%25255D.png?imgmax=800" alt="Before" title="image" /></a></span><span style="display: inline-block; text-align: center;">With Map<br /> <a href="http://lh6.ggpht.com/-MFr4lnqNKT0/UFAT_1lG7II/AAAAAAAAFGY/e-kJDUphsnI/s1600-h/image%25255B7%25255D.png"><img src="http://lh4.ggpht.com/-El23DmPMB2M/UFAUAZfq8eI/AAAAAAAAFGg/pTle5ETSb6M/image_thumb%25255B3%25255D.png?imgmax=800" alt="" title="image" /></a></span>
+<span style="display: inline-block; margin: 0.5em 0.5em 0 0; text-align: center;">Before<br /> <a href="https://lh4.ggpht.com/-yOgqtm1YpRE/UFAT-CZ_aQI/AAAAAAAAFGI/PHCGztQlVBg/s1600-h/image%25255B6%25255D.png"><img src="https://lh5.ggpht.com/-aGWvx5bGstU/UFAT-gcmngI/AAAAAAAAFGQ/vkF8uCG3obo/image_thumb%25255B2%25255D.png?imgmax=800" alt="Before" title="image" /></a></span><span style="display: inline-block; text-align: center;">With Map<br /> <a href="https://lh6.ggpht.com/-MFr4lnqNKT0/UFAT_1lG7II/AAAAAAAAFGY/e-kJDUphsnI/s1600-h/image%25255B7%25255D.png"><img src="https://lh4.ggpht.com/-El23DmPMB2M/UFAUAZfq8eI/AAAAAAAAFGg/pTle5ETSb6M/image_thumb%25255B3%25255D.png?imgmax=800" alt="" title="image" /></a></span>
 
  [1]: https://play.google.com/store/apps/details?id=com.custommapsapp.android&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5jdXN0b21tYXBzYXBwLmFuZHJvaWQiXQ..
  [2]: https://en.wikipedia.org/wiki/Georeference
- [3]: http://www.esri.com/software/arcgis
+ [3]: https://www.esri.com/software/arcgis
  [4]: https://play.google.com/store/apps/details?id=com.appspot.wrightrocket.kmlkmz&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcHBzcG90LndyaWdodHJvY2tldC5rbWxrbXoiXQ..
- [5]: http://itunes.apple.com/us/app/kmz-loader/id435350230?mt=8
+ [5]: https://itunes.apple.com/us/app/kmz-loader/id435350230?mt=8
  [6]: https://docs.google.com/open?id=0B5htuLP66oWlUFUweVdLMl8yakk
- [7]: http://www.islandcounty.net/publicworks/Documents/Kettles%20trails%202015.pdf
- [8]: http://www.google.com/earth/download/ge/agree.html
+ [7]: https://www.islandcounty.net/publicworks/Documents/Kettles%20trails%202015.pdf
+ [8]: https://www.google.com/earth/download/ge/agree.html

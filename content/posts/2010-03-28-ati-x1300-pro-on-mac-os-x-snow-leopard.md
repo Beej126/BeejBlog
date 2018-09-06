@@ -44,12 +44,12 @@ tags:
 
 Further info on ATIRadeonX1000.kext/MacOS/ATIRadeonX1000: 
 
-  * it’s key to look for 81 FA prior to 87 71 (<a href="http://www.projectosx.com/forum/index.php?showtopic=9" target="_blank">explanation here</a>) 
+  * it’s key to look for 81 FA prior to 87 71 (<a href="https://www.projectosx.com/forum/index.php?showtopic=9" target="_blank">explanation here</a>) 
   * V10.6.3 upgrade: offsets => 2D58F, B0C65 
   * v10.6.4 upgrade: offsets => 2D3BF, B0FEF 
   * v10.6.6 upgrade: offsets => 2D363, B1185 
   * v10.6.7 upgrade: offsets => (exactly same as v10.6.6) 
-  * v10.6.8 upgrade: offsets => 2E26F & B2A27 … I required EvoEnabler.kext in addition this time around… find it on [www.kexts.com][1]: … look for the ones pre-patched for X1000 series, then replace the framebuffer string (typically “Alopias” or “Wormy”) with “Sphyrna” (<a href="http://forum.voodooprojects.org/index.php/topic,1959.45.html#msg10472" target="_blank">dual link DVI</a>) or “Caretta” (single link DVI) document.forms['kexts\_search\_form'].elements["query"].value = 'EvoEnabler';which apparently are the framebuffers compatible with our RV516 card and still supported in 10.6.8+. 
+  * v10.6.8 upgrade: offsets => 2E26F & B2A27 … I required EvoEnabler.kext in addition this time around… find it on [www.kexts.com][1]: … look for the ones pre-patched for X1000 series, then replace the framebuffer string (typically “Alopias” or “Wormy”) with “Sphyrna” (<a href="https://forum.voodooprojects.org/index.php/topic,1959.45.html#msg10472" target="_blank">dual link DVI</a>) or “Caretta” (single link DVI) document.forms['kexts\_search\_form'].elements["query"].value = 'EvoEnabler';which apparently are the framebuffers compatible with our RV516 card and still supported in 10.6.8+. 
 
 Lion 
 
@@ -61,13 +61,13 @@ Full Disclosure… These are the other tweaks in play on my Hackintosh:
       * <strike>see DSDT Patcher GUI below</strike> – 
       * [Update: 2011 July 26] Thanks to ‘tkrotoff’, there is now a [hand crafted DSDT.aml][3] for the <a href="/2010/09/overclocking-skeletor-q9540-v10.html" target="_blank">Asus P5E3 Premium mobo</a>. 
   * Bootloader &#8211; 
-      * <a href="http://netkas.org/?p=372" target="_blank"><strike>PC-EFI v10.6</strike></a><strike> (</strike><a href="http://tonymacx86.blogspot.com/2010/02/pc-efi-106-released-p55-supported-by.html" target="_blank"><strike>Tony Mac’s handy install package</strike></a><strike>)</strike> 
+      * <a href="https://netkas.org/?p=372" target="_blank"><strike>PC-EFI v10.6</strike></a><strike> (</strike><a href="https://tonymacx86.blogspot.com/2010/02/pc-efi-106-released-p55-supported-by.html" target="_blank"><strike>Tony Mac’s handy install package</strike></a><strike>)</strike> 
       * [Update: 2011 Aug 10] I’m currently running v10.6.8 & 10.7 via Chameleon 2.0 RC5 r1329 [patched by Azimutz as described here][4] 
-          * Lion requires some new magic bits only found in new booters like Cham2RC5 (<a href="http://www.insanelymac.com/forum/index.php?showtopic=231075" target="_blank">friendly UI installer pkg’s here</a>; <a href="http://builds.voodooprojects.org/builds/Xcode4.0.1/" target="_blank">fresh binary-only auto-builds here</a>). 
+          * Lion requires some new magic bits only found in new booters like Cham2RC5 (<a href="https://www.insanelymac.com/forum/index.php?showtopic=231075" target="_blank">friendly UI installer pkg’s here</a>; <a href="https://builds.voodooprojects.org/builds/Xcode4.0.1/" target="_blank">fresh binary-only auto-builds here</a>). 
           * Note: Cham2RC5 changes the com.apple.Boot.plist standard to **<u>org.chameleon.Boot.plist</u>** 
           * One key thing to keep in mind is that once you get an RCx of Chameleon installed via friendly package, one generally need copy only a new “/boot” file of a more recent build… all the other bits (seem to) stay the same until you hit another major RCy milestone. 
           * The next hurdle one with our kind of “legacy” ATI video card runs into is that the Chameleon team has decided to cast off the "legacy" bits that were keeping our little x1300 in the game thus far :(, presumably so they can maintain a more nimble code base going forward … can’t say I blame them. 
-          * FORTUNATELY, <a href="http://forum.voodooprojects.org/index.php/topic,1959.0.html" target="_blank">Azimutz, has taken it upon himself to resurrect our legacy bits in new form</a>… the way I interpret that post, Azimutz is piggybacking an existing chameleon “plug-in” approach that runs via a new “/Extras/Modules” folder…in our case, we toss in a binary named “ATIGraphicsEnabler.dylib” which represents the missing bits of our wayward card.&nbsp; Make sure when Azimutz gives you back your new binary, that you <u>take note of which .dylib, AMD or ATI</u>, that' he actually compiles your specific DevID into. I missed that at first… nice thing is, you can simply hex edit to see where yours is… <a href="http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/branches/azimutz/trunkGraphicsEnablerModules/i386/modules/GraphicsEnabler" target="_blank">use the source code as your guide</a> 🙂 
+          * FORTUNATELY, <a href="https://forum.voodooprojects.org/index.php/topic,1959.0.html" target="_blank">Azimutz, has taken it upon himself to resurrect our legacy bits in new form</a>… the way I interpret that post, Azimutz is piggybacking an existing chameleon “plug-in” approach that runs via a new “/Extras/Modules” folder…in our case, we toss in a binary named “ATIGraphicsEnabler.dylib” which represents the missing bits of our wayward card.&nbsp; Make sure when Azimutz gives you back your new binary, that you <u>take note of which .dylib, AMD or ATI</u>, that' he actually compiles your specific DevID into. I missed that at first… nice thing is, you can simply hex edit to see where yours is… <a href="https://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/branches/azimutz/trunkGraphicsEnablerModules/i386/modules/GraphicsEnabler" target="_blank">use the source code as your guide</a> 🙂 
           * Azimutz is really doing some serious community service… He is literally taking requests for missing DevID’s and feeding the huddled masses with daily builds!&nbsp; What a guy!!! 
           * I submitted the specific details of this x1300 and <strike>Azimut</strike>z got back to me with a new binary in less than a day!! 
           * NOTE: You must be logged in to see the link for the latest binary download zip file!!!&nbsp; Then, you’ll find a link like “i386\_r1223\_a.zip” at the VERY bottom of Azimutz’ first post, just above his sig block… otherwise, the link is totally missing and not called out in any way... this totally threw me at first!! 🙂 
@@ -126,7 +126,7 @@ Misc Notes:
 
   * SL = Snow Leopard from here on out 
   * KP = Kernel Panic 
-  * QE/CI = <a href="http://en.wikipedia.org/wiki/Quartz_Compositor" target="_blank">Quartz Extreme / Core Image</a> 
+  * QE/CI = <a href="https://en.wikipedia.org/wiki/Quartz_Compositor" target="_blank">Quartz Extreme / Core Image</a> 
   * S/L/E = System / Library / Extensions path on your OSX system drive. 
   * E/E = Extra / Extensions path (comes into play with bootloaders like Chameleon or PC-EFI) 
   * Since there are scores of full blown install guides, I am just focusing on some pertinent observations during my little adventure to get an ATI x1300 Pro running under SL 
@@ -149,35 +149,35 @@ Misc Notes:
       * [Update: 01 Feb 2011] Photoshop CS5 on the Mac side has no such issues recognizing this card. 
       * [Update: 12 Aug 2011] CS5 under Win7 64bit behaved properly straight away. 
   * My main objective was iMovie which requires QE/CI. 
-  * Twin DVI displays are functioning at full resolution (see <a href="http://www.madrau.com/indexSRX4.html" target="_blank">SwitchResX</a> comments below).&nbsp; My x1300 has a “<a href="http://en.wikipedia.org/wiki/DMS-59" target="_blank">DMS-59</a>” connector which is split into two standard independent DVI connectors via a Y-cable.&nbsp; Primary DVI is connected to my LCD and the secondary DVI is adapted to HDMI for my projector. 
+  * Twin DVI displays are functioning at full resolution (see <a href="https://www.madrau.com/indexSRX4.html" target="_blank">SwitchResX</a> comments below).&nbsp; My x1300 has a “<a href="https://en.wikipedia.org/wiki/DMS-59" target="_blank">DMS-59</a>” connector which is split into two standard independent DVI connectors via a Y-cable.&nbsp; Primary DVI is connected to my LCD and the secondary DVI is adapted to HDMI for my projector. 
       * for some cazy reason the settings for each display were flipped!?! the projector thought it was the LCD and vice versa… nothing helped… 
       * so i used SwitchResX to copy the low level settings from each display and apply them to the other… amazingly that worked great… i can’t change resolutions very conveniently, but i don’t care to anyway. 
   * One soon realizes the key to this silly game is <u>rapid reboots</u>… eliminate everything that delays seeing the result of another attempt… because you have to be ready for a **<u>TON</u>** of trial and error here… SSD’s help!! 🙂 
-  * \*\\*\*Crucial\*\* &#8211; Make sure to have something like <a href="http://www.mediafour.com/products/macdrive/" target="_blank">MacDrive</a> at the ready (see “Handy Utils” below)… one often needs to back out an errant configuration change… accessing your Mac’s system drive from a running Windows environment is one convenient way… make sure to type in “-f” when Chameleon comes up to ignore the previously built kext cache and rebuild based on currently present kexts. 
-  * <strike>I liked the BootCD based guide at: </strike>[<strike>http://tonymacx86.blogspot.com/2009/12/install-os-x-snow-leopard-directly-from.html</strike>][5]<strike> </strike> 
-      * <strike>I randomly chose the alternate boot CD “iBoot-ATI-10” and it happened to work first shot (nice work Tony!):&nbsp; </strike>[<strike>http://www.tonymacx86.com/viewtopic.php?f=18&t=197&p=1246#p1246</strike>][6] 
-  * [Update: 29 Oct 2010] TonyMac has been busy… these are the latest recommended guides for <a href="http://tonymacx86.blogspot.com/2010/04/iboot-multibeast-install-mac-os-x-on.html" target="_blank">streamlined install</a> and the <a href="http://tonymacx86.blogspot.com/2010/10/iboot-25-unified-graphics-support.html" target="_blank">iBoot</a>… 
+  * \*\\*\*Crucial\*\* &#8211; Make sure to have something like <a href="https://www.mediafour.com/products/macdrive/" target="_blank">MacDrive</a> at the ready (see “Handy Utils” below)… one often needs to back out an errant configuration change… accessing your Mac’s system drive from a running Windows environment is one convenient way… make sure to type in “-f” when Chameleon comes up to ignore the previously built kext cache and rebuild based on currently present kexts. 
+  * <strike>I liked the BootCD based guide at: </strike>[<strike>https://tonymacx86.blogspot.com/2009/12/install-os-x-snow-leopard-directly-from.html</strike>][5]<strike> </strike> 
+      * <strike>I randomly chose the alternate boot CD “iBoot-ATI-10” and it happened to work first shot (nice work Tony!):&nbsp; </strike>[<strike>https://www.tonymacx86.com/viewtopic.php?f=18&t=197&p=1246#p1246</strike>][6] 
+  * [Update: 29 Oct 2010] TonyMac has been busy… these are the latest recommended guides for <a href="https://tonymacx86.blogspot.com/2010/04/iboot-multibeast-install-mac-os-x-on.html" target="_blank">streamlined install</a> and the <a href="https://tonymacx86.blogspot.com/2010/10/iboot-25-unified-graphics-support.html" target="_blank">iBoot</a>… 
       * but I sure am glad I saved my old iBoot-ATI-10 image!!! 
 
 the new iBoots are running on recent builds of a branch of Chameleon 2.0 RC5 called “Chimera”… see my RC5 notes above, we need to hack our legacy bits back in to even get booted into iBoot/Chameleon now... so it's nice to still have an old iBoot handy that "just works" in a pinch 
 
-  * <a href="http://heliacal.net/pmwiki/Main/SnowLeopardInstallationGuide2" target="_blank">This is also a really good no-nonsense run through of all the pertinent points</a>. 
+  * <a href="https://heliacal.net/pmwiki/Main/SnowLeopardInstallationGuide2" target="_blank">This is also a really good no-nonsense run through of all the pertinent points</a>. 
       * Noteworthy: SL has a new mkext location, different from Leopard. 
 Handy Utils:
 
-  * <a href="http://www.suavetech.com/0xed/0xed.html" target="_blank">0xED</a> (Mac) – Is your friend when it comes to making the necessary HEX code changes to .kext files (aka “binary or bin editing”) 
-  * <a href="http://www.softcircuits.com/cygnus/" target="_blank">Cygnus Hex Editor</a> (Win) – This is what I use for bin editing under Windows, anything will do.&nbsp; In Cygnus, make sure you remember to turn off “insert” mode when twiddling bytes… inserting a byte is way different than changing one 🙂 
-  * <a href="http://www.icopybot.com/plist-editor.htm" target="_blank">plist Editor</a> (Win)– Windows doesn’t have a native xml value editor like Mac for editing files like info.plist’s… this one is free. But again, pretty much anything will do for these minimal edits, including good ol’ notepad. 
-  * <a href="http://cheetha.net/" target="_blank">Kext Helper b7</a> (Mac) – Good stuff, but hangs up on me after it’s done, it doesn’t quit cleanly, always had to “force quit”… anybody know a more stable alternative??? 
+  * <a href="https://www.suavetech.com/0xed/0xed.html" target="_blank">0xED</a> (Mac) – Is your friend when it comes to making the necessary HEX code changes to .kext files (aka “binary or bin editing”) 
+  * <a href="https://www.softcircuits.com/cygnus/" target="_blank">Cygnus Hex Editor</a> (Win) – This is what I use for bin editing under Windows, anything will do.&nbsp; In Cygnus, make sure you remember to turn off “insert” mode when twiddling bytes… inserting a byte is way different than changing one 🙂 
+  * <a href="https://www.icopybot.com/plist-editor.htm" target="_blank">plist Editor</a> (Win)– Windows doesn’t have a native xml value editor like Mac for editing files like info.plist’s… this one is free. But again, pretty much anything will do for these minimal edits, including good ol’ notepad. 
+  * <a href="https://cheetha.net/" target="_blank">Kext Helper b7</a> (Mac) – Good stuff, but hangs up on me after it’s done, it doesn’t quit cleanly, always had to “force quit”… anybody know a more stable alternative??? 
   * Console (Mac) – find under Applications > Utility&nbsp; 
       * Select the “System.log” – my experience was that Snow Leo would immediately attempt to load new .kexts as soon as they were installed by Kext Helper… reboots still seem necessary to realize the full effect of a new kext… but by watching the system.log, I got immediate feedback if the kexts just installed ran into some kind of error… i.e. you save on some reboots, crucial to this process!!… e.g. “kernel type blah blah” message immediately made me realize I was in 64bit kernel mode and some kexts I was toying with (ATIInject perhaps) were apparently 32bit only. 
     
-  * <a href="http://www.madrau.com/indexSRX4.html" target="_blank">SwitchResX</a> (Mac) – This is what allowed me to get my dual display settings working… see notes under AT1300Controller.kext above 
+  * <a href="https://www.madrau.com/indexSRX4.html" target="_blank">SwitchResX</a> (Mac) – This is what allowed me to get my dual display settings working… see notes under AT1300Controller.kext above 
   * [Paragon NTFS][7] – only NTFS solution I’ve found so far to work under Lion… unfortunately it’s not free but $20 is very reasonable 
-  * <a href="http://www.cocoabyss.com/" target="_blank"><strike>SL-NTFS</strike></a><strike> – NTFSMounter wasn’t cooperating for me any more under v10.6.8… SL-NTFS is slightly slicker with a prefpane and most importantly, it worked 🙂</strike> Rats, the guy supporting SL-NTFS stopped as of 10.6.8 
-  * <a href="http://ntfsmounter.com/" target="_blank"><strike>NTFSMounter</strike></a> (Mac) – SL finally has the <u>native</u> ability to WRITE to NTFS. It’s disabled by default (not the most confidence inspiring ;)&nbsp; I have gotten a few CHKDSK pops when rebooting into Windows 7 after writing to the Windows main system drive but there were never any actual issues in the output… over time I’ve settled comfortably into writing to non-system NTFS drives from OSX or simply waiting ‘til I boot back into Windows and copying pending files over from my HFS drive via MacDrive. 
-  * <a href="http://www.mediafour.com/products/macdrive/" target="_blank">MacDrive</a> (Win) – This is great.&nbsp; Perfectly clean access to your Mac drives from Windows. 
-  * <a href="http://pcwizcomputer.com/index.php?option=com_content&task=view&id=150&Itemid=48" target="_blank">DSDT Patcher GUI</a> (Mac) – I generated my DSDT.aml and dropped it in the root folder of my Mac system drive… this seemed to eliminate an “AppleUSBUHCI” error I’d see in the flurry of messages during verbose boot. 
+  * <a href="https://www.cocoabyss.com/" target="_blank"><strike>SL-NTFS</strike></a><strike> – NTFSMounter wasn’t cooperating for me any more under v10.6.8… SL-NTFS is slightly slicker with a prefpane and most importantly, it worked 🙂</strike> Rats, the guy supporting SL-NTFS stopped as of 10.6.8 
+  * <a href="https://ntfsmounter.com/" target="_blank"><strike>NTFSMounter</strike></a> (Mac) – SL finally has the <u>native</u> ability to WRITE to NTFS. It’s disabled by default (not the most confidence inspiring ;)&nbsp; I have gotten a few CHKDSK pops when rebooting into Windows 7 after writing to the Windows main system drive but there were never any actual issues in the output… over time I’ve settled comfortably into writing to non-system NTFS drives from OSX or simply waiting ‘til I boot back into Windows and copying pending files over from my HFS drive via MacDrive. 
+  * <a href="https://www.mediafour.com/products/macdrive/" target="_blank">MacDrive</a> (Win) – This is great.&nbsp; Perfectly clean access to your Mac drives from Windows. 
+  * <a href="https://pcwizcomputer.com/index.php?option=com_content&task=view&id=150&Itemid=48" target="_blank">DSDT Patcher GUI</a> (Mac) – I generated my DSDT.aml and dropped it in the root folder of my Mac system drive… this seemed to eliminate an “AppleUSBUHCI” error I’d see in the flurry of messages during verbose boot. 
 
 
 
@@ -191,10 +191,10 @@ Unrelated:
   
 > [Update: 2011 July 26] I finally went with a cheap <a href="/2011/02/highpoint-rocketraid-620-indeed-works.html" target="_blank">HighPoint RAID1</a> card that has Mac as well as windows drivers… I love it!!
 
- [1]: http://www.kexts.com/
- [2]: http://www.projectosx.com/forum/index.php?showtopic=9&view=findpost&p=726
- [3]: http://code.google.com/p/p5e3-dsdt/
- [4]: http://forum.voodooprojects.org/index.php/topic,1959.0.html
- [5]: http://tonymacx86.blogspot.com/2009/12/install-os-x-snow-leopard-directly-from.html
- [6]: http://www.tonymacx86.com/viewtopic.php?f=18&t=197&p=1246#p1246
- [7]: http://www.paragon-software.com/home/ntfs-mac/
+ [1]: https://www.kexts.com/
+ [2]: https://www.projectosx.com/forum/index.php?showtopic=9&view=findpost&p=726
+ [3]: https://code.google.com/p/p5e3-dsdt/
+ [4]: https://forum.voodooprojects.org/index.php/topic,1959.0.html
+ [5]: https://tonymacx86.blogspot.com/2009/12/install-os-x-snow-leopard-directly-from.html
+ [6]: https://www.tonymacx86.com/viewtopic.php?f=18&t=197&p=1246#p1246
+ [7]: https://www.paragon-software.com/home/ntfs-mac/

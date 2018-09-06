@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2011/06/evolving-custom-sqlclientnet-datalayer.html
 blogger_thumbnail:
-  - http://lh6.ggpht.com/-niqKmY68t9o/UhpHnXT6cgI/AAAAAAAAFVU/PgmIvRftPAE/image_thumb%25255B8%25255D.png?imgmax=800
+  - https://lh6.ggpht.com/-niqKmY68t9o/UhpHnXT6cgI/AAAAAAAAFVU/PgmIvRftPAE/image_thumb%25255B8%25255D.png?imgmax=800
 dsq_thread_id:
   - 5603664508
 categories:
@@ -48,7 +48,7 @@ A framework for maintaining client side business object cache consistency with d
 
 To frame a case which demonstrates the need for typical business requirements driven side effects, take a look at the adjacent screenshot.
   
-[<img src="http://lh6.ggpht.com/-niqKmY68t9o/UhpHnXT6cgI/AAAAAAAAFVU/PgmIvRftPAE/image_thumb%25255B8%25255D.png?imgmax=800" height="400" style="float: right; margin: 0px 0px 0px 10px;" />][5]
+[<img src="https://lh6.ggpht.com/-niqKmY68t9o/UhpHnXT6cgI/AAAAAAAAFVU/PgmIvRftPAE/image_thumb%25255B8%25255D.png?imgmax=800" height="400" style="float: right; margin: 0px 0px 0px 10px;" />][5]
   
 In this scenario there is a _household_ with some people in it (aka _members_ or _clients_). In this business domain only one person can be the _sponsor_ of a household at any given time. Likewise there can be only one _spouse_ set, the spouse which is not the sponsor. These designations are maintained as flags on the Clients database table. In this example, we're exploring what needs to happen when the sponsor changes from one person to another. This can happen when the existing sponsor leaves the business system which grants this privilege, yet the spouse remains in the system and can therefore assume the sponsorship privilege and nothing else needs to change.
 
@@ -73,9 +73,9 @@ By design, my Business Class methods tend to be fairly light wrappers around pro
 
 Line #8 above is the [huckleberry][7]. The TableCache method is implemented in the [BusinessBase][8] class&#8230; it fires the sproc and then goes into the DataSet.Merge() logic explained below...
 
-> While we're looking at this code, let me quickly divert to explain the <a href="http://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/SqlClientHelpers.cs" target="_blank">"Proc"ù class</a> . Nutshell: Proc is a convenient wrapper around ADO.Net SqlCommand. Among other things it does the SqlCommandBuilder.DeriveParameters() + caching thing that you'll find in many similar wrappers like this (e.g. <a href="http://msdn.microsoft.com/en-us/library/ff664408%28v=PandP.50%29.aspx" target="_blank">Microsoft's Data Access Application Block</a> &#8211; I just didn't fall in love with their API and wanted my own spin). DeriveParameters() removes the dreary burden of all that boring proc parm definition boilerplate code prior to each proc call (add param by name, set the datatype, etc.) and just pulls all that out of the database metadata that already knows all that information anyway &#8211; brilliant. Therefore we get right to the point of assigning values to named proc parms and firing the query. <a href="http://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/SqlClientHelpers.cs" target="_blank">SqlClientHelpders.cs</a> contains the Proc class as well as all kinds of data helper methods that have evolved over several projects. I wouldn't want to start a database project without it at this point.
+> While we're looking at this code, let me quickly divert to explain the <a href="https://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/SqlClientHelpers.cs" target="_blank">"Proc"ù class</a> . Nutshell: Proc is a convenient wrapper around ADO.Net SqlCommand. Among other things it does the SqlCommandBuilder.DeriveParameters() + caching thing that you'll find in many similar wrappers like this (e.g. <a href="https://msdn.microsoft.com/en-us/library/ff664408%28v=PandP.50%29.aspx" target="_blank">Microsoft's Data Access Application Block</a> &#8211; I just didn't fall in love with their API and wanted my own spin). DeriveParameters() removes the dreary burden of all that boring proc parm definition boilerplate code prior to each proc call (add param by name, set the datatype, etc.) and just pulls all that out of the database metadata that already knows all that information anyway &#8211; brilliant. Therefore we get right to the point of assigning values to named proc parms and firing the query. <a href="https://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/SqlClientHelpers.cs" target="_blank">SqlClientHelpders.cs</a> contains the Proc class as well as all kinds of data helper methods that have evolved over several projects. I wouldn't want to start a database project without it at this point.
 
-> iTRAAC is the name of the project I pulled this example from. <a href="http://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/iTRAACHelpers.cs" target="_blank">iTRAACProc</a> is a very light subclass that assigns a few common domain specific parms (e.g. UserID) before handing off to the base Proc class. Conveniently, the Proc class' parm["@name"ù] indexer ignores anything that's not declared on the specified proc, so only procs that actually require these parms will receive them.
+> iTRAAC is the name of the project I pulled this example from. <a href="https://code.google.com/p/itraacv2-1/source/browse/trunk/App/Helpers/iTRAACHelpers.cs" target="_blank">iTRAACProc</a> is a very light subclass that assigns a few common domain specific parms (e.g. UserID) before handing off to the base Proc class. Conveniently, the Proc class' parm["@name"ù] indexer ignores anything that's not declared on the specified proc, so only procs that actually require these parms will receive them.
 
 Ok so back to our scenario&#8230; Besides setting the flag on Jane's record to indicate she is now the sponsor, we also need to remove the sponsorship flag from John as well as flip the spouse flag from Jane to John (other queries and reports depend on having those flags consistent)&#8230; and oh, by the way, we also want to log all of this to the audit table so there's a historical reference of what changes brought us to the current state of a household.&nbsp; We want to drive all of this from the database proc logic and once the database has changed we want the UI to magically update to reflect all these changes and additions (including the new audit record aka "Diary"ù in the UI). So this is where we've arrived at what I call side effects (maybe there's a better term?). That is &#8211; corresponding to a relatively innocent looking user action, our desired business rules will drive various values to be changed and entirely new rows to be added that are not directly maintained by the user. This is not simple CRUD table maintenance, this is real business rules with all the crazy interconnections that must be supported :)Ç
 
@@ -121,11 +121,11 @@ View->ViewModel (MVVM) environments with robust declarative databinding, like WP
 
  [1]: https://github.com/Beej126/itraacv2-1
  [2]: /2010/10/wpf-net-40-application-framework.html
- [3]: http://www.google.com/search?q=+ADO.Net+Typed+DataSet
+ [3]: https://www.google.com/search?q=+ADO.Net+Typed+DataSet
  [4]: https://msdn.microsoft.com/en-us/library/ms177564.aspx
- [5]: http://lh5.ggpht.com/-elkElflTyZI/UhpHmwpb8fI/AAAAAAAAFVM/OVJDzLoJjz4/s1600-h/image%25255B15%25255D.png
+ [5]: https://lh5.ggpht.com/-elkElflTyZI/UhpHmwpb8fI/AAAAAAAAFVM/OVJDzLoJjz4/s1600-h/image%25255B15%25255D.png
  [6]: https://github.com/Beej126/itraacv2-1/blob/master/App/Model/SponsorModel.cs
- [7]: http://www.worldwidewords.org/qa/qa-huc1.htm
+ [7]: https://www.worldwidewords.org/qa/qa-huc1.htm
  [8]: https://github.com/Beej126/itraacv2-1/blob/master/App/Model/ModelBase.cs
  [9]: https://github.com/Beej126/itraacv2-1/blob/master/DB/DBObj/v2/Sponsor_SetSponsor.sql
  [10]: https://cloud.githubusercontent.com/assets/6301228/20336248/90c7ca9e-ab7d-11e6-865c-a35cde5d44cf.png

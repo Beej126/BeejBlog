@@ -96,16 +96,16 @@ machine.config entries i wound up editing in as of current version
 
 ## Links and Tools
 
-  * [latest downloads](http://www.oracle.com/technetwork/topics/dotnet/downloads/index.html)
+  * [latest downloads](https://www.oracle.com/technetwork/topics/dotnet/downloads/index.html)
   * [Devart's dbForge Studio for Oracle free Express edition][12] looks like a winner... no OLEDB ODAC required??
 
 
  [2]: https://www.sqlmaestro.com/products/oracle/maestro/
  [3]: #3rdPartyTools
- [4]: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+ [4]: https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
  [5]: https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
  [6]: /wp-content/uploads/2017/10/snap217.png
- [7]: http://www.maherjendoubi.io/odp-net-on-microsoft-net-core/
+ [7]: https://www.maherjendoubi.io/odp-net-on-microsoft-net-core/
  [8]: /wp-content/uploads/2017/10/snap218.png
  [9]: https://stackoverflow.com/a/26039859
  [10]: /wp-content/uploads/2017/10/snap220.png

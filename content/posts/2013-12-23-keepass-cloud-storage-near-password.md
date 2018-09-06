@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2014/01/keepass-cloud-storage-near-password.html
 blogger_thumbnail:
-  - http://2.bp.blogspot.com/-lbflleKV6Is/VgjkWZE2JJI/AAAAAAAARoQ/r8RsIzK3duM/s1600/KeePassHttp-remote-host.png
+  - https://2.bp.blogspot.com/-lbflleKV6Is/VgjkWZE2JJI/AAAAAAAARoQ/r8RsIzK3duM/s1600/KeePassHttp-remote-host.png
 dsq_thread_id:
   - 5526005395
 snapEdIT:
@@ -125,17 +125,17 @@ Debug notes:
  [1]: /wp-content/uploads/2013/12/KeePassHttp-remote-host.png
  [2]: https://github.com/pfn/keepasshttp/pull/217
  [3]: https://github.com/pfn/keepasshttp#compile-at-your-own
- [4]: http://keepass.info/download.html
- [5]: http://keepass.info/plugins.html#chromeipass
- [6]: http://sourceforge.net/projects/keepass/
+ [4]: https://keepass.info/download.html
+ [5]: https://keepass.info/plugins.html#chromeipass
+ [6]: https://sourceforge.net/projects/keepass/
  [7]: /wp-content/uploads/2013/12/main_big.jpg
  [8]: https://itunes.apple.com/us/app/kypass-companion/id555293879?mt=12
  [9]: https://play.google.com/store/apps/details?id=keepass2android.keepass2android
  [10]: /wp-content/uploads/2013/12/unnamed.jpg
  [11]: /wp-content/uploads/2013/12/Screen-Shot-2013-12-31-at-11.43.40-AM.png
  [12]: /wp-content/uploads/2013/12/Screen-Shot-2014-01-01-at-7.56.14-PM.png
- [13]: http://keepass2.openix.be/
- [14]: http://www.mydigitallife.info/how-to-auto-save-the-database-in-keepass-password-safe/
+ [13]: https://keepass2.openix.be/
+ [14]: https://www.mydigitallife.info/how-to-auto-save-the-database-in-keepass-password-safe/
  [15]: /wp-content/uploads/2013/12/Screen-Shot-2014-01-01-at-5.54.33-PM.png
- [16]: http://en.wikipedia.org/wiki/LLDB_%28debugger%29
- [17]: http://monodevelop.com/download
+ [16]: https://en.wikipedia.org/wiki/LLDB_%28debugger%29
+ [17]: https://monodevelop.com/download

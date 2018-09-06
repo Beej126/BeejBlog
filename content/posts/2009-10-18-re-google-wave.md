@@ -23,10 +23,10 @@ tags:
 
 ---
 <div class="Section1">
-  <a href="http://code.google.com/apis/wave/" target="_blank">http://code.google.com/apis/wave/</a>
+  <a href="https://code.google.com/apis/wave/" target="_blank">https://code.google.com/apis/wave/</a>
 </div>
 
-For all you folks working on any kind of collaboration solution, this seems like THE thing to have on your radar… It’s not just a standalone product but an API to be woven into our own mashups. <a href="http://www.youtube.com/watch?v=rDu2A3WzQpo&feature=response_watch" target="_blank">Here’s the gen-x attention span version… very handy to start getting a quick feel.</a><a href="http://www.youtube.com/watch?v=v_UyVmITiYQ&feature=player_embedded#" target="_blank">Watch the long video directly on YouTube so you can maximize it.</a>Seems like this was announced this May (at the Google “I/O”&#160; ’09 conference).
+For all you folks working on any kind of collaboration solution, this seems like THE thing to have on your radar… It’s not just a standalone product but an API to be woven into our own mashups. <a href="https://www.youtube.com/watch?v=rDu2A3WzQpo&feature=response_watch" target="_blank">Here’s the gen-x attention span version… very handy to start getting a quick feel.</a><a href="https://www.youtube.com/watch?v=v_UyVmITiYQ&feature=player_embedded#" target="_blank">Watch the long video directly on YouTube so you can maximize it.</a>Seems like this was announced this May (at the Google “I/O”&#160; ’09 conference).
 
 <div class="Section1">
   <u>Just a sampling of immediate highlights:</u>

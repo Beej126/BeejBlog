@@ -62,7 +62,7 @@ with all that fun stuff in place, we can finally do something nifty like this:
 [see my other CSX examples][7]
 
  [1]: https://chocolatey.org/install
- [2]: http://scriptcs.net/
+ [2]: https://scriptcs.net/
  [3]: file://C:/Program+Files+(x86)/MSBuild/14.0/Bin
  [4]: https://technet.microsoft.com/en-us/library/bb490912.aspx
  [5]: https://jpsoft.com/tccle-cmd-replacement.html

@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2008/07/transparent-command-shell-windows.html
 blogger_thumbnail:
-  - http://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg
+  - https://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg
 snapEdIT:
   - 1
 snapTW:
@@ -42,13 +42,13 @@ Nice, someone's gone and created the perfect pill for even the most serious case
 </div>
 
 <div>
-  I give you: <a href="http://www.hanselman.com/blog/TransparentCommandPromptInWindows.aspx">Console2</a> !
+  I give you: <a href="https://www.hanselman.com/blog/TransparentCommandPromptInWindows.aspx">Console2</a> !
 </div>
 
 <div>
 </div>
 
-[<img style="WIDTH: 320px; CURSOR: hand" border="0" alt="" src="http://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg" />][1]
+[<img style="WIDTH: 320px; CURSOR: hand" border="0" alt="" src="https://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg" />][1]
 
 <div>
 </div>
@@ -64,4 +64,4 @@ Nice, someone's gone and created the perfect pill for even the most serious case
   Only <em>little</em> nit pick I can come up with is that I think the Mac actually allows you to <strong>set the transparency of the just the background</strong>... so that the text and the outer frame still look crisp and solid.
 </div>
 
- [1]: http://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg
+ [1]: https://www.hanselman.com/blog/content/binary/transparentcommentprompt_thumb.jpg

@@ -77,7 +77,7 @@ adal.login();
 ### Working Xamarin Native iOS app client code sample
 ```js
 private const string Instance = "https://login.microsoftonline.com";
-private const string Tenant = "{your domain}.onmicrosoft.com"; //common //COMMON OR YOUR TENANT ID // "hfcazure.com", //"4be68759-0968-4760-b716-f82711a28fcb", //http://stackoverflow.com/questions/26384034/how-to-get-the-azure-account-tenant-id
+private const string Tenant = "{your domain}.onmicrosoft.com"; //common //COMMON OR YOUR TENANT ID // "hfcazure.com", //"4be68759-0968-4760-b716-f82711a28fcb", //https://stackoverflow.com/questions/26384034/how-to-get-the-azure-account-tenant-id
 private const string ClientId = "{your native guid}"; //from your Azure AD > App registrations > {your ***NATIVE*** api} > APPLICATION ID
 private const string RedirectUri = "https://{your azure function api name}.azurewebsites.net";
 private const string ResourceId = "{your web guid}"; //take this from your Azure AD > App registrations > {your ***WEB*** api} > APPLICATION ID // **isn't that interesting, we're requesting another API as the "resource" of this api**
@@ -133,8 +133,8 @@ our tenant appears to be simply our azure ad domain name, at least in typical co
 
  [1]: #nativeCodeSample
  [2]: https://identity.microsoft.com/Docs/Web
- [3]: http://www.matvelloso.com/2015/01/30/troubleshooting-common-azure-active-directory-errors/
+ [3]: https://www.matvelloso.com/2015/01/30/troubleshooting-common-azure-active-directory-errors/
  [4]: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-authentication-scenarios#web-application-to-web-api
  [5]: https://github.com/Azure-Samples/active-directory-javascript-singlepageapp-dotnet-webapi
- [6]: http://www.cloudidentity.com/blog/2015/02/19/introducing-adal-js-v1/
+ [6]: https://www.cloudidentity.com/blog/2015/02/19/introducing-adal-js-v1/
  [7]: https://cloud.githubusercontent.com/assets/6301228/20546192/912bad5c-b0c8-11e6-8243-1f8cdc8a0ef5.png

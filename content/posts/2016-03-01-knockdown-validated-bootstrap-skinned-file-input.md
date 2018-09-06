@@ -39,10 +39,10 @@ Highlights:
 ### Live Demo:
 
 <p data-height="268" data-theme-id="0" data-slug-hash="wGBmyM" data-default-tab="result" data-user="Beej2020" class='codepen'>
-  See the Pen <a href='http://codepen.io/Beej2020/pen/wGBmyM/'>Knockdown, Validated, Bootstrap skinned File Input</a> by Brent Anderson (<a href='http://codepen.io/Beej2020'>@Beej2020</a>) on <a href='http://codepen.io'>CodePen</a>.
+  See the Pen <a href='https://codepen.io/Beej2020/pen/wGBmyM/'>Knockdown, Validated, Bootstrap skinned File Input</a> by Brent Anderson (<a href='https://codepen.io/Beej2020'>@Beej2020</a>) on <a href='https://codepen.io'>CodePen</a>.
 </p>
 
  [1]: https://3.bp.blogspot.com/-CwlzBUefOGE/VxVcAfSlPoI/AAAAAAAATTo/M5QeSHYe2MQcsprdw4WCx1-qwgaAeIN0gCLcB/s1600/Untitled.png
- [2]: http://getbootstrap.com/components/#input-groups
- [3]: http://knockoutjs.com/documentation/custom-bindings.html
+ [2]: https://getbootstrap.com/components/#input-groups
+ [3]: https://knockoutjs.com/documentation/custom-bindings.html
  [4]: https://github.com/Knockout-Contrib/Knockout-Validation/wiki/Custom-Validation-Rules

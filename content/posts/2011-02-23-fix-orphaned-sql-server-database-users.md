@@ -22,7 +22,7 @@ tags:
   - Database
 
 ---
-<a href="http://vyaskn.tripod.com/troubleshooting_orphan_users.htm" target="_blank">Good reference</a>
+<a href="https://vyaskn.tripod.com/troubleshooting_orphan_users.htm" target="_blank">Good reference</a>
 
 Quick examples:
 

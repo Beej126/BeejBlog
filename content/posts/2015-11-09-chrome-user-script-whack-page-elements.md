@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2015/11/chrome-user-script-whack-page-elements.html
 blogger_thumbnail:
-  - http://2.bp.blogspot.com/-b_tH9-WysD0/VkEKhDZHIlI/AAAAAAAARzo/kmv0MBN4ufY/s1600/Snap2.png
+  - https://2.bp.blogspot.com/-b_tH9-WysD0/VkEKhDZHIlI/AAAAAAAARzo/kmv0MBN4ufY/s1600/Snap2.png
 dsq_thread_id:
   - 5537355402
 snapEdIT:
@@ -42,7 +42,7 @@ tags:
 
 <pre class="prettyprint">// ==UserScript==
 // @name VipLeague.se AdBlock Hack
-// @match http://www.vipleague.se/*
+// @match https://www.vipleague.se/*
 // ==/UserScript==
 
 function addJQuery(callback) {
@@ -67,6 +67,6 @@ addJQuery(main);</pre>
   
 ![enter image description here][3]</img>
 
- [1]: http://stackoverflow.com/questions/2246901/how-can-i-use-jquery-in-greasemonkey-scripts-in-google-chrome
- [2]: http://www.BeejBlog.com/wp-content/uploads/2015/11/Snap2.png ""
- [3]: http://www.BeejBlog.com/wp-content/uploads/2015/11/Snap4-1.png ""
+ [1]: https://stackoverflow.com/questions/2246901/how-can-i-use-jquery-in-greasemonkey-scripts-in-google-chrome
+ [2]: https://www.BeejBlog.com/wp-content/uploads/2015/11/Snap2.png ""
+ [3]: https://www.BeejBlog.com/wp-content/uploads/2015/11/Snap4-1.png ""

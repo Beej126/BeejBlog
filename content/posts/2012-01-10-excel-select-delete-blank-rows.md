@@ -20,7 +20,7 @@ tags:
   - Productivity
 
 ---
-From here: [http://www.theexceladdict.com/_t/t031008.htm][1] Reflecting Microsoft’s current button naming in Excel 2010… 
+From here: [https://www.theexceladdict.com/_t/t031008.htm][1] Reflecting Microsoft’s current button naming in Excel 2010… 
 
   * Select a column possessing representative blanks, from top to bottom.
   * F5.
@@ -28,4 +28,4 @@ From here: [http://www.theexceladdict.com/_t/t031008.htm][1] Reflecting Microsof
   * “Blanks” radio button.
   * “Delete” ribbon button/menu (under Home tab) – “delete sheet rows” menu item.
 
- [1]: http://www.theexceladdict.com/_t/t031008.htm "http://www.theexceladdict.com/_t/t031008.htm"
+ [1]: https://www.theexceladdict.com/_t/t031008.htm "https://www.theexceladdict.com/_t/t031008.htm"

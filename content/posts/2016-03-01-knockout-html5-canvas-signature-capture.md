@@ -15,5 +15,5 @@ tags:
 
 ---
 <p data-height="268" data-theme-id="0" data-slug-hash="VaYOxy" data-default-tab="result" data-user="Beej2020" class="codepen">
-  See the Pen <a href="http://codepen.io/Beej2020/pen/VaYOxy/">Knockout HTML5 Canvas Signature Capture</a> by Brent Anderson (<a href="http://codepen.io/Beej2020">@Beej2020</a>) on <a href="http://codepen.io">CodePen</a>.
+  See the Pen <a href="https://codepen.io/Beej2020/pen/VaYOxy/">Knockout HTML5 Canvas Signature Capture</a> by Brent Anderson (<a href="https://codepen.io/Beej2020">@Beej2020</a>) on <a href="https://codepen.io">CodePen</a>.
 </p>

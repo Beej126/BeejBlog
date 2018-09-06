@@ -24,25 +24,25 @@ tags:
   - ProjMgmt
 
 ---
-<a href="http://www.balsamiq.com/" target="_blank">Balsamiq</a> “Mockups” 
+<a href="https://www.balsamiq.com/" target="_blank">Balsamiq</a> “Mockups” 
 
-  * <a href="http://www.youtube.com/watch?feature=player_embedded&v=70hfU7_95Gw" target="_blank">demo video</a> 
-  * <a href="http://www.balsamiq.com/download" target="_blank">Adobe AIR based licensed$$ desktop version</a> – very full featured 
-  * <a href="http://builds.balsamiq.com/b/mockups-web-demo/" target="_blank">Web based demo</a> &#8211; works well for quick thoughts 
+  * <a href="https://www.youtube.com/watch?feature=player_embedded&v=70hfU7_95Gw" target="_blank">demo video</a> 
+  * <a href="https://www.balsamiq.com/download" target="_blank">Adobe AIR based licensed$$ desktop version</a> – very full featured 
+  * <a href="https://builds.balsamiq.com/b/mockups-web-demo/" target="_blank">Web based demo</a> &#8211; works well for quick thoughts 
 
-<a href="http://pencil.evolus.vn/" target="_blank">Pencil</a> 
+<a href="https://pencil.evolus.vn/" target="_blank">Pencil</a> 
 
-  * <a href="http://www.youtube.com/watch?feature=player_embedded&v=70hfU7_95Gw" target="_blank">free</a> 
+  * <a href="https://www.youtube.com/watch?feature=player_embedded&v=70hfU7_95Gw" target="_blank">free</a> 
   * Cross platform desktop app 
   * <a href="https://code.google.com/p/evoluspencil/downloads/list?q=label:Stencil" target="_blank">Sketchy stencil</a> for the “low fidelity” look 
 
-<a href="http://www.gliffy.com/gliffy/#templateId=blank&signup=1" target="_blank">Gliffy</a> 
+<a href="https://www.gliffy.com/gliffy/#templateId=blank&signup=1" target="_blank">Gliffy</a> 
 
   * free basic web functionality 
   * $$ubscription model for featured version 
 
-<a href="http://blendinsider.com/technical/announcing-blend-sketchflow-preview-for-visual-studio-2012-2012-08-15/" target="_blank">SketchFlow is apparently coming back to VS2012</a> – Microsoft seems to be in a bit of a tizzy buttoning down all the loose ends in the latest transition to all things immersive.
+<a href="https://blendinsider.com/technical/announcing-blend-sketchflow-preview-for-visual-studio-2012-2012-08-15/" target="_blank">SketchFlow is apparently coming back to VS2012</a> – Microsoft seems to be in a bit of a tizzy buttoning down all the loose ends in the latest transition to all things immersive.
   
-Infragistics has <a href="http://www.infragistics.com/products/indigo-studio" target="_blank">Indigo Studio</a>
+Infragistics has <a href="https://www.infragistics.com/products/indigo-studio" target="_blank">Indigo Studio</a>
   
-There’s <a href="http://goo.gl/eIggX" target="_blank">tons more out there</a>… prototyping is apparently a very hot item
+There’s <a href="https://goo.gl/eIggX" target="_blank">tons more out there</a>… prototyping is apparently a very hot item

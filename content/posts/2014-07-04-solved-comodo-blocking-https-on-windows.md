@@ -17,7 +17,7 @@ blogger_author:
 blogger_permalink:
   - /2014/07/solved-comodo-blocking-https-on-windows.html
 blogger_thumbnail:
-  - http://2.bp.blogspot.com/-mzHZ3srr9lM/U7bT6UaCUhI/AAAAAAAAFck/hMdJRaFnIpM/s1600/7-4-2014+12-17-55+PM.jpg
+  - https://2.bp.blogspot.com/-mzHZ3srr9lM/U7bT6UaCUhI/AAAAAAAAFck/hMdJRaFnIpM/s1600/7-4-2014+12-17-55+PM.jpg
 dsq_thread_id:
   - 5508631466
 categories:
@@ -31,7 +31,7 @@ tags:
 ---
 Besides opening incoming HTTP ports in the firewall via "Global Rules", the annoying thing for me to find was also adding an "Application Rule" for "Windows Operating System" on those same ports.
 
-<a href="http://www.BeejBlog.com/wp-content/uploads/2014/07/7-4-2014-12-17-55-PM.jpg" imageanchor="1"><img border="0" src="http://www.BeejBlog.com/wp-content/uploads/2014/07/7-4-2014-12-17-55-PM.jpg" /></a>
+<a href="https://www.BeejBlog.com/wp-content/uploads/2014/07/7-4-2014-12-17-55-PM.jpg" imageanchor="1"><img border="0" src="https://www.BeejBlog.com/wp-content/uploads/2014/07/7-4-2014-12-17-55-PM.jpg" /></a>
 
 Comodo v7.0.317799.4142
 
@@ -57,4 +57,4 @@ And [this guy][1] explains what's necessary for FTP very nicely...
   * filezilla settings
   * require explicit ftp over tls</ul>
 
- [1]: http://grantcurell.com/2013/12/31/failed-to-retrieve-directory-listing-filezilla-connecting-to-iis-behind-nat/
+ [1]: https://grantcurell.com/2013/12/31/failed-to-retrieve-directory-listing-filezilla-connecting-to-iis-behind-nat/

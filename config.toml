@@ -9,6 +9,7 @@ canonifyURLs = true
 # prevent hugo from creating folders/indexes for each section
 #disableKinds = ["section"]
 sectionPagesMenu = "main"
+preserveTaxonomyNames = true
 
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"

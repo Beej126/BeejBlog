@@ -61,7 +61,7 @@ pygmentsUseClasses = true
     generateTaxonomyList = true
     # Alphabetical sort
     # sortTaxonomyAlphabetical = true
-    customCSS = ["css/beej.css", "css/expand.css"]
+    customCSS = ["css/beej.css", "css/expand.css", "css/github-embed.css"]
     fontAwesome = true
     # Octopress -- end --
 

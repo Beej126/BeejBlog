@@ -31,6 +31,24 @@
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+
 {{ end }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+<script>
+function renderMarkdown(elementId, url) {
+  fetch(url).then(function(resp) { resp.text().then(function(text) { 
+    var converter = new showdown.Converter();
+    var div = document.createElement('div');
+    div.innerHTML = converter.makeHtml(text);
+    var referenceNode = document.getElementById(elementId);
+    //https://stackoverflow.com/a/4793630/813599
+    referenceNode.parentNode.insertBefore(div, referenceNode.nextSibling);
+  })});
+}
+
+for(var i = 0; i < lateLoad.length; i++) { lateLoad[i](); }
+</script>
+
 </body>
 </html>

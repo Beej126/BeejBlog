@@ -79,9 +79,10 @@ input.expander + p + h6 {
 
   input.expander:not(:checked) + p + * + *,
   input.expander:not(:checked) + *:not(p) + * {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    z-index: -1; position: relative; /*this prevents the hidden collapsed content from conflicting with hrefs on the visible*/
     height: 0;
-    transform: scaleX(0) scaleY(0);
+    /* transform: scaleX(0) scaleY(0); */
     opacity: 0;
-    margin: 0;
+    /* margin: 0; */
   }

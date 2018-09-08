@@ -62,6 +62,8 @@
     {{ partial "custom_twitter_card.html" $ }}
   {{ end }}
 
+  <script>lateLoad = [];</script>
+
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
 

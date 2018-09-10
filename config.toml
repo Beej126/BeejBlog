@@ -9,7 +9,7 @@ canonifyURLs = true
 # prevent hugo from creating folders/indexes for each section
 #disableKinds = ["section"]
 sectionPagesMenu = "main"
-preserveTaxonomyNames = true
+preserveTaxonomyNames = false
 
 pygmentsCodeFences = true
 pygmentsOptions = "linenos=table"
@@ -61,7 +61,7 @@ pygmentsUseClasses = true
     generateTaxonomyList = true
     # Alphabetical sort
     # sortTaxonomyAlphabetical = true
-    customCSS = ["css/beej.css", "css/expand.css", "css/github-embed.css"]
+    customCSS = ["css/beej.css", "css/expand.css"]
     fontAwesome = true
     # Octopress -- end --
 

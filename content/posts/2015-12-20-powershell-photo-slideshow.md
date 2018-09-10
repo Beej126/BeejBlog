@@ -27,8 +27,6 @@ tags:
   - PowerShell
 
 ---
-# [GitHub Source](https://github.com/Beej126/PoShSlideshow)
+## [GitHub Source](https://github.com/Beej126/PoShSlideshow)
 
-<script id="embed">
-  lateLoad.push(function() { renderMarkdown("embed", "https://raw.githubusercontent.com/Beej126/PoShSlideshow/master/README.md"); });
-</script>
+<script id="embed1"> renderMarkdown("embed1", "https://raw.githubusercontent.com/Beej126/PoShSlideshow/master/README.md") </script>

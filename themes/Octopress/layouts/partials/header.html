@@ -62,7 +62,8 @@
     {{ partial "custom_twitter_card.html" $ }}
   {{ end }}
 
-  <script>lateLoad = [];</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+  <script src="/js/github-embed.js"></script>
 
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>

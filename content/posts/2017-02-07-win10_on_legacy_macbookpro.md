@@ -1,5 +1,5 @@
 ---
-title: Updating 2006 MacBook Pro to Windows 10
+title: Updating 2006 MacBook Pro to Win 10
 author: Beej
 type: post
 date: 2017-02-07T09:36:50+00:00
@@ -24,6 +24,9 @@ tags:
   - Mac
 
 ---
+
+### Background
+
 There's a fair amount of noise to wade through out there on this topic... this post is a humble gathering of the current state, cira February 2017... once we get the various bits lined up, it's surprisingly smooth sailing with FULL compatibility under Windows 10 x64, even the latest "Anniversary Edition"... over 10 years later something as complex as Windows maintaining this much hardware compatibility is pretty amazing in our industry.
 
 ### My Specific Hardware
@@ -77,7 +80,7 @@ _not as easy as one might think_ &#8211; this firmware is very finicky... USB Th
       2. **iSight** Web Cam
       3. **BlueTooth** &#8211; nothing kicked in till i ran Bluetooth "Enabler" Installer
 
-## Nirvana!
+### Nirvana!
 
   * if all goes well (doesn't it always? ; ) you should have a clean Device Manager with ZERO red squigglies, along with fully working...
   * Hardware accelerated video

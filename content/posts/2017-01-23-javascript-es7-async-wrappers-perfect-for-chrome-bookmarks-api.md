@@ -36,19 +36,19 @@ async/await is supported as of [Chrome v55 in Dec.2016][4]
 
 to me, the basic gist of this shift to async away from traditional callbacks means that we get to flatten all those nested callbacks like this:
 
-    //
-    call_method1(function(response1){
-      call_method2(function(response2){
-      });
-    });
-    
+```js
+call_method1(function(response1){
+  call_method2(function(response2){
+  });
+});
+```
 
 to this:
 
-    //
-    let response1 = await call_method1();
-    let response2 = await call_method2();
-    
+```js
+let response1 = await call_method1();
+let response2 = await call_method2();
+```
 
 admittedly, maybe not super dramatic when you boil it down like that but it really feels like previously complex nested code is easier to read/maintain and modularize when this is now available
 
@@ -61,30 +61,31 @@ admittedly, maybe not super dramatic when you boil it down like that but it real
 
 _I want to elaborate further on the very happily working Diigo solution, but for now just the basic async bits..._
 
-    //
-    //here's the wrapper
-    //one main thing to be aware of is that the native Promise object is what we can "await" on
-    function createBookmarkAsync(parms) {
-      return new Promise(function(fulfill, reject) {
-        chrome.bookmarks.create(parms, fulfill);
-      });
-    }
-    
-    //simple usage of the above wrapper
-    $('#btnRefreshDiigo').click(async function() { //CRITICAL = note the "async" before the function declaration... otherwise google unhelpfully reports that await is an undeclared identifier
-      let diigoFolderId = (await createBookmarkAsync({parentId: "1", title: "Diigos"})).id;
-      //now continue coding knowing that this code wont execute until the async call returns, very cool!!
-    }
-    
+```js
+//here's the wrapper
+//one main thing to be aware of is that the native Promise object is what we can "await" on
+function createBookmarkAsync(parms) {
+  return new Promise(function(fulfill, reject) {
+    chrome.bookmarks.create(parms, fulfill);
+  });
+}
+
+//simple usage of the above wrapper
+$('#btnRefreshDiigo').click(async function() { //CRITICAL = note the "async" before the function declaration... otherwise google unhelpfully reports that await is an undeclared identifier
+  let diigoFolderId = (await createBookmarkAsync({parentId: "1", title: "Diigos"})).id;
+  //now continue coding knowing that this code wont execute until the async call returns, very cool!!
+}
+```
 
 ### Also handy for Fetch() API:
 
 _it was also great to use the very nicely straightforward new'ish [Fetch API (Chrome v43+)][7] and await on that response vs something like jquery.ajax_
 
-    //
-    let response = await fetch(json_api_url, { credentials: 'include' }); //the credentials bit passes existing cookies (e.g. leveraging existing login)
-    let jsonText = await response.text();
-    let items = JSON.parse(jsonText).items;
+```js
+let response = await fetch(json_api_url, { credentials: 'include' }); //the credentials bit passes existing cookies (e.g. leveraging existing login)
+let jsonText = await response.text();
+let items = JSON.parse(jsonText).items;
+```
 
  [1]: https://www.diigo.com/
  [2]: https://cloud.githubusercontent.com/assets/6301228/23633174/87f6d0ce-0279-11e7-8b9e-cd103efd366a.png

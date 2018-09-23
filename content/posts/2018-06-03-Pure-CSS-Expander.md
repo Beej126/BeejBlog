@@ -31,7 +31,7 @@ _yeah i know, what's up with the the extra &lt;p&gt; tag pal?! those sprinkles o
 
 ### [Demo post (rendered via Markdown)](/2015/04/osx-v2p.html)
 
-[Not an original idea by any means](https://css-tricks.com/the-checkbox-hack/#article-header-id-1) ... just boiling it down for my specific usage
+[Not an original idea](https://css-tricks.com/the-checkbox-hack/#article-header-id-1) ... just boiling it down for my specific usage
 
 For the record, it's not valid html to apply :before/after psuedo elements to form elements like &lt;input&gt; because they're not technically "content" ([stack-o reference](https://stackoverflow.com/questions/12831620/is-the-before-pseudo-element-allowed-on-an-inputtype-checkbox)), bummer... webkit (chrome, safari) actually do render directly on &lt;input&gt; but firefox & explorer don't... oh well, it's not much more to rely on one more element right after &lt;input&gt;... i'm using the &lt;i&gt; tag as popularized by font-awesome but this is arbitrary.
 

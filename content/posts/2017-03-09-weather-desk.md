@@ -24,3 +24,5 @@ tags:
   - NodeJS
 
 ---
+
+{{< gist Beej126 a03564f71971de3b561e98fe9fd3c856 >}}

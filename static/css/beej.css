@@ -52,7 +52,8 @@ nav#TableOfContents > ul {
 
 /* Octopress -- end -- */
 
-/* fix syntax highlighting bug just for JS?!? */
+/* fix syntax highlighting bug just for JS?!? 
 code.language-js > span.lnt:last-child {
   display: none;
 }
+*/

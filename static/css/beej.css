@@ -1,4 +1,19 @@
 ﻿/* Octopress overrides */
+.header-link {
+  position: absolute;
+  margin-left: -1.3em;
+  font-size: small;
+  margin-top: 5px;
+    opacity: .2;
+  transition: all 0.5s ease-in-out;
+}
+
+.header-link:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(45deg);
+};
+
 p.meta > a.label, p.meta > a.label::before { display: none}
 table.lntable { overflow: auto; }
 span.lnt { display: inherit; }

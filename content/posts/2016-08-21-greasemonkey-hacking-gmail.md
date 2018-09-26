@@ -9,7 +9,6 @@ url: /2016/08/greasemonkey-hacking-gmail.html
 dsq_thread_id:
   - 5514693661
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

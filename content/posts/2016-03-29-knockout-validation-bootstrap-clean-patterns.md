@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5624168471
 categories:
-  - Uncategorized
 tags:
   - Knockout
 

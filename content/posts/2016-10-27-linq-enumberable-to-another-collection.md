@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5516896536
 categories:
-  - Uncategorized
 tags:
   - Json
   - Linq

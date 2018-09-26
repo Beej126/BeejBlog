@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2012/11/zenphoto-hide-dot-files.html
 categories:
-  - Uncategorized
 tags:
   - Photography
 

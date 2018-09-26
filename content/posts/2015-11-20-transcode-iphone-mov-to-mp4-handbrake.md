@@ -25,7 +25,6 @@ snapTW:
 dsq_thread_id:
   - 5526313403
 categories:
-  - Uncategorized
 tags:
   - PowerShell
   - Video

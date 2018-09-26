@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5508631624
 categories:
-  - Uncategorized
 tags:
   - Database
 

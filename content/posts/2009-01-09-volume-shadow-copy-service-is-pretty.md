@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5753667849
 categories:
-  - Uncategorized
 tags:
   - SysAdmin
 

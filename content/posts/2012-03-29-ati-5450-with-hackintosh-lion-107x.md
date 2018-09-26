@@ -27,7 +27,6 @@ snapTW:
 dsq_thread_id:
   - 5508631468
 categories:
-  - Uncategorized
 tags:
   - Hardware
   - Mac

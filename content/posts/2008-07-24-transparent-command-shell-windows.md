@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542148863
 categories:
-  - Uncategorized
 tags:
   - CmdLine
   - Software

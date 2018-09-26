@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5753670713
 categories:
-  - Uncategorized
 tags:
   - Fun
   - Video

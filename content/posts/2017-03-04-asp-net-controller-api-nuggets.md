@@ -19,7 +19,6 @@ snapTW:
 dsq_thread_id:
   - 5608410622
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

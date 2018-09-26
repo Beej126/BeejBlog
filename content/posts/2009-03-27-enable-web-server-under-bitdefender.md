@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5520892626
 categories:
-  - Uncategorized
 tags:
   - IIS
   - Networking

@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5849360471
 categories:
-  - Uncategorized
 tags:
   - ProjMgmt
 

@@ -9,7 +9,6 @@ url: /2016/10/php-sql-server-blob-hosting.html
 dsq_thread_id:
   - 5758814177
 categories:
-  - Uncategorized
 tags:
   - Database
   - PHP

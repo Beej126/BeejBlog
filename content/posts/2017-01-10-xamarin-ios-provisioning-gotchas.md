@@ -19,7 +19,6 @@ snapTW:
 dsq_thread_id:
   - 5508647724
 categories:
-  - Uncategorized
 tags:
   - iOS
   - Xamarin

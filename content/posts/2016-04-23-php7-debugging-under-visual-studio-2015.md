@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5508903539
 categories:
-  - Uncategorized
 tags:
   - PHP
 

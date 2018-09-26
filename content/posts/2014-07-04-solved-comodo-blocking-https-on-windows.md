@@ -21,7 +21,6 @@ blogger_thumbnail:
 dsq_thread_id:
   - 5508631466
 categories:
-  - Uncategorized
 tags:
   - IIS
   - Networking

@@ -19,7 +19,6 @@ snapTW:
 dsq_thread_id:
   - 5596156347
 categories:
-  - Uncategorized
 tags:
   - VisualStudio
   - WebDev

@@ -19,7 +19,6 @@ snapTW:
     
     %EXCERPT%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"823809583063781376";s:7:"postURL";s:53:"https://twitter.com/BeejSEA/status/823809583063781376";s:5:"pDate";s:19:"2017-01-24 08:28:05";}}";
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

@@ -9,7 +9,6 @@ url: /2016/05/powershell-winforms-interactive-prototypingdebugging.html
 dsq_thread_id:
   - 5515890377
 categories:
-  - Uncategorized
 tags:
   - PowerShell
 

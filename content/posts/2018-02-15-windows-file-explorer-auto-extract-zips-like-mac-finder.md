@@ -9,7 +9,6 @@ url: /2018/02/windows-file-explorer-auto-extract-zips-like-mac-finder.html
 dsq_thread_id:
   - 6482473441
 categories:
-  - Uncategorized
 tags:
   - Productivity
   - SysAdmin

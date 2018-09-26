@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542148975
 categories:
-  - Uncategorized
 tags:
   - Fun
   - Software

@@ -9,7 +9,6 @@ url: /2017/07/vs-code-typescript-bare-metal-new-project.html
 dsq_thread_id:
   - 5972829990
 categories:
-  - Uncategorized
 tags:
   - TypeScript
   - VisualStudio

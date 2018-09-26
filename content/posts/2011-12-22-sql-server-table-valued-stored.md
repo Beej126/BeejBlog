@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5821406805
 categories:
-  - Uncategorized
 tags:
   - DotNetFramework
   - Database

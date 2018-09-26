@@ -31,7 +31,6 @@ snapTW:
 dsq_thread_id:
   - 5508631626
 categories:
-  - Uncategorized
 tags:
   - Networking
 

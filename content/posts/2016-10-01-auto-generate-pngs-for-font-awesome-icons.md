@@ -9,7 +9,6 @@ url: /2016/10/auto-generate-pngs-for-font-awesome-icons.html
 dsq_thread_id:
   - 5511923853
 categories:
-  - Uncategorized
 tags:
   - Xamarin
 

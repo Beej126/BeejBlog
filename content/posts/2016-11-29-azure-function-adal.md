@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5511007699
 categories:
-  - Uncategorized
 tags:
   - Azure
   - Security

@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5516509213
 categories:
-  - Uncategorized
 tags:
   - Hardware
   - Outdoors

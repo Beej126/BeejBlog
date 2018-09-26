@@ -17,7 +17,6 @@ snapTW:
 dsq_thread_id:
   - 5535110853
 categories:
-  - Uncategorized
 tags:
   - Knockout
   - WebDev

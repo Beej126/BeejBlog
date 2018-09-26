@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5995118531
 categories:
-  - Uncategorized
 tags:
   - Database
 

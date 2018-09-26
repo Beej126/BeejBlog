@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5521863066
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

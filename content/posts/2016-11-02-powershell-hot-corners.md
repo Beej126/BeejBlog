@@ -9,7 +9,6 @@ url: /2016/11/powershell-hot-corners.html
 dsq_thread_id:
   - 5508631464
 categories:
-  - Uncategorized
 tags:
   - PowerShell
   - Productivity

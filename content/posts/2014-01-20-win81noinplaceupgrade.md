@@ -25,7 +25,6 @@ snapTW:
 dsq_thread_id:
   - 5534480177
 categories:
-  - Uncategorized
 tags:
   - Windows 8+
 

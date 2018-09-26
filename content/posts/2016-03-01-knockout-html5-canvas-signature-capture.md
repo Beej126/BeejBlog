@@ -9,7 +9,6 @@ url: /2016/03/knockout-html5-canvas-signature-capture.html
 dsq_thread_id:
   - 5590441451
 categories:
-  - Uncategorized
 tags:
   - Knockout
 

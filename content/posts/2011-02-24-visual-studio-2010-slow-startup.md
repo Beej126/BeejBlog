@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2011/02/visual-studio-2010-slow-startup.html
 categories:
-  - Uncategorized
 tags:
   - VisualStudio
 

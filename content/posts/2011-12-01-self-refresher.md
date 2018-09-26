@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2011/12/self-refresher.html
 categories:
-  - Uncategorized
 tags:
   - DotNetFramework
 

@@ -9,7 +9,6 @@ url: /2016/09/using-c-interactive-aka-csicsx-for-etl.html
 dsq_thread_id:
   - 5517826054
 categories:
-  - Uncategorized
 tags:
   - CmdLine
   - Database

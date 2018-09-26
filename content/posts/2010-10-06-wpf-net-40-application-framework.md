@@ -34,7 +34,6 @@ enclosure:
         video/mp4
         
 categories:
-  - Uncategorized
 tags:
   - Database
   - WPF

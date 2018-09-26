@@ -9,7 +9,6 @@ url: /2016/06/solved-bare-cname-with-mx-record.html
 dsq_thread_id:
   - 5576413198
 categories:
-  - Uncategorized
 tags:
   - Networking
 

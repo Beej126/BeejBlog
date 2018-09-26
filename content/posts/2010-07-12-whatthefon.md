@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2010/07/whatthefont.html
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

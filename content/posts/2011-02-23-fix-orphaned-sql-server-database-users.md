@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2011/02/fix-orphaned-sql-server-database-users.html
 categories:
-  - Uncategorized
 tags:
   - Database
 

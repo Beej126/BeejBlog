@@ -27,7 +27,6 @@ snapTW:
     
     %EXCERPT%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
 categories:
-  - Uncategorized
 tags:
   - Music
 

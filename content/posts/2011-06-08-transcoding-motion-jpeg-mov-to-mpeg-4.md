@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5516257693
 categories:
-  - Uncategorized
 tags:
   - Video
 

@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542133839
 categories:
-  - Uncategorized
 tags:
   - Android
 

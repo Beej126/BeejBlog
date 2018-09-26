@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542135694
 categories:
-  - Uncategorized
 tags:
   - Life
 

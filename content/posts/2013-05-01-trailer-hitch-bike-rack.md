@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542131100
 categories:
-  - Uncategorized
 tags:
   - Biking
   - Hardware

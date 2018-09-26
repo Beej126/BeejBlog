@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2009/10/re-google-wave.html
 categories:
-  - Uncategorized
 tags:
   - ProjMgmt
 

@@ -9,7 +9,6 @@ url: /2016/03/shred-gpx-wpt-xml-with-sql-server.html
 dsq_thread_id:
   - 5572386628
 categories:
-  - Uncategorized
 tags:
   - Database
 

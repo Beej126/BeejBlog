@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542151734
 categories:
-  - Uncategorized
 tags:
   - Music
 

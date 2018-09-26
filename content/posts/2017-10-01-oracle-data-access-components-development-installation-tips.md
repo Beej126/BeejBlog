@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 6184372096
 categories:
-  - Uncategorized
 tags:
   - Database
   - Oracle

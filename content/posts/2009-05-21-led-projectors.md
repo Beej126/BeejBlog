@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542128428
 categories:
-  - Uncategorized
 tags:
   - Hardware
   - Projectors

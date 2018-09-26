@@ -23,7 +23,6 @@ snapEdIT:
 snapTW:
   - 's:162:"a:1:{i:0;a:6:{s:2:"do";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:4:"doTW";s:1:"1";}}";'
 categories:
-  - Uncategorized
 tags:
   - Blogging
   - Networking

@@ -7,7 +7,6 @@ year: "2016"
 month: "2016/04"
 url: /2016/04/free-ssl-certs.html
 categories:
-  - Uncategorized
 tags:
   - Networking
   - Security

@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542126800
 categories:
-  - Uncategorized
 tags:
   - SysAdmin
   - Windows 8+

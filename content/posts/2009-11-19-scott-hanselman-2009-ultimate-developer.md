@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5863855670
 categories:
-  - Uncategorized
 tags:
   - Software
 

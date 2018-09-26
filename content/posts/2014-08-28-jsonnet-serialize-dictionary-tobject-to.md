@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5513736403
 categories:
-  - Uncategorized
 tags:
   - Json
 

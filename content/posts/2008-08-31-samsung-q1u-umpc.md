@@ -31,7 +31,6 @@ snapTW:
 dsq_thread_id:
   - 5508631585
 categories:
-  - Uncategorized
 tags:
   - eReading
   - Hardware

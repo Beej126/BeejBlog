@@ -15,7 +15,6 @@ snapTW:
 dsq_thread_id:
   - 5597202286
 categories:
-  - Uncategorized
 tags:
   - IIS
 

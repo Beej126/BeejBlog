@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5517230291
 categories:
-  - Uncategorized
 tags:
   - Blogging
 

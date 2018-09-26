@@ -9,7 +9,6 @@ url: /2017/06/syncfusion-xamarin-forms-sfdatagrid-binding-to-listdictionary.html
 dsq_thread_id:
   - 5935265812
 categories:
-  - Uncategorized
 tags:
   - Json
   - WebDev

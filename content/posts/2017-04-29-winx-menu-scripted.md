@@ -9,7 +9,6 @@ url: /2017/04/winx-menu-scripted.html
 dsq_thread_id:
   - 5770060104
 categories:
-  - Uncategorized
 tags:
   - CmdLine
 

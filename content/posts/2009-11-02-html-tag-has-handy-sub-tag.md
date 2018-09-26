@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2009/11/html-tag-has-handy-sub-tag.html
 categories:
-  - Uncategorized
 tags:
   - WebDev
 

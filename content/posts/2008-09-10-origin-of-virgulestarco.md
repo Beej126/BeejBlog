@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2008/09/origin-of-virgulestarcom.html
 categories:
-  - Uncategorized
 
 ---
 I’m drafting off the idea of expanding geeky punctuation into words (popularized by [www.SlashDot.org][1])   

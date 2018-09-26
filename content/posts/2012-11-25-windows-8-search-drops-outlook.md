@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2012/11/windows-8-search-drops-outlook.html
 categories:
-  - Uncategorized
 tags:
   - Windows 8+
 

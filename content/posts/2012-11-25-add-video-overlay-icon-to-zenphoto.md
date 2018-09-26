@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542139049
 categories:
-  - Uncategorized
 tags:
   - Photography
 

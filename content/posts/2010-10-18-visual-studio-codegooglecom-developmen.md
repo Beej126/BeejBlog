@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5542136091
 categories:
-  - Uncategorized
 tags:
   - VCS
 

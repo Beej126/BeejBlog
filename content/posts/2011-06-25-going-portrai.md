@@ -21,7 +21,6 @@ blogger_thumbnail:
 dsq_thread_id:
   - 6195455681
 categories:
-  - Uncategorized
 tags:
   - Hardware
 

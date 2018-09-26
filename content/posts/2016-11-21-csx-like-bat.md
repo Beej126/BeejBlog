@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5540890490
 categories:
-  - Uncategorized
 tags:
   - CmdLine
 

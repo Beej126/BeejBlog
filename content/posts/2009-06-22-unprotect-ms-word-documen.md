@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 6068551357
 categories:
-  - Uncategorized
 
 ---
   * <a href="https://shaikhsohail.wordpress.com/2008/09/27/how-to-crack-unprotect-or-remove-document-protection-in-word/" target="_blank">Here’s the gist</a> – fire up Word, open your file, then select Tools > Macro > “Microsoft Script Editor”, you’ll get an HTML view, search for “UnprotectPassword” and change it to all zero’s – voila!

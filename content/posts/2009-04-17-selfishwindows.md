@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5690973763
 categories:
-  - Uncategorized
 
 ---
 Set a priority order on primary app windows like video, email, eBook reader and then they automatically maintain their size, “repel” from overlapping with other windows and z-order themselves to the top with transparency.

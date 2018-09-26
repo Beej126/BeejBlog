@@ -29,7 +29,6 @@ snapTW:
 dsq_thread_id:
   - 5753673817
 categories:
-  - Uncategorized
 tags:
   - Hardware
 

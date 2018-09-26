@@ -9,7 +9,6 @@ url: /2016/10/lighter-spin-on-adal-in-xamarin-forms.html
 dsq_thread_id:
   - 5515883840
 categories:
-  - Uncategorized
 tags:
   - Azure
   - Security

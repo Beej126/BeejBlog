@@ -9,7 +9,6 @@ url: /2016/08/script-to-generate-dozens-of-required-ios-app-icon-images.html
 dsq_thread_id:
   - 5518418900
 categories:
-  - Uncategorized
 tags:
   - iOS
   - Xamarin

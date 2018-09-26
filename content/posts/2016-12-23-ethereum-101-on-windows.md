@@ -17,7 +17,6 @@ snapTW:
 dsq_thread_id:
   - 5508760012
 categories:
-  - Uncategorized
 tags:
   - BlockChain
   - Security

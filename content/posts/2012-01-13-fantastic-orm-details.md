@@ -17,7 +17,6 @@ blogger_author:
 blogger_permalink:
   - /2012/01/fantastic-orm-details.html
 categories:
-  - Uncategorized
 
 ---
 [https://samsaffron.com/archive/2011/03/30/How+I+learned+to+stop+worrying+and+write+my+own+ORM][1]

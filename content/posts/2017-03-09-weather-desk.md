@@ -19,7 +19,6 @@ snapTW:
     
     %EXCERPT%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"839992174452252672";s:7:"postURL";s:53:"https://twitter.com/BeejSEA/status/839992174452252672";s:5:"pDate";s:19:"2017-03-10 00:11:58";}}";
 categories:
-  - Uncategorized
 tags:
   - NodeJS
 

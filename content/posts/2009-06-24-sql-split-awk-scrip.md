@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5528972367
 categories:
-  - Uncategorized
 tags:
   - CmdLine
   - Database

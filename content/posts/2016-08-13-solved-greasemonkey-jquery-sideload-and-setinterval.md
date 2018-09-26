@@ -13,7 +13,6 @@ snapTW:
 dsq_thread_id:
   - 5515745843
 categories:
-  - Uncategorized
 tags:
   - Music
   - WebDev

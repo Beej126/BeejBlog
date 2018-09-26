@@ -19,7 +19,6 @@ blogger_permalink:
 dsq_thread_id:
   - 5521600624
 categories:
-  - Uncategorized
 tags:
   - PowerShell
   - Security

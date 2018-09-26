@@ -9,7 +9,6 @@ url: /2016/04/sql-server-pdo-php7.html
 dsq_thread_id:
   - 5517836230
 categories:
-  - Uncategorized
 tags:
   - Database
   - PHP

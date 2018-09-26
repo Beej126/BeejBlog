@@ -9,7 +9,6 @@ url: /2017/05/android-emulator-nuggets.html
 dsq_thread_id:
   - 5799344857
 categories:
-  - Uncategorized
 tags:
   - Android
 

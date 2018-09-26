@@ -9,7 +9,6 @@ url: /2017/08/easy-native-windows-self-extracting-exe-builder-sfx.html
 dsq_thread_id:
   - 6056896687
 categories:
-  - Uncategorized
 tags:
   - SysAdmin
 

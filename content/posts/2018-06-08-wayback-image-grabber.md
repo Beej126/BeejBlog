@@ -9,7 +9,6 @@ year: "2018"
 month: "2018/06"
 thumbnail: ""
 categories:
-  - ""
 tags:
   - Blogging
   - Powershell

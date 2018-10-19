@@ -81,7 +81,7 @@ No iOS browser provides any debugger tools -BUT- on Mac, we can fire up the Xcod
 
 [![image][13]][13]
 
-#### Aurelia Fetch Client and _uncle_ PolyFill
+#### Aurelia Fetch Client and _good old aunt_ PolyFill
 
   * i needed above js debug because my app skeleton's "Fetch data" page worked on Windows Chrome but failed on iOS Chrome...
   * wound up finding this [issue (over 1yr old)][14]...

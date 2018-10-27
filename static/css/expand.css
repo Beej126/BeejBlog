@@ -38,6 +38,7 @@ input.expander + p + h6 {
     width: 1em;
     display: inline-block !important;
     /*font-size: larger;*/
+    font-weight: normal;
     color: blue !important;
   }
 

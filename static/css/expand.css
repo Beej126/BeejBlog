@@ -33,7 +33,7 @@ input.expander + p + h6 {
   input.expander + p + *:before, /*skip extra p tag inserted after heading tags by markdown renderer (Hugo > Blackfriday)*/
   input.expander + *:not(p):before { /*...everything else just hit the next sibling, whatever it is*/
     content: "\f0fe "; /*fa-plus-square-o - these codes can be found on the detail page for each fa icon*/
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Free';
     cursor: pointer;
     width: 1em;
     display: inline-block !important;

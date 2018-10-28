@@ -12,6 +12,11 @@ p:empty {
   display: none;
 }
 
+/* move the link icons (rendered in hugo template) out of the way of the expand/collapse icons */
+input.expander + p + * > i.fa-link {
+    margin-left: -3.2em;
+}
+
 /* hide the native checkbox widget */
 input.expander {
   opacity: 0;

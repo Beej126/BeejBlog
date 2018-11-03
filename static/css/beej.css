@@ -1,4 +1,6 @@
-﻿/* Octopress overrides */
+﻿.hl { background-color: yellow; }
+
+/* Octopress overrides */
 .header-link {
   position: absolute;
   margin-left: -1.3em;

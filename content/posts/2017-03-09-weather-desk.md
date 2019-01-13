@@ -23,5 +23,6 @@ tags:
   - NodeJS
 
 ---
+[GitHub Source](https://github.com/Beej126/WeatherDesk)
+<script id="embed1"> renderMarkdown("embed1", "https://raw.githubusercontent.com/Beej126/WeatherDesk/master/README.md") </script>
 
-{{< gist Beej126 a03564f71971de3b561e98fe9fd3c856 >}}

@@ -27,7 +27,7 @@
           {{ end }}
           <!-- here's another replace approach but it doesn't iterate either -->
           <!-- .TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML -->
-          {{ replace (.Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".*?>)(.+</h[1-9]+>)" `${1}<i title="copy link" class="header-link fas fa-link" ariaLabel="Anchor" onclick="copyToClipboard('https://www.beejblog.com.Permalink#${2}')"></i>${3}`) ".Permalink" .Permalink | safeHTML }}
+          {{ replace (.Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".*?>)(.+</h[1-9]+>)" `${1}<a title="copy link" class="header-link fas fa-link" ariaLabel="Anchor" onclick="copyToClipboard('https://www.beejblog.com.Permalink#${2}')" href=".Permalink#${2}"></a>${3}`) ".Permalink" .Permalink | safeHTML }}
         </div>
         {{ partial "post_footer.html" . }}
       </article>

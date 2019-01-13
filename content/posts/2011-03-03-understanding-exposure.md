@@ -71,6 +71,7 @@ For one example, starting with the desire to have full focus on a long view (e.g
 
 <span class="hl">I had never been clued in on that fundamental part about adjusting one or the other (aperture or shutter) in order to move the light meter bar back to center zero.</span>  One typically does this looking through the viewfinder at the little gauge of vertical bars. Again, the objective is to get the indicator to be as close to center as possible.
 [![](https://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png)](https://www.BeejBlog.com/wp-content/uploads/2011/03/light_meter.png)
+
 This was a pretty big revelation for me.  Maybe I'm particularly clueless 🙂 and it's considered so obvious that it's not worth mentioning; but I also wonder how many people carry around multiple hundred dollar cameras without knowing this.
 
 For an alternative example, if we want to capture that “blurry water” effect on a stream or a waterfall, we’ll start with a longer shutter to (e.g. 1/8 sec or even 1 full sec) and then move the f/stop to get the light meter to 0… the f/stop will be high in this case (perhaps even f/32) because a long shutter is a long exposure to light and therefore a correspondingly small opening is necessary to counteract that light washout (i.e. overexposure).

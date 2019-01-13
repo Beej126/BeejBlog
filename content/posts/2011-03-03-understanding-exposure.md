@@ -33,9 +33,9 @@ tags:
   - Photography
 
 ---
-[This is book by Bryan Peterson was nicely approachable](https://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390)
+This is book by Bryan Peterson was nicely approachable
 
-[![Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image](https://lh5.ggpht.com/_XlySlDLkdOc/TW-YLaRs_JI/AAAAAAAAE4o/XjYPHv3ukxE/Understanding%20Exposure%2C%203rd%20Edition%20-%20Bryan%20Peterson%20%282010.08%29%20-cover%20image%5B7%5D.jpg?imgmax=800 "Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image")](https://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390)  
+[![Understanding Exposure, 3rd Edition - Bryan Peterson (2010.08) -cover image](https://lh5.ggpht.com/_XlySlDLkdOc/TW-YLaRs_JI/AAAAAAAAE4o/XjYPHv3ukxE/Understanding%20Exposure%2C%203rd%20Edition%20-%20Bryan%20Peterson%20%282010.08%29%20-cover%20image%5B7%5D.jpg?imgmax=800)](https://www.amazon.com/gp/product/0817439390?ie=UTF8&tag=httpwwwbeejbl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0817439390)  
 **ISBN-10:** 0817439390  
 **ISBN-13:** 978-0817439392
 

@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
     opacity: .2;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .header-link:hover {

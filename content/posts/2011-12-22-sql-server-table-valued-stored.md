@@ -39,80 +39,84 @@ tags:
 ## Code Examples:
 
 1. [File_UDT.sql](https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/File_UDT.sql)
-```sql
-CREATE TYPE File_UDT AS TABLE
-(
-  FullPath varchar(900) PRIMARY KEY,
-  ModifiedDate datetime,
-  [Size] bigint
-)
-GO
 
-GRANT EXECUTE ON TYPE::dbo.File_UDT TO PUBLIC
-GO
-```
+    ```sql
+    CREATE TYPE File_UDT AS TABLE
+    (
+      FullPath varchar(900) PRIMARY KEY,
+      ModifiedDate datetime,
+      [Size] bigint
+    )
+    GO
+
+    GRANT EXECUTE ON TYPE::dbo.File_UDT TO PUBLIC
+    GO
+    ```
 
 2. [Files_UploadCompare.sql](https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql)
-```sql
-CREATE PROCEDURE dbo.Files_UploadCompare
-@BackupProfileID INT,
-@NextDiscNumber INT = NULL OUT,
-@AllFiles File_UDT READONLY -- <= *****
-AS BEGIN
 
-SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+    ```sql
+    CREATE PROCEDURE dbo.Files_UploadCompare
+    @BackupProfileID INT,
+    @NextDiscNumber INT = NULL OUT,
+    @AllFiles File_UDT READONLY -- <= *****
+    AS BEGIN
 
--- new approach, simply return all files which don't match something already in the database
--- then we don't have to worry about partial results left in the tables ...
--- we just upload the current batch of files when we're with each burn and then start fresh with the next batch selection from there
--- there will be no records in FileArchive unless they've been put there specifically as marking a "finalized" MediaSubset
+    SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 
-SELECT *,
-  CONVERT(BIT, 0) AS Selected,
-  CONVERT(BIT, 0) AS SkipError
-FROM @AllFiles a
-WHERE NOT EXISTS(
-  SELECT 1
-  FROM FileArchive fa
-  JOIN [File] f ON fa.FileID = f.FileID
-  WHERE f.FullPath = a.FullPath AND fa.ModifiedDate = a.ModifiedDate AND fa.Size = a.Size
-)
+    -- new approach, simply return all files which don't match something already in the database
+    -- then we don't have to worry about partial results left in the tables ...
+    -- we just upload the current batch of files when we're with each burn and then start fresh with the next batch selection from there
+    -- there will be no records in FileArchive unless they've been put there specifically as marking a "finalized" MediaSubset
 
-DECLARE @IncrementalID int
-SELECT @IncrementalID = MAX(IncrementalID) FROM Incremental WHERE BackupProfileID = BackupProfileID
+    SELECT *,
+      CONVERT(BIT, 0) AS Selected,
+      CONVERT(BIT, 0) AS SkipError
+    FROM @AllFiles a
+    WHERE NOT EXISTS(
+      SELECT 1
+      FROM FileArchive fa
+      JOIN [File] f ON fa.FileID = f.FileID
+      WHERE f.FullPath = a.FullPath AND fa.ModifiedDate = a.ModifiedDate AND fa.Size = a.Size
+    )
 
-SELECT @NextDiscNumber = isnull(COUNT(1),0)+1 FROM MediaSubset WHERE IncrementalID = @IncrementalID
+    DECLARE @IncrementalID int
+    SELECT @IncrementalID = MAX(IncrementalID) FROM Incremental WHERE BackupProfileID = BackupProfileID
 
-END
-```
+    SELECT @NextDiscNumber = isnull(COUNT(1),0)+1 FROM MediaSubset WHERE IncrementalID = @IncrementalID
+
+    END
+    ```
 
 3. [FileSystemNode.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/FileSystemNode.cs)
-```csharp
-static private void ScanFolder(FolderNode folder, DataTable IncludedFiles)
-{
-  DirectoryInfo dir = new DirectoryInfo(folder.FullPath);
-  FileInfo[] files = dir.GetFiles("*.*", folder.IsSubSelected ? SearchOption.TopDirectoryOnly : SearchOption.AllDirectories);
-  foreach (FileInfo file in files)
-  {
-    DataRow r = IncludedFiles.NewRow();
-    r["FullPath"] = file.FullName;
-    r["ModifiedDate"] = file.LastWriteTimeUtc;
-    r["Size"] = file.Length; //megabytes
-    IncludedFiles.Rows.Add(r);
-  }
-}
-```
+
+    ```csharp
+    static private void ScanFolder(FolderNode folder, DataTable IncludedFiles)
+    {
+      DirectoryInfo dir = new DirectoryInfo(folder.FullPath);
+      FileInfo[] files = dir.GetFiles("*.*", folder.IsSubSelected ? SearchOption.TopDirectoryOnly : SearchOption.AllDirectories);
+      foreach (FileInfo file in files)
+      {
+        DataRow r = IncludedFiles.NewRow();
+        r["FullPath"] = file.FullName;
+        r["ModifiedDate"] = file.LastWriteTimeUtc;
+        r["Size"] = file.Length; //megabytes
+        IncludedFiles.Rows.Add(r);
+      }
+    }
+    ```
 
 4. [MainWindow.xaml.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs)
-```csharp
-using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))
-{
-  Files_UploadCompare["@BackupProfileID"] = (int)cbxBackupProfiles.SelectedValue;
-  Files_UploadCompare["@AllFiles"] = IncludedFilesTable; // <= ******
-  WorkingFilesTable = Files_UploadCompare.ExecuteDataTable();
-  lblCurrentDisc.Content = Files_UploadCompare["@NextDiscNumber"].ToString();
-}
-```
+
+    ```csharp
+    using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))
+    {
+      Files_UploadCompare["@BackupProfileID"] = (int)cbxBackupProfiles.SelectedValue;
+      Files_UploadCompare["@AllFiles"] = IncludedFilesTable; // <= ******
+      WorkingFilesTable = Files_UploadCompare.ExecuteDataTable();
+      lblCurrentDisc.Content = Files_UploadCompare["@NextDiscNumber"].ToString();
+    }
+    ```
 
 ## Tips:
 

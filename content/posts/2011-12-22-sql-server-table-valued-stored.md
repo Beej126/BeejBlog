@@ -53,7 +53,7 @@ tags:
     GO
     ```
 
-2. [Files_UploadCompare.sql](https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql)
+1. [Files_UploadCompare.sql](https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/Files_UploadCompare.sql)
 
     ```sql
     CREATE PROCEDURE dbo.Files_UploadCompare
@@ -88,7 +88,7 @@ tags:
     END
     ```
 
-3. [FileSystemNode.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/FileSystemNode.cs)
+1. [FileSystemNode.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/FileSystemNode.cs)
 
     ```csharp
     static private void ScanFolder(FolderNode folder, DataTable IncludedFiles)
@@ -106,7 +106,7 @@ tags:
     }
     ```
 
-4. [MainWindow.xaml.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs)
+1. [MainWindow.xaml.cs](https://code.google.com/p/yasbe/source/browse/trunk/App/MainWindow.xaml.cs)
 
     ```csharp
     using (Proc Files_UploadCompare = new Proc("Files_UploadCompare"))

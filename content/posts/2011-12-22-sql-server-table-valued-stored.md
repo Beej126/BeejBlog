@@ -24,19 +24,19 @@ tags:
   - Database
 
 ---
-## Nutshell:
+## Nutshell
 
-  1. Declare a User Defined Type (UDT)
-  2. Declare a stored proc parm of that UDT
-  3. Fill an ADO.Net DataTable with the same columns as the UDT
-  4. Assign the DataTable to a Parameter of an ADO.Net SqlCommand corresponding to the sproc
+1. Declare a User Defined Type (UDT)
+1. Declare a stored proc parm of that UDT
+1. Fill an ADO.Net DataTable with the same columns as the UDT
+1. Assign the DataTable to a Parameter of an ADO.Net SqlCommand corresponding to the sproc
 
-## Notes:
+## Notes
 
-  * The Table-Valued Stored Procedure Parameters feature was first included in SQL Server 2008
-  * [Full working project source available here](https://code.google.com/p/yasbe/source/browse/trunk/#trunk)
+* The Table-Valued Stored Procedure Parameters feature was first included in SQL Server 2008
+* [Full working project source available here](https://code.google.com/p/yasbe/source/browse/trunk/#trunk)
 
-## Code Examples:
+## Code Examples
 
 1. [File_UDT.sql](https://code.google.com/p/yasbe/source/browse/trunk/DB/DBobj/File_UDT.sql)
 
@@ -118,11 +118,11 @@ tags:
     }
     ```
 
-## Tips:
+## Tips
 
-  * (<a href="https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters.aspx#3" target="_blank">from here</a>): If the login that <a href="https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters(v=vs.110).aspx" target="_blank">SqlCommandBuilder.DeriveParameters</a> is run under does not have permission to access the UDT, no error will be thrown &#8211; the method will return successfully, but the SqlCommand.Parameters collection will not contain the UDT parameter.!!!
-  * Granting permissions on a type (<a href="https://www.sqlteam.com/article/sql-server-2008-table-valued-parameters" target="_blank">from here</a>): GRANT EXECUTE ON TYPE::dbo.MyType TO public;
+* If the login that [SqlCommandBuilder.DeriveParameters](https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommandbuilder.deriveparameters.aspx#3) is run under does not have permission to access the UDT, no error will be thrown &#8211; the method will return successfully, but the SqlCommand.Parameters collection will not contain the UDT parameter.!!!
+* Granting permissions on a type ([from here](https://www.sqlteam.com/article/sql-server-2008-table-valued-parameters)): GRANT EXECUTE ON TYPE::dbo.MyType TO public;
 
-## Links:
+## Links
 
-  * <a href="https://msdn.microsoft.com/en-us/library/bb510489.aspx" target="_blank">MSDN page on Table-Valued Parameters</a>
+* [MSDN page on Table-Valued Parameters](https://msdn.microsoft.com/en-us/library/bb510489.aspx)

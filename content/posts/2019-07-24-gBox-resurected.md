@@ -11,14 +11,14 @@ tags:
 ---
 
 <style>
-#container {
+.container {
  /*width: 1000px;*/
  overflow: hidden;
  margin: 50px auto;
  background: white;
 }
   
-#container img { height: 233px }
+.container img { height: 233px }
 
 /*keyframe animations*/
 .first {

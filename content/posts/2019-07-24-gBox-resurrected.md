@@ -1,11 +1,11 @@
 ---
-title: "gBox Resurected"
+title: "gBox Resurrected"
 date: 2019-07-24T14:19:42-08:00
 type: post
 author: Beej
 year: "2019"
 month: "2019/07"
-url: /2019/07/2019-07-24-Oracle-vs-SQL-Server.html
+url: /2019/07/2019-07-24-gBox-Resurrected.html
 tags:
   - Hardware
 ---

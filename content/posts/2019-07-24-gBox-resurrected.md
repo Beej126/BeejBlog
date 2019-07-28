@@ -10,9 +10,9 @@ tags:
   - Hardware
 ---
 
-## The Geek Love Story
+<img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/62012493-e71af080-b13b-11e9-9957-6ef88e03d005.jpg" />
 
-<img style="height: 300px; float:right" src="https://user-images.githubusercontent.com/6301228/62012493-e71af080-b13b-11e9-9957-6ef88e03d005.jpg" />
+## The Geek Love Story
 
 Way back in probably about 2002 I saw this barebones kit, distributed through AMS in California under the name "gBox", in the ads section of I believe an InfoWorld magazine. I remember browsing the magazine in the company lunch room and as soon as I saw the shiny acrylic and aluminum, I knew it was fate that we would be together =)
 
@@ -134,7 +134,6 @@ A big part of the satisfaction comes from knowing the retrofitting puts it back 
 - [Falcon Northwest original "Fragbox"]() - It's cool that all the way here in 2019 Falcon continues to provide the still rare commodity of an SFF with handle... they were using a SilverStone case for a few years after the original Chyang... not sure what it is these days.
 
 ## Current State (2019)
-
 
 <div class="container">
 <div class="photobanner">

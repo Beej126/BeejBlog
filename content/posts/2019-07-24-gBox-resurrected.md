@@ -10,6 +10,10 @@ tags:
   - Hardware
 ---
 
+## The Geek Love Story
+
+Way back in probably about 2002 I saw this barebones kit, distributed through AMS in California under the name "gBox", in the ads section of I believe an InfoWorld magazine. I remember browsing the magazine in the company lunch room and as soon as I saw the shiny acrylic and aluminum, I knew it was fate that we would be together =)
+
 <style>
 .container {
  /*width: 1000px;*/
@@ -106,11 +110,6 @@ tags:
  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 </style>
-
-## The Geek Love Story
-
-Way back in probably about 2002 I saw this barebones kit, distributed through AMS in California under the name "gBox", in the ads section of I believe an InfoWorld magazine. I remember browsing the magazine in the company lunch room and as soon as I saw the shiny acrylic and aluminum, I knew it was fate that we would be together =)
-
 
 ## Notables
 

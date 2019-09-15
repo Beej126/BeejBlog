@@ -12,17 +12,24 @@ tags:
 
 <img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/62012493-e71af080-b13b-11e9-9957-6ef88e03d005.jpg" />
 
+<img style="float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/64924190-a5e7aa00-d796-11e9-880c-c9f2498ba540.png" />
+
 ## The Geek Love Story
 
-Way back in probably about 2002 I saw this barebones kit, distributed through AMS in California under the name "gBox", in the ads section of I believe an InfoWorld magazine. I remember browsing the magazine in the company lunch room and as soon as I saw the shiny acrylic and aluminum, I knew it was fate that we would be together =)
+Back around 2002 I saw this barebones kit distributed under the name "gBox".  I remember browsing the back ads of an InfoWorld magazine in my company lunch room and loving the acrylic wrapped aluminum similarity to the Power Mac G4 Cube that got a lot of press back then.
 
 ## Components
 - Mobo: [ASRock z390 Phantom Gaming-ITX/ac](https://www.asrock.com/MB/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp)
+  - Love that we finally get thunderbolt-3 built into something this small
 - CPU: [Intel Core i9-9900K](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900k.html)
+  - This is <span class="hl">8 core</span>, 9th gen Coffee Lake with built in HD 630 graphics. For my needs as a developer workstation, it's nice I don't have to cram in an add on video card both for space and cooling... a small one might just barely fit if I wanted to go there.
 - Cooler: [Corsair Hydro Series H80i v2](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/Single-Radiator-Liquid-Coolers/Hydro-Series%E2%84%A2-H80i-v2-High-Performance-Liquid-CPU-Cooler/p/CW-9060024-WW)
+  - Admiteddly just a 120mm and easy to overwhelm with this monster CPU but it's a double thick radiator, the fans are push+pull and it's the biggest that would possibly fit in this small space
 - RAM: [Corsair Dominator Platinum 32GB (2x16GB) DDR4 3200MHz C16](https://www.corsair.com/us/en/Categories/Products/Memory/DOMINATOR%C2%AE-PLATINUM-32GB-%282-x-16GB%29-DDR4-DRAM-3200MHz-C16-Memory-Kit/p/CMD32GX4M2C3200C16)
-- SSD: [Samsung SSD 970 PRO 512GB - NVMe PCIe M.2](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-pro-nvme-m2-512gb-mz-v7p512bw/)
+- SSD: [Samsung 970 PRO 512GB - NVMe PCIe M.2](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-pro-nvme-m2-512gb-mz-v7p512bw/)
+  - These PCIe drives crank 3500 MB/s reads! and 5yr warranty
 - PSU: [Corsair SF600 Platinum](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020182-NA)
+  - lots to say about this below
 
 <style>
 div.gallery + p img {
@@ -42,18 +49,18 @@ div.gallery + p img {
 
 - **<span style="float: left; font-size: 3em; margin: 0.3em 5px 0 0px; color: red">H</span>andle** - The "LAN box" handle makes it fairly rare even to this day. I am also drawn to the minimalist efficiency of Small Form Factor (SFF) but those are fairly plentiful on their own. The free market just seems to never have developed a taste for  the utility of computers with handles. I find it quite natural... especially for enthusiasts that fiddle with their hardware, it's very common to need to hoist it to some workbench or just flip it around to plug in a new cable.
 
-- [<img style="float: right; height: 300px; margin: 0.6em;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/ATX_ITX_AT_Motherboard_Compatible_Dimensions.svg" />](https://en.wikipedia.org/wiki/ATX) The original mobo was "[FlexATX](https://en.wikipedia.org/wiki/FlexATX)" which I originally thought was just an extended mini-ITX but wound up realizing the mounting standoffs were indeed different spacing and had to install new ones in the right place... which I stumbled through measuring a million times and wound up getting close enough to mildly [toenail](https://en.wikipedia.org/wiki/Toenailing) in the bolts =)
+- [<img style="float: right; height: 300px; margin: 0.6em;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/ATX_ITX_AT_Motherboard_Compatible_Dimensions.svg" />](https://en.wikipedia.org/wiki/ATX) The original layout of this kit was based on a short lived standard called "[FlexATX](https://en.wikipedia.org/wiki/FlexATX)". Flex is a little bit longer and wider than the plentiful mini-ITX boards available these days. This meant some extra work to add new mount posts in the case bottom, to line up with Flex's mount hole layout.
 
-   - Yet FlexATX wound up also being a real blessing for extra space in the case - it provided exactly the extra 100mm+ needed to fit both push & pull fans plus the double thick radiator of Corsair H80 V2 at the front of the case... before the smaller ITX mobo eats up the remaining floor space (see photos).
+   - Yet the extra Flex space wound up being a real blessing - it provided exactly the spare case depth needed to squeeze in the giant cooling radiator and fans behind the front face. The smaller ITX mobo eats up all the remaining floor space (see photos). The fans are in push + pull configuration to get as much cooling as posisble. Frankly, the 9900k CPU can still easily overwhelm this small of a cooler with overclocking.
 <div><br/></div>
 
-- Carving out the I/O plate area in the back - since this was a kit, they did a noble design of marrying the kit's I/O ports to customized punchouts in the back face of the case... but this turned into the fun work of knocking out that section to be an open rectangle for a modern I/O plate replacement.
+- Carving out the I/O plate area in the back - since this was a kit, they did a noble design of marrying the kit's I/O ports to customized punchouts in the back face of the case... but this turned into the fun work of dremmeling out that section to be an open mouth for modern I/O plate.
 
-- <img style="float: right; height: 300px; margin: 0.6em;" src="https://user-images.githubusercontent.com/6301228/64915665-1227c680-d721-11e9-9e59-30fa51b537aa.png" /> Very pleased to finally realize the [SFX](https://www.tomshardware.co.uk/power-supply-specifications-atx-reference,review-32338-4.html) form factor PSUs were where I should be shopping for power. Even more surprised to read they've been a defined standard since 1997!? Apparently I specifically require the short depth of more recently defined "PS3" sub species of SFX. It took a long while to recognize that even though the base SFX size was too small to cover my back face PSU opening, <u>they come with a standard ATX plate</u>... the ATX face plate combined with the SFX short 100mm depth standard is a dream fit for this case... any longer than 100m plus the bundle of cables would run smack into the back of the optical drive bay... it's amazing what these vendors are cramming into a box the size of a small cheeseburger... Previously I managed to find an ugly c-tier vendor supply that had somehow aged to the point of "squeeling" under zero load upon power... Thankfully we're now bathing in luxurious abundance of these small supplies from mainstream manufacturers like Corsair with all the enthusiast high end features: up to 750 watts, gold and even platinum level 80 plus certification, powder coated paint jobs and <u>modular cables</u> including the extra ATX 12v lines needed for modern multicore boards.
+- <img style="float: right; height: 300px; margin: 0.6em;" src="https://user-images.githubusercontent.com/6301228/64915665-1227c680-d721-11e9-9e59-30fa51b537aa.png" /> Very pleased after some depressing looking around to finally discover the [SFX](https://www.tomshardware.co.uk/power-supply-specifications-atx-reference,review-32338-4.html) form factor PSUs were where I should be shopping for power (wild this has been a standard since 1997!?) This case absolutely requires the tight 100m depth of more recently defined "PS3" sub species of SFX. This got me into the right depth, however the base SFX height didn't fill in all of the opening on the back of this case. Fortunately <u>they come with a standard ATX extension plate</u>, which is exactly what I needed. The ATX face plate combined with the SFX short 100mm depth standard is a dream fit for this case... any deeper and the power cable bundle would run into the optical drive bay.  The horsepower these vendors are cramming into such a small box is pretty amazing when you look at a full size ATX PSU next to it.  My previous PSU absolutely is a complete dog compared to these specs. So nice we get a wide selection to choose from mainstream manufacturers like Corsair these days, providing all the enthusiast high end features: up to 750 watts, gold and even platinum level 80 plus certification, powder coated paint jobs and loving the <u>modular cables</u> including the extra ATX 12v lines needed for modern multicore boards.
 
-It all came together in a super pleasing DIY blend of retro + modern physicalities that makes me smile when I see it there humming on my desk =)
+It all came together in a super pleasing DIY blend of modern components wrapped in retro =)
 
-The ITX retrofitting puts it back on the beaten upgrade path for years to come, not gathering dust on a shelf.
+The ITX retrofitting puts it back on the beaten upgrade path for years to come.
 
 ## Old School References
 

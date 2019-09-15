@@ -15,11 +15,19 @@ tags:
 
 ## The Geek Love Story
 
-Back around 2002 I saw this barebones kit distributed under the name "gBox".  I remember browsing the back ads of an InfoWorld magazine in my company lunch room and loving the acrylic wrapped aluminum similarity to the Power Mac G4 Cube that got a lot of press back then.
+Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gCube". I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
+
+## Old School References
+I've gathered some Internet Archive (aka "Wayback Machine") links to the reviews and marketing of this case from various distributors.
+- [AMSElectronics.com CF-S868 Product Page](https://web.archive.org/web/20061029171006/http://www.amselectronics.com/Products/PC_Servers/CF-S868.html)
+- [ChyangFun.com CF-S868 Product Page](https://web.archive.org/web/20020903192257/http://www.chyangfun.com/Product/S868.htm)
+- [PugetSystems.com review with photos](https://www.pugetsystems.com/labs/articles/AMS-gBox-P4-DDR-Review-9/)
+- [DansData.com Review with photos](http://www.dansdata.com/minipc.htm)
+- [Falcon Northwest original "Fragbox"](https://web.archive.org/web/20031206091154/http://www.falcon-nw.com/fragbox.asp) - Falcon switched to a SilverStone case for several years after the original Chyang; and pretty sure they're using something else these days.  It's notable even in 2019 they continue to find reason to sell something WITH A HANDLE.
 
 ## New Components
 - Mobo: [ASRock z390 Phantom Gaming-ITX/ac](https://www.asrock.com/MB/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp)
-  - Love we finally get ITX with built in thunderbolt-3, and dual 4k video ports.
+  - Love that ITX with built in thunderbolt-3, and dual 4k video ports is FINALLY a thing we can get.
 - CPU: [Intel Core i9-9900K](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900k.html)
   - This is <span class="hl">8 core</span>, 9th gen Coffee Lake with built in HD 630 graphics. For my needs as a developer workstation, it's nice I don't have to cram in an external video card... a small one might just barely fit if I wanted to go there.
 - Cooler: [Corsair Hydro Series H80i v2](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/Single-Radiator-Liquid-Coolers/Hydro-Series%E2%84%A2-H80i-v2-High-Performance-Liquid-CPU-Cooler/p/CW-9060024-WW)
@@ -44,7 +52,7 @@ div.gallery + p img {
 ![](https://image-us.samsung.com/SamsungUS/home/computing/memory-and-storage/solid-state-drives/pdp/mz-v7p512bw/gallery-updates-10-02-18/002_gallery_MZ-V7P512BW_10-02-18.jpg)
 ![](https://www.corsair.com/medias/sys_master/images/images/h07/h21/9112508497950/-CP-9020182-NA-Gallery-SF600-09.png)
 
-## Notables
+## Highlights
 
 - **<span style="float: left; font-size: 3em; margin: 0.3em 5px 0 0px; color: red">H</span>andle** - The "LAN box" handle makes it fairly rare even to this day. I am also drawn to the minimalist efficiency of Small Form Factor (SFF) but those are fairly plentiful on their own. The free market just seems to never have developed a taste for  the utility of computers with handles. I find it quite natural... especially for enthusiasts that fiddle with their hardware, it's very common to need to hoist it to some workbench or just flip it around to plug in a new cable.
 
@@ -60,14 +68,6 @@ div.gallery + p img {
 It all came together in a super pleasing DIY blend of modern components wrapped in retro =)
 
 The ITX retrofitting puts it back on the beaten upgrade path for years to come.
-
-## Old School References
-
-- [AMSElectronics.com CF-S868 Product Page](https://web.archive.org/web/20061029171006/http://www.amselectronics.com/Products/PC_Servers/CF-S868.html)
-- [ChyangFun.com CF-S868 Product Page](https://web.archive.org/web/20020903192257/http://www.chyangfun.com/Product/S868.htm)
-- [PugetSystems.com review with photos](https://www.pugetsystems.com/labs/articles/AMS-gBox-P4-DDR-Review-9/)
-- [DansData.com Review with photos](http://www.dansdata.com/minipc.htm)
-- [Falcon Northwest original "Fragbox"](https://web.archive.org/web/20031206091154/http://www.falcon-nw.com/fragbox.asp) - I recall they were doing a SilverStone case for a few years after the original Chyang... not sure what it is these days.  It's cool that all the way here in 2019 they continue to find reason to market a FragBox with handle.
 
 ## Current State (2019)
 

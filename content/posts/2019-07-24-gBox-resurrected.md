@@ -13,7 +13,7 @@ tags:
 <img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/64924190-a5e7aa00-d796-11e9-880c-c9f2498ba540.png" />
 <img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/62012493-e71af080-b13b-11e9-9957-6ef88e03d005.jpg" />
 
-## The Geek Love Story
+## The Geek Love
 
 Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gCube". I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
 
@@ -54,11 +54,11 @@ div.gallery + p img {
 
 ## Highlights
 
-- **<span style="float: left; font-size: 3em; margin: 0.3em 5px 0 0px; color: red">H</span>andle** - The "LAN box" handle makes it fairly rare even to this day. I am also drawn to the minimalist efficiency of Small Form Factor (SFF) but those are fairly plentiful on their own. The free market just seems to never have developed a taste for  the utility of computers with handles. I find it quite natural... especially for enthusiasts that fiddle with their hardware, it's very common to need to hoist it to some workbench or just flip it around to plug in a new cable.
+- **<span style="float: left; font-size: 3em; margin: 0.3em 5px 0 0px; color: red">H</span>andle** - The "LAN box" handle makes it fairly rare even to this day. I am also drawn to the minimalist efficiency of Small Form Factor (SFF) but those are fairly plentiful on their own. Somehow handles just aren't that popular... I love being able to grab that sturdy handle and chuck it somewhere... I threw it in my backpack and took it to work one day.
 
 - [<img style="float: right; height: 300px; margin: 0.6em;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/ATX_ITX_AT_Motherboard_Compatible_Dimensions.svg" />](https://en.wikipedia.org/wiki/ATX) The original layout of this kit was based on a short lived standard called "[FlexATX](https://en.wikipedia.org/wiki/FlexATX)". Flex is a little bit longer and wider than the plentiful mini-ITX boards available these days. This meant some work to add new mount post positions in the bottom of the case.
 
-   - Yet the extra Flex space wound up being a real blessing - it provided exactly the spare depth needed to squeeze in the giant cooling radiator and fans behind the front face. The ITX mobo eats up all the remaining floor space (see photos). The fans are in push + pull configuration to get as much cooling as possible. Frankly, the 9900k CPU can still easily overwhelm this small of a cooler with overclocking.
+   - The extra Flex depth wound up being a real blessing - providing just enough headroom for the giant cooling radiator and fansto squeeze in behind the front face. Then the ITX mobo eats up all the remaining floor space (see photos). The fans are in push + pull configuration to get as much cooling as possible. But it's true, the i9-9900k CPU can still easily overwhelm this small of a cooler with overclocking.
 <div><br/></div>
 
 - Carving out the I/O plate area in the back - they did a noble design of marrying the kit's I/O ports to customized punchouts in the back face aluminum... but this turned into the fun work of dremmeling out that whole section to be an open mouth for modern I/O plate.

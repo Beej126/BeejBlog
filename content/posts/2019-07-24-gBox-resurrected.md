@@ -15,7 +15,7 @@ tags:
 
 ## The Geek Love
 
-Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gCube". I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
+Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gBox". I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
 
 ## Old School References
 I've gathered some Internet Archive (aka "Wayback Machine") links to the reviews and marketing of this case from various distributors.

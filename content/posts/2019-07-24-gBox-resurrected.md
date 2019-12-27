@@ -10,12 +10,13 @@ tags:
   - Hardware
 ---
 
-<img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/64924190-a5e7aa00-d796-11e9-880c-c9f2498ba540.png" />
 <img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/62012493-e71af080-b13b-11e9-9957-6ef88e03d005.jpg" />
 
 ## The Geek Love
 
-Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gBox". I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
+Back around 2002, I was sitting in my company lunch room, browsing the ads section of an [InfoWorld](https://en.wikipedia.org/wiki/InfoWorld) when I saw this barebones kit they were calling the "gBox". 
+<img style="height: 300px; float:right; margin: 0.6em" src="https://user-images.githubusercontent.com/6301228/64924190-a5e7aa00-d796-11e9-880c-c9f2498ba540.png" />
+I remember instantly digging the acrylic wrapped aluminum look, similar to the Power Mac G4 Cube that got a lot of press back then.
 
 ## Old School References
 I've gathered some Internet Archive (aka "Wayback Machine") links to the reviews and marketing of this case from various distributors.

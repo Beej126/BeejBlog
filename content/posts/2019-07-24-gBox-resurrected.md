@@ -27,7 +27,7 @@ I've gathered some Internet Archive (aka "Wayback Machine") links to the reviews
 - [Falcon Northwest original "Fragbox"](https://web.archive.org/web/20031206091154/http://www.falcon-nw.com/fragbox.asp) - Falcon switched to a SilverStone case for several years after the original Chyang; and pretty sure they're using something else these days.  It's notable even in 2019 they continue to find reason to sell something WITH A HANDLE.
 
 ## New Components
-- Mobo: [ASRock z390 Phantom Gaming-ITX/ac](https://www.asrock.com/MB/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp)
+- Mobo: [ASRock z390 Phantom Gaming-ITX/ac](https://www.asrock.com/MB/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp) ([full manual](https://download.asrock.com/Manual/Z390%20Phantom%20Gaming-ITXac.pdf), [quick install guide](https://download.asrock.com/Manual/QIG/Z390%20Phantom%20Gaming-ITXac_multiQIG.pdf))
   - Love that ITX with built in thunderbolt-3, and dual 4k video ports is FINALLY a thing we can get.
 - CPU: [Intel Core i9-9900K](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900k.html)
   - This is <span class="hl">8 core</span>, 9th gen Coffee Lake with built in HD 630 graphics. For my needs as a developer workstation, it's nice I don't have to cram in an external video card... a small one might just barely fit if I wanted to go there.

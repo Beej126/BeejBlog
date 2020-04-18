@@ -59,7 +59,7 @@ div.gallery + p img {
 
 - [<img style="float: right; height: 300px; margin: 0.6em;" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/ATX_ITX_AT_Motherboard_Compatible_Dimensions.svg" />](https://en.wikipedia.org/wiki/ATX) The original layout of this kit was based on a short lived standard called "[FlexATX](https://en.wikipedia.org/wiki/FlexATX)". Flex is a little bit longer and wider than the plentiful mini-ITX boards available these days. This meant some work to add new mount post positions in the bottom of the case.
 
-   - The extra Flex depth wound up being a real blessing - providing just enough headroom for the giant cooling radiator and fansto squeeze in behind the front face. Then the ITX mobo eats up all the remaining floor space (see photos). The fans are in push + pull configuration to get as much cooling as possible. But it's true, the i9-9900k CPU can still easily overwhelm this small of a cooler with overclocking.
+   - The extra Flex depth wound up being a real blessing - providing just enough headroom for the giant cooling radiator and fans to squeeze in behind the front face. Then the ITX mobo eats up all the remaining floor space (see photos). The fans are in push + pull configuration to get as much cooling as possible. But it's true, the i9-9900k CPU can still easily overwhelm this small of a cooler with overclocking.
 <div><br/></div>
 
 - Carving out the I/O plate area in the back - they did a noble design of marrying the kit's I/O ports to customized punchouts in the back face aluminum... but this turned into the fun work of dremmeling out that whole section to be an open mouth for modern I/O plate.

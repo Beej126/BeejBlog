@@ -93,6 +93,8 @@ AND RowGUID IN (@OldSponsorClientGUID, @NewSponsorClientGUID)
 
 Line #1 is pertinent. By convention, all procs which need to participate in the approach I'm proposing in this post, must have a @TableNames OUTPUT parameter. This is a CSV list of table names corresponding to each resultset returned from the proc (in sequential order). This way, the proc **generically** informs the datalayer what must be merged into the client data cache (repository).
 
+#### UPDATE-OUTPUT syntax kungfu =)
+
 Line #5 above is cool &#8211; rather than reSELECTing the modified data...OUTPUT lets us leverage that UPDATE already knows what rows it hit. I dig it. Back on the client side, the datalayer takes that PARTIAL (i.e. very column specific) result-set and Merges back it into the cache like so ([full source][8]):
 
 ```csharp

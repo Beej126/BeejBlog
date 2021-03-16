@@ -32,7 +32,7 @@ I've gathered some Internet Archive (aka "Wayback Machine") links to the reviews
 - CPU: [Intel Core i9-9900K](https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900k.html)
   - This is <span class="hl">8 core</span>, 9th gen Coffee Lake with built in HD 630 graphics. For my needs as a developer workstation, it's nice I don't have to cram in an external video card... a small one might just barely fit if I wanted to go there.
 - Cooler: [Corsair Hydro Series H80i v2](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/Single-Radiator-Liquid-Coolers/Hydro-Series%E2%84%A2-H80i-v2-High-Performance-Liquid-CPU-Cooler/p/CW-9060024-WW)
-  - Admiteddly just a 120mm and easy to overwhelm with this monster CPU but it's a double thick radiator, the fans are push+pull and it's the largest I can possibly cram into this small case size I'm drawn to.
+  - admittedly just a poor little 1U 120mm radiator, easily overwhelmed by this CPU but it's double thick with fans in the optimal push+pull arrangement and it's the largest that can possibly squeeze into this small case size I'm drawn to.
 - RAM: [Corsair Dominator Platinum 32GB (2x16GB) DDR4 3200MHz C16](https://www.corsair.com/us/en/Categories/Products/Memory/DOMINATOR%C2%AE-PLATINUM-32GB-%282-x-16GB%29-DDR4-DRAM-3200MHz-C16-Memory-Kit/p/CMD32GX4M2C3200C16)
 - SSD: [Samsung 970 PRO 512GB - NVMe PCIe M.2](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-pro-nvme-m2-512gb-mz-v7p512bw/)
   - These PCIe drives crank 3500 MB/s reads! and 5yr warranty.
